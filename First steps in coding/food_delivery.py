@@ -1,4 +1,3 @@
-# задача 7:
 count_chicken_menu = int(input())
 count_fish_menu = int(input())
 count_vegetarian_menu = int(input())

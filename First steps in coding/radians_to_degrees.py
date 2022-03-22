@@ -1,4 +1,3 @@
-# задача 2:
 from math import pi
 radians = float(input())
 

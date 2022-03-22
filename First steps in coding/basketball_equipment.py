@@ -1,4 +1,3 @@
-# задача 8:
 annual_price = int(input())
 
 sneakers_price = annual_price - (annual_price * 0.4)

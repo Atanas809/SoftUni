@@ -1,4 +1,3 @@
-# задача 3:
 deposited_sum = float(input())
 months = int(input())
 interest = float(input())

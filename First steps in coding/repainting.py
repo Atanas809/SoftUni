@@ -1,4 +1,3 @@
-# задача 6:
 nylon_needed = int(input())
 paint_needed = int(input())
 diluent_needed = int(input())

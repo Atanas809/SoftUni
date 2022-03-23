@@ -1,4 +1,3 @@
-# Задача 4:
 trip_price = float(input())
 count_puzzles = int(input())
 count_dolls = int(input())

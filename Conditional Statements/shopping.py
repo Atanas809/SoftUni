@@ -1,4 +1,3 @@
-# Задача 7:
 budget = float(input())
 count_video_cards = int(input())
 count_processors = int(input())

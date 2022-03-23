@@ -1,4 +1,3 @@
-# Задача 8:
 from math import ceil
 type_of_series = input()
 episode_duration = int(input())

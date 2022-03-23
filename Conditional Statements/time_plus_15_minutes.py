@@ -1,4 +1,3 @@
-# Задача 3:
 hour = int(input())
 minutes = int(input())
 

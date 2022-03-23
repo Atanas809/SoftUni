@@ -1,4 +1,3 @@
-# Задача 1:
 time_first = int(input())
 time_second = int(input())
 time_third = int(input())

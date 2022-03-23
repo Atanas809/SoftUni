@@ -1,4 +1,3 @@
-# Задача 2:
 points = int(input())
 
 bonus_points = 0

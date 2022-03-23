@@ -1,4 +1,3 @@
-# Задача 5:
 budget = float(input())
 count_statists = int(input())
 price_per_dress = float(input())

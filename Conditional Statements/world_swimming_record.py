@@ -1,4 +1,3 @@
-# Задача 6:
 from math import floor
 current_record = float(input())
 distance_in_metres = float(input())

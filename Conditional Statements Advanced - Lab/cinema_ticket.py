@@ -1,4 +1,3 @@
-# Задача 8:
 day = input()
 ticket_price = 0
 if day == "Monday" or day == "Tuesday" or day == "Friday":

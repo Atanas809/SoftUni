@@ -1,4 +1,3 @@
-# Задача 1:
 number = int(input())
 day = ""
 for current_number in range(1, 7 + 1):

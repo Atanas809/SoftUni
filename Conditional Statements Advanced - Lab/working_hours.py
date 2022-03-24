@@ -1,4 +1,3 @@
-# Задача 7:
 hour = int(input())
 day = input()
 

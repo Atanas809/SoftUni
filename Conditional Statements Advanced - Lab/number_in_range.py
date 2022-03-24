@@ -1,4 +1,4 @@
-# Задача 6:
+# Finding numbers in range:
 number = int(input())
 
 command = ""

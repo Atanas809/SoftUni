@@ -1,4 +1,3 @@
-# Задача 2:
 day_of_week = input()
 
 type_of_day = ""

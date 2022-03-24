@@ -1,4 +1,3 @@
-# Задача 3:
 animal = input()
 animal_type = ""
 

@@ -1,4 +1,3 @@
-# Задача 9:
 product = input()
 
 if product == "banana" or product == "apple" or product == "kiwi" or product == "cherry" \

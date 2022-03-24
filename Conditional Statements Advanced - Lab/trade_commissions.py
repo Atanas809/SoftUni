@@ -1,4 +1,3 @@
-# Задача 12:
 city = input()
 sales = float(input())
 city_is_valid = False

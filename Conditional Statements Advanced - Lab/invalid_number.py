@@ -1,4 +1,4 @@
-# Задача 10:
+# Finding number between in range:
 number = int(input())
 
 if 100 <= number <= 200 or number == 0:

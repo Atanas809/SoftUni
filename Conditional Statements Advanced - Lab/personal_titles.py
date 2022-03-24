@@ -1,4 +1,4 @@
-# Задача 4:
+# Person type:
 age = float(input())
 gender = input()
 

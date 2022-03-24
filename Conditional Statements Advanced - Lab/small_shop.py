@@ -1,4 +1,3 @@
-# Задача 5:
 product = input()
 city = input()
 quantity = float(input())

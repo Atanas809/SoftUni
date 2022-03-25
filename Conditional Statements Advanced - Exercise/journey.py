@@ -1,4 +1,3 @@
-# Задача 5:
 budget = float(input())
 season = input()
 

@@ -1,4 +1,3 @@
-# Задача 4:
 budget = int(input())
 season = input()
 fisherman = int(input())

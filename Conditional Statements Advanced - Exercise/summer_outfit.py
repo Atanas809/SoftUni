@@ -1,4 +1,3 @@
-# Задача 2:
 degrees = int(input())
 time_of_the_day = input()
 

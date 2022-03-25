@@ -1,4 +1,3 @@
-# Задача 7:
 month = input()
 nights_count = int(input())
 

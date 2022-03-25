@@ -1,4 +1,3 @@
-# Задача 8:
 hour_exam = int(input())
 minutes_exam = int(input())
 hour_arriving = int(input())

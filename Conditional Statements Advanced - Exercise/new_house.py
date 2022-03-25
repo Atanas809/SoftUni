@@ -1,4 +1,3 @@
-# Задача 3:
 flower_type = input()
 count_flowers = int(input())
 budget = int(input())

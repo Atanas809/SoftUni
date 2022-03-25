@@ -1,4 +1,3 @@
-# Задача 9:
 days_for_stay = int(input())
 room_type = input()
 feedback = input()

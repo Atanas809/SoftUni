@@ -1,4 +1,3 @@
-# Задача 1:
 ticket_type = input()
 rows = int(input())
 cows = int(input())

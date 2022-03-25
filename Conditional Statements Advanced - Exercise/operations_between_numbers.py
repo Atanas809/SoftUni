@@ -1,4 +1,3 @@
-# Задача 6:
 first_number = int(input())
 second_number = int(input())
 operator = input()

@@ -1,4 +1,3 @@
-# Задача 7:
 count_number = int(input())
 
 sum = 0

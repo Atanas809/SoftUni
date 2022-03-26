@@ -1,4 +1,3 @@
-# Задача 9:
 number = int(input())
 
 left_sum = 0

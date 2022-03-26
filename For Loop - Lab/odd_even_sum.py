@@ -1,4 +1,3 @@
-# Задача 10:
 count_numbers = int(input())
 
 odd_sum = 0

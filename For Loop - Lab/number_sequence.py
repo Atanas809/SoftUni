@@ -1,4 +1,3 @@
-# Задача 8:
 import sys
 number = int(input())
 

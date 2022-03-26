@@ -1,4 +1,3 @@
-# Задача 3:
 number = int(input())
 
 for power in range(0 ,number + 1, 2):

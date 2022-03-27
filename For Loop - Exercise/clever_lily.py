@@ -1,5 +1,4 @@
-# Задача 4:
-# lily_age = int(input())
+lily_age = int(input())
 # laundry_price = float(input())
 # price_per_toy = int(input())
 #

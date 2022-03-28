@@ -1,5 +1,4 @@
-# # Задача 8:
-# student_name = input()
+student_name = input()
 # average_grade = 0
 # current_class = 1
 # bad_grades = 0

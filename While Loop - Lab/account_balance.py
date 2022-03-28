@@ -1,5 +1,4 @@
-# Задача 5:
-# balance = 0
+balance = 0
 # command = input()
 #
 #

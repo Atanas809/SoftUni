@@ -1,4 +1,3 @@
-# Задача 7:
 width = int(input())
 length = int(input())
 height = int(input())

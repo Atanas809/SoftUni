@@ -1,4 +1,3 @@
-# Задача 1:
 needed_book = input()
 checked_books = 0
 is_finded = False

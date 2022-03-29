@@ -1,4 +1,3 @@
-# Задача 3:
 trip_price = float(input())
 current_money = float(input())
 days_elapsed = 0

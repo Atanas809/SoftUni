@@ -1,4 +1,3 @@
-# Задача 6:
 width = int(input())
 length = int(input())
 is_done = False

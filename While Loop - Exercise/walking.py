@@ -1,4 +1,3 @@
-# Задача 4:
 goal = 10000
 final_steps = 0
 is_reached = False

@@ -1,4 +1,3 @@
-# Задача 5:
 coins = float(input())
 coins = int(coins * 100)
 coins_counter = 0

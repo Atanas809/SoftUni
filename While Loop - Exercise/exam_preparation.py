@@ -1,4 +1,3 @@
-# Задача 2:
 max_bad_grades = int(input())
 average_grade = 0
 last_problem = ""

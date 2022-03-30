@@ -1,4 +1,3 @@
-# Задача 5:
 command = input()
 
 while command != "End":

@@ -1,4 +1,3 @@
-# Задача 4:
 start = int(input())
 final = int(input())
 magic_number = int(input())

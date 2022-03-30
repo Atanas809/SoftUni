@@ -1,4 +1,3 @@
-# Задача 3:
 number = int(input())
 total_combinations = 0
 

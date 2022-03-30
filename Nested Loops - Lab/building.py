@@ -1,5 +1,4 @@
-# Задача 6:
-# number_of_floors = int(input())
+number_of_floors = int(input())
 # number_of_rooms = int(input())
 # room_type = ""
 #

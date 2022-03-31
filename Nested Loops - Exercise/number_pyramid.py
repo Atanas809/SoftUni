@@ -1,4 +1,3 @@
-# Задача 1:
 number = int(input())
 counter = 1
 all_numbers_printed = False

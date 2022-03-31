@@ -1,4 +1,3 @@
-# Задача 5:
 number = int(input())
 
 for current_number in range(1111, 10000):

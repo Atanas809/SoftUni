@@ -1,4 +1,3 @@
-# Задача 6:
 command = input()
 student_ticket = 0
 standard_ticket = 0

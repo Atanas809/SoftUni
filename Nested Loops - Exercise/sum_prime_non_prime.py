@@ -1,4 +1,3 @@
-Задача 3:
 command = input()
 prime_numbers_sum = 0
 non_prime_numbers_sum = 0

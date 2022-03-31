@@ -1,5 +1,4 @@
-# Задача 4:
-# number_of_jury = int(input())
+number_of_jury = int(input())
 # presentation_name = input()
 # sum_grades = 0
 # number_of_grades = 0

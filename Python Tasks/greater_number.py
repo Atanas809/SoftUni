@@ -1,4 +1,3 @@
-# Задача 2:
 first_number = int(input())
 second_number = int(input())
 

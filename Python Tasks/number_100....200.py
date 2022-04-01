@@ -1,4 +1,3 @@
-# Задача 5:
 number = int(input())
 
 if number < 100:

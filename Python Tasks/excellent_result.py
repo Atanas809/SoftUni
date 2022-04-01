@@ -1,4 +1,3 @@
-# Задача 1:
 grade = float(input())
 
 if grade >= 5.50:

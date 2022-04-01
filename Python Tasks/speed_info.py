@@ -1,4 +1,3 @@
-# Задача 6:
 speed = float(input())
 
 if speed <= 10:

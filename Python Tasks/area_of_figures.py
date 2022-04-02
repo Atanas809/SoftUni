@@ -1,3 +1,5 @@
+# pi equals to 3.14
+
 from math import pi
 
 type_of_figure = input()

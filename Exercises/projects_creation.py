@@ -1,6 +1,8 @@
-# architect_name = input()
-# number_of_projects = int(input())
+# one project needs 3 hours to be done
 
-# total_time = number_of_projects * 3
+architect_name = input()
+number_of_projects = int(input())
 
-# print(f"The architect {architect_name} will need {total_time} hours to complete {number_of_projects} project/s.")
+total_time = number_of_projects * 3
+
+print(f"The architect {architect_name} will need {total_time} hours to complete {number_of_projects} project/s.")

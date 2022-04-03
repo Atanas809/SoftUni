@@ -1,4 +1,4 @@
 # задача 5:
-name = input()
+# name = input()
 
-print(f"Hello, {name}!")
+# print(f"Hello, {name}!")

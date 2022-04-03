@@ -1,4 +1,3 @@
-# задача 6:
 # first_name = input()
 # second_name = input()
 # age = int(input())

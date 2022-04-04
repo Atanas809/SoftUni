@@ -1,5 +1,4 @@
-# Задача 6:
-# speed = float(input())
+speed = float(input())
 
 # if speed <= 10:
 #     print("slow")

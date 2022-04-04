@@ -1,5 +1,4 @@
-# Задача 5:
-# number = int(input())
+number = int(input())
 
 # if number < 100:
 #     print("Less than 100")

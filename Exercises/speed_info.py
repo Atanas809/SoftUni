@@ -9,4 +9,4 @@ elif speed <= 150:
 elif speed <= 1000:
     print("ultra fast")
 else:
-    print("extremely fast")
+    print("extremely fast\nPlease slow down!")

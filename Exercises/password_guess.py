@@ -1,5 +1,4 @@
-# Задача 4:
-# password = input()
+password = input()
 
 # if password == "s3cr3t!P@ssw0rd":
 #     print("Welcome")

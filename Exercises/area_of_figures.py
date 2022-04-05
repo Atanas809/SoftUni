@@ -1,5 +1,5 @@
-# Задача 7:
-# from math import pi
+# pi = 3.14
+from math import pi
 
 # type_of_figure = input()
 # a = float(input())

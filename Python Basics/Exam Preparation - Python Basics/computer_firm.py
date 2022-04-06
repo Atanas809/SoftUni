@@ -1,6 +1,6 @@
-# number_of_computers = int(input())
-# average_rating = 0
-# sales = 0
+number_of_computers = int(input())
+average_rating = 0
+sales = 0
 
 
 for computer in range(1, number_of_computers + 1):

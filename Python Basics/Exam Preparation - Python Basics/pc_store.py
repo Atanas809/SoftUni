@@ -1,7 +1,7 @@
-# processor_in_dollars = float(input())
-# video_card_in_dollars = float(input())
-# ram_in_dollars = float(input())
-# number_of_ram = int(input())
+processor_in_dollars = float(input())
+video_card_in_dollars = float(input())
+ram_in_dollars = float(input())
+number_of_ram = int(input())
 discount = float(input())
 
 processor_in_leva = processor_in_dollars * 1.57

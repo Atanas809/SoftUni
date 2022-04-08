@@ -1,7 +1,7 @@
 number = float(input())
 
 if number == 0:
-    print("zero")
+    print(f"Your number is zero")
 elif number > 0:
     if 0 < number < 1:
         print("small positive")

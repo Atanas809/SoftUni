@@ -1,4 +1,3 @@
-# Задача 1:
 import sys
 
 first_number = int(input())

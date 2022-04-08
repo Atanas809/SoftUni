@@ -1,4 +1,3 @@
-# Задача 2:
 number = float(input())
 
 if number == 0:

@@ -1,5 +1,3 @@
-# Задача 7:
-
 divisor = int(input())
 boundary = int(input())
 

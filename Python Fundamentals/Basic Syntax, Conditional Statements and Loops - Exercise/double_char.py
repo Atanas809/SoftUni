@@ -1,4 +1,3 @@
-# Задача 4:
 text = input()
 
 for char in text:

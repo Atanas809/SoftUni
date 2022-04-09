@@ -1,4 +1,3 @@
-# Задача 1:
 name = input()
 
 if name != "Johnny":

@@ -1,2 +1,0 @@
-# Forex converter:
-

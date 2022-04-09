@@ -1,4 +1,3 @@
-# Задача 3:
 number = int(input())
 
 if number == 88:

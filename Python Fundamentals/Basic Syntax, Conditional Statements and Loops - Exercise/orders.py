@@ -1,4 +1,3 @@
-# Задача 6:
 number_of_orders = int(input())
 
 total_price = 0

@@ -1,4 +1,3 @@
-# Задача 10:
 quantity = int(input())
 days = int(input())
 

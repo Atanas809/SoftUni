@@ -1,4 +1,3 @@
-# Задача 9:
 budget = float(input())
 price_for_kg_flour = float(input())
 

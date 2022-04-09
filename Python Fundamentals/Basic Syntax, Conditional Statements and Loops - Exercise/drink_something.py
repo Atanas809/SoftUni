@@ -1,4 +1,3 @@
-# Задача 2:
 age = int(input())
 
 if age <= 14:

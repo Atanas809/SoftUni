@@ -1,4 +1,3 @@
-# Задача 8:
 first_word = input()
 second_word = input()
 

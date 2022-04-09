@@ -1,4 +1,3 @@
-# Задача 5:
 number = int(input())
 
 for sheep in range(1, number + 1):

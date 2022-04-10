@@ -1,4 +1,4 @@
-meters = int(input())
+meters = float(input())
 
 kilometers = meters / 1000
 

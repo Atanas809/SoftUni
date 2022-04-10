@@ -1,4 +1,3 @@
-# Задача 2:
 centuries = int(input())
 
 years = centuries * 100

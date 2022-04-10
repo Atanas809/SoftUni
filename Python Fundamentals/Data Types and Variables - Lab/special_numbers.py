@@ -1,5 +1,4 @@
-# Задача 3:
-n = int(input())
+# n = int(input())
 
 for numbers in range(1, n + 1):
     is_special = False

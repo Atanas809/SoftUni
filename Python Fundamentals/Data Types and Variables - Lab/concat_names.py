@@ -1,4 +1,3 @@
-# Задача 1:
 first_name = input()
 second_name = input()
 delimiter = input()

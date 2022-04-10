@@ -1,4 +1,3 @@
-# Задача 6:
 year = int(input())
 
 is_happy_year = False

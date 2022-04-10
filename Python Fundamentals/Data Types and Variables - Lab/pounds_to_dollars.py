@@ -1,4 +1,3 @@
-# Задача 5:
 pounds = int(input())
 
 dollars = pounds * 1.31

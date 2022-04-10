@@ -1,4 +1,3 @@
-# Задача 4:
 meters = int(input())
 
 kilometers = meters / 1000

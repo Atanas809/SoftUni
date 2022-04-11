@@ -16,6 +16,6 @@ for lost in range(1, lost_fights_count + 1):
             broken_shield += 1
             total_price += shield_price
             if broken_shield % 2 == 0:
-                price += armor_price
+                total_price += armor_price
 
 print(f"Gladiator expenses: {price:.2f} aureus")

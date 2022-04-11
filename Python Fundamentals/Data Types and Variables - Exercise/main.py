@@ -1,8 +1,8 @@
-import webbrowser as wb
+# import webbrowser as wb
 
-def automatic_opener():
-    chrome_path = "C://Program Files (x86)/Google/Chrome/Application/chrome.exe %s"
-    URLS = ("softuni.bg", "judge.org")
+# def automatic_opener():
+#     chrome_path = "C://Program Files (x86)/Google/Chrome/Application/chrome.exe %s"
+#     URLS = ("softuni.bg", "judge.org")
 
     for url in URLS:
         print("Opening: " + url)

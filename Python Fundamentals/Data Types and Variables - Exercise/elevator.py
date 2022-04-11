@@ -1,4 +1,3 @@
-# Задача 3:
 number_of_people = int(input())
 capacity = int(input())
 

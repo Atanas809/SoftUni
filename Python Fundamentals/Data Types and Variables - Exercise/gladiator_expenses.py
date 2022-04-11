@@ -11,7 +11,7 @@ for lost in range(1, lost_fights_count + 1):
     if lost % 2 == 0:
         total_price += helmet_price
     if lost % 3 == 0:
-        price += sword_price
+        total_price += sword_price
         if lost % 2 == 0:
             broken_shield += 1
             price += shield_price

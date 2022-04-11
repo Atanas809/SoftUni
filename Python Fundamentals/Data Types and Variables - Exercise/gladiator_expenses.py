@@ -1,4 +1,3 @@
-# Задача 10:
 lost_fights_count = int(input())
 helmet_price = float(input())
 sword_price = float(input())

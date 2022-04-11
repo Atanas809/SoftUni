@@ -4,7 +4,7 @@ sword_price = float(input())
 shield_price = float(input())
 armor_price = float(input())
 
-price = 0
+total_price = 0
 broken_shield = 0
 
 for lost in range(1, lost_fights_count + 1):

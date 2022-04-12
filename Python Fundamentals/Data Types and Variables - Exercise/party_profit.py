@@ -1,4 +1,3 @@
-# Задача 8:
 group_size = int(input())
 days = int(input())
 

@@ -1,4 +1,3 @@
-# Задача 5:
 start = int(input())
 finish = int(input())
 

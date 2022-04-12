@@ -5,7 +5,7 @@ best_data = ""
 
 for snowball in range(1, number_of_snowballs + 1):
     weight = int(input())
-#     time_needed = int(input())
+    time_needed = int(input())
     quality = int(input())
 
     value = (weight / time_needed) ** quality

@@ -1,4 +1,3 @@
-# Задача 7:
 number_of_liters = int(input())
 
 liters_added = 0

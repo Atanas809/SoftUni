@@ -1,4 +1,4 @@
-number_of_liters = float(input())
+number_of_liters = int(input())
 
 liters_added = 0
 capacity = 255

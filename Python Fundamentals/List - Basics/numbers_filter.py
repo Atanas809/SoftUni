@@ -1,5 +1,3 @@
-# Задача 5:
-
 number = int(input())
 
 even = list()

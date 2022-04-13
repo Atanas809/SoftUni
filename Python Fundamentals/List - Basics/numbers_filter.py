@@ -27,5 +27,5 @@ elif needed_list == "odd":
     print(odd)
 elif needed_list == "positive":
     print(positive)
-else:
+elif needed_list == "negative":
     print(negative)

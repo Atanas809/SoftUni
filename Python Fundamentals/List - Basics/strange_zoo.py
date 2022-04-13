@@ -1,3 +1,5 @@
+# First way:
+
 tail = input()
 body = input()
 head = input()

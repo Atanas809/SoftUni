@@ -1,4 +1,3 @@
-# Задача 2:
 number = int(input())
 
 my_list = list()

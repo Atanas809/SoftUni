@@ -1,6 +1,4 @@
-# Задача 4:
-
-number = int(input())
+# number = int(input())
 
 searched_word = input()
 

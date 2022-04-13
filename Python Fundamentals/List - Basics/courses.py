@@ -8,4 +8,4 @@ for x in range(number):
 
     my_list.append(text)
 
-print(my_list)
+print(f"Output: {my_list}")

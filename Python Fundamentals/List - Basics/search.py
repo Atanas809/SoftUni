@@ -1,8 +1,9 @@
-# number = int(input())
+number = int(input())
 
 searched_word = input()
 
 all_data = list()
+
 only_with_searched_word = list()
 
 for _ in range(number):

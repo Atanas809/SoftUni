@@ -1,5 +1,3 @@
-# Задача 3:
-
 number = int(input())
 
 positive_list = list()

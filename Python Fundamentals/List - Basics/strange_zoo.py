@@ -1,4 +1,3 @@
-# Задача 1:
 tail = input()
 body = input()
 head = input()

@@ -1,4 +1,3 @@
-# Задача 2:
 factor = int(input())
 count = int(input())
 

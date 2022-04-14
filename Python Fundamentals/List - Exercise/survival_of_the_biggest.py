@@ -7,6 +7,6 @@ for x in range(counter):
 
     numbers.remove(current_min)
 
-output = list(map(str, numbers))
+result = list(map(str, numbers))
 
 print(', '.join(output))

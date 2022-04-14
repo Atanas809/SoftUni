@@ -1,6 +1,6 @@
 def output(all_values, effort):
 
-    print("Cells:")
+    print("Cells: ")
 
     for x in all_values:
         print(f"- {x}")

@@ -1,5 +1,3 @@
-# Задача 4:
-
 coins = list(map(int, input().split(", ")))
 
 count_beggars = int(input())

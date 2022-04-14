@@ -9,4 +9,4 @@ for x in range(counter):
 
 result = list(map(str, numbers))
 
-print(', '.join(output))
+print(', '.join(result))

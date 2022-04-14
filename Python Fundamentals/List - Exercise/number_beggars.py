@@ -6,8 +6,8 @@ my_list = [0] * count_beggars
 
 index = 0
 
-for c in coins:
-    my_list[index] += c
+for i in coins:
+    my_list[index] += i
     if index + 1 == count_beggars:
         index = 0
     else:

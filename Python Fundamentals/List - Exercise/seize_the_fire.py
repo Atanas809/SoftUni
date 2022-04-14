@@ -1,4 +1,3 @@
-# Задача 8:
 def output(all_values, effort):
 
     print("Cells:")

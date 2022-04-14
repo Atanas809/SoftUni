@@ -1,5 +1,3 @@
-# Задача 6:
-
 numbers = list(map(int, input().split()))
 
 counter = int(input())

@@ -1,5 +1,3 @@
-
-
 red_cards = input().split()
 
 a_team = 11

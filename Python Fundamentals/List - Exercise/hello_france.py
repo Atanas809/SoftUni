@@ -1,4 +1,3 @@
-# Задача 9:
 def output(profit, budget, all_prices):
 
     for x in all_prices:

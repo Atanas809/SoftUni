@@ -1,4 +1,3 @@
-# Задача 10:
 def output(coins, energy):
 
     print("Day completed!")

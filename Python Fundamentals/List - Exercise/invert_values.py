@@ -1,4 +1,3 @@
-# Задача 1:
 my_list = list(map(int, input().split()))
 
 new_list = list()

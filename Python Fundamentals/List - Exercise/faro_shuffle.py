@@ -1,4 +1,3 @@
-# Задача 5:
 cards = input().split()
 
 shuffles = int(input())

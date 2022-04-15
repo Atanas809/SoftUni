@@ -1,4 +1,3 @@
-# Задача 7:
 def output(gifts):
 
     result = list()

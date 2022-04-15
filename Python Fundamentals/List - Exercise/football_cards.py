@@ -1,4 +1,4 @@
-# Задача 3:
+
 
 red_cards = input().split()
 

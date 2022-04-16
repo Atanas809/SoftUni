@@ -2,7 +2,7 @@ numbers = (list(map(float, input().split())))
 
 absolute_values = list()
 
-for a in numbers:
+for i in numbers:
     absolute_values.append(abs(a))
 
 print(absolute_values)

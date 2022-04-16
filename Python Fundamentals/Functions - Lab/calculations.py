@@ -1,5 +1,3 @@
-# Задача 3:
-
 def calc(operator, f_num, s_num):
 
     if operator == "multiply":

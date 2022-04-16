@@ -1,4 +1,3 @@
-# Задача 1:
 numbers = (list(map(float, input().split())))
 
 absolute_values = list()

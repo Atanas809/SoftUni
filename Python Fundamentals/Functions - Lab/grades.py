@@ -1,5 +1,3 @@
-# Задача 2:
-
 def grade(current_grade):
 
     if 2 <= current_grade <= 2.99:

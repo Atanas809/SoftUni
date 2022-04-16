@@ -1,7 +1,7 @@
 def grade(current_grade):
 
     if 2 <= current_grade <= 2.99:
-        print("Fail")
+        print("You failed")
     elif current_grade <= 3.49:
         print("Poor")
     elif current_grade <= 4.49:

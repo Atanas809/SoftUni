@@ -1,4 +1,4 @@
-# word = input()
+word = input()
 
-# print(''.join(reversed(word)))
+print(''.join(reversed(word)))
 

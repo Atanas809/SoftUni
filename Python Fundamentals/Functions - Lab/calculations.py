@@ -1,4 +1,4 @@
-def calc(operator, f_num, s_num):
+def calc(operator, first_num, second_num):
 
     if operator == "multiply":
         return f_num * s_num

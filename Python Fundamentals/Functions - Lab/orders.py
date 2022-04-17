@@ -1,4 +1,4 @@
-def order():
+def orders():
 
     product = input()
     quantity = int(input())

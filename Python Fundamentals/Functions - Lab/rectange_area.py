@@ -1,5 +1,3 @@
-# Задача 6:
-
 def area():
 
     width = int(input())

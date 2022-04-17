@@ -1,5 +1,3 @@
-# Задача 5:
-
 def order():
 
     product = input()

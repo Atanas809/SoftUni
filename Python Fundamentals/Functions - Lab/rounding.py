@@ -1,5 +1,3 @@
-# Задача 7:
-
 def rounding():
 
     numbers = (list(map(float, input().split())))

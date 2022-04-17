@@ -5,4 +5,4 @@ def area_of_rectangle():
 
     return width * height
 
-print(area())
+print(area_of_rectangle())

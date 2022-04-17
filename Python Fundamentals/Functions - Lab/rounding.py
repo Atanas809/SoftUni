@@ -6,4 +6,4 @@ def rounding():
 
     return new_list
 
-rounding()
+print(rounding())

@@ -4,6 +4,6 @@ def rounding():
 
     new_list = list(map(lambda a: round(a), numbers))
 
-    print(new_list)
+    return new_list
 
 rounding()

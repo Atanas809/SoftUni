@@ -12,4 +12,4 @@ def orders():
     elif product == "snacks":
         return 2 * quantity
 
-print(f"{order():.2f}")
+print(f"{orders():.2f}")

@@ -3,6 +3,6 @@ def repeater(text, counter):
     return text * counter
 
 text = input()
-counter = int(input())
+counter = float(input())
 
 print(repeater(text, counter))

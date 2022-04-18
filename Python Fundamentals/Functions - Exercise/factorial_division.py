@@ -1,5 +1,3 @@
-# Задача 12:
-
 def division(number):
 
     fact = 1

@@ -1,5 +1,3 @@
-# Задача 2:
-
 def subtract(result, c):
 
     return result - c

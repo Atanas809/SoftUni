@@ -1,5 +1,3 @@
-# Задача 5:
-
 def filtered():
 
     numbers = list(map(int, input().split()))

@@ -1,6 +1,6 @@
-def subtract(result, c):
+def subtract(result, z):
 
-    return result - c
+    return result - z
 
 def sum_numbers():
 
@@ -8,8 +8,8 @@ def sum_numbers():
     y = int(input())
     z = int(input())
 
-    result = a + b
+    result = x + y
 
-    return subtract(result, c)
+    return subtract(result, z)
 
 print(sum_numbers())

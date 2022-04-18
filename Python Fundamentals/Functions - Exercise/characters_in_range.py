@@ -1,5 +1,3 @@
-# Задача 3:
-
 def chars_in_range():
 
     start = input()

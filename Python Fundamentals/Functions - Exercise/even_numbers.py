@@ -1,4 +1,4 @@
-def filtered():
+def filtered_numbers():
 
     numbers = list(map(int, input().split()))
 

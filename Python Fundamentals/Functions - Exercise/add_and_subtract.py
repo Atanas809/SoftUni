@@ -4,9 +4,9 @@ def subtract(result, c):
 
 def sum_numbers():
 
-    a = int(input())
-    b = int(input())
-    c = int(input())
+    x = int(input())
+    y = int(input())
+    z = int(input())
 
     result = a + b
 

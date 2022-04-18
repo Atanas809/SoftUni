@@ -6,6 +6,6 @@ def filtered_numbers():
 
     return even_nums
 
-print(filtered())
+print(filtered_numbers())
 
 

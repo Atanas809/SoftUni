@@ -1,5 +1,3 @@
-# Задача 7:
-
 def min_max_sum():
 
     numbers = list(map(int, input().split()))

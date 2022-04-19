@@ -8,6 +8,6 @@ def min_max_sum():
 
     return f"The minimum number is {min_number}" \
            f"\nThe maximum number is {max_number}" \
-           f"\nThe sum number is: {sum_numbers}"
+           f"\nThe sum of all numbers is: {sum_numbers}"
 
 print(min_max_sum())

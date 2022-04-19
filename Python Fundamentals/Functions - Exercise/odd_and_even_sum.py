@@ -1,5 +1,3 @@
-# Задача 4:
-
 def even_odd():
 
     number = input()

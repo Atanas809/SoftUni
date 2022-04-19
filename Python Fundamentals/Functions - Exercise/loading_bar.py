@@ -1,4 +1,3 @@
-# Задача 11:
 def bar(number):
     percents = (number // 10) * "%"
     dots = (10 - len(percents)) * "."

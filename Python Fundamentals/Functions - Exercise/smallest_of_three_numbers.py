@@ -1,4 +1,4 @@
-def smallest():
+def smallest_number():
 
     first_number = int(input())
     second_number = int(input())
@@ -10,4 +10,4 @@ def smallest():
 
     return smallest_number
 
-print(smallest())
+print(smallest_number())

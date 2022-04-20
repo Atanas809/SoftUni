@@ -1,5 +1,3 @@
-# Задача 6:
-
 def ascending_order():
 
     numbers = list(map(int, input().split()))

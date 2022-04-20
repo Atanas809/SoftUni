@@ -1,5 +1,3 @@
-# Задача 8:
-
 def palindrome():
 
     numbers = input().split(", ")

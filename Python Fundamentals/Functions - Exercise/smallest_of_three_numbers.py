@@ -1,5 +1,3 @@
-# Задача 1:
-
 def smallest():
 
     first_number = int(input())

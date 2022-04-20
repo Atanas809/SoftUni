@@ -1,4 +1,4 @@
-def palindrome():
+def palindromes():
 
     numbers = input().split(", ")
 
@@ -8,4 +8,4 @@ def palindrome():
         else:
             print("False")
 
-palindrome()
+palindromes()

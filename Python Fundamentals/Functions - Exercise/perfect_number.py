@@ -1,5 +1,3 @@
-# Задача 10:
-
 def perfect_num():
 
     number = int(input())

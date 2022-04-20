@@ -1,4 +1,3 @@
-# Задача 9:
 import re
 
 def valid_digits(password):

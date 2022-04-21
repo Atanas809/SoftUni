@@ -1,5 +1,3 @@
-# Задача 6:
-
 nums = list(map(int, input().split(", ")))
 
 indices = list()

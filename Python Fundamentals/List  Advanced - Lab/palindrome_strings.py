@@ -1,5 +1,3 @@
-# Задача 4:
-
 words = input().split()
 
 searched_word = input()

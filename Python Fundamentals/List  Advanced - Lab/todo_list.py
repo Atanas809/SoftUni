@@ -1,4 +1,3 @@
-# Задача 3:
 command = input().split("-")
 
 todo_list = [" "] * 10

@@ -1,4 +1,4 @@
-# Задача 7:
+
 
 employees = list(map(int, input().split()))
 

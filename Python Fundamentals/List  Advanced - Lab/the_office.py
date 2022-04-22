@@ -1,4 +1,4 @@
-
+# Need to improve the employees happiness and then calculate how many of them are happy!
 
 employees = list(map(int, input().split()))
 

@@ -10,8 +10,8 @@ def decipher():
 
     for i in secret_message:
 
-        number = re.findall(num_expression, x)
-        letters = re.findall(letters_expression, x)
+        number = re.findall(num_expression, i)
+        letters = re.findall(letters_expression, i)
 
         current_num = int(number[0])
         current_letter = letters[0]

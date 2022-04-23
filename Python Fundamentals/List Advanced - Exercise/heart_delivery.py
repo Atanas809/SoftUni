@@ -1,5 +1,3 @@
-# Задача 10:
-
 def output(houses, index):
     print(f"Cupid's last position was {index}.")
     if sum(houses) != 0:

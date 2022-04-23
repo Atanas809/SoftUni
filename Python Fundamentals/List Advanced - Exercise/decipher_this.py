@@ -1,4 +1,3 @@
-# Задача 8:
 import re
 
 def decipher():

@@ -8,7 +8,7 @@ def decipher():
 
     message = list()
 
-    for x in secret_message:
+    for i in secret_message:
 
         number = re.findall(num_expression, x)
         letters = re.findall(letters_expression, x)

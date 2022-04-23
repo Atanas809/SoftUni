@@ -1,5 +1,3 @@
-# Задача 6:
-
 electrons = int(input())
 
 position = 1

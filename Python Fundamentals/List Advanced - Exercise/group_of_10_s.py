@@ -1,5 +1,3 @@
-# Задача 7:
-
 numbers = list(map(int, input().split(", ")))
 
 group = 10

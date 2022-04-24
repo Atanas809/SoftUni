@@ -1,4 +1,4 @@
-def shooting():
+def shooting_gallery():
 
     targets = list(map(int, input().split()))
 

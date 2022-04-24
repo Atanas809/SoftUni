@@ -1,5 +1,3 @@
-# Задача 9:
-
 def shooting():
 
     targets = list(map(int, input().split()))

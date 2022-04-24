@@ -1,6 +1,6 @@
 def inventory():
 
-    current_items = input().split(", ")
+    items = input().split(", ")
 
     command = input().split(" - ")
 

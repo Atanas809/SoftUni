@@ -45,4 +45,4 @@ def shooting_gallery():
 
     print("|".join(targets))
 
-shooting()
+shooting_gallery()

@@ -1,6 +1,6 @@
-version = input().split(".")
+software_version = input().split(".")
 
-current_version = int(''.join(version))
+current_version = int(''.join(software_version))
 
 new_version = current_version + 1
 

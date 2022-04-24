@@ -1,5 +1,3 @@
-# Задача 11:
-
 def inventory():
 
     items = input().split(", ")

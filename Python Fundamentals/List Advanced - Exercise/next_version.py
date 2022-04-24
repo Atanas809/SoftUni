@@ -1,5 +1,3 @@
-# Задача 2:
-
 version = input().split(".")
 
 current_version = int(''.join(version))

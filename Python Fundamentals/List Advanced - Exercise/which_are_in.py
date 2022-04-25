@@ -1,5 +1,3 @@
-# Задача 1:
-
 substrings = input().split(", ")
 
 text = input()

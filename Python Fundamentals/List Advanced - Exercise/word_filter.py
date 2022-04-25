@@ -1,5 +1,3 @@
-# Задача 3:
-
 text = input().split()
 
 for x in text:

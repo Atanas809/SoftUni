@@ -14,7 +14,7 @@ for x in range(1, number_of_rooms + 1):
         print(f"{diff} more chairs needed in room {x}")
         condition = False
     else:
-        free_chairs += abs(chairs - people)
+        chairs_left += abs(chairs - people)
 
 if condition:
-    print(f"Game On, {free_chairs} free chairs left")
+    print(f"Game On, {chairs_left} free chairs left")

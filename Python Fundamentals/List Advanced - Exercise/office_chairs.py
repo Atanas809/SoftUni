@@ -1,5 +1,3 @@
-# Задача 5:
-
 number_of_rooms = int(input())
 
 free_chairs = 0

@@ -1,6 +1,6 @@
 number_of_rooms = int(input())
 
-free_chairs = 0
+chairs_left = 0
 condition = True
 
 for x in range(1, number_of_rooms + 1):

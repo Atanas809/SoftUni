@@ -1,5 +1,3 @@
-# Задача 4:
-
 numbers = list(map(int, input().split(", ")))
 
 

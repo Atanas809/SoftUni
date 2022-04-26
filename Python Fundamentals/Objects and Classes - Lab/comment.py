@@ -1,6 +1,6 @@
 class Comment:
 
-    def __init__(self, username, content, likes=0):
+    def __init__(self, username, content, likes=0): # Like have a default value 0
         self.username = username
         self.content = content
         self.likes = likes

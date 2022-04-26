@@ -1,5 +1,3 @@
-# Задача 3:
-
 class Email:
 
     def __init__(self, sender, receiver, content):

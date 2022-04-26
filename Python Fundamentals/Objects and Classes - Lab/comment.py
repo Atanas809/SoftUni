@@ -5,6 +5,7 @@ class Comment:
         self.content = content
         self.likes = likes
 
+# This is just example, you can change it to: input() and try with on your own!
 comment = Comment("user1", "I like this book")
 print(comment.username)
 print(comment.content)

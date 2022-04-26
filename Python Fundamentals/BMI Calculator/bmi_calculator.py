@@ -9,10 +9,13 @@ def bmi_calculator():
     print(f"Your Body Mass Index is: {BMI:.2f}")
 
     if BMI > 0:
+        
         if BMI <= 16:
             print("You are severely underweight")
+            
         elif BMI <= 18.5:
             print("You are underweight")
+            
         elif BMI <= 25:
             print("You are Healthy")
         elif BMI <= 30:

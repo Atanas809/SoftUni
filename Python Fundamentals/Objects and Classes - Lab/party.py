@@ -1,5 +1,3 @@
-# Задача 2:
-
 class Party:
 
     def __init__(self):

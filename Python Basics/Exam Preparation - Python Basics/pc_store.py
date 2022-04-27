@@ -5,7 +5,7 @@ number_of_ram = int(input())
 discount = float(input())
 
 processor_in_leva = processor_in_dollars * 1.57
-video_card_in_leva = video_card_in_dollars * 1.57
+video_cards_in_leva = video_cards_in_dollars * 1.57
 ram_in_leva = (ram_in_dollars * 1.57) * number_of_ram
 
 processor_discount = processor_in_leva * discount

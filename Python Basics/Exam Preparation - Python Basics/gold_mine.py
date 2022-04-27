@@ -1,6 +1,6 @@
 counter = int(input())
 
-for location in range(number_of_locations):
+for location in range(counter):
     total_average_yield = 0
     final_average_yield = 0
     average_yield = float(input())

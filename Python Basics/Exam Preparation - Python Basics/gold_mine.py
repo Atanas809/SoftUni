@@ -1,4 +1,4 @@
-number_of_locations = int(input())
+counter = int(input())
 
 for location in range(number_of_locations):
     total_average_yield = 0

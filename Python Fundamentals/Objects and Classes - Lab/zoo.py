@@ -1,5 +1,3 @@
-# Задача 4:
-
 class Zoo:
     __animals = 0
 

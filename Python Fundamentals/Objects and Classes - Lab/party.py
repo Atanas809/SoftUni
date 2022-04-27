@@ -13,7 +13,7 @@ class Gathering:
 
         return self.people
 
-party = Party()
+party = Gathering()
 
 names = input()
 

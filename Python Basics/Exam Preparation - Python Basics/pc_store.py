@@ -1,5 +1,5 @@
 processor_in_dollars = float(input())
-video_card_in_dollars = float(input())
+video_cards_in_dollars = float(input())
 ram_in_dollars = float(input())
 number_of_ram = int(input())
 discount = float(input())

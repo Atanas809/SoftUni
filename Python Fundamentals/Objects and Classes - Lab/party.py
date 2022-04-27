@@ -1,4 +1,4 @@
-class Party:
+class Gathering:
 
     def __init__(self):
         self.people = list()

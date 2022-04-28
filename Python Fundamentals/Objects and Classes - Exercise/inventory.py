@@ -1,5 +1,3 @@
-# Задача 6:
-
 class Inventory:
 
     def __init__(self, __capacity: int):

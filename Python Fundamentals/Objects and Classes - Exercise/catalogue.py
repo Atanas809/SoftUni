@@ -13,7 +13,7 @@ class Catalogue:
 
         my_list = list()
 
-        for x in self.products:
+        for i in self.products:
             if x[0] == first_letter:
                 my_list.append(x)
 

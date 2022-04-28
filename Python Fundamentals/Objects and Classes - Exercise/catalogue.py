@@ -14,7 +14,7 @@ class Catalogue:
         my_list = list()
 
         for i in self.products:
-            if x[0] == first_letter:
+            if i[0] == first_letter:
                 my_list.append(x)
 
 

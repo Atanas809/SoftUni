@@ -1,5 +1,3 @@
-# Задача 7:
-
 class Article:
 
     def __init__(self, title: str, content: str, author: str):

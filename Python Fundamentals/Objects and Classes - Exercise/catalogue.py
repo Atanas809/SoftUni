@@ -1,5 +1,3 @@
-# Задача 3:
-
 class Catalogue:
 
     def __init__(self, name):

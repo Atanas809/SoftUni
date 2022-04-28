@@ -13,7 +13,7 @@ class Inventory:
             self.current_capacity -= 1
 
         else:
-            return "not enough room in the inventory"
+            return "not enough space in the inventory"
 
     def get_capacity(self):
 

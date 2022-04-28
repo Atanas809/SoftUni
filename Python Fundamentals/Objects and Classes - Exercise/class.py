@@ -1,5 +1,3 @@
-# Задача 5:
-
 class Class:
     __students_count = 22
 

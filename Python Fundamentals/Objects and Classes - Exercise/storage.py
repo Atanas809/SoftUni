@@ -2,7 +2,7 @@ class Storage:
 
     def __init__(self, capacity: int):
         self.capacity = capacity
-        self.storage = list()
+        self.current_products = list()
 
     def add_product(self, product: str):
 

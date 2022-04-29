@@ -1,3 +1,6 @@
+# That's my qr generator project
+
+
 import qrcode
 
 link = "https://github.com/Atanas809"

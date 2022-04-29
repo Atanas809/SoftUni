@@ -1,5 +1,3 @@
-# Задача 9:
-
 class Movie:
 
     __watched_movies = 0

@@ -1,6 +1,6 @@
 class Movie:
 
-    __watched_movies = 0
+    __watched_movies = 1
 
     def __init__(self, name: str, director: str):
         self.name = name

@@ -19,3 +19,9 @@ class Vehicle:
 
             else:
                 return "Car already sold"
+            
+    def sell(self):
+        if self.owner != None:
+            self.owner = None
+        else:
+            return "Vehicle has no owner"

@@ -1,13 +1,8 @@
-import qrcode
+class Vehicle:
 
-link = "https://github.com/Atanas809"
+    def __init__(self, type, model, price):
 
-qr = qrcode.QRCode(
-    version=3,
-    box_size=3,
-    border=4)
-
-qr.add_data(link)
-qr.make(fit=True)
-img = qr.make_image(fill='black', back_color='red')
-img.save('qrcode001.png')
+        self.type = type
+        self.model = model
+        self.price = price
+        self.owner = None

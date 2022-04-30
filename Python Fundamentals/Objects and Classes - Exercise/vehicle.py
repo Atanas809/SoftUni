@@ -25,3 +25,11 @@ class Vehicle:
             self.owner = None
         else:
             return "Vehicle has no owner"
+    
+    def __repr__(self):
+
+        if self.owner != None:
+            return f"{self.model} {self.type} is owned by: {self.owner}"
+
+        else:
+            return f"{self.model} {self.type} is on sale: {self.price}"

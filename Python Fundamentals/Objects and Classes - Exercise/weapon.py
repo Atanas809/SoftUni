@@ -9,3 +9,7 @@ Class Weapon:
             return "shooting..."
         else:
             return "no bullets left"
+          
+  def __repr__(self):
+
+        return f"Remaining bullets: {self.bullets}"

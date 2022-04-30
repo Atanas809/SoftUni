@@ -1,11 +1,11 @@
-import qrcode
+# import qrcode
 
-link = "https://github.com/Atanas809"
+# link = "https://github.com/Atanas809"
 
-qr = qrcode.QRCode(
-    version=3,
-    box_size=3,
-    border=4)
+# qr = qrcode.QRCode(
+#     version=3,
+#     box_size=3,
+#     border=4)
 
 qr.add_data(link)
 qr.make(fit=True)

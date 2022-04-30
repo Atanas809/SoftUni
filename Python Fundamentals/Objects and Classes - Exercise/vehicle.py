@@ -33,7 +33,7 @@ class Vehicle:
 
         else:
             return f"{self.model} {self.type} is on sale: {self.price}"
-    
+# Examples:
 vehicle_type = "car"
 model = "BMW"
 price = 30000

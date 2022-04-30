@@ -33,3 +33,8 @@ class Vehicle:
 
         else:
             return f"{self.model} {self.type} is on sale: {self.price}"
+    
+vehicle_type = "car"
+model = "BMW"
+price = 30000
+vehicle = Vehicle(vehicle_type, model, price)

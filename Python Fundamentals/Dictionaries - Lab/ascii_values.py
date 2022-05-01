@@ -1,5 +1,8 @@
 chars = input().split(", ")
 
-my_dict = {char: ord(char) for char in chars}
+my_dict = dict()
+
+for x in chars:
+  
 
 print(my_dict)

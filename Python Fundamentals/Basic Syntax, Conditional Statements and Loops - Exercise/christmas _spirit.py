@@ -5,6 +5,7 @@ christmas_spirit = 0
 total_sum = 0
 
 for day in range(1, days + 1):
+    
     if day % 11 == 0:
         quantity += 2
 
@@ -26,6 +27,7 @@ for day in range(1, days + 1):
     if day % 10 == 0:
         christmas_spirit -= 20
         total_sum += 5 + 3 + 15
+        
         if days == day:
             christmas_spirit -= 30
 

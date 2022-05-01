@@ -1,5 +1,3 @@
-# Задача 1:
-
 data = input().split()
 
 my_dict = dict()

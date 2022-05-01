@@ -1,17 +1,17 @@
-# from forex_python.converter import CurrencyRates
-#
-# c = CurrencyRates()
-#
-# amount = float(input("Enter your amount: "))
-# from_currency = input("From currency: ").upper()
-# to_currency = input("To currency: ").upper()
-#
-# print(f"\n{amount} {from_currency} <------> {to_currency}")
-#
-# converted_currency = c.convert(from_currency, to_currency, amount)
-#
-# print(f"\n{converted_currency:.2f} {to_currency}")
-#
+from forex_python.converter import CurrencyRates
+
+c = CurrencyRates()
+
+amount = float(input("Enter your amount: "))
+from_currency = input("From currency: ").upper()
+to_currency = input("To currency: ").upper()
+
+print(f"\n{amount} {from_currency} <------> {to_currency}")
+
+converted_currency = c.convert(from_currency, to_currency, amount)
+
+print(f"\n{converted_currency:.2f} {to_currency}")
+
 
 def auto(w1, w2):
 

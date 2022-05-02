@@ -1,5 +1,3 @@
-# Задача 2:
-
 def output(my_dict):
 
     searched_items = input().split()

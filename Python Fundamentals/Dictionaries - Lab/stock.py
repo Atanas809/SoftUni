@@ -17,7 +17,7 @@ def stock():
     for i in range(0, len(data) - 1, 2):
 
         product = data[i]
-        quantity = int(data[x + 1])
+        quantity = int(data[i + 1])
 
         my_dict[product] = quantity
 

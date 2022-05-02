@@ -1,5 +1,3 @@
-# Задача 3:
-
 def output(products):
 
     print("Products in stock:")

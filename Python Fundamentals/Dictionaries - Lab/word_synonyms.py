@@ -9,7 +9,7 @@ def synonyms():
 
     my_dict = dict()
 
-    for x in range(number):
+    for _ in range(number):
         key = input()
         value = input()
 

@@ -1,4 +1,4 @@
-ata = input().lower().split()
+data = input().lower().split()
 
 my_dict = dict()
 

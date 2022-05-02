@@ -1,6 +1,4 @@
-# Задача 6:
-
-data = input().lower().split()
+ata = input().lower().split()
 
 my_dict = dict()
 

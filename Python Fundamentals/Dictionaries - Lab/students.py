@@ -1,5 +1,3 @@
-# Задача 4:
-
 def output(my_dict, command):
 
     searched_course = command.replace("_", " ")

@@ -21,8 +21,8 @@ def companies():
         if company_name not in my_dict.keys():
             my_dict[company_name] = list()
 
-        if employee_id not in my_dict[name_of_company]:
-            my_dict[name_of_company].append(employee_id)
+        if employee_id not in my_dict[company_name]:
+            my_dict[company_name].append(employee_id)
 
         command = input().split(" -> ")
 

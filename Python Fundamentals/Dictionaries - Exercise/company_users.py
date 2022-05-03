@@ -15,7 +15,7 @@ def companies():
 
     while command[0] != "End":
 
-        name_of_company = command[0]
+        company_name = command[0]
         employee_id = command[1]
 
         if name_of_company not in my_dict.keys():

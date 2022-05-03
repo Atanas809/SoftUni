@@ -15,6 +15,7 @@ def resources():
 
         if info not in my_dict.keys():
             my_dict[info] = quantity
+            
         else:
             my_dict[info] += quantity
 

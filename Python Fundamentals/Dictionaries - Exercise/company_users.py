@@ -1,5 +1,3 @@
-# Задача 10:
-
 def output(my_dict):
 
     for key, value in my_dict.items():

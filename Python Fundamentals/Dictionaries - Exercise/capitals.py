@@ -1,5 +1,3 @@
-# Задача 3:
-
 country = input().split(", ")
 capital = input().split(", ")
 

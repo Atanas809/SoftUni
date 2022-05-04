@@ -6,10 +6,10 @@ my_dict = dict()
 
 for i in text:
     if i != " ":
-        if x not in my_dict.keys():
-            my_dict[x] = 1
+        if i not in my_dict.keys():
+            my_dict[i] = 1
         else:
-            my_dict[x] += 1
+            my_dict[i] += 1
 
 for key, value in my_dict.items():
     print(f"{key} -> {value}")

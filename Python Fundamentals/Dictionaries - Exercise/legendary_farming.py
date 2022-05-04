@@ -1,4 +1,3 @@
-# Задача 5:
 def output(key_materials, junk):
 
     for key, value in key_materials.items():

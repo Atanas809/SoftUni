@@ -38,10 +38,10 @@ def farming():
             if key_materials[material] >= 250:
                 break
         else:
-            if material not in junk.keys():
-                junk[material] = quantity
+            if material not in junk_items.keys():
+                junk_items[material] = quantity
             else:
-                junk[material] += quantity
+                junk_items[material] += quantity
 
         items.remove(items[0])
         items.remove(items[0])

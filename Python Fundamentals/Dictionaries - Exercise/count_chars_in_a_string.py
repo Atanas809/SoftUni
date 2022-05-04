@@ -5,7 +5,7 @@ text = input()
 my_dict = dict()
 
 for i in text:
-    if x != " ":
+    if i != " ":
         if x not in my_dict.keys():
             my_dict[x] = 1
         else:

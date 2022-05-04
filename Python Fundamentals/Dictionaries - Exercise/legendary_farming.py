@@ -26,7 +26,7 @@ def farming():
 
     key_materials = {"shards": 0, "fragments": 0, "motes": 0}
 
-    junk = dict()
+    junk_items = dict()
 
     while len(items) != 0:
 

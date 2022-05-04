@@ -1,5 +1,3 @@
-# Задача 1:
-
 # Solution without library:
 
 text = input()

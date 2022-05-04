@@ -50,6 +50,6 @@ def farming():
             items = input().split()
 
     legendary_item(key_materials)
-    output(key_materials, junk)
+    output(key_materials, junk_items)
 
 farming()

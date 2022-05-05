@@ -1,5 +1,4 @@
 # Задача 4:
-
 def output(counter, contacts):
 
     for x in range(counter):

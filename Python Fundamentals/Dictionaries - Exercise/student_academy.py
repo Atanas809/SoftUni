@@ -1,4 +1,3 @@
-# Задача 9:
 def output(academy_grades):
 
     for key, value in academy_grades.items():

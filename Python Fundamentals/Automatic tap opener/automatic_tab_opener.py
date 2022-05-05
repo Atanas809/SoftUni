@@ -1,2 +1,0 @@
-# Automatic tab opener:
-

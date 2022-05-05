@@ -1,5 +1,3 @@
-# Задача 7:
-
 def output(parking):
 
     for key, value in parking.items():

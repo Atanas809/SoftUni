@@ -1,5 +1,3 @@
-# Задача 12:
-
 def submissions(result):
 
     print("Submissions:")

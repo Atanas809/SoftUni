@@ -8,3 +8,5 @@ while command != "end":
     print(f"{command} = {rev_word}")
 
     command = input()
+
+# Second way:

@@ -10,3 +10,13 @@ while command != "end":
     command = input()
 
 # Second way:
+
+command = input()
+
+while command != "end":
+
+    rev_word = reversed(command)
+
+    print(f"{command} = {''.join(rev_word)}")
+
+    command = input()

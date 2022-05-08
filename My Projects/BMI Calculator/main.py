@@ -1,99 +1,32 @@
-def output(standings):
-    print("Individual standings:")
-    sort_dic = dict()
-    for key, value in standings.items():
-        points = value[0]
-        name = key
-        if name not in sort_dic.values():
-            sort_dic[name] = points
-    nums = sorted(sort_dic.values(), reverse=True)
-    counter = 1
-    for x in nums:
-        for item in sort_dic.items():
-            if item[1] == x:
-                print(f"{counter}. {item[0]} -> {item[1]}")
-                counter += 1
-                del sort_dic[item[0]]
-                break
+def bmi_calculator():
 
+    height = float(input("Enter your height in cm: "))
+    weight = float(input("Enter your weight in kg: "))
 
+    height = height / 100
+    BMI = weight / (height * height)
 
-def result(my_dict):
+    print(f"Your Body Mass Index is: {BMI:.2f}")
 
-    for key, value in my_dict.items():
-        print(f"{key}: {len(value) // 2} participants")
-        sort_dic = dict()
-        for x in range(0, len(value), 2):
-            name = value[x]
-            points = value[x + 1]
-            if name not in sort_dic.values():
-                sort_dic[name] = points
-        output = sorted(sort_dic.values(), reverse=True)
-        counter = 1
-        for y in output:
-            for item in sort_dic.items():
-                if item[1] == y:
-                    print(f"{counter}. {item[0]} <::> {item[1]}")
-                    counter += 1
-                    del sort_dic[item[0]]
-                    break
+    if BMI > 0:
 
+        if BMI <= 16:
+            print("You are severely underweight")
 
-def judge():
-    data = input().split(" -> ")
+        elif BMI <= 18.5:
+            print("You are underweight")
 
-    my_dict = dict()
-    individual_standings = dict()
-    names = list()
+        elif BMI <= 25:
+            print("You are Healthy")
 
-    while data[0] != "no more time":
-        name = data[0]
-        course = data[1]
-        points = int(data[2])
+        elif BMI <= 30:
+            print("You are overweight")
 
-        if course in my_dict.keys() and name in names:
-            for key, value in my_dict.items():
-                if key == course and name in value:
-                    for x in range(0, len(value), 2):
-                        user = value[x]
-                        num = value[x + 1]
-                        if user == name:
-                            if num < points:
-                                my_dict[course][x + 1] = points
-                                break
-
-        if course not in my_dict.keys():
-            my_dict[course] = list()
-            my_dict[course].append(name)
-            my_dict[course].append(points)
         else:
-            if name not in my_dict[course]:
-                my_dict[course].append(name)
-                my_dict[course].append(points)
+            print("You are severely overweight")
 
-        if name not in names:
-            names.append(name)
+    else:
+        print("Please enter valid details!")
+        bmi_calculator()
 
-        if name not in individual_standings.keys():
-            individual_standings[name] = list()
-            individual_standings[name].append(points)
-        else:
-            for key, value in my_dict.items():
-                if course == key and name in my_dict[course]:
-                    if individual_standings[name][0] < points:
-                        individual_standings[name][0] = points
-                        break
-                else:
-                    if course != key and name in my_dict[course]:
-                        individual_standings[name][0] += points
-                        break
-
-
-
-        data = input().split(" -> ")
-
-    my_dict = result(my_dict)
-    individual_standings = output(individual_standings)
-
-judge()
-
+bmi_calculator()

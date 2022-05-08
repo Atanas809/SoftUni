@@ -1,1 +1,3 @@
+text = input()
 
+encrypted = ""

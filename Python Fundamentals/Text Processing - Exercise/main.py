@@ -16,3 +16,12 @@ def output(name1, name2):
 
     return result
 
+def multiplier():
+
+    data = input().split()
+
+    name1 = data[0]
+    name2 = data[1]
+
+    total_sum = 0
+

@@ -25,3 +25,11 @@ def multiplier():
 
     total_sum = 0
 
+    if len(name1) >= len(name2):
+        total_sum = output(name1, name2)
+    else:
+        total_sum = output(name2, name1)
+
+    print(total_sum)
+
+multiplier()

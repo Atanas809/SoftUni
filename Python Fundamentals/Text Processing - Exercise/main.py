@@ -16,3 +16,15 @@ def output(unique_symbols, text):
 
     print(f"Unique symbols used: {len(unique_symbols)}")
     print(result)
+    
+def rage():
+
+    data = input()
+
+    unique_symbols = set()
+
+    text = list()
+
+    index = 0
+
+    condition = True

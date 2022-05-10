@@ -49,3 +49,7 @@ def rage():
             unique_symbols.add(data[index].lower())
 
         index += 1
+
+    output(unique_symbols, text)
+
+rage()

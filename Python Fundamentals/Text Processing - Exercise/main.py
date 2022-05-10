@@ -13,3 +13,6 @@ def output(unique_symbols, text):
                 chars += x.upper()
 
         result += chars * int(number)
+
+    print(f"Unique symbols used: {len(unique_symbols)}")
+    print(result)

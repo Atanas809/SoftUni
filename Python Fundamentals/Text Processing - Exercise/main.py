@@ -37,3 +37,5 @@ def replacer():
         final_result += current_result
 
     print(f"{final_result:.2f}")
+
+replacer()

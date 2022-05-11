@@ -51,4 +51,41 @@ def is_winning(ticket, symbols):
 
     else:
         print(f'ticket "{ticket}" - no match')
+        
+def is_jackpot(ticket, symbols):
+
+    condition = False
+
+    for x in symbols:
+        if x * 20 == ticket:
+            condition = True
+            break
+
+    if condition:
+        return True
+
+def tickets():
+
+    data = input().split(", ")
+
+    symbols = "@#$^"
+
+    for x in data:
+
+        current_ticket = x.strip()
+
+        jackpot = False
+
+        if len(current_ticket) == 20:
+            if is_jackpot(current_ticket, symbols):
+                jackpot = True
+                print(f'ticket "{current_ticket}" - 10{current_ticket[0]} Jackpot!')
+
+            if not jackpot:
+                is_winning(current_ticket, symbols)
+
+        else:
+            print("invalid ticket")
+
+tickets()
 

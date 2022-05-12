@@ -10,3 +10,5 @@ valid_phones = list()
 
 for match in matches:
     valid_phones.append(match[0])
+
+print(', '.join(valid_phones))

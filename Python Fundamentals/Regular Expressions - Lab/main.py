@@ -10,3 +10,5 @@ valid = list()
 
 for match in matches:
     valid.append(match[0])
+    
+print(' '.join(valid))

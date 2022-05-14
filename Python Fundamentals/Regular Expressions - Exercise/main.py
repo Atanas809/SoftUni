@@ -1,14 +1,17 @@
 import re
 
-expression = r"(?P<valid>(www\.([A-Za-z0-9\-]+)\.([\.a-z]+)+))"
-
 data = input()
+
+output = list()
 
 while data:
 
-    matches = re.finditer(expression, data)
+    matches = re.findall(r"\d+", data)
 
     for match in matches:
-        print(match.group("valid"))
+
+        output.append(match)
 
     data = input()
+
+print(' '.join(output))

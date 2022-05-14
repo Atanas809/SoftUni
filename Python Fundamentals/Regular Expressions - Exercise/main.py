@@ -1,0 +1,3 @@
+import re
+
+data = input()

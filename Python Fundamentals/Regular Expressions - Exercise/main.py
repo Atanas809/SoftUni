@@ -7,3 +7,8 @@ data = input()
 while data:
 
     matches = re.finditer(expression, data)
+
+    for match in matches:
+        print(match.group("valid"))
+
+    data = input()

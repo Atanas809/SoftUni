@@ -5,3 +5,6 @@ expression = r"(^| )(?P<valid>([a-z0-9]+[-_.]*)+@([a-z]+[\-]?)+\.([a-z]+[\-]?)([
 info = input()
 
 matches = re.finditer(expression, info)
+
+for match in matches:
+    print(match.group("valid"))

@@ -24,3 +24,6 @@ while data != "Purchase":
     data = input()
 
 print("Bought furniture:")
+
+for item in furniture:
+    print(item)

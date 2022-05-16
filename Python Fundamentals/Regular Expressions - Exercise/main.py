@@ -16,3 +16,9 @@ while data != "Purchase":
         item = match.group("item")
         price = float(match.group("price"))
         quantity = int(match.group("quantity"))
+
+        furniture.append(item)
+
+        total_price += price * quantity
+
+    data = input()

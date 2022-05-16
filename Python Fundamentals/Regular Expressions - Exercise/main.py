@@ -5,3 +5,5 @@ expression = r"^>>(?P<item>(\w+))<<(?P<price>(0|[0-9]+).?(0|[0-9]+))!(?P<quantit
 data = input()
 
 total_price = 0
+
+furniture = list()

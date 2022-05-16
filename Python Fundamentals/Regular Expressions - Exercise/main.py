@@ -27,3 +27,5 @@ print("Bought furniture:")
 
 for item in furniture:
     print(item)
+
+print(f"Total money spend: {total_price:.2f}")

@@ -22,3 +22,5 @@ while data != "Purchase":
         total_price += price * quantity
 
     data = input()
+
+print("Bought furniture:")

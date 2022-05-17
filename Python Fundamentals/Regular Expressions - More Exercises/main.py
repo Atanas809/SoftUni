@@ -1,28 +1,9 @@
 import re
 
-def race():
+def output(my_dict):
 
-    participants = input().split(",")
+    val_list = list(sorted(my_dict.values(), reverse=True))
 
-    my_dict = dict()
+    best_points = val_list[:3]
 
-    data = input()
-
-    while data != "end of race":
-
-        current_name = names(data)
-        current_points = points(data)
-
-        for name in participants:
-
-            if current_name == name.strip():
-                if current_name not in my_dict.keys():
-                      my_dict[current_name] = current_points
-                else:
-                    my_dict[current_name] += current_points
-
-        data = input()
-
-    output(my_dict)
-
-     
+    best_results = list()

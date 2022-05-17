@@ -17,3 +17,11 @@ def output(my_dict):
 2nd place: {best_results[1]}
 3rd place: {best_results[2]}
 """)
+
+def points(data):
+
+    digits = r"\d"
+
+    matches = re.findall(digits, data)
+
+    current_points = 0

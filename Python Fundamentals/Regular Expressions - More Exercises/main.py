@@ -32,3 +32,4 @@ def bar():
 
     print(f"Total income: {total_income:.2f}")
 
+bar()

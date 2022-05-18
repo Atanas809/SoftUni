@@ -22,3 +22,7 @@ def bar():
             quantity = int(match.group("count"))
             price = float(match.group("price"))
 
+            total_price = quantity * price
+
+            print(f"{customer}: {product} - {total_price:.2f}")
+

@@ -11,3 +11,7 @@ def bar():
     command = input()
 
     total_income = 0
+
+    while command != "end of shift":
+
+        matches = re.finditer(expression, command)

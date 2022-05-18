@@ -26,3 +26,7 @@ def bar():
 
             print(f"{customer}: {product} - {total_price:.2f}")
 
+            total_income += total_price
+
+        command = input()
+

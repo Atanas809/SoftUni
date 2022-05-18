@@ -8,3 +8,6 @@ def bar():
                  r"\|(?P<count>(\d+))\|([^\$\|\.\%]+)?" \
                  r"(?P<price>([1-9][0-9]*|[1-9][0-9]*\.[0-9]+))\$"
 
+    command = input()
+
+    total_income = 0

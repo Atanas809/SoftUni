@@ -30,3 +30,5 @@ def bar():
 
         command = input()
 
+    print(f"Total income: {total_income:.2f}")
+

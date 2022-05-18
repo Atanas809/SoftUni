@@ -15,3 +15,10 @@ def bar():
     while command != "end of shift":
 
         matches = re.finditer(expression, command)
+        
+        for match in matches:
+            customer = match.group("customer")
+            product = match.group("product")
+            quantity = int(match.group("count"))
+            price = float(match.group("price"))
+

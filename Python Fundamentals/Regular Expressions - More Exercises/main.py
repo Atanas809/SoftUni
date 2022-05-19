@@ -23,3 +23,5 @@ def decrypted(message, attacked, destroyed):
                  r"!(?P<attack_type>[A|D])!(([^@!\-:>]?)+)" \
                  r"->(?P<soldier_count>[0-9]+)"
 
+    matches = re.finditer(expression, message)
+

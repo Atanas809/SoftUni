@@ -51,3 +51,11 @@ def enigma():
 
     attack_planets = {"Attacked planets:": []}
     destroyed_planets = {"Destroyed planets:": []}
+
+    for _ in range(counter):
+
+        data = input()
+
+        matches = re.findall(r"[star]", data, re.IGNORECASE)
+
+        letters_count = len(matches)

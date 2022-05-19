@@ -15,4 +15,11 @@ def output(attack_planets, destroyed_planets):
          if len(y) > 0:
             for planet in y:
                 print(f"-> {planet}")
+                
+def decrypted(message, attacked, destroyed):
+
+    expression = r"@(?P<planet>([A-Za-z]+))(([^@!\-:>]?)+)" \
+                 r":(?P<population>[0-9]+)(([^@!\-:>]?)+)" \
+                 r"!(?P<attack_type>[A|D])!(([^@!\-:>]?)+)" \
+                 r"->(?P<soldier_count>[0-9]+)"
 

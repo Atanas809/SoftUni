@@ -7,3 +7,8 @@ def output(attack_planets, destroyed_planets):
         if len(value) > 0:
             for planet in value:
                 print(f"-> {planet}")
+                
+    for x, y in destroyed_planets.items():
+        y = sorted(y)
+        print(f"Destroyed planets: {len(y)}")
+ 

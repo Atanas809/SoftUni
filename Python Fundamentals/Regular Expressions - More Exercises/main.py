@@ -45,3 +45,9 @@ def substraction(data, counter):
 
     return new_message
 
+def enigma():
+
+    counter = int(input())
+
+    attack_planets = {"Attacked planets:": []}
+    destroyed_planets = {"Destroyed planets:": []}

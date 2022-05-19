@@ -40,4 +40,8 @@ def substraction(data, counter):
 
     new_message = ""
 
+    for char in data:
+        new_message += chr(ord(char) - counter)
+
+    return new_message
 

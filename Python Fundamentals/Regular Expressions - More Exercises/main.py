@@ -63,3 +63,5 @@ def enigma():
         new_message = substraction(data, letters_count)
 
         decrypted(new_message, attack_planets, destroyed_planets)
+
+    output(attack_planets, destroyed_planets)

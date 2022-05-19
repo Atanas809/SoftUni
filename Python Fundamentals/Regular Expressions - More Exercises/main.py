@@ -35,5 +35,9 @@ def decrypted(message, attacked, destroyed):
             attacked["Attacked planets:"].append(planet_name)
         elif attack_type == "D":
             destroyed["Destroyed planets:"].append(planet_name)
+            
+def substraction(data, counter):
+
+    new_message = ""
 
 

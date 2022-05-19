@@ -25,3 +25,9 @@ def decrypted(message, attacked, destroyed):
 
     matches = re.finditer(expression, message)
 
+    for match in matches:
+        planet_name = match.group("planet")
+        population = match.group("population")
+        attack_type = match.group("attack_type")
+        soldiers = match.group("soldier_count")
+

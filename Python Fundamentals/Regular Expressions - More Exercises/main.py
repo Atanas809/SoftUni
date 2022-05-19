@@ -59,3 +59,7 @@ def enigma():
         matches = re.findall(r"[star]", data, re.IGNORECASE)
 
         letters_count = len(matches)
+
+        new_message = substraction(data, letters_count)
+
+        decrypted(new_message, attack_planets, destroyed_planets)

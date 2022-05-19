@@ -31,3 +31,9 @@ def decrypted(message, attacked, destroyed):
         attack_type = match.group("attack_type")
         soldiers = match.group("soldier_count")
 
+        if attack_type == "A":
+            attacked["Attacked planets:"].append(planet_name)
+        elif attack_type == "D":
+            destroyed["Destroyed planets:"].append(planet_name)
+
+

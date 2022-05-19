@@ -65,3 +65,5 @@ def enigma():
         decrypted(new_message, attack_planets, destroyed_planets)
 
     output(attack_planets, destroyed_planets)
+
+enigma()

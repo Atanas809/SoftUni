@@ -38,3 +38,9 @@ def health(name):
         current_health += ord(x)
 
     return current_health
+
+def realms():
+
+    demon_name = input().split(",")
+
+    my_dict = dict()

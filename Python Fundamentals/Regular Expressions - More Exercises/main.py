@@ -14,3 +14,6 @@ def damage(name):
     matches = re.finditer(expression, name)
 
     nums = 0
+
+    for match in matches:
+        nums += float(match.group("digits"))

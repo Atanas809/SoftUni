@@ -33,3 +33,8 @@ def health(name):
     matches = re.findall(r"([^0-9\+\-\*\/\.])", name)
 
     current_health = 0
+
+    for x in matches:
+        current_health += ord(x)
+
+    return current_health

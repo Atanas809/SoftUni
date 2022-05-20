@@ -49,3 +49,10 @@ def realms():
         name = name.strip()
 
         if "" != name and " " not in name and "," not in name:
+
+            current_health = health(name)
+            current_damage = damage(name)
+
+            my_dict[name] = list()
+            my_dict[name].append(current_health)
+            my_dict[name].append(current_damage)

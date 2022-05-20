@@ -8,4 +8,9 @@ def output(my_dict):
         print(f"{x} - {my_dict[x][0]} health, {my_dict[x][1]:.2f} damage")
 
 def damage(name):
+    
     expression = r"(?P<digits>[\-\+]?(\d+\.?\d+|\d+))"
+
+    matches = re.finditer(expression, name)
+
+    nums = 0

@@ -31,3 +31,5 @@ def damage(name):
 
 def health(name):
     matches = re.findall(r"([^0-9\+\-\*\/\.])", name)
+
+    current_health = 0

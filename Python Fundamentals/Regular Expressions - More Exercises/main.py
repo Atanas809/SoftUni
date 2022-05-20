@@ -26,3 +26,5 @@ def damage(name):
                 nums *= 2
             elif x == "/":
                 nums /= 2
+
+    return nums

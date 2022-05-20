@@ -44,3 +44,8 @@ def realms():
     demon_name = input().split(",")
 
     my_dict = dict()
+
+    for name in demon_name:
+        name = name.strip()
+
+        if "" != name and " " not in name and "," not in name:

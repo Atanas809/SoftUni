@@ -19,3 +19,10 @@ def damage(name):
         nums += float(match.group("digits"))
 
     match_damage = re.findall(r"([*\/])", name)
+
+    if len(match_damage) > 0:
+        for x in match_damage:
+            if x == "*":
+                nums *= 2
+            elif x == "/":
+                nums /= 2

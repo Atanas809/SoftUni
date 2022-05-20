@@ -17,3 +17,5 @@ def damage(name):
 
     for match in matches:
         nums += float(match.group("digits"))
+
+    match_damage = re.findall(r"([*\/])", name)

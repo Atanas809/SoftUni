@@ -56,3 +56,7 @@ def realms():
             my_dict[name] = list()
             my_dict[name].append(current_health)
             my_dict[name].append(current_damage)
+
+    output(my_dict)
+
+realms()

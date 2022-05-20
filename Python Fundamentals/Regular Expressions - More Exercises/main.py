@@ -28,3 +28,6 @@ def damage(name):
                 nums /= 2
 
     return nums
+
+def health(name):
+    matches = re.findall(r"([^0-9\+\-\*\/\.])", name)

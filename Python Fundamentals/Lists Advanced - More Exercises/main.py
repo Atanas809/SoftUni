@@ -1,11 +1,4 @@
 
-
-def maze():
-
-    counter = int(input())
-
-    current_maze = list()
-
     for _ in range(counter):
 
         data = input()

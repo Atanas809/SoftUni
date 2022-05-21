@@ -9,3 +9,5 @@ def distribution():
     for x in range(0, len(data)):
         richest = max(data)
         index = data.index(richest)
+        if data[x] < minimum:
+            needed = minimum - data[x]

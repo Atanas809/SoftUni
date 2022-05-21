@@ -4,3 +4,5 @@ def distribution():
 
     minimum = int(input())
 
+    condition = True
+

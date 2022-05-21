@@ -6,3 +6,6 @@ def distribution():
 
     condition = True
 
+    for x in range(0, len(data)):
+        richest = max(data)
+        index = data.index(richest)

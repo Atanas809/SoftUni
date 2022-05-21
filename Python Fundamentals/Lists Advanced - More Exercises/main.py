@@ -18,3 +18,6 @@ def distribution():
                 condition = False
                 print("No equal distribution possible")
                 break
+
+    if condition:
+        print(data)

@@ -15,3 +15,6 @@ def distribution():
                 data[index] -= needed
                 data[x] += needed
             else:
+                condition = False
+                print("No equal distribution possible")
+                break

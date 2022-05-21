@@ -11,3 +11,6 @@ def distribution():
         index = data.index(richest)
         if data[x] < minimum:
             needed = minimum - data[x]
+            if richest - needed >= minimum:
+                data[index] -= needed
+                data[x] += needed

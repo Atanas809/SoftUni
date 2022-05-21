@@ -21,3 +21,5 @@ def distribution():
 
     if condition:
         print(data)
+
+distribution()

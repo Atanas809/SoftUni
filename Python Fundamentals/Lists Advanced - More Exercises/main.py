@@ -29,3 +29,5 @@ def ships():
     attacked = input().split()
 
     battle(my_list, attacked)
+
+ships()

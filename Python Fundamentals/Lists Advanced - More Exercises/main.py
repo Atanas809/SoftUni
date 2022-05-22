@@ -19,3 +19,5 @@ def ships():
     counter = int(input())
 
     my_list = list()
+
+    for _ in range(counter):

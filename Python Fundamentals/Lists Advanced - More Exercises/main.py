@@ -13,3 +13,5 @@ def battle(my_list, attacked):
             my_list[row][col] -= 1
 
     print(destroyed)
+
+def ships():

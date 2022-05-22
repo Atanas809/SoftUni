@@ -25,3 +25,5 @@ def ships():
         current_ships = list(map(int, input().split()))
 
         my_list.append(current_ships)
+
+    attacked = input().split()

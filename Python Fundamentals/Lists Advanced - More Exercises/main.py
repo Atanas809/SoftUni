@@ -11,3 +11,5 @@ def battle(my_list, attacked):
             destroyed += 1
         else:
             my_list[row][col] -= 1
+
+    print(destroyed)

@@ -21,3 +21,5 @@ def ships():
     my_list = list()
 
     for _ in range(counter):
+
+        current_ships = list(map(int, input().split()))

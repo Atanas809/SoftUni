@@ -9,3 +9,5 @@ def battle(my_list, attacked):
         if my_list[row][col] - 1 == 0:
             my_list[row][col] = 0
             destroyed += 1
+        else:
+            my_list[row][col] -= 1

@@ -15,3 +15,7 @@ def battle(my_list, attacked):
     print(destroyed)
 
 def ships():
+
+    counter = int(input())
+
+    my_list = list()

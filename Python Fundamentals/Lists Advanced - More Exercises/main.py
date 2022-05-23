@@ -34,3 +34,6 @@ def output(secret_message, take, skip):
 
     print(current_text)
 
+
+def rope():
+    secret_message = input()

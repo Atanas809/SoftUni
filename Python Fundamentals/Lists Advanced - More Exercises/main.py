@@ -37,3 +37,8 @@ def output(secret_message, take, skip):
 
 def rope():
     secret_message = input()
+
+    digits = re.findall(r"\d", secret_message)
+
+    take = list()
+    skip = list()

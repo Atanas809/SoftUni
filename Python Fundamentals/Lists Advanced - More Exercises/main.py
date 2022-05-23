@@ -42,3 +42,9 @@ def rope():
 
     take = list()
     skip = list()
+
+    for d in range(0, len(digits)):
+        if d % 2 == 0:
+            take.append(int(digits[d]))
+        else:
+            skip.append(int(digits[d]))

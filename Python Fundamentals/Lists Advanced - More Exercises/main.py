@@ -9,3 +9,8 @@ def output(secret_message, take, skip):
 
     condition = True
 
+    while condition:
+
+        while x < len(take):
+            current_text += secret_message[:take[x]]
+

@@ -14,3 +14,9 @@ def output(secret_message, take, skip):
         while x < len(take):
             current_text += secret_message[:take[x]]
 
+            secret_message = secret_message.replace(secret_message[:take[x]], "", 1)
+
+            x += 1
+
+            break
+

@@ -48,3 +48,7 @@ def rope():
             take.append(int(digits[d]))
         else:
             skip.append(int(digits[d]))
+
+        secret_message = secret_message.replace(digits[d], "", 1)
+
+    output(secret_message, take, skip)

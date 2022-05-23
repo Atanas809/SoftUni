@@ -20,3 +20,5 @@ def output(secret_message, take, skip):
 
             break
 
+        while y < len(skip):
+

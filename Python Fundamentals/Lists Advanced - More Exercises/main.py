@@ -28,3 +28,6 @@ def output(secret_message, take, skip):
 
             break
 
+        if x == len(take) and y == len(skip):
+            condition = False
+

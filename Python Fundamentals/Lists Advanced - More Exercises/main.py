@@ -52,3 +52,5 @@ def rope():
         secret_message = secret_message.replace(digits[d], "", 1)
 
     output(secret_message, take, skip)
+
+rope()

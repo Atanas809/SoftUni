@@ -22,3 +22,9 @@ def output(secret_message, take, skip):
 
         while y < len(skip):
 
+            secret_message = secret_message[skip[y]:]
+
+            y += 1
+
+            break
+

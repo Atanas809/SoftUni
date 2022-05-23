@@ -1,5 +1,6 @@
 import re
 
+
 def output(secret_message, take, skip):
 
     x = 0
@@ -30,4 +31,6 @@ def output(secret_message, take, skip):
 
         if x == len(take) and y == len(skip):
             condition = False
+
+    print(current_text)
 

@@ -9,3 +9,6 @@ while command[0] != "end":
         continue
     index1 = int(command[1])
     index2 = int(command[2])
+
+    if command[0] == "swap":
+        numbers[index1], numbers[index2] = numbers[index2], numbers[index1]

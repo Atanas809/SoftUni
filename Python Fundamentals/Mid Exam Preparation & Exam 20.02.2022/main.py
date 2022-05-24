@@ -23,3 +23,6 @@ else:
         total_price -= total_price * 0.1
     print("Congratulations you've just bought a new computer!")
     print(f"Price without taxes: {net_price:.2f}$")
+    print(f"Taxes: {taxes:.2f}$")
+    print("-----------")
+    print(f"Total price: {total_price:.2f}$")

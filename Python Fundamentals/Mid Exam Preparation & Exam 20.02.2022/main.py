@@ -18,3 +18,8 @@ total_price += net_price + taxes
 
 if total_price == 0:
     print("Invalid order!")
+else:
+    if prices == "special":
+        total_price -= total_price * 0.1
+    print("Congratulations you've just bought a new computer!")
+    print(f"Price without taxes: {net_price:.2f}$")

@@ -12,3 +12,5 @@ while command[0] != "end":
 
     if command[0] == "swap":
         numbers[index1], numbers[index2] = numbers[index2], numbers[index1]
+    elif command[0] == "multiply":
+        numbers[index1] = numbers[index1] * numbers[index2]

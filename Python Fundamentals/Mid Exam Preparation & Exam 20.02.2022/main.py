@@ -16,3 +16,7 @@ while command[0] != "end":
         numbers[index1] = numbers[index1] * numbers[index2]
 
     command = input().split(" ")
+
+output = list(map(str, numbers))
+
+print(", ".join(output))

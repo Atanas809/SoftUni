@@ -11,3 +11,7 @@ while prices != "special" and prices != "regular":
     else:
         net_price += current_price
         taxes += current_price * 0.2
+
+    prices = input()
+
+total_price += net_price + taxes

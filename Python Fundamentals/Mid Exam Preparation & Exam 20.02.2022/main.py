@@ -15,3 +15,6 @@ while prices != "special" and prices != "regular":
     prices = input()
 
 total_price += net_price + taxes
+
+if total_price == 0:
+    print("Invalid order!")

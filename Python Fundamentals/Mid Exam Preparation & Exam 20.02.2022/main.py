@@ -1,4 +1,3 @@
-
 text = input()
 
 indices = list()

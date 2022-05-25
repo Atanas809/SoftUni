@@ -1,0 +1,4 @@
+
+text = input()
+
+indices = list()

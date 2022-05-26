@@ -9,3 +9,4 @@ while commands != "END":
         print("You need extra sleep")
         break
     elif commands == "coding" or commands == "movie":
+        counter += 1

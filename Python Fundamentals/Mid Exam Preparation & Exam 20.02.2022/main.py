@@ -10,3 +10,5 @@ while commands != "END":
         break
     elif commands == "coding" or commands == "movie":
         counter += 1
+    elif commands == "CODING" or commands == "MOVIE":
+        counter += 2

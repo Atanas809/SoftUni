@@ -14,3 +14,5 @@ while commands != "END":
         counter += 2
     elif commands == "dog" or commands == "cat":
         counter += 1
+    elif commands == "DOG" or commands == "CAT":
+        counter += 2

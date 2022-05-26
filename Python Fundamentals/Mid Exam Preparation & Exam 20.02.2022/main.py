@@ -16,3 +16,5 @@ while commands != "END":
         counter += 1
     elif commands == "DOG" or commands == "CAT":
         counter += 2
+        
+    commands = input()

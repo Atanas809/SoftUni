@@ -6,3 +6,5 @@ need_sleep = False
 while commands != "END":
    if counter >= 5:
         need_sleep = True
+        print("You need extra sleep")
+        break

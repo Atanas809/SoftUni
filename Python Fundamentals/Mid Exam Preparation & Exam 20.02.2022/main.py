@@ -12,3 +12,5 @@ while commands != "END":
         counter += 1
     elif commands == "CODING" or commands == "MOVIE":
         counter += 2
+    elif commands == "dog" or commands == "cat":
+        counter += 1

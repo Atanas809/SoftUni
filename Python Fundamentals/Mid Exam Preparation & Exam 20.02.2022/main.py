@@ -18,3 +18,6 @@ while commands != "END":
         counter += 2
         
     commands = input()
+
+if not need_sleep:
+    print(counter)

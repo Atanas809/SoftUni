@@ -10,3 +10,4 @@ while command[0] != "End":
         if 0 <= index <= len(targets) - 1:
             targets[index] -= value
             if targets[index] <= 0:
+                targets.pop(index)

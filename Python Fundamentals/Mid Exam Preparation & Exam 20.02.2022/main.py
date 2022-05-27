@@ -21,3 +21,5 @@ while command[0] != "End":
             targets = targets[:index - value] + targets[index + value + 1:]
         else:
             print("Strike missed!")
+
+    command = input().split(" ")

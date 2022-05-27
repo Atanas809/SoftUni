@@ -14,3 +14,5 @@ while command[0] != "End":
     elif command[0] == "Add":
         if 0 <= index <= len(targets) - 1:
             targets.insert(index, value)
+        else:
+            print("Invalid placement!")

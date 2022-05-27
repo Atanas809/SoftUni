@@ -19,3 +19,5 @@ while command[0] != "End":
     elif command[0] == "Strike":
         if 0 <= index - value and index + value <= len(targets) - 1:
             targets = targets[:index - value] + targets[index + value + 1:]
+        else:
+            print("Strike missed!")

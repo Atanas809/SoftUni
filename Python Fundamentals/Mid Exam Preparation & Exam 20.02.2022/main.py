@@ -23,3 +23,8 @@ while command[0] != "End":
             print("Strike missed!")
 
     command = input().split(" ")
+
+output = list(map(str, targets))
+
+print("|".join(output))
+                

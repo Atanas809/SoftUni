@@ -8,3 +8,4 @@ while command[0] != "End":
     value = int(command[2]
     if command[0] == "Shoot":
         if 0 <= index <= len(targets) - 1:
+            targets[index] -= value

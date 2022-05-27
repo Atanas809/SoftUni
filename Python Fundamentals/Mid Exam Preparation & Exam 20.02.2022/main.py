@@ -9,3 +9,4 @@ while command[0] != "End":
     if command[0] == "Shoot":
         if 0 <= index <= len(targets) - 1:
             targets[index] -= value
+            if targets[index] <= 0:

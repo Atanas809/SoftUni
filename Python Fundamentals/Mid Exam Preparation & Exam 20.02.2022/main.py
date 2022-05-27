@@ -16,3 +16,4 @@ while command[0] != "End":
             targets.insert(index, value)
         else:
             print("Invalid placement!")
+    elif command[0] == "Strike":

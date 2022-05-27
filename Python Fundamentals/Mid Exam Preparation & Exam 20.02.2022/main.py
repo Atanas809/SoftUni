@@ -12,3 +12,5 @@ while command[0] != "End":
             if targets[index] <= 0:
                 targets.pop(index)
     elif command[0] == "Add":
+        if 0 <= index <= len(targets) - 1:
+            targets.insert(index, value)

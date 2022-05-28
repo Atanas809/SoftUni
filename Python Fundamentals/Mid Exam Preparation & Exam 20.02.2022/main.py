@@ -10,3 +10,5 @@ if "fish" in text:
     counter += text.count("fish")
 if "sun" in text:
     counter += text.count("sun")
+    
+print(counter)

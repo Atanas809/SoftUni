@@ -11,3 +11,4 @@ if number > 1:
     if number / 1 != 0 and number / number != 0:
         if is_prime:
             print("True")
+else:

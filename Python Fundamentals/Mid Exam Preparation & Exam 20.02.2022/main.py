@@ -12,3 +12,4 @@ if number > 1:
         if is_prime:
             print("True")
 else:
+    print("False")

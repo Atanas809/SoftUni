@@ -8,3 +8,4 @@ if number > 1:
             is_prime = False
             print("False")
             break
+    if number / 1 != 0 and number / number != 0:

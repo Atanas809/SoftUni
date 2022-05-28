@@ -7,3 +7,4 @@ if number > 1:
         if number % x == 0:
             is_prime = False
             print("False")
+            break

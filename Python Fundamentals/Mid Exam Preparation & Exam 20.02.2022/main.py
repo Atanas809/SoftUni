@@ -9,3 +9,4 @@ if number > 1:
             print("False")
             break
     if number / 1 != 0 and number / number != 0:
+        if is_prime:

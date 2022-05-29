@@ -18,3 +18,6 @@ for s in range(1, students + 1):
         total_price += needed_eggs
     else:
         total_price += needed_eggs + price_flour
+
+if total_price <= budget:
+    print(f"Items purchased for {total_price:.2f}$.")

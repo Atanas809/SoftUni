@@ -21,3 +21,6 @@ for s in range(1, students + 1):
 
 if total_price <= budget:
     print(f"Items purchased for {total_price:.2f}$.")
+else:
+    diff = total_price - budget
+    print(f"{diff:.2f}$ more needed.")

@@ -1,0 +1,1 @@
+animals = input().split(", ")

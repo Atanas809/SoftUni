@@ -10,3 +10,7 @@ all_aprons = price_apron * (students + ceil(students * 0.2))
 
 total_price = all_aprons
 count_flour = 0
+
+for s in range(1, students + 1):
+    needed_eggs = price_single_egg * 10
+    count_flour += 1

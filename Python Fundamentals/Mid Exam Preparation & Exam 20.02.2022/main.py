@@ -14,3 +14,5 @@ count_flour = 0
 for s in range(1, students + 1):
     needed_eggs = price_single_egg * 10
     count_flour += 1
+    if count_flour % 5 == 0:
+        total_price += needed_eggs

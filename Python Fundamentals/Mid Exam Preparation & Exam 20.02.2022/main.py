@@ -8,3 +8,4 @@ for x in range(len(reverse)):
         break
     elif reverse[x] == "wolf":
         print(f"Oi! Sheep number {x}! You are about to be eaten by a wolf!")
+        break

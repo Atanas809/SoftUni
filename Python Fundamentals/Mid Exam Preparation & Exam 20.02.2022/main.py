@@ -16,3 +16,5 @@ for s in range(1, students + 1):
     count_flour += 1
     if count_flour % 5 == 0:
         total_price += needed_eggs
+    else:
+        total_price += needed_eggs + price_flour

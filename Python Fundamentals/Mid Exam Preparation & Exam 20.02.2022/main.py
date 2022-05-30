@@ -7,3 +7,4 @@ for num in range(1, number_of_commands + 1):
     command = info[0]
     if command == "Reverse":
         name_coffees.reverse()
+    elif command == "Include":

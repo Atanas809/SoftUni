@@ -18,3 +18,7 @@ for num in range(1, number_of_commands + 1):
                 name_coffees = name_coffees[num_coffees + 1:]
             elif first_last == "last":
                 if num_coffees == 0:
+                    name_coffees.remove(name_coffees[-1])
+                else:
+                    num_coffees = - num_coffees
+                    name_coffees = name_coffees[:num_coffees]

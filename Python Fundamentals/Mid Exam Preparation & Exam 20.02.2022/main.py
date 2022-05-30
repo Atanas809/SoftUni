@@ -12,3 +12,4 @@ for num in range(1, number_of_commands + 1):
         name_coffees.append(current_coffee)
     elif command == "Remove":
         first_last = info[1]
+        num_coffees = int(info[2]) - 1

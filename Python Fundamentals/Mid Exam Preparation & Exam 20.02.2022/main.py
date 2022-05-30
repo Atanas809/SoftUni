@@ -25,3 +25,5 @@ for num in range(1, number_of_commands + 1):
     elif command == "Prefer":
         index1 = int(info[1])
         index2 = int(info[2])
+        if 0 <= index1 <= len(name_coffees) - 1 and 0 <= index2 <= len(name_coffees) - 1:
+            name_coffees[index1], name_coffees[index2] = name_coffees[index2], name_coffees[index1]

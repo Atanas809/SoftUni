@@ -14,3 +14,5 @@ for num in range(1, number_of_commands + 1):
         first_last = info[1]
         num_coffees = int(info[2]) - 1
         if 0 <= num_coffees <= len(name_coffees) - 1:
+            if first_last == "first":
+                name_coffees = name_coffees[num_coffees + 1:]

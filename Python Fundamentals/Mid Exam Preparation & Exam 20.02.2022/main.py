@@ -22,3 +22,6 @@ for num in range(1, number_of_commands + 1):
                 else:
                     num_coffees = - num_coffees
                     name_coffees = name_coffees[:num_coffees]
+    elif command == "Prefer":
+        index1 = int(info[1])
+        index2 = int(info[2])

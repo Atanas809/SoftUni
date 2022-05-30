@@ -8,3 +8,4 @@ for num in range(1, number_of_commands + 1):
     if command == "Reverse":
         name_coffees.reverse()
     elif command == "Include":
+        current_coffee = info[1]

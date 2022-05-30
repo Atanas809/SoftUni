@@ -9,3 +9,4 @@ for num in range(1, number_of_commands + 1):
         name_coffees.reverse()
     elif command == "Include":
         current_coffee = info[1]
+        name_coffees.append(current_coffee)

@@ -31,3 +31,7 @@ while command[0] != "End":
             print("False")
 
     elif command[0] == "Lowercase":
+
+        text = text.lower()
+
+        print(text)

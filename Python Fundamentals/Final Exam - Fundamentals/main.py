@@ -11,3 +11,5 @@ while command[0] != "End":
         text = text.replace(char, replacer)
 
         print(text)
+
+    elif command[0] == "Includes":

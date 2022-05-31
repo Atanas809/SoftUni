@@ -40,3 +40,5 @@ while command[0] != "End":
         char = command[1]
 
         index = text.rfind(char)
+
+        print(index)

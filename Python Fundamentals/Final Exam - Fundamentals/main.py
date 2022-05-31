@@ -9,3 +9,5 @@ while command[0] != "End":
         replacer = command[2]
 
         text = text.replace(char, replacer)
+
+        print(text)

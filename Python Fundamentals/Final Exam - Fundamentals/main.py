@@ -17,3 +17,5 @@ while command[0] != "End":
 
         if substring in text:
             print("True")
+        else:
+            print("False")

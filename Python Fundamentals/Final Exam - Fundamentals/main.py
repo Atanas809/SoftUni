@@ -35,3 +35,6 @@ while command[0] != "End":
         text = text.lower()
 
         print(text)
+
+    elif command[0] == "FindIndex":
+        char = command[1]

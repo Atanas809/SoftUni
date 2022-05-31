@@ -38,3 +38,5 @@ while command[0] != "End":
 
     elif command[0] == "FindIndex":
         char = command[1]
+
+        index = text.rfind(char)

@@ -42,3 +42,8 @@ while command[0] != "End":
         index = text.rfind(char)
 
         print(index)
+
+    elif command[0] == "Remove":
+
+        start = int(command[1])
+        count = int(command[2])

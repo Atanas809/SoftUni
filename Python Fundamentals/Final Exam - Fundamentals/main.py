@@ -21,3 +21,4 @@ while command[0] != "End":
             print("False")
 
     elif command[0] == "Start":
+        searched = command[1]

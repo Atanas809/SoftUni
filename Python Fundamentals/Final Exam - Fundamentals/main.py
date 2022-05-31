@@ -47,3 +47,6 @@ while command[0] != "End":
 
         start = int(command[1])
         count = int(command[2])
+
+        l_side = text[:start]
+        r_side = text[count + start:]

@@ -52,3 +52,8 @@ while command[0] != "End":
         r_side = text[count + start:]
 
         text = l_side + r_side
+
+        print(text)
+
+    command = input().split()
+    

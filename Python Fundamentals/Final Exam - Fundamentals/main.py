@@ -50,3 +50,5 @@ while command[0] != "End":
 
         l_side = text[:start]
         r_side = text[count + start:]
+
+        text = l_side + r_side

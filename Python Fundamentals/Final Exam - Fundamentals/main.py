@@ -13,3 +13,7 @@ while command[0] != "End":
         print(text)
 
     elif command[0] == "Includes":
+        substring = command[1]
+
+        if substring in text:
+            print("True")

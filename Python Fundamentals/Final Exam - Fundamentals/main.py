@@ -29,3 +29,5 @@ while command[0] != "End":
             print("True")
         else:
             print("False")
+
+    elif command[0] == "Lowercase":

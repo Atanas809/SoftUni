@@ -22,3 +22,5 @@ while command[0] != "End":
 
     elif command[0] == "Start":
         searched = command[1]
+
+        length = len(searched) - 1

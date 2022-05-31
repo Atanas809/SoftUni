@@ -27,3 +27,5 @@ while command[0] != "End":
 
         if text[length + 1] == " " and text[: length + 1] == searched:
             print("True")
+        else:
+            print("False")

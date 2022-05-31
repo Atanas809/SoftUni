@@ -24,3 +24,6 @@ while command[0] != "End":
         searched = command[1]
 
         length = len(searched) - 1
+
+        if text[length + 1] == " " and text[: length + 1] == searched:
+            print("True")

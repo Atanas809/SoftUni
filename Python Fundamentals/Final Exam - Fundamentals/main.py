@@ -16,3 +16,5 @@ for x in range(number):
         output += valid
     if output != "":
         output = output.replace("|", "")
+        
+        print(f"Password: {output}")

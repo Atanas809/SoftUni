@@ -10,3 +10,5 @@ for x in range(number):
     matches = re.finditer(expression, data)
 
     output = ""
+
+    for match in matches:

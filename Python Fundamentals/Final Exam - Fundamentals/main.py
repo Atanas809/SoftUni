@@ -15,3 +15,4 @@ for x in range(number):
         valid = match.group("valid")
         output += valid
     if output != "":
+        output = output.replace("|", "")

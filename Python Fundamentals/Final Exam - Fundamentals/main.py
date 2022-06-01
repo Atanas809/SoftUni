@@ -14,3 +14,4 @@ for x in range(number):
     for match in matches:
         valid = match.group("valid")
         output += valid
+    if output != "":

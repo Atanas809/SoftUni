@@ -12,3 +12,4 @@ for x in range(number):
     output = ""
 
     for match in matches:
+        valid = match.group("valid")

@@ -19,3 +19,4 @@ for x in range(number):
         
         print(f"Password: {output}")
     else:
+        print("Try another password!")

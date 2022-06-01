@@ -18,3 +18,4 @@ for x in range(number):
         output = output.replace("|", "")
         
         print(f"Password: {output}")
+    else:

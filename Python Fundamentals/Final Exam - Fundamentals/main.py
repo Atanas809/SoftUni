@@ -56,3 +56,5 @@ def social():
         command = input().split(": ")
 
     output(my_dict)
+
+social()

@@ -1,20 +1,4 @@
 
-def create_letter(students):
-
-    result = []
-
-    for key, value in students.items():
-        result.append(output(value))
-
-    return '\n'.join(result)
-
-wilhelm_tell = """
-A high, rocky shore of the lake of Lucerne opposite Schwytz.
-The lake makes a bend into the land; a hut stands at a short
-distance from the shore; the fisher boy is rowing about in his
-boat. Beyond the lake are seen the green meadows, the hamlets,
-and arms of Schwytz, lying in the clear sunshine. On the left
-are observed the peaks of the Hacken, surrounded with clouds; to
 the right, and in the remote distance, appear the Glaciers. The
 Ranz des Vaches, and the tinkling of cattle-bells, continue for
 some time after the rising of the curtain.

@@ -23,3 +23,6 @@ def social():
         elif command[0] == "Like":
             username = command[1]
             likes = int(command[2])
+
+            if username not in my_dict.keys():
+                my_dict[username] = list()

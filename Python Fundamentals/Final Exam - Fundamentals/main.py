@@ -46,3 +46,6 @@ def social():
         elif command[0] == "Blocked":
 
             username = command[1]
+
+            if username not in my_dict.keys():
+                print(f"{username} doesn't exist.")

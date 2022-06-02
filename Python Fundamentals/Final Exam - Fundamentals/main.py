@@ -19,3 +19,7 @@ def social():
                 my_dict[username] = list()
                 my_dict[username].append(0)
                 my_dict[username].append(0)
+
+        elif command[0] == "Like":
+            username = command[1]
+            likes = int(command[2])

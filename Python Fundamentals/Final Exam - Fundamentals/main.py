@@ -31,3 +31,6 @@ def social():
 
             else:
                 my_dict[username][0] += likes
+
+        elif command[0] == "Comment":
+            username = command[1]

@@ -1,17 +1,4 @@
 
-def output(value):
-    first_name = value["firstname"]
-    last_name = value["lastname"]
-    points = int(value["points"])
-
-    return f"""Dear {first_name} {last_name},
-
-You have received {points} points for the exercises of session 9.
-
-Best wishes,
-Ivan ivanov"""
-
-
 def create_letter(students):
 
     result = []

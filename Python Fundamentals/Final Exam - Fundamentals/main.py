@@ -52,3 +52,7 @@ def social():
 
             else:
                 del my_dict[username]
+
+        command = input().split(": ")
+
+    output(my_dict)

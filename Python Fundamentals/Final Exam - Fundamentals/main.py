@@ -14,3 +14,6 @@ def social():
 
         if command[0] == "New follower":
             username = command[1]
+
+            if username not in my_dict.keys():
+                my_dict[username] = list()

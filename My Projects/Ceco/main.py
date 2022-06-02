@@ -1,13 +1,3 @@
-# Task 3:
-def count_alphabet(text):
-    my_dict = dict()
-
-    for char in text:
-        if char not in my_dict.keys():
-            my_dict[char] = 0
-        my_dict[char] += 1
-
-    return my_dict
 
 
 # Task 4:

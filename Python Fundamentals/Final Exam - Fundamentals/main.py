@@ -39,3 +39,6 @@ def social():
                 my_dict[username] = list()
                 my_dict[username].append(0)
                 my_dict[username].append(1)
+
+            else:
+                my_dict[username][1] += 1

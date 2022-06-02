@@ -34,3 +34,6 @@ def social():
 
         elif command[0] == "Comment":
             username = command[1]
+
+            if username not in my_dict.keys():
+                my_dict[username] = list()

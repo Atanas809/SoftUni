@@ -37,3 +37,5 @@ def social():
 
             if username not in my_dict.keys():
                 my_dict[username] = list()
+                my_dict[username].append(0)
+                my_dict[username].append(1)

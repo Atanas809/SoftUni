@@ -28,3 +28,6 @@ def social():
                 my_dict[username] = list()
                 my_dict[username].append(likes)
                 my_dict[username].append(0)
+
+            else:
+                my_dict[username][0] += likes

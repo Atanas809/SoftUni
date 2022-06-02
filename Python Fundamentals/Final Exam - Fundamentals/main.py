@@ -11,3 +11,6 @@ def social():
     my_dict = dict()
 
     while command[0] != "Log out":
+
+        if command[0] == "New follower":
+            username = command[1]

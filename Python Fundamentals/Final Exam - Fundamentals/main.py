@@ -7,3 +7,7 @@ def output(my_dict):
 def social():
 
     command = input().split(": ")
+
+    my_dict = dict()
+
+    while command[0] != "Log out":

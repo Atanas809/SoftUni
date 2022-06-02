@@ -3,3 +3,7 @@ def output(my_dict):
 
     for key, value in my_dict.items():
         print(f"{key}: {sum(value)}")
+
+def social():
+
+    command = input().split(": ")

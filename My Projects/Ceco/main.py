@@ -1,13 +1,4 @@
 
-
-# Task 4:
-def substitute_word(text, word, replace_word):
-    text = text.replace(word, replace_word)
-
-    return text
-
-
-# Task 5:
 def output(value):
     first_name = value["firstname"]
     last_name = value["lastname"]

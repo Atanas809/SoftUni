@@ -42,3 +42,7 @@ def social():
 
             else:
                 my_dict[username][1] += 1
+
+        elif command[0] == "Blocked":
+
+            username = command[1]

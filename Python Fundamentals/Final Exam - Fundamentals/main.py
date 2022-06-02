@@ -49,3 +49,6 @@ def social():
 
             if username not in my_dict.keys():
                 print(f"{username} doesn't exist.")
+
+            else:
+                del my_dict[username]

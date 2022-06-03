@@ -15,3 +15,5 @@ for x in range(1, 30 + 1):
 
     if x % 3 == 0:
         one_third = weight_in_grams / 3
+
+        kg_cover -= one_third

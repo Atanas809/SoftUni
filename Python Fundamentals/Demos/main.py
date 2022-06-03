@@ -9,3 +9,4 @@ for x in range(1, 30 + 1):
     kg_food -= 300
 
     if x % 2 == 0:
+        five_percent = kg_food * 0.05

@@ -17,3 +17,5 @@ for x in range(1, 30 + 1):
         one_third = weight_in_grams / 3
 
         kg_cover -= one_third
+
+if kg_food > 0 and kg_hay > 0 and kg_cover > 0:

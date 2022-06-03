@@ -14,3 +14,4 @@ for x in range(1, 30 + 1):
         kg_hay -= five_percent
 
     if x % 3 == 0:
+        one_third = weight_in_grams / 3

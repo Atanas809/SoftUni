@@ -12,3 +12,5 @@ for x in range(1, 30 + 1):
         five_percent = kg_food * 0.05
 
         kg_hay -= five_percent
+
+    if x % 3 == 0:

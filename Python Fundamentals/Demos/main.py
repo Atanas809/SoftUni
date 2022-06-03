@@ -19,3 +19,6 @@ for x in range(1, 30 + 1):
         kg_cover -= one_third
 
 if kg_food > 0 and kg_hay > 0 and kg_cover > 0:
+    print(f"Everything is fine! Puppy is happy! Food: {kg_food / 1000:.2f}, Hay: {kg_hay / 1000:.2f}, Cover: {kg_cover / 1000:.2f}.")
+else:
+    print("Merry must go to the pet store!")

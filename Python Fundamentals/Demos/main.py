@@ -15,3 +15,4 @@ while command[0] != "Go":
 
     elif command[0] == "Correct":
         old = command[1]
+        new = command[2]

@@ -23,3 +23,4 @@ while command[0] != "Go":
             my_list[index] = new
 
     else:
+        item = command[1]

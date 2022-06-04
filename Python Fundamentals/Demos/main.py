@@ -28,3 +28,5 @@ while command[0] != "Go":
         if item in my_list:
             my_list.remove(item)
             my_list.append(item)
+
+    command = input().split()

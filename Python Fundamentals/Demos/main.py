@@ -30,3 +30,5 @@ while command[0] != "Go":
             my_list.append(item)
 
     command = input().split()
+
+print(', '.join(my_list))

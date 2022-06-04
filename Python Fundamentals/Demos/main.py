@@ -8,3 +8,4 @@ while command[0] != "Go":
         item = command[1]
 
     elif command[0] == "Unnecessary":
+        item = command[1]

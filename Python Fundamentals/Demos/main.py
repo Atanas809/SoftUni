@@ -12,3 +12,5 @@ while command[0] != "Go":
 
         if item in my_list:
             my_list.remove(item)
+
+    elif command[0] == "Correct":

@@ -18,3 +18,4 @@ while command[0] != "Go":
         new = command[2]
 
         if old in my_list:
+            index = my_list.index(old)

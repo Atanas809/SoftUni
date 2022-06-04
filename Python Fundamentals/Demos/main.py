@@ -24,3 +24,5 @@ while command[0] != "Go":
 
     else:
         item = command[1]
+
+        if item in my_list:

@@ -14,3 +14,4 @@ while command[0] != "Go":
             my_list.remove(item)
 
     elif command[0] == "Correct":
+        old = command[1]

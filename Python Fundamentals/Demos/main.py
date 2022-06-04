@@ -21,3 +21,5 @@ while command[0] != "Go":
             index = my_list.index(old)
 
             my_list[index] = new
+
+    else:

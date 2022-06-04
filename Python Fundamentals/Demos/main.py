@@ -9,3 +9,5 @@ while command[0] != "Go":
 
     elif command[0] == "Unnecessary":
         item = command[1]
+
+        if item in my_list:

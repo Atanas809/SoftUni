@@ -33,3 +33,6 @@ while command[0] != "Love!":
     command = input().split()
 
 print(f"Cupid's last position was {current_house}.")
+
+if sum(houses) == 0:
+    print(f"Mission was successful.")

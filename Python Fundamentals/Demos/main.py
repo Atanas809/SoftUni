@@ -39,3 +39,5 @@ if sum(houses) == 0:
 
 else:
     counter = 0
+    for x in houses:
+        if x != 0:

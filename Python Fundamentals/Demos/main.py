@@ -21,3 +21,5 @@ while command[0] != "Love!":
 
     else:
         current_house = 0
+
+        if houses[current_house] - 2 >= 0:

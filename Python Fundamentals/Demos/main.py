@@ -36,3 +36,6 @@ print(f"Cupid's last position was {current_house}.")
 
 if sum(houses) == 0:
     print(f"Mission was successful.")
+
+else:
+    counter = 0

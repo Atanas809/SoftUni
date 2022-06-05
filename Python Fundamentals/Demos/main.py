@@ -17,3 +17,7 @@ while command[0] != "Love!":
                  print(f"Place {current_house} has Valentine's day.")
 
         else:
+            print(f"Place {current_house} already had Valentine's day.")
+
+    else:
+        current_house = 0

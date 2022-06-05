@@ -29,3 +29,7 @@ while command[0] != "Love!":
 
         else:
             print(f"Place {current_house} already had Valentine's day.")
+
+    command = input().split()
+
+print(f"Cupid's last position was {current_house}.")

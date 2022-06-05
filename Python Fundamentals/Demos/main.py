@@ -10,3 +10,5 @@ while command[0] != "Love!":
 
     if current_house + length <= len(houses) - 1:
         current_house += length
+
+        if houses[current_house] - 2 >= 0:

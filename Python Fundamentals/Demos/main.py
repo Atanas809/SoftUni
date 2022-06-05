@@ -26,3 +26,6 @@ while command[0] != "Love!":
             houses[current_house] -= 2
             if houses[current_house] == 0:
                 print(f"Place {current_house} has Valentine's day.")
+
+        else:
+            print(f"Place {current_house} already had Valentine's day.")

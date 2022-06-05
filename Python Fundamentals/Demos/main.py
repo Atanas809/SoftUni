@@ -41,3 +41,7 @@ else:
     counter = 0
     for x in houses:
         if x != 0:
+            counter += 1
+
+    print(f"Cupid has failed {counter} places.")
+    

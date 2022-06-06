@@ -18,3 +18,6 @@ def participants(my_dict):
     for key, value in my_dict.items():
         new_dict = dict()
         print(f"{key}: {len(value) // 2} participants")
+        for x in range(0, len(value), 2):
+            name = value[x]
+            points = value[x + 1]

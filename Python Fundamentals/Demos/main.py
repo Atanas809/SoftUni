@@ -55,3 +55,8 @@ def judge_system():
             my_dict[contest] = list()
             my_dict[contest].append(username)
             my_dict[contest].append(points)
+        else:
+            if username in my_dict[contest]:
+                index = my_dict[contest].index(username)
+                if my_dict[contest][index + 1] < points:
+                    my_dict[contest][index + 1] = points

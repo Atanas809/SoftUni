@@ -63,3 +63,7 @@ def judge_system():
             else:
                 my_dict[contest].append(username)
                 my_dict[contest].append(points)
+
+        if username not in individuals.keys():
+            individuals[username] = list()
+            individuals[username].append(points)

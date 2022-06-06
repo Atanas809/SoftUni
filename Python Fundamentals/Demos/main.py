@@ -44,3 +44,9 @@ def judge_system():
 
     my_dict = dict()
     individuals = dict()
+
+    while data[0] != "no more time":
+
+        username = data[0]
+        contest = data[1]
+        points = int(data[2])

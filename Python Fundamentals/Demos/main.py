@@ -32,3 +32,7 @@ def participants(my_dict):
         counter = 1
 
         for y in sorted_dict:
+            values = sorted(new_dict[y])
+            for p in values:
+                print(f"{counter}. {p} <::> {y}")
+                counter += 1

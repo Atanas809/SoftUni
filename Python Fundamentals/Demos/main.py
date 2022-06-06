@@ -74,3 +74,5 @@ def judge_system():
 
     participants(my_dict)
     results(individuals)
+
+judge_system()

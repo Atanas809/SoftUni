@@ -24,3 +24,5 @@ def participants(my_dict):
             if points not in new_dict.keys():
                 new_dict[points] = list()
                 new_dict[points].append(name)
+            else:
+                new_dict[points].append(name)

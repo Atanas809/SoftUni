@@ -71,3 +71,6 @@ def judge_system():
             individuals[username][0] += points
 
         data = input().split(" -> ")
+
+    participants(my_dict)
+    results(individuals)

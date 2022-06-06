@@ -12,3 +12,9 @@ def results(individuals):
                 counter += 1
                 del individuals[key]
                 break
+
+def participants(my_dict):
+
+    for key, value in my_dict.items():
+        new_dict = dict()
+        print(f"{key}: {len(value) // 2} participants")

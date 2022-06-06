@@ -21,3 +21,6 @@ def participants(my_dict):
         for x in range(0, len(value), 2):
             name = value[x]
             points = value[x + 1]
+            if points not in new_dict.keys():
+                new_dict[points] = list()
+                new_dict[points].append(name)

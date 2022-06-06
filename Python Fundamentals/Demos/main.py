@@ -36,3 +36,11 @@ def participants(my_dict):
             for p in values:
                 print(f"{counter}. {p} <::> {y}")
                 counter += 1
+
+
+def judge_system():
+
+    data = input().split(" -> ")
+
+    my_dict = dict()
+    individuals = dict()

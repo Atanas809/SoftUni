@@ -67,3 +67,7 @@ def judge_system():
         if username not in individuals.keys():
             individuals[username] = list()
             individuals[username].append(points)
+        else:
+            individuals[username][0] += points
+
+        data = input().split(" -> ")

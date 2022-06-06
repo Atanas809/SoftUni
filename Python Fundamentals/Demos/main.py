@@ -26,3 +26,9 @@ def participants(my_dict):
                 new_dict[points].append(name)
             else:
                 new_dict[points].append(name)
+
+        sorted_dict = sorted(new_dict, reverse=True)
+
+        counter = 1
+
+        for y in sorted_dict:

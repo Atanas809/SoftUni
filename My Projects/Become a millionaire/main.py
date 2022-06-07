@@ -41,3 +41,7 @@ def welcome():
  C: Many fingers
  D: Crowded mitten
 """)
+
+    answer = "A"
+
+    your_answer = input("Make your choice.\nWhat answer do you picking?\nAnswer: ").upper()

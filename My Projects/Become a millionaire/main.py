@@ -29,3 +29,6 @@ def try_again():
     """)
 
     y_n = input("Your choice: ").upper()
+
+    if y_n == "Y":
+        welcome()

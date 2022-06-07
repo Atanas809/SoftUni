@@ -21,3 +21,7 @@ D: Money """)
             welcome()
         else:
             print("Have a nice day!")
+            
+def try_again():
+    print("""\nYou lose!\nDo you want to restart the game?
+    Type 'Y' for yes

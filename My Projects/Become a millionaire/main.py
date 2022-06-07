@@ -8,3 +8,5 @@ C: VCR remote
 D: Money """)
 
     answer = "A"
+
+    choice = input("You choice: ").upper()

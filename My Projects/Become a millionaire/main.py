@@ -10,3 +10,6 @@ D: Money """)
     answer = "A"
 
     choice = input("You choice: ").upper()
+
+    if answer == choice:
+        print("\nCongratulation you won 10 000$")

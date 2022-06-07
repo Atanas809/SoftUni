@@ -5,3 +5,4 @@ def next_question():
 A: Foot
 B: Head
 C: VCR remote
+D: Money """)

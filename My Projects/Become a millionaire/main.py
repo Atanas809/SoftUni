@@ -13,3 +13,7 @@ D: Money """)
 
     if answer == choice:
         print("\nCongratulation you won 10 000$")
+    else:
+        try_again = input("You lose! Do you want to restart the game?"
+                    "\n(Y) for YES"
+                    "\n(N) for NO\n").upper()

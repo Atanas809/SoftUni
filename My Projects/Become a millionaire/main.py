@@ -25,3 +25,7 @@ D: Money """)
 def try_again():
     print("""\nYou lose!\nDo you want to restart the game?
     Type 'Y' for yes
+    Type anything you want for EXIT
+    """)
+
+    y_n = input("Your choice: ").upper()

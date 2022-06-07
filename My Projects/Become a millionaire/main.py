@@ -53,3 +53,8 @@ def welcome():
     Type 'Y' for yes
     Type anything you want for EXIT       
 """)
+        choice = input("Your choice is? ").upper()
+
+        if choice == "Y":
+            print("Let's start!")
+            next_question()

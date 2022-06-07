@@ -17,3 +17,5 @@ D: Money """)
         try_again = input("You lose! Do you want to restart the game?"
                     "\n(Y) for YES"
                     "\n(N) for NO\n").upper()
+        if try_again == "Y":
+            welcome()

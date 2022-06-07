@@ -32,3 +32,5 @@ def try_again():
 
     if y_n == "Y":
         welcome()
+    else:
+        print("Have a nice day!")

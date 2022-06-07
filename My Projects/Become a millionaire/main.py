@@ -19,3 +19,5 @@ D: Money """)
                     "\n(N) for NO\n").upper()
         if try_again == "Y":
             welcome()
+        else:
+            print("Have a nice day!")

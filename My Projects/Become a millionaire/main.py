@@ -3,3 +3,4 @@ def next_question():
 
     print("""Someone who strongly asserts a position is often said to be "putting his" what down?
 A: Foot
+B: Head

@@ -30,3 +30,7 @@ def final_result(current_title, current_content):
 def output(data):
 
     tags = r"(?P<tags>(<.+?>))"
+
+    matches = re.finditer(tags, data)
+
+    for match in matches:

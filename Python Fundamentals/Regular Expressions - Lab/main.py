@@ -42,3 +42,7 @@ def output(data):
     return data
 
 def content(data):
+
+    matches = re.findall(r"<body>(?P<content>.+)<\/body>", data)
+
+    return output(' '.join(matches))

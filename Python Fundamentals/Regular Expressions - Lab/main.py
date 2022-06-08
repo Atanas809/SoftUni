@@ -9,3 +9,11 @@ def final_result(current_title, current_content):
     new_content = current_content.split(" ")
 
     x = 0
+
+    while x < len(new_title):
+        if new_title[x] == "" or new_title[x] == " ":
+            del new_title[x]
+        else:
+            x += 1
+
+    y = 0

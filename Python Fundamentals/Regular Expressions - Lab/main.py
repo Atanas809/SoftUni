@@ -20,3 +20,6 @@ def final_result(current_title, current_content):
 
     while y < len(new_content):
         if new_content[y] == "" or new_content[y] == " ":
+            del new_content[y]
+        else:
+            y += 1

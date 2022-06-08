@@ -47,8 +47,7 @@ def welcome():
 
     your_answer = input("Make your choice.\nWhat answer do you picking?\nAnswer: ").upper()
 
-    if your_answer == answer:
-        
+    if your_answer == answer:     
         print("\nAwesome you pick the right answer! Good job!")
         print("Do you want to continue with your next question?")
         print("""

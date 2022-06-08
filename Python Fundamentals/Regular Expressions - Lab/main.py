@@ -17,3 +17,6 @@ def final_result(current_title, current_content):
             x += 1
 
     y = 0
+
+    while y < len(new_content):
+        if new_content[y] == "" or new_content[y] == " ":

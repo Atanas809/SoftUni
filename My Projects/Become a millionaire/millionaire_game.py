@@ -35,6 +35,7 @@ def welcome():
 
     print("\nLet's start the game with your first question")
 
+   
     question1 = input("""According to a well-known proverb, what do 'many hands make'?
  A: Light work
  B: Loud applause
@@ -47,6 +48,7 @@ def welcome():
     your_answer = input("Make your choice.\nWhat answer do you picking?\nAnswer: ").upper()
 
     if your_answer == answer:
+        
         print("\nAwesome you pick the right answer! Good job!")
         print("Do you want to continue with your next question?")
         print("""

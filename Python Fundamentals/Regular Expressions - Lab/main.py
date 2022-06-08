@@ -26,3 +26,7 @@ def final_result(current_title, current_content):
 
     print(f"Title: {' '.join(new_title)}")
     print(f"Content: {' '.join(new_content)}")
+
+def output(data):
+
+    tags = r"(?P<tags>(<.+?>))"

@@ -23,3 +23,6 @@ def final_result(current_title, current_content):
             del new_content[y]
         else:
             y += 1
+
+    print(f"Title: {' '.join(new_title)}")
+    print(f"Content: {' '.join(new_content)}")

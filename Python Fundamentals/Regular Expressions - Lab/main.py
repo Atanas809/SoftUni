@@ -38,3 +38,7 @@ def output(data):
         data = data.replace(tag, " ", 1)
 
     data = data.replace("\\n", "")
+
+    return data
+
+def content(data):

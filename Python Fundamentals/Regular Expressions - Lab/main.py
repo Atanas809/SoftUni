@@ -56,3 +56,8 @@ def title():
     current_title = ' '.join(matches)
 
     current_content = content(data)
+
+    final_result(current_title, current_content)
+
+
+title()

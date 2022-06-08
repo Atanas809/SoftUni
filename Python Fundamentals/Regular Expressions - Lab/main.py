@@ -52,3 +52,7 @@ def title():
     data = input()
 
     matches = re.findall(r"<title>(?P<title>.+)<\/title>", data)
+
+    current_title = ' '.join(matches)
+
+    current_content = content(data)

@@ -34,3 +34,7 @@ def output(data):
     matches = re.finditer(tags, data)
 
     for match in matches:
+        tag = match.group("tags")
+        data = data.replace(tag, " ", 1)
+
+    data = data.replace("\\n", "")

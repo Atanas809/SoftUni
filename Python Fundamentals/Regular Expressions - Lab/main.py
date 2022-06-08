@@ -46,3 +46,9 @@ def content(data):
     matches = re.findall(r"<body>(?P<content>.+)<\/body>", data)
 
     return output(' '.join(matches))
+
+def title():
+
+    data = input()
+
+    matches = re.findall(r"<title>(?P<title>.+)<\/title>", data)

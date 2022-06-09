@@ -19,3 +19,7 @@ while command[0] != "Generate":
         if command[1] == "Upper":
 
             upper = activation_key[start:end].upper()
+            activation_key = activation_key.replace(activation_key[start:end], upper)
+
+        else:
+            lower = activation_key[start:end].lower()

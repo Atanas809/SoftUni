@@ -1,1 +1,1 @@
-
+activation_key = input()

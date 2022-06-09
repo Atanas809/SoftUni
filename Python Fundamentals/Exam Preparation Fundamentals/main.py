@@ -16,3 +16,6 @@ while command[0] != "Generate":
     elif command[0] == "Flip":
         start = int(command[2])
         end = int(command[3])
+        if command[1] == "Upper":
+
+            upper = activation_key[start:end].upper()

@@ -10,3 +10,5 @@ while command[0] != "Generate":
 
         if substring in activation_key:
             print(f"{activation_key} contains {substring}")
+        else:
+            print("Substring not found!")

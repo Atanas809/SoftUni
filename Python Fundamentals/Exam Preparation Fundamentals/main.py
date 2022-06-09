@@ -30,3 +30,6 @@ while command[0] != "Generate":
     else:
         start = int(command[1])
         end = int(command[2])
+
+        need_to_remove = activation_key[start:end]
+        activation_key = activation_key.replace(need_to_remove, "")

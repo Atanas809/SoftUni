@@ -14,3 +14,5 @@ while command[0] != "Generate":
             print("Substring not found!")
 
     elif command[0] == "Flip":
+        start = int(command[2])
+        end = int(command[3])

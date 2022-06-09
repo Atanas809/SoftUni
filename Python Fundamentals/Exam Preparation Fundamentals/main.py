@@ -33,3 +33,9 @@ while command[0] != "Generate":
 
         need_to_remove = activation_key[start:end]
         activation_key = activation_key.replace(need_to_remove, "")
+
+        print(activation_key)
+
+    command = input().split(">>>")
+
+print(f"Your activation key is: {activation_key}")

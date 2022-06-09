@@ -23,3 +23,6 @@ while command[0] != "Generate":
 
         else:
             lower = activation_key[start:end].lower()
+            activation_key = activation_key.replace(activation_key[start:end], lower)
+
+        print(activation_key)

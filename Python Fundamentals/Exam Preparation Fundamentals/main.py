@@ -26,3 +26,7 @@ while command[0] != "Generate":
             activation_key = activation_key.replace(activation_key[start:end], lower)
 
         print(activation_key)
+
+    else:
+        start = int(command[1])
+        end = int(command[2])

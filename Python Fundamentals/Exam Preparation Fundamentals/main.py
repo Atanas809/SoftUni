@@ -11,3 +11,4 @@ total_calories = 0
 output = list()
 
 for match in matches:
+    food = match.group("food")

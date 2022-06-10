@@ -18,3 +18,5 @@ for match in matches:
     total_calories += calories
 
     output.append(f"Item: {food}, Best before: {ex_date}, Nutrition: {calories}")
+
+days = total_calories // 2000

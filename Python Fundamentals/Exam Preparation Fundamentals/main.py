@@ -20,3 +20,5 @@ for match in matches:
     output.append(f"Item: {food}, Best before: {ex_date}, Nutrition: {calories}")
 
 days = total_calories // 2000
+
+print(f"You have food to last you for: {days} days!")

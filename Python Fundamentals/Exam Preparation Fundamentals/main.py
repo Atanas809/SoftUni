@@ -12,3 +12,5 @@ output = list()
 
 for match in matches:
     food = match.group("food")
+    ex_date = match.group("ex_date")
+    calories = int(match.group("calories"))

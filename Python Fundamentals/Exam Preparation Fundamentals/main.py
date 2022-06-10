@@ -16,3 +16,5 @@ for match in matches:
     calories = int(match.group("calories"))
 
     total_calories += calories
+
+    output.append(f"Item: {food}, Best before: {ex_date}, Nutrition: {calories}")

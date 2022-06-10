@@ -9,3 +9,5 @@ matches = re.finditer(expression, data)
 total_calories = 0
 
 output = list()
+
+for match in matches:

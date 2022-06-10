@@ -7,3 +7,5 @@ expression = r"(#|\|)(?P<food>[a-zA-Z\s]+)\1(?P<ex_date>[\d]{2}\/[\d]{2}\/[\d]{2
 matches = re.finditer(expression, data)
 
 total_calories = 0
+
+output = list()

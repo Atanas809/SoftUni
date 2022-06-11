@@ -10,3 +10,5 @@ destinations = list()
 
 for match in matches:
     city = match.group("valid")
+
+    destinations.append(city)

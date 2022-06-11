@@ -14,3 +14,5 @@ for match in matches:
     destinations.append(city)
 
 points = 0
+
+for x in destinations:

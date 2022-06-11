@@ -1,10 +1,5 @@
 def output(standings):
-    print("Individual standings:")
-    sort_dic = dict()
-    for key, value in standings.items():
-        points = value[0]
-        name = key
-        if name not in sort_dic.values():
+_dic.values():
             sort_dic[name] = points
     nums = sorted(sort_dic.values(), reverse=True)
     counter = 1

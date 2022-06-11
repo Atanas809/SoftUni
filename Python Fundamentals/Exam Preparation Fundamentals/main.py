@@ -16,3 +16,4 @@ for match in matches:
 points = 0
 
 for x in destinations:
+    for y in x:

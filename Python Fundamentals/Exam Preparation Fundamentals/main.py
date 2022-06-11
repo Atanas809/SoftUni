@@ -1,16 +1,4 @@
 
-
-    my_dict = dict()
-    individual_standings = dict()
-    names = list()
-
-    while data[0] != "no more time":
-        name = data[0]
-        course = data[1]
-        points = int(data[2])
-
-        if course in my_dict.keys() and name in names:
-            for key, value in my_dict.items():
                 if key == course and name in value:
                     for x in range(0, len(value), 2):
                         user = value[x]

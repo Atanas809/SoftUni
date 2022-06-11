@@ -9,3 +9,4 @@ matches = re.finditer(expression, data)
 destinations = list()
 
 for match in matches:
+    city = match.group("valid")

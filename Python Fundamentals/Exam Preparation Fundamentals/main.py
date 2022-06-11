@@ -1,16 +1,4 @@
 
-                print(f"{counter}. {item[0]} -> {item[1]}")
-                counter += 1
-                del sort_dic[item[0]]
-                break
-
-
-
-def result(my_dict):
-
-    for key, value in my_dict.items():
-        print(f"{key}: {len(value) // 2} participants")
-        sort_dic = dict()
         for x in range(0, len(value), 2):
             name = value[x]
             points = value[x + 1]

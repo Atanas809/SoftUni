@@ -1,1 +1,3 @@
 import re
+
+data = input()

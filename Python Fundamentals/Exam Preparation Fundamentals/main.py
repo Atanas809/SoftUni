@@ -12,3 +12,5 @@ for match in matches:
     city = match.group("valid")
 
     destinations.append(city)
+
+points = 0

@@ -1,11 +1,4 @@
-def output(standings):
-_dic.values():
-            sort_dic[name] = points
-    nums = sorted(sort_dic.values(), reverse=True)
-    counter = 1
-    for x in nums:
-        for item in sort_dic.items():
-            if item[1] == x:
+
                 print(f"{counter}. {item[0]} -> {item[1]}")
                 counter += 1
                 del sort_dic[item[0]]

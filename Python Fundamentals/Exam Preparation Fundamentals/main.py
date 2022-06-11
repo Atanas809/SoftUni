@@ -1,22 +1,4 @@
 
-        for x in range(0, len(value), 2):
-            name = value[x]
-            points = value[x + 1]
-            if name not in sort_dic.values():
-                sort_dic[name] = points
-        output = sorted(sort_dic.values(), reverse=True)
-        counter = 1
-        for y in output:
-            for item in sort_dic.items():
-                if item[1] == y:
-                    print(f"{counter}. {item[0]} <::> {item[1]}")
-                    counter += 1
-                    del sort_dic[item[0]]
-                    break
-
-
-def judge():
-    data = input().split(" -> ")
 
     my_dict = dict()
     individual_standings = dict()

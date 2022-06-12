@@ -26,3 +26,4 @@ print(f"{len(valid_emojis)} emojis found in the text. The cool ones are:")
 
 for v in valid_emojis:
     cool = 0
+    searched = v[2:-2]

@@ -12,3 +12,6 @@ for match in matches:
 nums = r"\d+"
 numbers = re.findall(nums, data)
 all_nums = ""
+
+for x in numbers:
+    all_nums += x

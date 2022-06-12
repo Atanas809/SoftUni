@@ -10,3 +10,4 @@ for match in matches:
     valid_emojis.append(valid)
 
 nums = r"\d+"
+numbers = re.findall(nums, data)

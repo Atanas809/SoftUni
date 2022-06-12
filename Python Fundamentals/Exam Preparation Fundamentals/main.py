@@ -6,3 +6,4 @@ matches = re.finditer(expression, data)
 valid_emojis = list()
 
 for match in matches:
+    valid = match.group(0)

@@ -11,3 +11,4 @@ for match in matches:
 
 nums = r"\d+"
 numbers = re.findall(nums, data)
+all_nums = ""

@@ -7,3 +7,4 @@ valid_emojis = list()
 
 for match in matches:
     valid = match.group(0)
+    valid_emojis.append(valid)

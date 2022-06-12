@@ -23,3 +23,6 @@ for n in all_nums:
 
 print(f"Cool threshold: {cool_threshold}")
 print(f"{len(valid_emojis)} emojis found in the text. The cool ones are:")
+
+for v in valid_emojis:
+    cool = 0

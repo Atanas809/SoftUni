@@ -17,3 +17,5 @@ for x in numbers:
     all_nums += x
 
 cool_threshold = 1
+
+for n in all_nums:

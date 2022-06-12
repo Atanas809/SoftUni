@@ -20,3 +20,5 @@ cool_threshold = 1
 
 for n in all_nums:
     cool_threshold *= int(n)
+
+print(f"Cool threshold: {cool_threshold}")

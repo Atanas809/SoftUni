@@ -8,3 +8,5 @@ for _ in range(num):
     data = input()
     group = ""
     matches = re.finditer(expression, data)
+
+    for match in matches:

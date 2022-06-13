@@ -23,4 +23,4 @@ for _ in range(num):
             print(f"Product group: 00")
 
     if not is_valid:
-
+        print("Invalid barcode")

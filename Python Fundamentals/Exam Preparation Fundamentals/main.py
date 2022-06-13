@@ -16,3 +16,5 @@ for _ in range(num):
         for x in valid:
             if x.isdigit()
                 group += x
+
+        if group != "":

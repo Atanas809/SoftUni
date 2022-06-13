@@ -7,3 +7,4 @@ for _ in range(num):
     is_valid = False
     data = input()
     group = ""
+    matches = re.finditer(expression, data)

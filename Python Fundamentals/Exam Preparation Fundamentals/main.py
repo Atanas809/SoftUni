@@ -11,3 +11,4 @@ for _ in range(num):
 
     for match in matches:
         valid = match.group("valid")
+        is_valid = True

@@ -20,3 +20,4 @@ for _ in range(num):
         if group != "":
             print(f"Product group: {group}")
         else:
+            print(f"Product group: 00")

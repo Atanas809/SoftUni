@@ -21,3 +21,6 @@ for _ in range(num):
             print(f"Product group: {group}")
         else:
             print(f"Product group: 00")
+
+    if not is_valid:
+

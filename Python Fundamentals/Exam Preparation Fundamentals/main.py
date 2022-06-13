@@ -18,3 +18,4 @@ for _ in range(num):
                 group += x
 
         if group != "":
+            print(f"Product group: {group}")

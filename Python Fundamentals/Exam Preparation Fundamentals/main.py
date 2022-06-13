@@ -10,3 +10,4 @@ for _ in range(num):
     matches = re.finditer(expression, data)
 
     for match in matches:
+        valid = match.group("valid")

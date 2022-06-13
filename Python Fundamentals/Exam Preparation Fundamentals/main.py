@@ -14,3 +14,4 @@ for _ in range(num):
         is_valid = True
 
         for x in valid:
+            if x.isdigit()

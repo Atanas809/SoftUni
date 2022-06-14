@@ -11,3 +11,5 @@ while command[0] != "Decode":
 
         encrypted_message = encrypted_message.replace(text, "", 1)
         encrypted_message += text
+
+    elif command[0] == "Insert":

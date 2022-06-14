@@ -24,3 +24,5 @@ while command[0] != "Decode":
     else:
         old = command[1]
         new = command[2]
+
+        encrypted_message = encrypted_message.replace(old, new)

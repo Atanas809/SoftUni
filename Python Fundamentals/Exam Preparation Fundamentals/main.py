@@ -17,3 +17,4 @@ while command[0] != "Decode":
         value = command[2]
 
         l_side = encrypted_message[:index]
+        r_side = encrypted_message[index:]

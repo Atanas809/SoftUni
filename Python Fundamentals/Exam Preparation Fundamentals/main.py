@@ -26,3 +26,5 @@ while command[0] != "Decode":
         new = command[2]
 
         encrypted_message = encrypted_message.replace(old, new)
+
+    command = input().split("|")

@@ -10,3 +10,4 @@ while command[0] != "Decode":
         text = encrypted_message[:length]
 
         encrypted_message = encrypted_message.replace(text, "", 1)
+        encrypted_message += text

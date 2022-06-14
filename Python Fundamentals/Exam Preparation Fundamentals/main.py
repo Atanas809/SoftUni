@@ -20,3 +20,6 @@ while command[0] != "Decode":
         r_side = encrypted_message[index:]
 
         encrypted_message = l_side + value + r_side
+
+    else:
+        old = command[1]

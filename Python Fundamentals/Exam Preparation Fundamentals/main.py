@@ -23,3 +23,4 @@ while command[0] != "Decode":
 
     else:
         old = command[1]
+        new = command[2]

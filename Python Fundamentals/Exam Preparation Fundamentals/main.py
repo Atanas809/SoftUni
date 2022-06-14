@@ -15,3 +15,5 @@ while command[0] != "Decode":
     elif command[0] == "Insert":
         index = int(command[1])
         value = command[2]
+
+        l_side = encrypted_message[:index]

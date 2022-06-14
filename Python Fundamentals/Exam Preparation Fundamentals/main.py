@@ -13,3 +13,4 @@ while command[0] != "Decode":
         encrypted_message += text
 
     elif command[0] == "Insert":
+        index = int(command[1])

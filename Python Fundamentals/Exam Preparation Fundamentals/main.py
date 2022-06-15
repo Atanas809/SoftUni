@@ -7,3 +7,4 @@ valid = list()
 mirror_words = list()
 
 for match in matches:
+    f_word = match.group("f_word")

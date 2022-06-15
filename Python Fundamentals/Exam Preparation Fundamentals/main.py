@@ -14,3 +14,4 @@ for match in matches:
     valid.append(s_word)
 
     if f_word == s_word[::-1]:
+        mirror_words.append(f_word)

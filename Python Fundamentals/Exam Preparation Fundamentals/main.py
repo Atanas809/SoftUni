@@ -18,3 +18,4 @@ for match in matches:
         mirror_words.append(s_word)
 
 if len(valid) != 0:
+    print(f"{len(valid) // 2} word pairs found!")

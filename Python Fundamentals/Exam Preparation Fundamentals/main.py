@@ -11,3 +11,4 @@ for match in matches:
     s_word = match.group("s_word")
 
     valid.append(f_word)
+    valid.append(s_word)

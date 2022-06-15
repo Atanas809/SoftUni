@@ -29,3 +29,5 @@ if len(mirror_words) != 0:
             print(f"{mirror_words[x]} <=> {mirror_words[x + 1]}")
         else:
             print(f"{mirror_words[x]} <=> {mirror_words[x + 1]}", end = ", ")
+else:
+    print("No mirror words!")

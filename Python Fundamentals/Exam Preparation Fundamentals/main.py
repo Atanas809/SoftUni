@@ -23,3 +23,5 @@ else:
     print("No word pairs found!")
 
 if len(mirror_words) != 0:
+    print("The mirror words are:")
+    for x in range(0, len(mirror_words), 2):

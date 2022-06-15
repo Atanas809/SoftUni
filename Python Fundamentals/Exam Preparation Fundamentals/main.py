@@ -25,3 +25,4 @@ else:
 if len(mirror_words) != 0:
     print("The mirror words are:")
     for x in range(0, len(mirror_words), 2):
+        if x + 1 == len(mirror_words) - 1:

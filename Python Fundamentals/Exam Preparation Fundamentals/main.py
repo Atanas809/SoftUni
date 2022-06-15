@@ -19,3 +19,5 @@ for match in matches:
 
 if len(valid) != 0:
     print(f"{len(valid) // 2} word pairs found!")
+else:
+    print("No word pairs found!")

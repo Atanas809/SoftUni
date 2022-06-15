@@ -21,3 +21,5 @@ if len(valid) != 0:
     print(f"{len(valid) // 2} word pairs found!")
 else:
     print("No word pairs found!")
+
+if len(mirror_words) != 0:

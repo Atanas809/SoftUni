@@ -15,3 +15,4 @@ for match in matches:
 
     if f_word == s_word[::-1]:
         mirror_words.append(f_word)
+        mirror_words.append(s_word)

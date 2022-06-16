@@ -19,3 +19,5 @@ while command[0] != "Done":
         text = password[index: index + length]
 
         password = password.replace(text, "", 1)
+
+        print(password)

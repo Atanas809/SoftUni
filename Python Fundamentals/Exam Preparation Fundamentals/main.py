@@ -13,3 +13,5 @@ while command[0] != "Done":
         print(password)
 
     elif command[0] == "Cut":
+        index = int(command[1])
+        length = int(command[2])

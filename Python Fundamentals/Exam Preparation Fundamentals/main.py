@@ -31,3 +31,7 @@ while command[0] != "Done":
             print(password)
         else:
             print("Nothing to replace!")
+
+    command = input().split()
+
+print(f"Your password is: {password}")

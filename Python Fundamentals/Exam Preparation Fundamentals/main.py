@@ -15,3 +15,5 @@ while command[0] != "Done":
     elif command[0] == "Cut":
         index = int(command[1])
         length = int(command[2])
+
+        text = password[index: index + length]

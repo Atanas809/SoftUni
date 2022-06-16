@@ -11,3 +11,5 @@ while command[0] != "Done":
 
         password = new_password
         print(password)
+
+    elif command[0] == "Cut":

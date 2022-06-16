@@ -29,3 +29,5 @@ while command[0] != "Done":
         if old in password:
             password = password.replace(old, new)
             print(password)
+        else:
+            print("Nothing to replace!")

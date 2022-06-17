@@ -42,3 +42,7 @@ def output(my_dict):
                 diff = abs(200 - my_dict[hero_name][1])
                 my_dict[hero_name][1] = 200
                 print(f"{hero_name} recharged for {diff} MP!")
+
+            else:
+                my_dict[hero_name][1] += amount
+                print(f"{hero_name} recharged for {amount} MP!")

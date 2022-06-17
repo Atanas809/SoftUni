@@ -20,3 +20,8 @@ def output(my_dict):
 
             else:
                 print(f"{hero_name} does not have enough MP to cast {spell_name}!")
+
+        elif command[0] == "TakeDamage":
+            hero_name = command[1]
+            damage = int(command[2])
+            attacker = command[3]

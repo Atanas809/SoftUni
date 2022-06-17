@@ -37,3 +37,6 @@ def output(my_dict):
         elif command[0] == "Recharge":
             hero_name = command[1]
             amount = int(command[2])
+
+            if my_dict[hero_name][1] + amount > 200:
+                diff = abs(200 - my_dict[hero_name][1])

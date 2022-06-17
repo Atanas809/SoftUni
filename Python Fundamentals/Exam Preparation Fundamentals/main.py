@@ -13,3 +13,6 @@ def output(my_dict):
             hero_name = command[1]
             mp_needed = int(command[2])
             spell_name = command[3]
+
+            if my_dict[hero_name][1] >= mp_needed:
+                my_dict[hero_name][1] -= mp_needed

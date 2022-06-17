@@ -59,3 +59,7 @@ def output(my_dict):
             else:
                 my_dict[hero_name][0] += amount
                 print(f"{hero_name} healed for {amount} HP!")
+
+        command = input().split(" - ")
+
+    result(my_dict)

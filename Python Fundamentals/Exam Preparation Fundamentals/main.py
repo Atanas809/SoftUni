@@ -70,3 +70,10 @@ def game():
     number = int(input())
 
     my_dict = dict()
+
+    for x in range(number):
+        data = input().split()
+
+        hero = data[0]
+        hp = int(data[1])
+        mp = int(data[2])

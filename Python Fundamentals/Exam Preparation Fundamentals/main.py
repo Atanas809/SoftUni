@@ -28,3 +28,7 @@ def output(my_dict):
 
             if my_dict[hero_name][0] - damage > 0:
                 my_dict[hero_name][0] -= damage
+                print(f"{hero_name} was hit for {damage} HP by {attacker} and now has {my_dict[hero_name][0]} HP left!")
+
+            else:
+                del my_dict[hero_name]

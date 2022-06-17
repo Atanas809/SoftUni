@@ -50,3 +50,8 @@ def output(my_dict):
         else:
             hero_name = command[1]
             amount = int(command[2])
+
+            if my_dict[hero_name][0] + amount > 100:
+                diff = abs(100 - my_dict[hero_name][0])
+                my_dict[hero_name][0] = 100
+                print(f"{hero_name} healed for {diff} HP!")

@@ -55,3 +55,7 @@ def output(my_dict):
                 diff = abs(100 - my_dict[hero_name][0])
                 my_dict[hero_name][0] = 100
                 print(f"{hero_name} healed for {diff} HP!")
+
+            else:
+                my_dict[hero_name][0] += amount
+                print(f"{hero_name} healed for {amount} HP!")

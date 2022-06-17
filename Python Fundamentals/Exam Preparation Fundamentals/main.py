@@ -77,3 +77,7 @@ def game():
         hero = data[0]
         hp = int(data[1])
         mp = int(data[2])
+
+        my_dict[hero] = list()
+        my_dict[hero].append(hp)
+        my_dict[hero].append(mp)

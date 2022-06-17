@@ -40,3 +40,5 @@ def output(my_dict):
 
             if my_dict[hero_name][1] + amount > 200:
                 diff = abs(200 - my_dict[hero_name][1])
+                my_dict[hero_name][1] = 200
+                print(f"{hero_name} recharged for {diff} MP!")

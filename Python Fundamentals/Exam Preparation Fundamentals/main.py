@@ -46,3 +46,7 @@ def output(my_dict):
             else:
                 my_dict[hero_name][1] += amount
                 print(f"{hero_name} recharged for {amount} MP!")
+
+        else:
+            hero_name = command[1]
+            amount = int(command[2])

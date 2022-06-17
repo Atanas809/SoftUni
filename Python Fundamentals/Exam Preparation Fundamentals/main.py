@@ -81,3 +81,8 @@ def game():
         my_dict[hero] = list()
         my_dict[hero].append(hp)
         my_dict[hero].append(mp)
+
+    output(my_dict)
+
+
+game()

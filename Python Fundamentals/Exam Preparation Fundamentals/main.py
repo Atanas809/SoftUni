@@ -32,3 +32,8 @@ def output(my_dict):
 
             else:
                 del my_dict[hero_name]
+                print(f"{hero_name} has been killed by {attacker}!")
+
+        elif command[0] == "Recharge":
+            hero_name = command[1]
+            amount = int(command[2])

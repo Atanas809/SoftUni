@@ -16,3 +16,7 @@ def output(my_dict):
 
             if my_dict[hero_name][1] >= mp_needed:
                 my_dict[hero_name][1] -= mp_needed
+                print(f"{hero_name} has successfully cast {spell_name} and now has {my_dict[hero_name][1]} MP!")
+
+            else:
+                print(f"{hero_name} does not have enough MP to cast {spell_name}!")

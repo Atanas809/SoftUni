@@ -25,3 +25,6 @@ def output(my_dict):
             hero_name = command[1]
             damage = int(command[2])
             attacker = command[3]
+
+            if my_dict[hero_name][0] - damage > 0:
+                my_dict[hero_name][0] -= damage

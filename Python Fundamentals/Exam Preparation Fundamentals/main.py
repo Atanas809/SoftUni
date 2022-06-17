@@ -63,3 +63,10 @@ def output(my_dict):
         command = input().split(" - ")
 
     result(my_dict)
+
+
+def game():
+
+    number = int(input())
+
+    my_dict = dict()

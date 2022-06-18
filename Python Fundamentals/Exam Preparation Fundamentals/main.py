@@ -18,3 +18,7 @@ def output(my_dict):
             else:
                 my_dict[car][0] += distance
                 my_dict[car][1] -= fuel
+
+                print(f"{car} driven for {distance} kilometers. {fuel} liters of fuel consumed.")
+
+                if my_dict[car][0] >= 100000:

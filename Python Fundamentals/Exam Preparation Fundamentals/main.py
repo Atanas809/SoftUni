@@ -28,3 +28,8 @@ def output(my_dict):
         elif command[0] == "Refuel":
             car = command[1]
             fuel = int(command[2])
+
+            if my_dict[car][1] + fuel > 75:
+                diff = abs(75 - my_dict[car][1])
+                my_dict[car][1] = 75
+                print(f"{car} refueled with {diff} liters")

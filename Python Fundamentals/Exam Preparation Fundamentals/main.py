@@ -43,3 +43,10 @@ def output(my_dict):
 
             if my_dict[car][0] - kilometers < 10000:
                 my_dict[car][0] = 10000
+            else:
+                my_dict[car][0] -= kilometers
+                print(f"{car} mileage decreased by {kilometers} kilometers")
+
+        command = input().split(" : ")
+
+    result(my_dict)

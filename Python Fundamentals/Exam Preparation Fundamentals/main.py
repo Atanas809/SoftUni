@@ -12,3 +12,6 @@ def output(my_dict):
             car = command[1]
             distance = int(command[2])
             fuel = int(command[3])
+
+            if my_dict[car][1] < fuel:
+                print("Not enough fuel to make that ride")

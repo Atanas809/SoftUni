@@ -66,3 +66,7 @@ def cars():
         my_dict[car] = list()
         my_dict[car].append(mileage)
         my_dict[car].append(fuel)
+
+    output(my_dict)
+
+cars()

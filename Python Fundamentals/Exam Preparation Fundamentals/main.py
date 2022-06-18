@@ -36,3 +36,7 @@ def output(my_dict):
             else:
                 my_dict[car][1] += fuel
                 print(f"{car} refueled with {fuel} liters")
+
+        else:
+            car = command[1]
+            kilometers = int(command[2])

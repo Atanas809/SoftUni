@@ -40,3 +40,6 @@ def output(my_dict):
         else:
             car = command[1]
             kilometers = int(command[2])
+
+            if my_dict[car][0] - kilometers < 10000:
+                my_dict[car][0] = 10000

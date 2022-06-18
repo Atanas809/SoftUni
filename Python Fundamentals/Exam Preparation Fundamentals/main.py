@@ -50,3 +50,6 @@ def output(my_dict):
         command = input().split(" : ")
 
     result(my_dict)
+
+def cars():
+    number = int(input())

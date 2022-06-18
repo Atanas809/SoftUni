@@ -33,3 +33,6 @@ def output(my_dict):
                 diff = abs(75 - my_dict[car][1])
                 my_dict[car][1] = 75
                 print(f"{car} refueled with {diff} liters")
+            else:
+                my_dict[car][1] += fuel
+                print(f"{car} refueled with {fuel} liters")

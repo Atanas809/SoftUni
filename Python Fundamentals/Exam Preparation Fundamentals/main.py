@@ -58,3 +58,7 @@ def cars():
 
     for _ in range(number):
         data = input().split("|")
+
+        car = data[0]
+        mileage = int(data[1])
+        fuel = int(data[2])

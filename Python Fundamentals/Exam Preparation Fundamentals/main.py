@@ -22,3 +22,9 @@ def output(my_dict):
                 print(f"{car} driven for {distance} kilometers. {fuel} liters of fuel consumed.")
 
                 if my_dict[car][0] >= 100000:
+                    del my_dict[car]
+                    print(f"Time to sell the {car}!")
+
+        elif command[0] == "Refuel":
+            car = command[1]
+            fuel = int(command[2])

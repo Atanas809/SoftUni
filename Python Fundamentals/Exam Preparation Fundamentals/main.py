@@ -37,3 +37,7 @@ def targets(my_dict):
             else:
                 my_dict[town][1] += gold
                 print(f"{gold} gold added to the city treasury. {town} now has {my_dict[town][1]} gold.")
+
+        command = input().split("=>")
+
+    output(my_dict)

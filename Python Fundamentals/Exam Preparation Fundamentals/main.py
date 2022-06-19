@@ -47,3 +47,9 @@ def cities():
 
     data = input().split("||")
     my_dict = dict()
+
+    while data[0] != "Sail":
+
+        city = data[0]
+        population = int(data[1])
+        gold = int(data[2])

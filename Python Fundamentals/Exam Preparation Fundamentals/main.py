@@ -53,3 +53,8 @@ def cities():
         city = data[0]
         population = int(data[1])
         gold = int(data[2])
+
+        if city not in my_dict.keys():
+            my_dict[city] = list()
+            my_dict[city].append(population)
+            my_dict[city].append(gold)

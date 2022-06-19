@@ -6,3 +6,10 @@ def output(my_dict):
             print(f"{key} -> Population: {my_dict[key][0]} citizens, Gold: {my_dict[key][1]} kg")
     else:
         print("Ahoy, Captain! All targets have been plundered and destroyed!")
+
+
+def targets(my_dict):
+
+    command = input().split("=>")
+
+    while command[0] != "End":

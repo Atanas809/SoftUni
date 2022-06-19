@@ -31,3 +31,6 @@ def targets(my_dict):
         else:
             town = command[1]
             gold = int(command[2])
+
+            if gold < 0:
+                print("Gold added cannot be a negative number!")

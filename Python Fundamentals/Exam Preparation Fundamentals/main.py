@@ -13,3 +13,6 @@ def targets(my_dict):
     command = input().split("=>")
 
     while command[0] != "End":
+
+        if command[0] == "Plunder":
+            town = command[1]

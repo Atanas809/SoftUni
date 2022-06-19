@@ -58,3 +58,7 @@ def cities():
             my_dict[city] = list()
             my_dict[city].append(population)
             my_dict[city].append(gold)
+
+        else:
+            my_dict[city][0] += population
+            my_dict[city][1] += gold

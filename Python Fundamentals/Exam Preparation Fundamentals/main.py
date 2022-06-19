@@ -34,3 +34,6 @@ def targets(my_dict):
 
             if gold < 0:
                 print("Gold added cannot be a negative number!")
+            else:
+                my_dict[town][1] += gold
+                print(f"{gold} gold added to the city treasury. {town} now has {my_dict[town][1]} gold.")

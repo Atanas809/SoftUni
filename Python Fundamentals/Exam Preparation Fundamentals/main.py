@@ -41,3 +41,9 @@ def targets(my_dict):
         command = input().split("=>")
 
     output(my_dict)
+
+
+def cities():
+
+    data = input().split("||")
+    my_dict = dict()

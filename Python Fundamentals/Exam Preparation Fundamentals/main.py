@@ -24,3 +24,7 @@ def targets(my_dict):
             if my_dict[town][0] - people <= 0 or my_dict[town][1] - gold <= 0:
                 del my_dict[town]
                 print(f"{town} has been wiped off the map!")
+
+            else:
+                my_dict[town][0] -= people
+                my_dict[town][1] -= gold

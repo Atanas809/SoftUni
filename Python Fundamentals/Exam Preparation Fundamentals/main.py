@@ -16,3 +16,5 @@ def targets(my_dict):
 
         if command[0] == "Plunder":
             town = command[1]
+            people = int(command[2])
+            gold = int(command[3])

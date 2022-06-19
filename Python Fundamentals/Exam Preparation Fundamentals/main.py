@@ -62,3 +62,9 @@ def cities():
         else:
             my_dict[city][0] += population
             my_dict[city][1] += gold
+
+        data = input().split("||")
+
+    targets(my_dict)
+
+cities()

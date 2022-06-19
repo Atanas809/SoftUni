@@ -28,3 +28,6 @@ def targets(my_dict):
             else:
                 my_dict[town][0] -= people
                 my_dict[town][1] -= gold
+        else:
+            town = command[1]
+            gold = int(command[2])

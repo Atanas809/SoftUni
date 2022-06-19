@@ -18,3 +18,9 @@ def targets(my_dict):
             town = command[1]
             people = int(command[2])
             gold = int(command[3])
+
+            print(f"{town} plundered! {gold} gold stolen, {people} citizens killed.")
+
+            if my_dict[town][0] - people <= 0 or my_dict[town][1] - gold <= 0:
+                del my_dict[town]
+                print(f"{town} has been wiped off the map!")

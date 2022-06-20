@@ -39,3 +39,11 @@ def output(my_dict):
                 my_dict[plant][0] = new_rarity
             else:
                 print("error")
+
+        else:
+            plant = info[0]
+
+            if plant in my_dict.keys():
+                my_dict[plant] = [my_dict[plant][0]]
+            else:
+                print("error")

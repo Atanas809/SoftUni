@@ -8,3 +8,5 @@ def result(my_dict):
         average_rating = 0
         if len(value) != 1:
             average_rating += sum(value[1:]) / len(value[1:])
+
+        print(f"- {plant}; Rarity: {rarity}; Rating: {average_rating:.2f}")

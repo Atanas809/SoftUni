@@ -58,3 +58,10 @@ def plants():
     number = int(input())
 
     my_dict = dict()
+
+    for _ in range(number):
+
+        data = input().split("<->")
+
+        plant = data[0]
+        rarity = int(data[1])

@@ -47,3 +47,7 @@ def output(my_dict):
                 my_dict[plant] = [my_dict[plant][0]]
             else:
                 print("error")
+
+        command = input().split(": ")
+
+    result(my_dict)

@@ -10,3 +10,10 @@ def result(my_dict):
             average_rating += sum(value[1:]) / len(value[1:])
 
         print(f"- {plant}; Rarity: {rarity}; Rating: {average_rating:.2f}")
+
+
+def output(my_dict):
+
+    command = input().split(": ")
+
+    while command[0] != "Exhibition":

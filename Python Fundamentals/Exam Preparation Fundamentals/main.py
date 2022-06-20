@@ -1,20 +1,4 @@
 
-    letters = r"[a-zA-Z]+"
-
-    matches = re.findall(letters, data)
-
-    current_name = ''.join(matches)
-
-    return current_name
-
-def race():
-
-    participants = input().split(",")
-
-    my_dict = dict()
-
-    data = input()
-
     while data != "end of race":
 
         current_name = names(data)

@@ -17,3 +17,10 @@ def output(my_dict):
     command = input().split(": ")
 
     while command[0] != "Exhibition":
+
+        data = command[1]
+        info = data.split(" - ")
+
+        if command[0] == "Rate":
+            plant = info[0]
+            rating = int(info[1])

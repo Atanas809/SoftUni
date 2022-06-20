@@ -24,3 +24,8 @@ def output(my_dict):
         if command[0] == "Rate":
             plant = info[0]
             rating = int(info[1])
+
+            if plant in my_dict.keys():
+                my_dict[plant].append(rating)
+            else:
+                print("error")

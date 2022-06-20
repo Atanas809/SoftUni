@@ -29,3 +29,8 @@ def output(my_dict):
                 my_dict[plant].append(rating)
             else:
                 print("error")
+
+        elif command[0] == "Update":
+
+            plant = info[0]
+            new_rarity = int(info[1])

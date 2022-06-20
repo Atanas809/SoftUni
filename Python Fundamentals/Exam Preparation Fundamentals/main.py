@@ -51,3 +51,10 @@ def output(my_dict):
         command = input().split(": ")
 
     result(my_dict)
+
+
+def plants():
+
+    number = int(input())
+
+    my_dict = dict()

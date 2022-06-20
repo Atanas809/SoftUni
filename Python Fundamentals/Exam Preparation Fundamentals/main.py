@@ -69,3 +69,6 @@ def plants():
         if plant not in my_dict.keys():
             my_dict[plant] = list()
             my_dict[plant].append(rarity)
+
+        else:
+            my_dict[plant][0] = rarity

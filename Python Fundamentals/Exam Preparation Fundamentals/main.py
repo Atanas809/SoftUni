@@ -72,3 +72,5 @@ def plants():
 
         else:
             my_dict[plant][0] = rarity
+
+    output(my_dict)

@@ -11,3 +11,6 @@ while command[0] != "Reveal":
         message = l_side + " " + r_side
 
         print(message)
+
+    elif command[0] == "Reverse":
+        substring = command[1]

@@ -9,3 +9,5 @@ while command[0] != "Reveal":
         l_side = message[:index]
         r_side = message[index:]
         message = l_side + " " + r_side
+
+        print(message)

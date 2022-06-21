@@ -14,3 +14,6 @@ while command[0] != "Reveal":
 
     elif command[0] == "Reverse":
         substring = command[1]
+
+        if substring in message:
+            message = message.replace(substring, "", 1)

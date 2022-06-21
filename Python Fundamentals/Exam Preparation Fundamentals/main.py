@@ -23,3 +23,4 @@ while command[0] != "Reveal":
             print("error")
 
     else:
+        old = command[1]

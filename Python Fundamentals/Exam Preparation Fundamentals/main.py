@@ -8,3 +8,4 @@ while command[0] != "Reveal":
         index = int(command[1])
         l_side = message[:index]
         r_side = message[index:]
+        message = l_side + " " + r_side

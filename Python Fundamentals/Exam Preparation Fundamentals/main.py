@@ -30,3 +30,5 @@ while command[0] != "Reveal":
         print(message)
 
     command = input().split(":|:")
+
+print(f"You have a new text message: {message}")

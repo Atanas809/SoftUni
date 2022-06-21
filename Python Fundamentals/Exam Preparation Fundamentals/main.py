@@ -24,3 +24,4 @@ while command[0] != "Reveal":
 
     else:
         old = command[1]
+        new = command[2]

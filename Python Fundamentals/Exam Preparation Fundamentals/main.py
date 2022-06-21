@@ -21,3 +21,5 @@ while command[0] != "Reveal":
             print(message)
         else:
             print("error")
+
+    else:

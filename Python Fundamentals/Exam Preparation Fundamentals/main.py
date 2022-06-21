@@ -17,3 +17,5 @@ while command[0] != "Reveal":
 
         if substring in message:
             message = message.replace(substring, "", 1)
+            message += substring[::-1]
+            print(message)

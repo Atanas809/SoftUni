@@ -28,3 +28,5 @@ while command[0] != "Reveal":
         message = message.replace(old, new)
 
         print(message)
+
+    command = input().split(":|:")

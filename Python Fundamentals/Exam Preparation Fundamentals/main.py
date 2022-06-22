@@ -11,3 +11,5 @@ while command[0] != "Travel":
             l_side = stops[:index]
             r_side = stops[index:]
             stops = l_side + text + r_side
+
+        print(stops)

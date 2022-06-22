@@ -31,3 +31,5 @@ while command[0] != "Travel":
 
         if old in stops:
             stops = stops.replace(old, new)
+
+        print(stops)

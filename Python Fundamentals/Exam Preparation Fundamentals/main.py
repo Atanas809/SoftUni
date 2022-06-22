@@ -24,3 +24,7 @@ while command[0] != "Travel":
             stops = stops.replace(text, "")
 
         print(stops)
+
+    else:
+        old = command[1]
+        new = command[2]

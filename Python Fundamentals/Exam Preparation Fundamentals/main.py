@@ -13,3 +13,5 @@ while command[0] != "Travel":
             stops = l_side + text + r_side
 
         print(stops)
+
+    elif command[0] == "Remove Stop":

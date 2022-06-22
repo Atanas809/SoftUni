@@ -15,3 +15,5 @@ while command[0] != "Travel":
         print(stops)
 
     elif command[0] == "Remove Stop":
+        start = int(command[1])
+        end = int(command[2])

@@ -9,3 +9,4 @@ while command[0] != "Travel":
 
         if 0 <= index <= len(stops) - 1:
             l_side = stops[:index]
+            r_side = stops[index:]

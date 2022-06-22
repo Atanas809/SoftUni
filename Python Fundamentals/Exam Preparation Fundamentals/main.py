@@ -22,3 +22,5 @@ while command[0] != "Travel":
         if 0 <= start + diff <= len(stops) - 1:
             text = stops[start: end + 1]
             stops = stops.replace(text, "")
+
+        print(stops)

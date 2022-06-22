@@ -17,3 +17,4 @@ while command[0] != "Travel":
     elif command[0] == "Remove Stop":
         start = int(command[1])
         end = int(command[2])
+        diff = abs(start - end)

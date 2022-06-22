@@ -18,3 +18,6 @@ while command[0] != "Travel":
         start = int(command[1])
         end = int(command[2])
         diff = abs(start - end)
+
+        if 0 <= start + diff <= len(stops) - 1:
+            text = stops[start: end + 1]

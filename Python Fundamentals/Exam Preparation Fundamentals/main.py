@@ -28,3 +28,6 @@ while command[0] != "Travel":
     else:
         old = command[1]
         new = command[2]
+
+        if old in stops:
+            stops = stops.replace(old, new)

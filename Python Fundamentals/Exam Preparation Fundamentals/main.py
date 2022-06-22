@@ -33,3 +33,5 @@ while command[0] != "Travel":
             stops = stops.replace(old, new)
 
         print(stops)
+
+    command = input().split(":")

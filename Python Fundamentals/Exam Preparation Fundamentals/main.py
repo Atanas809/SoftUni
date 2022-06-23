@@ -48,7 +48,10 @@ def output(my_dict):
 
 def pianist():
     number = int(input())
-
     my_dict = dict()
 
     for x in range(number):
+        data = input().split("|")
+        piece = data[0]
+        composer = data[1]
+        key = data[2]

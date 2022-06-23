@@ -40,3 +40,8 @@ def output(my_dict):
                 print(f"Changed the key of {piece} to {new}!")
             else:
                 print(f"Invalid operation! {piece} does not exist in the collection.")
+
+        command = input().split("|")
+
+    result(my_dict)
+

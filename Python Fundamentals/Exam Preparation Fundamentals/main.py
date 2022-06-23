@@ -6,3 +6,8 @@ def result(my_dict):
 def output(my_dict):
 
     command = input().split("|")
+
+    while command[0] != "Stop":
+
+        if command[0] == "Add":
+            piece = command[1]

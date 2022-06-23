@@ -16,3 +16,6 @@ def output(my_dict):
 
             if piece not in my_dict.keys():
                 my_dict[piece] = list()
+                my_dict[piece].append(composer)
+                my_dict[piece].append(key)
+                print(f"{piece} by {composer} in {key} added to the collection!")

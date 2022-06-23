@@ -13,3 +13,6 @@ def output(my_dict):
             piece = command[1]
             composer = command[2]
             key = command[3]
+
+            if piece not in my_dict.keys():
+                my_dict[piece] = list()

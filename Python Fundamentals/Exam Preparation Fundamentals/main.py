@@ -24,3 +24,7 @@ def output(my_dict):
 
         elif command[0] == "Remove":
             piece = command[1]
+
+            if piece in my_dict.keys():
+                del my_dict[piece]
+                print(f"Successfully removed {piece}!")

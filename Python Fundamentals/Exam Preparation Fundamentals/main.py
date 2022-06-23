@@ -28,3 +28,5 @@ def output(my_dict):
             if piece in my_dict.keys():
                 del my_dict[piece]
                 print(f"Successfully removed {piece}!")
+            else:
+                print(f"Invalid operation! {piece} does not exist in the collection.")

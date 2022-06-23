@@ -19,3 +19,8 @@ def output(my_dict):
                 my_dict[piece].append(composer)
                 my_dict[piece].append(key)
                 print(f"{piece} by {composer} in {key} added to the collection!")
+            else:
+                print(f"{piece} is already in the collection!")
+
+        elif command[0] == "Remove":
+            piece = command[1]

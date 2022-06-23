@@ -38,3 +38,5 @@ def output(my_dict):
             if piece in my_dict.keys():
                 my_dict[piece][1] = new
                 print(f"Changed the key of {piece} to {new}!")
+            else:
+                print(f"Invalid operation! {piece} does not exist in the collection.")

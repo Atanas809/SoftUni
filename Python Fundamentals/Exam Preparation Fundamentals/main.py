@@ -11,3 +11,5 @@ def output(my_dict):
 
         if command[0] == "Add":
             piece = command[1]
+            composer = command[2]
+            key = command[3]

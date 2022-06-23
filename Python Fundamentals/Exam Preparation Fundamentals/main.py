@@ -30,3 +30,7 @@ def output(my_dict):
                 print(f"Successfully removed {piece}!")
             else:
                 print(f"Invalid operation! {piece} does not exist in the collection.")
+
+        else:
+            piece = command[1]
+            new = command[2]

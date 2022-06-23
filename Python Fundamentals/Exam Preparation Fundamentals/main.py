@@ -60,3 +60,8 @@ def pianist():
             my_dict[piece] = list()
             my_dict[piece].append(composer)
             my_dict[piece].append(key)
+
+    output(my_dict)
+
+
+pianist()

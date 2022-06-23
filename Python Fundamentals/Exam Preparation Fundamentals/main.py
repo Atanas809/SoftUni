@@ -55,3 +55,8 @@ def pianist():
         piece = data[0]
         composer = data[1]
         key = data[2]
+
+        if piece not in my_dict.keys():
+            my_dict[piece] = list()
+            my_dict[piece].append(composer)
+            my_dict[piece].append(key)

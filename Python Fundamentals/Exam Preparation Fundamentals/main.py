@@ -34,3 +34,7 @@ def output(my_dict):
         else:
             piece = command[1]
             new = command[2]
+
+            if piece in my_dict.keys():
+                my_dict[piece][1] = new
+                print(f"Changed the key of {piece} to {new}!")

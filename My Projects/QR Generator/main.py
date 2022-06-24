@@ -1,6 +1,4 @@
 
-
-    print(f"""1st place: {best_results[0]}
 2nd place: {best_results[1]}
 3rd place: {best_results[2]}
 """)

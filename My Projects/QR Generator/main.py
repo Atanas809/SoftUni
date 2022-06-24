@@ -11,3 +11,4 @@ qr = qrcode.QRCode(
     border=4)
 
 qr.add_data(link)
+qr.make(fit=True)

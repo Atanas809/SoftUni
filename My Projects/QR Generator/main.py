@@ -4,3 +4,5 @@
 import qrcode
 
 link = "https://github.com/Atanas809"
+
+qr = qrcode.QRCode(

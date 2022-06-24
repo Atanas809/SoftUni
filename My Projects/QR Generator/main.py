@@ -9,3 +9,5 @@ qr = qrcode.QRCode(
     version=3,
     box_size=3,
     border=4)
+
+qr.add_data(link)

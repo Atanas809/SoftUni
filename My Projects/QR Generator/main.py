@@ -12,3 +12,4 @@ qr = qrcode.QRCode(
 
 qr.add_data(link)
 qr.make(fit=True)
+img = qr.make_image(fill='black', back_color='red')

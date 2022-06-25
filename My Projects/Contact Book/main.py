@@ -32,3 +32,8 @@ def add_contact(phones, name_of_book):
     else:
         print("-" * 20)
         print(f"Contact already added")
+
+        
+def contact_book():
+    phones = dict()
+    name_of_contact_book = input("Enter your phonebook name: ")

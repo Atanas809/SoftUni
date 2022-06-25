@@ -46,3 +46,8 @@ def contact_book():
                              "\n(A) for add contact"
                              "\n(S) for phonebook status"
                              "\nEnter your choice: ").upper()
+
+    if what_do_you_want == "A":
+        add_contact(phones, name_of_contact_book)
+    elif what_do_you_want == "S":
+        status(phones, name_of_contact_book)

@@ -27,3 +27,5 @@ def add_contact(phones, name_of_book):
                                  "\nEnter your choice: ").upper()
         if what_do_you_want == "A":
             add_contact(phones, name_of_book)
+        elif what_do_you_want == "S":
+            status(phones, name_of_book)

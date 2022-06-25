@@ -41,3 +41,8 @@ def contact_book():
     print(f"{'-' * 20}")
     print(f"{name_of_contact_book}'s Phonebook")
     print('-' * 20)
+
+    what_do_you_want = input("What do you want to do:"
+                             "\n(A) for add contact"
+                             "\n(S) for phonebook status"
+                             "\nEnter your choice: ").upper()

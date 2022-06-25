@@ -25,3 +25,5 @@ def add_contact(phones, name_of_book):
         what_do_you_want = input("(A) for add contact"
                                  "\n(S) for phonebook status"
                                  "\nEnter your choice: ").upper()
+        if what_do_you_want == "A":
+            add_contact(phones, name_of_book)

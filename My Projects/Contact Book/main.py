@@ -1,3 +1,7 @@
 def status(phones, name):
     print("-" * 20)
     print(f"Your contacts in {name}'s phonebook:")
+
+    if len(phones.keys()) == 0:
+        print(f"You don't have any contacts now, please add some and then come back here!")
+        add_contact(phones, name)

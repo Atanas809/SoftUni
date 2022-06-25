@@ -16,3 +16,8 @@ def add_contact(phones, name_of_book):
     print("*" * 20)
     name = input("Enter a contact name: ")
     phone_number = input("Enter a phone number: ")
+
+    if name not in phones.keys():
+        phones[name] = phone_number
+        print("-" * 20)
+        print(f"Added new contact: {name} -> {phone_number}")

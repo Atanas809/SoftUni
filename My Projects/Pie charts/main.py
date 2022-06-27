@@ -1,7 +1,4 @@
 
-""")
-
-def points(data):
 
     digits = r"\d"
 

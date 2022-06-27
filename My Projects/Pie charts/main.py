@@ -1,5 +1,4 @@
 
-    matches = re.findall(digits, data)
 
     current_points = 0
 

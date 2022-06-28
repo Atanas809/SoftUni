@@ -9,3 +9,5 @@ def computer_guessing(x):
     feedback = ""
 
     while feedback != "c" and low != high:
+
+        guess = random.randint(low, high)

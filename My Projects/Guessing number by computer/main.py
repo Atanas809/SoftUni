@@ -22,3 +22,6 @@ def computer_guessing(x):
             high = guess - 1
 
         elif feedback == "l":
+            low = guess + 1
+
+    print(f"You won the game!")

@@ -7,3 +7,5 @@ def computer_guessing(x):
     high = x
 
     feedback = ""
+
+    while feedback != "c" and low != high:

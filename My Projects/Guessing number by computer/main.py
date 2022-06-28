@@ -16,3 +16,4 @@ def computer_guessing(x):
                          f"\n(C) for correct"
                          f"\n(H) for too high"
                          f"\n(L) for too low"
+                         f"\nMake your choice: ").lower()

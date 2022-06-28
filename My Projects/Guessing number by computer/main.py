@@ -19,3 +19,4 @@ def computer_guessing(x):
                          f"\nMake your choice: ").lower()
 
         if feedback == "h":
+            high = guess - 1

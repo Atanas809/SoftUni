@@ -25,3 +25,6 @@ def computer_guessing(x):
             low = guess + 1
 
     print(f"You won the game!")
+
+
+computer_guessing(100)

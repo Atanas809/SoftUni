@@ -11,3 +11,5 @@ def computer_guessing(x):
     while feedback != "c" and low != high:
 
         guess = random.randint(low, high)
+
+        feedback = input(f"{guess} is the correct secret number?"

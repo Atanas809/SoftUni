@@ -20,3 +20,5 @@ def computer_guessing(x):
 
         if feedback == "h":
             high = guess - 1
+
+        elif feedback == "l":

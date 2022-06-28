@@ -15,3 +15,4 @@ def computer_guessing(x):
         feedback = input(f"{guess} is the correct secret number?"
                          f"\n(C) for correct"
                          f"\n(H) for too high"
+                         f"\n(L) for too low"

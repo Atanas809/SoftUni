@@ -11,3 +11,4 @@ def game(x):
         guess = int(input("Make you guess here: "))
 
         if guess < random_number:
+            print(f"Your number {guess} is too low. Try again with a high one!")

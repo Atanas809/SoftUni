@@ -9,3 +9,5 @@ def game(x):
     while guess != random_number:
 
         guess = int(input("Make you guess here: "))
+
+        if guess < random_number:

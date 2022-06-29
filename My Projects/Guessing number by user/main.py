@@ -1,7 +1,4 @@
 
-        current_name = names(data)
-        current_points = points(data)
-
         for name in participants:
 
             if current_name == name.strip():

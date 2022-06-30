@@ -26,3 +26,6 @@ def game():
         return "You won!"
 
     return "You lost."
+
+
+print(game())

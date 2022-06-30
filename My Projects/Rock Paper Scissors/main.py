@@ -24,3 +24,5 @@ def game():
 
     if who_wins(user, computer):
         return "You won!"
+
+    return "You lost."

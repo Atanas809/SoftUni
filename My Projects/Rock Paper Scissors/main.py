@@ -16,3 +16,5 @@ def game():
                  "\n(P) for Paper"
                  "\n(S) for Scissors"
                  "\nMake your choice: ").lower()
+
+    computer = random.choice(["R", "P", "S"]).lower()

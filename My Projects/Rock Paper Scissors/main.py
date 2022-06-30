@@ -8,3 +8,8 @@ def who_wins(player1, player2):
         (player1 == "p" and player2 == "r"):
 
         return True
+
+
+def game():
+
+    user = input("(R) for Rock"

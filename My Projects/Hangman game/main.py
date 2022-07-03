@@ -9,3 +9,5 @@ def valid_words():
 
     while " " in random_word and "-" in random_word:
         random_word = random.choice(words)
+
+    return random_word.upper()

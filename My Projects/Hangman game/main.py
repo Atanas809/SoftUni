@@ -17,5 +17,4 @@ def hangman():
     word = valid_words()
     letters_in_word = set(word)
     used_letters = set()
-
     lives = 6

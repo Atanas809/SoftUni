@@ -39,3 +39,5 @@ def hangman():
             lives -= 1
             print(f"\nYour letter {guess} not in word")
             print(f"You have {lives} lives remaining")
+
+        used_letters.add(guess)

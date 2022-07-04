@@ -38,3 +38,4 @@ def hangman():
         elif guess not in word:
             lives -= 1
             print(f"\nYour letter {guess} not in word")
+            print(f"You have {lives} lives remaining")

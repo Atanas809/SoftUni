@@ -44,3 +44,5 @@ def hangman():
 
     if len(letters_in_word) == 0:
         print(f"\nYou guess the secret word {word}")
+    else:
+        print(f"You've lost the game!")

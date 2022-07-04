@@ -18,3 +18,5 @@ def hangman():
     letters_in_word = set(word)
     used_letters = set()
     lives = 6
+
+    while len(letters_in_word) > 0 and lives > 0:

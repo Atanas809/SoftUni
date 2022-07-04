@@ -23,5 +23,8 @@ def hangman():
 
         print(f"{visual_lives[lives]}")
         secret_word = [x if x in used_letters else "_" for x in word]
+        
         print(f"{' '.join(secret_word)}")
         print(f"You used these letters: {' '.join(used_letters)}")
+        
+        guess = input("Make your guess here: ").upper()

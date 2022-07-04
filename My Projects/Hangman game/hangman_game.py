@@ -31,3 +31,5 @@ def hangman():
 
         if guess in letters_in_word:
             letters_in_word.remove(guess)
+
+        elif guess in used_letters:

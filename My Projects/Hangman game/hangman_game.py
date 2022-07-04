@@ -30,3 +30,4 @@ def hangman():
         guess = input("Make your guess here: ").upper()
 
         if guess in letters_in_word:
+            letters_in_word.remove(guess)

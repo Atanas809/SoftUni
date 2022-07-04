@@ -41,3 +41,5 @@ def hangman():
             print(f"You have {lives} lives remaining")
 
         used_letters.add(guess)
+
+    if len(letters_in_word) == 0:

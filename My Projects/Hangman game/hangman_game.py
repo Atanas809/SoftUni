@@ -34,3 +34,5 @@ def hangman():
 
         elif guess in used_letters:
             print(f"\nYou already used letter {guess}")
+
+        elif guess not in word:

@@ -33,3 +33,4 @@ def hangman():
             letters_in_word.remove(guess)
 
         elif guess in used_letters:
+            print(f"\nYou already used letter {guess}")

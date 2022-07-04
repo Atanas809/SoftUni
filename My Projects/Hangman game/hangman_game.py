@@ -47,3 +47,5 @@ def hangman():
     else:
         print(f"You've lost the game!")
         print(f"Your secret word was {word}")
+
+        try_again = input("\nDo you want to try again with a new word?"

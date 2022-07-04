@@ -36,3 +36,4 @@ def hangman():
             print(f"\nYou already used letter {guess}")
 
         elif guess not in word:
+            lives -= 1

@@ -51,3 +51,6 @@ def hangman():
         try_again = input("\nDo you want to try again with a new word?"
                           "\n            (Y) for YES"
                           "\n            (N) for NO"
+                          "\nYour choice: ").upper()
+
+        if try_again == "Y":

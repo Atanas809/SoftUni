@@ -54,3 +54,7 @@ def hangman():
                           "\nYour choice: ").upper()
 
         if try_again == "Y":
+            hangman()
+
+
+hangman()

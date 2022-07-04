@@ -28,3 +28,5 @@ def hangman():
         print(f"You used these letters: {' '.join(used_letters)}")
         
         guess = input("Make your guess here: ").upper()
+
+        if guess in letters_in_word:

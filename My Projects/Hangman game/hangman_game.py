@@ -20,3 +20,5 @@ def hangman():
     lives = 6
 
     while len(letters_in_word) > 0 and lives > 0:
+
+        print(f"{visual_lives[lives]}")

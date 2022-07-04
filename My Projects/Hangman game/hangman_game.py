@@ -22,3 +22,4 @@ def hangman():
     while len(letters_in_word) > 0 and lives > 0:
 
         print(f"{visual_lives[lives]}")
+        secret_word = [x if x in used_letters else "_" for x in word]

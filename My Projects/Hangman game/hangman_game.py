@@ -46,3 +46,4 @@ def hangman():
         print(f"\nYou guess the secret word {word}")
     else:
         print(f"You've lost the game!")
+        print(f"Your secret word was {word}")

@@ -18,3 +18,4 @@ for x in right:
 for y in left:
     if type_items == "cheap":
         if y < price_ratings[entry_point]:
+            left_sum += y

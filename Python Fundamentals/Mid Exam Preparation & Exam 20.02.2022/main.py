@@ -21,3 +21,4 @@ for y in left:
             left_sum += y
     elif type_items == "expensive":
         if y >= price_ratings[entry_point]:
+            left_sum += y

@@ -4,3 +4,5 @@ type_items = input()
 
 right = price_ratings[entry_point + 1:]
 left = price_ratings[:entry_point]
+
+left_sum = 0

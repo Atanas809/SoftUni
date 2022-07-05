@@ -7,3 +7,5 @@ left = price_ratings[:entry_point]
 
 left_sum = 0
 right_sum = 0
+
+for x in right:

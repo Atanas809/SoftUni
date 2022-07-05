@@ -22,3 +22,6 @@ for y in left:
     elif type_items == "expensive":
         if y >= price_ratings[entry_point]:
             left_sum += y
+
+if left_sum > right_sum:
+    print(f"Left - {left_sum}")

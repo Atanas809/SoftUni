@@ -15,3 +15,4 @@ for x in right:
     elif type_items == "expensive":
         if x >= price_ratings[entry_point]:
             right_sum += x
+for y in left:

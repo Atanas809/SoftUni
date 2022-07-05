@@ -9,3 +9,4 @@ left_sum = 0
 right_sum = 0
 
 for x in right:
+    if type_items == "cheap":

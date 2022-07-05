@@ -10,3 +10,4 @@ right_sum = 0
 
 for x in right:
     if type_items == "cheap":
+        if x < price_ratings[entry_point]:

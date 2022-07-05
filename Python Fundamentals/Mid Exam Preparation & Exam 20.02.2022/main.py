@@ -13,3 +13,4 @@ for x in right:
         if x < price_ratings[entry_point]:
             right_sum += x
     elif type_items == "expensive":
+        if x >= price_ratings[entry_point]:

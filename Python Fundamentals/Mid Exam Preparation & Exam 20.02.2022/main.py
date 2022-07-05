@@ -25,3 +25,5 @@ for y in left:
 
 if left_sum > right_sum:
     print(f"Left - {left_sum}")
+elif left_sum < right_sum:
+    print(f"Right - {right_sum}")

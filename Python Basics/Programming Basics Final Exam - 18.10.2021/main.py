@@ -11,3 +11,4 @@ for cat in range(1, number_of_cats + 1):
     if 100 <= food_in_grams < 200:
         small_cats += 1
     elif 200 <= food_in_grams < 300:
+        big_cats += 1

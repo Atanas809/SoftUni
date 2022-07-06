@@ -16,3 +16,5 @@ for cat in range(1, number_of_cats + 1):
         huge_cats += 1
         
 price_food_per_day = (needed_food / 1000) * 12.45
+
+print(f"Group 1: {small_cats} cats.")

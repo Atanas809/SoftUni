@@ -14,3 +14,5 @@ for cat in range(1, number_of_cats + 1):
         big_cats += 1
     else:
         huge_cats += 1
+        
+price_food_per_day = (needed_food / 1000) * 12.45

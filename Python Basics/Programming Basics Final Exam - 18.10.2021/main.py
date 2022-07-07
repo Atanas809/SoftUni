@@ -7,3 +7,4 @@ count_sweaters = 0
 
 while command != "Christmas":
     age = int(command)
+    if age <= 16:

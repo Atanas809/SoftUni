@@ -11,3 +11,4 @@ while command != "Christmas":
         kids += 1
         count_toys += 1
     else:
+        adults += 1

@@ -13,3 +13,4 @@ while command != "Christmas":
     else:
         adults += 1
         count_sweaters += 1
+    command = input()

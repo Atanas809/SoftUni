@@ -10,3 +10,4 @@ while command != "Christmas":
     if age <= 16:
         kids += 1
         count_toys += 1
+    else:

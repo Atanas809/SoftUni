@@ -15,3 +15,4 @@ while command != "Christmas":
         count_sweaters += 1
     command = input()
 price_for_toys = count_toys * 5
+price_for_sweaters = count_sweaters * 15

@@ -19,3 +19,4 @@ price_for_sweaters = count_sweaters * 15
 
 print(f"Number of adults: {adults}")
 print(f"Number of kids: {kids}")
+print(f"Money for toys: {price_for_toys}")

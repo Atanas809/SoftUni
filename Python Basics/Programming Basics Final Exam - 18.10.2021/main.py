@@ -6,3 +6,4 @@ count_toys = 0
 count_sweaters = 0
 
 while command != "Christmas":
+    age = int(command)

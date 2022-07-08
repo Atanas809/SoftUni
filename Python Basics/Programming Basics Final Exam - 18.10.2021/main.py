@@ -48,3 +48,16 @@ if team == "Denmark":
         price += number_of_souvenirs * 3.10
     elif souvenirs == "caps":
         price += number_of_souvenirs * 6.50
+    elif souvenirs == "posters":
+        price += number_of_souvenirs * 4.80
+    elif souvenirs == "stickers":
+        price += number_of_souvenirs * 0.90
+    else:
+        souvenirs_is_valid = False
+
+if team_is_valid and souvenirs_is_valid:
+    print(f"Pepi bought {number_of_souvenirs} {souvenirs} of {team} for {price:.2f} lv.")
+elif not team_is_valid:
+    print("Invalid country!")
+elif not souvenirs_is_valid:
+    print("Invalid stock!")

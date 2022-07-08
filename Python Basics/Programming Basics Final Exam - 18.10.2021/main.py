@@ -36,3 +36,9 @@ if team == "Croatia":
         price += number_of_souvenirs * 2.75
     elif souvenirs == "caps":
         price += number_of_souvenirs * 6.90
+    elif souvenirs == "posters":
+        price += number_of_souvenirs * 4.95
+    elif souvenirs == "stickers":
+        price += number_of_souvenirs * 1.10
+    else:
+        souvenirs_is_valid = False

@@ -18,3 +18,5 @@ if team == "Argentina":
         price += number_of_souvenirs * 1.25
     else:
         souvenirs_is_valid = False
+if team == "Brazil":
+    team_is_valid = True

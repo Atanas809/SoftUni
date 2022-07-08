@@ -12,3 +12,5 @@ if team == "Argentina":
         price += number_of_souvenirs * 3.25
     elif souvenirs == "caps":
         price += number_of_souvenirs * 7.20
+    elif souvenirs == "posters":
+        price += number_of_souvenirs * 5.10

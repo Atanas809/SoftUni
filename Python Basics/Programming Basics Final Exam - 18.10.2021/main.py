@@ -5,3 +5,6 @@ price = 0
 
 team_is_valid = False
 souvenirs_is_valid = True
+
+if team == "Argentina":
+    team_is_valid = True

@@ -1,1 +1,2 @@
-
+team = input()
+souvenirs = input()

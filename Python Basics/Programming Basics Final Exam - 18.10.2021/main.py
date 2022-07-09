@@ -10,3 +10,4 @@ for location in range(1, number_of_locations + 1):
         total_average_yield += gold_mined
     final_average_yield = total_average_yield / number_of_days
     if final_average_yield >= average_yield:
+        is_achieved = True

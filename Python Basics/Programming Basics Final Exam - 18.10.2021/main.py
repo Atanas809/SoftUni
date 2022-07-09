@@ -4,3 +4,4 @@ for location in range(1, number_of_locations + 1):
     total_average_yield = 0
     final_average_yield = 0
     average_yield = float(input())
+    number_of_days = int(input())

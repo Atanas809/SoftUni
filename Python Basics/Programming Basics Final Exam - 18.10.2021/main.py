@@ -8,3 +8,4 @@ for location in range(1, number_of_locations + 1):
     for days in range(1, number_of_days + 1):
         gold_mined = float(input())
         total_average_yield += gold_mined
+    final_average_yield = total_average_yield / number_of_days

@@ -12,3 +12,4 @@ for location in range(1, number_of_locations + 1):
     if final_average_yield >= average_yield:
         is_achieved = True
         print(f"Good job! Average gold per day: {final_average_yield:.2f}.")
+    else:

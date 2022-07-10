@@ -1,4 +1,4 @@
-correct_number = 23
+
 print("Enter number:", end = " ")
 number = int(input())
 while number != correct_number:

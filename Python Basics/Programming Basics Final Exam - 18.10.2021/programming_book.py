@@ -8,4 +8,4 @@ total_sum_for_printing = (price_for_printing - (price_for_printing * (discount /
 
 total_sum_with_discount = total_sum_for_printing - (total_sum_for_printing * (total_sum_percent / 100))
 
-print(f"Avtonom should pay {total_sum_with_discount:.2f} BGN.")
+print(f"Ivan should pay {total_sum_with_discount:.2f} BGN.")

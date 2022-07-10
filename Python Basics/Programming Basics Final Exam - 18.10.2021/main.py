@@ -1,5 +1,4 @@
 
-number = int(input())
 while number != correct_number:
     print("Wrong number!")
     print("Try another one:", end = " ")

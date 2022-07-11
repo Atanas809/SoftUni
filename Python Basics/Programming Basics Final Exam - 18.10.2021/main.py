@@ -9,3 +9,4 @@ room_volume = (average_astronauts_height + 0.4) * 4
 total_astronauts = floor(spaceship_volume / room_volume)
 
 if total_astronauts < 3:
+    print("The spacecraft is too small.")

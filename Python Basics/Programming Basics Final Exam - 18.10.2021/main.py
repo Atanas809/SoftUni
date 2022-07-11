@@ -13,3 +13,4 @@ if total_astronauts < 3:
 elif 3 <= total_astronauts <= 10:
     print(f"The spacecraft holds {total_astronauts} astronauts.")
 else:
+    print("The spacecraft is too big.")

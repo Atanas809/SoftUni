@@ -17,3 +17,4 @@ while len(kids) > 1:
         kids.append(current_kid)
     else:
         print(f"Removed {current_kid}")
+        current_toss = 0

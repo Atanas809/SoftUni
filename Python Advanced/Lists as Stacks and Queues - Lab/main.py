@@ -15,3 +15,4 @@ while len(kids) > 1:
 
     if current_toss < tosses:
         kids.append(current_kid)
+    else:

@@ -18,3 +18,5 @@ while len(kids) > 1:
     else:
         print(f"Removed {current_kid}")
         current_toss = 0
+
+print(f"Last is {kids.pop()}")

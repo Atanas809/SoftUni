@@ -7,3 +7,5 @@ kids = deque(input().split())
 tosses = int(input())
 
 current_toss = 0
+
+while len(kids) > 1:

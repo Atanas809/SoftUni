@@ -12,3 +12,5 @@ while len(kids) > 1:
     current_toss += 1
 
     current_kid = kids.popleft()
+
+    if current_toss < tosses:

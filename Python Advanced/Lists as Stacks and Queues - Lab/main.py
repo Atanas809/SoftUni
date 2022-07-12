@@ -10,3 +10,5 @@ current_toss = 0
 
 while len(kids) > 1:
     current_toss += 1
+
+    current_kid = kids.popleft()

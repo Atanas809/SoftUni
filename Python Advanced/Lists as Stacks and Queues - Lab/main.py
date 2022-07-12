@@ -9,3 +9,4 @@ tosses = int(input())
 current_toss = 0
 
 while len(kids) > 1:
+    current_toss += 1

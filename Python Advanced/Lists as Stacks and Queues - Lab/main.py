@@ -3,3 +3,5 @@
 text = input()
 
 my_list = list()
+
+for x in text:

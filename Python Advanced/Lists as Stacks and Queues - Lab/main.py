@@ -1,4 +1,3 @@
-import re
 
 def output(my_dict):
 

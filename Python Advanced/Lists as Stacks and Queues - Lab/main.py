@@ -8,3 +8,5 @@ for x in text:
     my_list.append(x)
 
 my_stack = ""
+
+while my_list:

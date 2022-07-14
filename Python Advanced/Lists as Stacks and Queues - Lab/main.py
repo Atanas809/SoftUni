@@ -1,8 +1,4 @@
 
-3rd place: {best_results[2]}
-""")
-
-def points(data):
 
     digits = r"\d"
 

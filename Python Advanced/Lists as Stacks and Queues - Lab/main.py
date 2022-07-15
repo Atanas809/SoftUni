@@ -13,3 +13,6 @@ class Stack:
 
     def count(self):
         return len(self.values)
+
+
+s = Stack()

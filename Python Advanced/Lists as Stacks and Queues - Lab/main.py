@@ -7,3 +7,6 @@ class Stack:
 
     def pop(self):
         return self.values.pop()
+
+    def peek(self):
+        return self.values[-1]

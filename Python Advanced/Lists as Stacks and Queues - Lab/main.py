@@ -10,3 +10,6 @@ class Stack:
 
     def peek(self):
         return self.values[-1]
+
+    def count(self):
+        return len(self.values)

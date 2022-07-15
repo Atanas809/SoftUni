@@ -21,3 +21,4 @@ for x in range(2, 8):  # 2, 3, 4, 5, 6, 7
     s.push(x)
 
 print(s.pop())  # 2, 3, 4, 5, 6 --> pop value ( 7 ) and then prints it
+print(s.peek())  # 2, 3, 4, 5, 6 --> prints the last element ( 6 )

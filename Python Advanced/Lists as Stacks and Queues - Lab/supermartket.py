@@ -12,3 +12,6 @@ while True:
             print(q.popleft())
     elif command == "End":
         print(f"{len(q)} people remaining.")
+        break
+    else:
+        q.append(command)

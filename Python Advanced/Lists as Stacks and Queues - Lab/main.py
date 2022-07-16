@@ -11,3 +11,4 @@ while True:
         while q:
             print(q.popleft())
     elif command == "End":
+        print(f"{len(q)} people remaining.")

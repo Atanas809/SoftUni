@@ -9,3 +9,4 @@ while True:
 
     if command == "Paid":
         while q:
+            print(q.popleft())

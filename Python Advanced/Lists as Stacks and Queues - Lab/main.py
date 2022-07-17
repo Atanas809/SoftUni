@@ -26,3 +26,7 @@ while command != "End":
             print(f"{person} got water")
         else:
             print(f"{person} must wait")
+
+    command = input()
+
+print(f"{water_quantity} liters left")

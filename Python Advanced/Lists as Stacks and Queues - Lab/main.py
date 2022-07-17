@@ -12,3 +12,5 @@ while name != "Start":
     name = input()
 
 command = input()
+
+while command != "End":

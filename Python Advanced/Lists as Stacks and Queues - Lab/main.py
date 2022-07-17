@@ -14,3 +14,5 @@ while name != "Start":
 command = input()
 
 while command != "End":
+
+    if command.startswith("refill "):

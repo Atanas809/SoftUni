@@ -8,3 +8,7 @@ name = input()
 
 while name != "Start":
     people.append(name)
+
+    name = input()
+
+command = input()

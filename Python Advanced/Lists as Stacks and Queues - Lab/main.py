@@ -19,3 +19,4 @@ while command != "End":
         water_quantity += int(command.split()[1])
     else:
         wanted_liters = int(command)
+        person = people.popleft()

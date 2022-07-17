@@ -23,3 +23,4 @@ while command != "End":
 
         if wanted_liters <= water_quantity:
             water_quantity -= wanted_liters
+            print(f"{person} got water")

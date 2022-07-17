@@ -20,3 +20,5 @@ while command != "End":
     else:
         wanted_liters = int(command)
         person = people.popleft()
+
+        if wanted_liters <= water_quantity:

@@ -16,3 +16,4 @@ command = input()
 while command != "End":
 
     if command.startswith("refill "):
+        water_quantity += int(command.split()[1])

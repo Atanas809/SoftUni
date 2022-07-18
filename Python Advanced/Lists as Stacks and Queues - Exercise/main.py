@@ -1,1 +1,1 @@
-
+brackets = input()

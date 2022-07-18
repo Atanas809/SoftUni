@@ -11,3 +11,5 @@ valid_brackets = {
 condition = True
 
 for x in brackets:
+    if x in "({[":
+        stack.append(x)

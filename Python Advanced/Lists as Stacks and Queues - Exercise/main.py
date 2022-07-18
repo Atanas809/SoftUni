@@ -1,1 +1,3 @@
 brackets = input()
+
+stack = list()

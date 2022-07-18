@@ -19,3 +19,5 @@ for x in brackets:
             condition = False
             break
     else:
+        condition = False
+        break

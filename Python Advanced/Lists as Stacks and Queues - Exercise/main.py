@@ -21,3 +21,5 @@ for x in brackets:
     else:
         condition = False
         break
+
+if condition and not stack:

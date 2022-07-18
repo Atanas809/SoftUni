@@ -23,3 +23,4 @@ for x in brackets:
         break
 
 if condition and not stack:
+    print("YES")

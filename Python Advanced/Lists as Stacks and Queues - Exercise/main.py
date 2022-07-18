@@ -18,3 +18,4 @@ for x in brackets:
         if valid_brackets[last_bracket] != x:
             condition = False
             break
+    else:

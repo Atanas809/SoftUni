@@ -7,3 +7,5 @@ valid_brackets = {
     "{": "}",
     "[": "]"
 }
+
+condition = True

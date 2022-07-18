@@ -15,3 +15,4 @@ for x in brackets:
         stack.append(x)
     elif x in ")}]" and stack:
         last_bracket = stack.pop()
+        if valid_brackets[last_bracket] != x:

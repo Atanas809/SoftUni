@@ -24,3 +24,5 @@ for x in brackets:
 
 if condition and not stack:
     print("YES")
+else:
+    print("NO")

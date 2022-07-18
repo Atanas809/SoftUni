@@ -16,3 +16,5 @@ for x in brackets:
     elif x in ")}]" and stack:
         last_bracket = stack.pop()
         if valid_brackets[last_bracket] != x:
+            condition = False
+            break

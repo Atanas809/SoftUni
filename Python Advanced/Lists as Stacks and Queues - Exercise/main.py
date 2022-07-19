@@ -21,3 +21,5 @@ while command != "END":
             current_car = cars.popleft()
             if len(current_car) <= green_duration + free_window:
                 passed_cars += 1
+            else:
+                hit_at = current_car[green_duration + free_window]

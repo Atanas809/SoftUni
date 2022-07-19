@@ -30,3 +30,5 @@ while command != "END":
             green_duration -= len(current_car)
 
     command = input()
+
+if car_crashed:

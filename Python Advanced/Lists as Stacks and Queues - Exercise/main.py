@@ -23,3 +23,6 @@ while command != "END":
                 passed_cars += 1
             else:
                 hit_at = current_car[green_duration + free_window]
+                car_crashed = current_car
+                crashed = True
+                break

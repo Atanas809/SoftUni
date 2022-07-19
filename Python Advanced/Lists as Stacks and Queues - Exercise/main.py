@@ -32,3 +32,4 @@ while command != "END":
     command = input()
 
 if car_crashed:
+    print("A crash happened!")

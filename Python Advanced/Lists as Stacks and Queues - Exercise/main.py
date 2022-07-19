@@ -26,3 +26,5 @@ while command != "END":
                 car_crashed = current_car
                 crashed = True
                 break
+
+            green_duration -= len(current_car)

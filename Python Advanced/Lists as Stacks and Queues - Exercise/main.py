@@ -18,3 +18,4 @@ while command != "END":
     else:
         green_duration = green_light
         while green_duration > 0 and cars:
+            current_car = cars.popleft()

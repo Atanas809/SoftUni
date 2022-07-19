@@ -28,3 +28,5 @@ while command != "END":
                 break
 
             green_duration -= len(current_car)
+
+    command = input()

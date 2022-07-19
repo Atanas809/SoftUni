@@ -10,3 +10,8 @@ passed_cars = 0
 hit_at = ""
 car_crashed = ""
 crashed = False
+
+while command != "END":
+
+    if crashed:
+        break

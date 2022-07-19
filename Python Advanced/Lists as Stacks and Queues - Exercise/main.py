@@ -20,3 +20,4 @@ while command != "END":
         while green_duration > 0 and cars:
             current_car = cars.popleft()
             if len(current_car) <= green_duration + free_window:
+                passed_cars += 1

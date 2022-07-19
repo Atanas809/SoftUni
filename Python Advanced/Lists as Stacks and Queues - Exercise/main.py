@@ -36,3 +36,4 @@ if car_crashed:
     print(f"{car_crashed} was hit at {hit_at}.")
 else:
     print("Everyone is safe.")
+    print(f"{passed_cars} total cars passed the crossroads.")

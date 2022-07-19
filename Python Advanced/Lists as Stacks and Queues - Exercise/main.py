@@ -6,3 +6,5 @@ free_window = int(input())
 command = input()
 
 cars = deque()
+passed_cars = 0
+hit_at = ""

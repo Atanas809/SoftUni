@@ -35,3 +35,4 @@ if car_crashed:
     print("A crash happened!")
     print(f"{car_crashed} was hit at {hit_at}.")
 else:
+    print("Everyone is safe.")

@@ -15,3 +15,6 @@ while command != "END":
 
     if crashed:
         break
+    else:
+        green_duration = green_light
+        while green_duration > 0 and cars:

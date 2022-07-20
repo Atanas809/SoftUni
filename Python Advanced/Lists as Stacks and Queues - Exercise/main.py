@@ -1,9 +1,5 @@
 
 
-    participants = input().split(",")
-
-    my_dict = dict()
-
     data = input()
 
     while data != "end of race":

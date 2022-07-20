@@ -7,3 +7,4 @@ racks_used = 1
 current_weight = capacity
 
 while clothes:
+    current_piece = clothes[-1]

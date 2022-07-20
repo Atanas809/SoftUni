@@ -5,3 +5,5 @@ capacity = int(input())
 racks_used = 1
 
 current_weight = capacity
+
+while clothes:

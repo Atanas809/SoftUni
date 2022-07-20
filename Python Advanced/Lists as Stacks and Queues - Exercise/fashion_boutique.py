@@ -11,3 +11,9 @@ while clothes:
 
     if current_piece <= current_weight:
         current_weight -= current_piece
+        clothes.pop()
+    else:
+        racks_used += 1
+        current_weight = capacity
+
+print(racks_used)

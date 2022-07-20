@@ -8,3 +8,6 @@ current_weight = capacity
 
 while clothes:
     current_piece = clothes[-1]
+
+    if current_piece <= current_weight:
+        current_weight -= current_piece

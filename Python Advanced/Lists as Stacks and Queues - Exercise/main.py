@@ -16,3 +16,5 @@ for _ in range(len(orders)):
     else:
         condition = False
         break
+
+if condition:

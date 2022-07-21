@@ -14,3 +14,4 @@ for _ in range(len(orders)):
         food_quantity -= order_quantity
         orders.popleft()
     else:
+        condition = False

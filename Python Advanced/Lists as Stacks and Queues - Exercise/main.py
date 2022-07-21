@@ -8,3 +8,4 @@ print(max(orders))
 condition = True
 
 for _ in range(len(orders)):
+    order_quantity = orders[0]

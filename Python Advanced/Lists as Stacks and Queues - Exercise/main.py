@@ -6,3 +6,5 @@ orders = deque(int(x) for x in input().split())
 
 print(max(orders))
 condition = True
+
+for _ in range(len(orders)):

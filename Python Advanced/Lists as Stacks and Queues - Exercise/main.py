@@ -12,3 +12,4 @@ for _ in range(len(orders)):
 
     if order_quantity <= food_quantity:
         food_quantity -= order_quantity
+        orders.popleft()

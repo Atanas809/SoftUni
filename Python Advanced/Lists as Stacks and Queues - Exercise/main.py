@@ -9,3 +9,5 @@ condition = True
 
 for _ in range(len(orders)):
     order_quantity = orders[0]
+
+    if order_quantity <= food_quantity:

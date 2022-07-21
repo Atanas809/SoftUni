@@ -20,3 +20,4 @@ for _ in range(len(orders)):
 if condition:
     print("Orders complete")
 else:
+    print(f"Orders left: {' '.join([str(x) for x in orders])}")

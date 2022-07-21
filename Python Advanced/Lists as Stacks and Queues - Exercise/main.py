@@ -18,3 +18,4 @@ for _ in range(len(orders)):
         break
 
 if condition:
+    print("Orders complete")

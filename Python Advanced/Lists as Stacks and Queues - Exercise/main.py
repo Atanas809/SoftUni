@@ -15,3 +15,4 @@ for _ in range(len(orders)):
         orders.popleft()
     else:
         condition = False
+        break

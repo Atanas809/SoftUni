@@ -21,3 +21,4 @@ while bullets and locks:
         print("Ping!")
 
     bullets_used += 1
+    reload += 1

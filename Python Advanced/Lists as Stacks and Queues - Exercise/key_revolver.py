@@ -29,3 +29,4 @@ while bullets and locks:
         continue
 
 if locks:
+    print(f"Couldn't get through. Locks left: {len(locks)}")

@@ -26,3 +26,6 @@ while bullets and locks:
     if reload == size_barrel and bullets:
         reload = 0
         print("Reloading!")
+        continue
+
+if locks:

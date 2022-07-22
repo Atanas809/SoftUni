@@ -10,3 +10,6 @@ reload = 0
 bullets_used = 0
 
 while bullets and locks:
+
+    current_bullet = bullets.pop()
+    current_lock = locks[0]

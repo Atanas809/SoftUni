@@ -18,3 +18,4 @@ while bullets and locks:
         locks.remove(current_lock)
         print("Bang!")
     else:
+        print("Ping!")

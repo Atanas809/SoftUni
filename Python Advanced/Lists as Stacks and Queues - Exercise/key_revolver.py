@@ -13,3 +13,6 @@ while bullets and locks:
 
     current_bullet = bullets.pop()
     current_lock = locks[0]
+
+    if current_lock >= current_bullet:
+        locks.remove(current_lock)

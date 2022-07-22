@@ -30,3 +30,5 @@ while bullets and locks:
 
 if locks:
     print(f"Couldn't get through. Locks left: {len(locks)}")
+else:
+    money_earned = intelligence - (bullet_price * bullets_used)

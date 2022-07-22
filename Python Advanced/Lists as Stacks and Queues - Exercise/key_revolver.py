@@ -22,3 +22,5 @@ while bullets and locks:
 
     bullets_used += 1
     reload += 1
+
+    if reload == size_barrel and bullets:

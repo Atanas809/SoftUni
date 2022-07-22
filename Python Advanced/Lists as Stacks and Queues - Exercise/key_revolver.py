@@ -19,3 +19,5 @@ while bullets and locks:
         print("Bang!")
     else:
         print("Ping!")
+
+    bullets_used += 1

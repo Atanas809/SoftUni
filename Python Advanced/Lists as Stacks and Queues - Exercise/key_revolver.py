@@ -8,3 +8,5 @@ intelligence = int(input())
 
 reload = 0
 bullets_used = 0
+
+while bullets and locks:

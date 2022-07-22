@@ -16,3 +16,5 @@ while bullets and locks:
 
     if current_lock >= current_bullet:
         locks.remove(current_lock)
+        print("Bang!")
+    else:

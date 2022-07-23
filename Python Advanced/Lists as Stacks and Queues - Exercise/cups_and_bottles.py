@@ -8,3 +8,5 @@ for _ in range(counter):
         stack.append(query[1])
     elif query[0] == 2 and stack:
         stack.pop()
+    elif query[0] == 3 and stack:
+        print(max(stack))

@@ -6,3 +6,5 @@ for _ in range(counter):
 
     if query[0] == 1:
         stack.append(query[1])
+    elif query[0] == 2 and stack:
+        stack.pop()

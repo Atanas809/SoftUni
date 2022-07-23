@@ -16,3 +16,4 @@ for _ in range(counter):
 reversed_stack = list()
 
 while stack:
+    reversed_stack.append(str(stack.pop()))

@@ -1,12 +1,4 @@
 
-def names(data):
-
-    letters = r"[a-zA-Z]+"
-
-    matches = re.findall(letters, data)
-
-    current_name = ''.join(matches)
-
     return current_name
 
 def race():

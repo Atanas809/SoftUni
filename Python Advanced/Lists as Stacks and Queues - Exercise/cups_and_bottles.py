@@ -10,3 +10,5 @@ for _ in range(counter):
         stack.pop()
     elif query[0] == 3 and stack:
         print(max(stack))
+    elif query[0] == 4 and stack:
+        print(min(stack))

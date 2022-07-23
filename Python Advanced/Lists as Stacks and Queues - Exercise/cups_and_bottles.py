@@ -14,3 +14,5 @@ for _ in range(counter):
         print(min(stack))
 
 reversed_stack = list()
+
+while stack:

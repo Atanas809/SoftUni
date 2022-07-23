@@ -17,3 +17,5 @@ reversed_stack = list()
 
 while stack:
     reversed_stack.append(str(stack.pop()))
+
+print(", ".join(reversed_stack))

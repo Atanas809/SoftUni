@@ -12,3 +12,5 @@ for _ in range(counter):
         print(max(stack))
     elif query[0] == 4 and stack:
         print(min(stack))
+
+reversed_stack = list()

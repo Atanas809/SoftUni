@@ -40,3 +40,9 @@ def output(current_robot, current_product, time_in_seconds):
     hours = strftime("%H:%M:%S", gmtime(time_in_seconds))
 
     return f"{current_robot} - {current_product} [{hours}]"
+
+
+current_robots = robots()
+
+processing_time = dict()
+fast_robot = ""

@@ -25,3 +25,7 @@ def seconds():
 
 def items():
     command = input()
+
+    current_products = deque()
+
+    while command != "End":

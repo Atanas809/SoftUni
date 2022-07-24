@@ -29,3 +29,8 @@ def items():
     current_products = deque()
 
     while command != "End":
+        current_products.append(command)
+
+        command = input()
+
+    return current_products

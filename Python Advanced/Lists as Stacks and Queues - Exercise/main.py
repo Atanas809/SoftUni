@@ -34,3 +34,9 @@ def items():
         command = input()
 
     return current_products
+
+
+def output(current_robot, current_product, time_in_seconds):
+    hours = strftime("%H:%M:%S", gmtime(time_in_seconds))
+
+    return f"{current_robot} - {current_product} [{hours}]"

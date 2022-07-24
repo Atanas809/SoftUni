@@ -74,3 +74,6 @@ while products:
         if working_robots[robot_name] <= 0:
             working_robots.pop(robot_name)
             all_robots.append(robot_name)
+
+    if len(all_robots) > 0:
+        current_robot = all_robots.popleft()

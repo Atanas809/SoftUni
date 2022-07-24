@@ -59,3 +59,6 @@ for r in current_robots:
     if int(time) < fast:
         fast = int(time)
         fast_robot = robot
+
+time_in_seconds = seconds()
+products = items()

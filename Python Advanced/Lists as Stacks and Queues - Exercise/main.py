@@ -77,3 +77,7 @@ while products:
 
     if len(all_robots) > 0:
         current_robot = all_robots.popleft()
+        working_robots[current_robot] = processing_time[current_robot]
+        print(output(current_robot, current_product, time_in_seconds))
+    else:
+        products.append(current_product)

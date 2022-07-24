@@ -71,3 +71,6 @@ while products:
 
     for robot_name in [k for k in working_robots.keys()]:
         working_robots[robot_name] -= 1
+        if working_robots[robot_name] <= 0:
+            working_robots.pop(robot_name)
+            all_robots.append(robot_name)

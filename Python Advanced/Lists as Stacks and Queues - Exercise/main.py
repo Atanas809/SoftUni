@@ -55,3 +55,7 @@ for r in current_robots:
     robot, time = r.split("-")
     processing_time[robot] = int(time)
     all_robots.append(robot)
+
+    if int(time) < fast:
+        fast = int(time)
+        fast_robot = robot

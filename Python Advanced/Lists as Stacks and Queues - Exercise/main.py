@@ -62,3 +62,9 @@ for r in current_robots:
 
 time_in_seconds = seconds()
 products = items()
+
+working_robots = dict()
+
+while products:
+    current_product = products.popleft()
+    time_in_seconds += 1

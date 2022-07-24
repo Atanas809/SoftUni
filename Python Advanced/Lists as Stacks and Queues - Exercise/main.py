@@ -46,3 +46,6 @@ current_robots = robots()
 
 processing_time = dict()
 fast_robot = ""
+
+fast = sys.maxsize
+all_robots = deque()

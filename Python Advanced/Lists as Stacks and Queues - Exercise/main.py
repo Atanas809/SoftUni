@@ -49,3 +49,7 @@ fast_robot = ""
 
 fast = sys.maxsize
 all_robots = deque()
+
+for r in current_robots:
+
+    robot, time = r.split("-")

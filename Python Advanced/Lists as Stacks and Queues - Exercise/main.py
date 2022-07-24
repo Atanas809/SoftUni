@@ -21,3 +21,7 @@ def seconds():
     current_time = (info[0] * 3600) + (info[1] * 60) + info[2]
 
     return current_time
+
+
+def items():
+    command = input()

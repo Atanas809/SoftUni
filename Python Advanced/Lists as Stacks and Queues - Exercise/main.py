@@ -68,3 +68,6 @@ working_robots = dict()
 while products:
     current_product = products.popleft()
     time_in_seconds += 1
+
+    for robot_name in [k for k in working_robots.keys()]:
+        working_robots[robot_name] -= 1

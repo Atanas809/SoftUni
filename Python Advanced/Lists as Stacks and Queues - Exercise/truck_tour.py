@@ -14,3 +14,4 @@ for way in range(number_of_pumps):
         if current_petrol < 0:
             current_pumps.append(current_pumps.popleft())
             break
+    else:

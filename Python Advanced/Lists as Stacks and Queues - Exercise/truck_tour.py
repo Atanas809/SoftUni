@@ -15,3 +15,4 @@ for way in range(number_of_pumps):
             current_pumps.append(current_pumps.popleft())
             break
     else:
+        print(way)

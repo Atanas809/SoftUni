@@ -12,3 +12,4 @@ for way in range(number_of_pumps):
     for petrol, distance in current_pumps:
         current_petrol = current_petrol + int(petrol) - int(distance)
         if current_petrol < 0:
+            current_pumps.append(current_pumps.popleft())

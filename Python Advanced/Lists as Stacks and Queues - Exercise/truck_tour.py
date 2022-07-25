@@ -16,3 +16,4 @@ for way in range(number_of_pumps):
             break
     else:
         print(way)
+        break

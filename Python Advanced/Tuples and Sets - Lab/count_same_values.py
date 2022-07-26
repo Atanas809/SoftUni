@@ -1,1 +1,1 @@
-
+def output(occurrences):

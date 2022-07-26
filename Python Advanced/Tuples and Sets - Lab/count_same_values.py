@@ -12,3 +12,5 @@ def values():
         if n not in occurrences.keys():
             occurrences[n] = 0
         occurrences[n] += 1
+
+    output(occurrences)

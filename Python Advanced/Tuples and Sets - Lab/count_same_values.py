@@ -7,3 +7,5 @@ def values():
     numbers = (float(x) for x in input().split())
 
     occurrences = dict()
+
+    for n in numbers:

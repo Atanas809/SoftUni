@@ -9,3 +9,4 @@ def values():
     occurrences = dict()
 
     for n in numbers:
+        if n not in occurrences.keys():

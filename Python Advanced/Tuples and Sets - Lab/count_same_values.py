@@ -10,3 +10,4 @@ def values():
 
     for n in numbers:
         if n not in occurrences.keys():
+            occurrences[n] = 0

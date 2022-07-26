@@ -14,3 +14,6 @@ def values():
         occurrences[n] += 1
 
     output(occurrences)
+
+
+values()

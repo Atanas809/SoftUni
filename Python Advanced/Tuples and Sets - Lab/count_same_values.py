@@ -5,3 +5,5 @@ def output(occurrences):
 
 def values():
     numbers = (float(x) for x in input().split())
+
+    occurrences = dict()

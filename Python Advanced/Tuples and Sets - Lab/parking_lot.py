@@ -6,3 +6,4 @@ def output(my_set):
 
 
 def parking():
+    counter = int(input())

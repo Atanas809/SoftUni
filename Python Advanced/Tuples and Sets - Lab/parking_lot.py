@@ -18,3 +18,8 @@ def parking():
             my_set.add(number_plate)
         else:
             my_set.remove(number_plate)
+
+    output(my_set)
+
+
+parking()

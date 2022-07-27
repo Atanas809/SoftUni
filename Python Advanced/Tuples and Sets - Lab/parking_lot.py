@@ -17,3 +17,4 @@ def parking():
         if command == "IN":
             my_set.add(number_plate)
         else:
+            my_set.remove(number_plate)

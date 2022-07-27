@@ -11,3 +11,5 @@ def parking():
     my_set = set()
 
     for _ in range(counter):
+
+        command, number_plate = input().split(", ")

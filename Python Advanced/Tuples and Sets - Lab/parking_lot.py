@@ -13,3 +13,5 @@ def parking():
     for _ in range(counter):
 
         command, number_plate = input().split(", ")
+
+        if command == "IN":

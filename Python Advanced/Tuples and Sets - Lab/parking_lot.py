@@ -9,3 +9,5 @@ def parking():
     counter = int(input())
 
     my_set = set()
+
+    for _ in range(counter):

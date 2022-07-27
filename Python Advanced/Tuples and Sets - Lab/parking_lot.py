@@ -15,3 +15,4 @@ def parking():
         command, number_plate = input().split(", ")
 
         if command == "IN":
+            my_set.add(number_plate)

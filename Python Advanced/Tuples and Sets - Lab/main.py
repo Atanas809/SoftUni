@@ -7,3 +7,5 @@ unique = set()
 iterations = 0
 
 for n1 in range(0, len(numbers)):
+    for n2 in range(n1 + 1, len(numbers)):
+        if numbers[n1] + numbers[n2] == target:

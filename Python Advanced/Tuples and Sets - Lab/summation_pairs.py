@@ -11,3 +11,7 @@ for n1 in range(0, len(numbers)):
         if numbers[n1] + numbers[n2] == target:
             print(f"{numbers[n1]} + {numbers[n2]} = {target}")
             unique.add(f"{(numbers[n1], numbers[n2])}")
+        iterations += 1
+
+print(f"Iterations done: {iterations}")
+[print(x) for x in unique]

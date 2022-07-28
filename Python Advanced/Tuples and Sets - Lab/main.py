@@ -5,3 +5,5 @@ target = int(input())
 unique = set()
 
 iterations = 0
+
+for n1 in range(0, len(numbers)):

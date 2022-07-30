@@ -19,3 +19,6 @@ def output(vip, regular, came):
 
 def party():
     counter = int(input())
+
+    vip_guests = set()
+    regular_guests = set()

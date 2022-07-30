@@ -28,3 +28,5 @@ def party():
 
         if is_vip(current_guest):
             vip_guests.add(current_guest)
+        else:
+            regular_guests.add(current_guest)

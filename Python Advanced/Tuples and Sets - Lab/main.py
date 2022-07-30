@@ -25,3 +25,6 @@ def party():
 
     for _ in range(counter):
         current_guest = input()
+
+        if is_vip(current_guest):
+            vip_guests.add(current_guest)

@@ -22,3 +22,6 @@ def party():
 
     vip_guests = set()
     regular_guests = set()
+
+    for _ in range(counter):
+        current_guest = input()

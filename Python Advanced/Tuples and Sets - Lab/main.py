@@ -30,3 +30,6 @@ def party():
             vip_guests.add(current_guest)
         else:
             regular_guests.add(current_guest)
+
+    command = input()
+    guests_came = set()

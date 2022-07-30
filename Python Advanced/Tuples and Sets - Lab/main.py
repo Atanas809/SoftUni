@@ -7,3 +7,7 @@ def output(vip, regular, came):
     for guest in came:
         if is_vip(guest):
             vip.remove(guest)
+        else:
+            regular.remove(guest)
+
+    print(len(vip) + len(regular))

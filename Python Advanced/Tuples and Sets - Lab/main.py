@@ -15,3 +15,7 @@ def output(vip, regular, came):
         [print(name) for name in sorted(vip)]
     if regular:
         [print(name) for name in sorted(regular)]
+
+
+def party():
+    counter = int(input())

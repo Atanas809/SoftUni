@@ -5,3 +5,5 @@ def is_vip(current_guest):
 
 def output(vip, regular, came):
     for guest in came:
+        if is_vip(guest):
+            vip.remove(guest)

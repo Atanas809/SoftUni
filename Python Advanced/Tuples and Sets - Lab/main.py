@@ -11,3 +11,7 @@ def output(vip, regular, came):
             regular.remove(guest)
 
     print(len(vip) + len(regular))
+    if vip:
+        [print(name) for name in sorted(vip)]
+    if regular:
+        [print(name) for name in sorted(regular)]

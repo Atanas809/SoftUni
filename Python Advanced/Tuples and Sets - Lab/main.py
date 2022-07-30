@@ -33,3 +33,6 @@ def party():
 
     command = input()
     guests_came = set()
+
+    while command != "END":
+        guests_came.add(command)

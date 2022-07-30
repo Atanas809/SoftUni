@@ -40,3 +40,6 @@ def party():
         command = input()
 
     output(vip_guests, regular_guests, guests_came)
+
+
+party()

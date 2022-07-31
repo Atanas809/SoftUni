@@ -5,3 +5,4 @@ def avg(grades):
 def output(statistics):
     for name, grades in statistics.items():
         average_grade = avg(grades)
+        string_grades = [str(f"{g:.2f}") for g in grades]

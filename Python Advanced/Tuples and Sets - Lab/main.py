@@ -17,3 +17,9 @@ def students():
 
     for x in range(counter):
         name, grade = input().split()
+
+        if name not in statistics.keys():
+            statistics[name] = list()
+        statistics[name].append(float(grade))
+
+    output(statistics)

@@ -3,3 +3,4 @@ def avg(grades):
 
 
 def output(statistics):
+    for name, grades in statistics.items():

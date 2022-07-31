@@ -10,3 +10,4 @@ def output(statistics):
 
 
 def students():
+    counter = int(input())

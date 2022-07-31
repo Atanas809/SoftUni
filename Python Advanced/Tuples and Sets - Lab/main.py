@@ -14,3 +14,6 @@ def students():
     counter = int(input())
 
     statistics = dict()
+
+    for x in range(counter):
+        name, grade = input().split()

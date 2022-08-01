@@ -12,3 +12,5 @@ def counter():
         if ch not in occurrences.keys():
             occurrences[ch] = 0
         occurrences[ch] += 1
+
+    result(occurrences)

@@ -10,3 +10,4 @@ def counter():
 
     for ch in text:
         if ch not in occurrences.keys():
+            occurrences[ch] = 0

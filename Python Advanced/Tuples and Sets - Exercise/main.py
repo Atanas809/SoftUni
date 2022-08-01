@@ -4,3 +4,4 @@ def result(occurrences):
 
 
 def counter():
+    text = input()

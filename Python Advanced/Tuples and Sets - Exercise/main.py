@@ -9,3 +9,4 @@ def counter():
     occurrences = dict()
 
     for ch in text:
+        if ch not in occurrences.keys():

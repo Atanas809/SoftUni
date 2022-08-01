@@ -14,3 +14,6 @@ def counter():
         occurrences[ch] += 1
 
     result(occurrences)
+
+
+counter()

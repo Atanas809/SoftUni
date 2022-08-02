@@ -1,1 +1,1 @@
-
+counter = int(input())

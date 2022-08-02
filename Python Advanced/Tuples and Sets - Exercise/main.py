@@ -1,5 +1,4 @@
 
-        current_name = [k for k, v in my_dict.items() if v == best_points[x]]
 
         best_results.append(current_name[0])
 

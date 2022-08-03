@@ -23,3 +23,6 @@ def battle():
         name = input()
 
         name_sum = sum([ord(ch) for ch in name]) // x
+
+        if name_sum % 2 == 0:
+            even.add(name_sum)

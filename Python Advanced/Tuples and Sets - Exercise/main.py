@@ -21,3 +21,5 @@ def battle():
 
     for x in range(1, counter + 1):
         name = input()
+
+        name_sum = sum([ord(ch) for ch in name]) // x

@@ -26,3 +26,5 @@ def battle():
 
         if name_sum % 2 == 0:
             even.add(name_sum)
+        else:
+            odd.add(name_sum)

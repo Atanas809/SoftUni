@@ -30,3 +30,6 @@ def battle():
             odd.add(name_sum)
 
     result(even, odd)
+
+
+battle()

@@ -18,3 +18,5 @@ def battle():
 
     even = set()
     odd = set()
+
+    for x in range(1, counter + 1):

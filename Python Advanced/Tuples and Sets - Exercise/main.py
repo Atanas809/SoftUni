@@ -11,3 +11,6 @@ def result(even, odd):
     else:
         symmetric_difference_set = even.symmetric_difference(odd)
         print(*symmetric_difference_set, sep=", ")
+
+
+def battle():

@@ -20,3 +20,4 @@ def battle():
     odd = set()
 
     for x in range(1, counter + 1):
+        name = input()

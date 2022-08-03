@@ -28,3 +28,5 @@ def battle():
             even.add(name_sum)
         else:
             odd.add(name_sum)
+
+    result(even, odd)

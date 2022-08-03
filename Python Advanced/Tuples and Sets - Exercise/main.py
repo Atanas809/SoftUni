@@ -7,3 +7,7 @@ def result(even, odd):
         print(*union_set, sep=", ")
     elif odd_sum > even_sum:
         difference_set = odd.difference(even)
+        print(*difference_set, sep=", ")
+    else:
+        symmetric_difference_set = even.symmetric_difference(odd)
+        print(*symmetric_difference_set, sep=", ")

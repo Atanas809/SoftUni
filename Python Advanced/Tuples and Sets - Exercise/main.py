@@ -17,3 +17,4 @@ def battle():
     counter = int(input())
 
     even = set()
+    odd = set()

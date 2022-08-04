@@ -16,3 +16,4 @@ def intersections():
         second_start, second_end = [int(i) for i in data[1].split(",")]
 
         first = set(int(x) for x in range(first_start, first_end + 1))
+        second = set(int(x) for x in range(second_start, second_end + 1))

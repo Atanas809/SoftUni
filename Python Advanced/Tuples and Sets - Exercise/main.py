@@ -11,3 +11,5 @@ def intersections():
 
     for _ in range(counter):
         data = input().split("-")
+
+        first_start, first_end = [int(i) for i in data[0].split(",")]

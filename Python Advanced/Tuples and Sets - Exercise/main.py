@@ -8,3 +8,5 @@ def intersections():
     counter = int(input())
 
     longest_intersection = []
+
+    for _ in range(counter):

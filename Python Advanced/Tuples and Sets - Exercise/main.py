@@ -6,3 +6,5 @@ def result(longest_intersection):
 
 def intersections():
     counter = int(input())
+
+    longest_intersection = []

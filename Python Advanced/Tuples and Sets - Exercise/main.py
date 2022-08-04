@@ -10,3 +10,4 @@ def intersections():
     longest_intersection = []
 
     for _ in range(counter):
+        data = input().split("-")

@@ -24,3 +24,6 @@ def intersections():
             longest_intersection = current_intersection
 
     result(longest_intersection)
+
+
+intersections()

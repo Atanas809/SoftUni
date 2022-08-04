@@ -17,3 +17,5 @@ def intersections():
 
         first = set(int(x) for x in range(first_start, first_end + 1))
         second = set(int(x) for x in range(second_start, second_end + 1))
+
+        current_intersection = first.intersection(second)

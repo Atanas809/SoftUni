@@ -21,3 +21,4 @@ def intersections():
         current_intersection = first.intersection(second)
 
         if len(current_intersection) > len(longest_intersection):
+            longest_intersection = current_intersection

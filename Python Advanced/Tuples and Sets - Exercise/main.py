@@ -22,3 +22,5 @@ def intersections():
 
         if len(current_intersection) > len(longest_intersection):
             longest_intersection = current_intersection
+
+    result(longest_intersection)

@@ -19,3 +19,5 @@ def intersections():
         second = set(int(x) for x in range(second_start, second_end + 1))
 
         current_intersection = first.intersection(second)
+
+        if len(current_intersection) > len(longest_intersection):

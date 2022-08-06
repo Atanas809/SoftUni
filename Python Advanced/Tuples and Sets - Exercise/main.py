@@ -1,8 +1,4 @@
-
-
-    return current_points
-
-def names(data):
+ata):
 
     letters = r"[a-zA-Z]+"
 

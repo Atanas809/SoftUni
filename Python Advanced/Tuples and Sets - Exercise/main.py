@@ -1,5 +1,4 @@
 
-        current_points = points(data)
 
         for name in participants:
 

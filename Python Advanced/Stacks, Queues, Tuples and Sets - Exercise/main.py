@@ -19,3 +19,5 @@ for x in expression:
             result.appendleft(my_dict[x](first, second))
     else:
         result.append(int(x))
+
+print(result.pop())

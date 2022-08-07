@@ -6,3 +6,4 @@ result = deque()
 
 my_dict = {
     "+": lambda a, b: a + b,
+    "-": lambda a, b: a - b,

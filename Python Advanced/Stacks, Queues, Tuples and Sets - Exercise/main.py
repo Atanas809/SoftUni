@@ -1,12 +1,4 @@
 
-3rd place: {best_results[2]}
-""")
-
-def points(data):
-
-    digits = r"\d"
-
-    matches = re.findall(digits, data)
 
     current_points = 0
 

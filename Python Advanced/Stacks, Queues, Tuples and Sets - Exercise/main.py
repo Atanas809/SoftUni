@@ -12,3 +12,4 @@ my_dict = {
 }
 
 for x in expression:
+    if x in "-+*/":

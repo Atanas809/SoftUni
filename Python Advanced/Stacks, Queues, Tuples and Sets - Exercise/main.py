@@ -17,3 +17,5 @@ for x in expression:
             first = result.popleft()
             second = result.popleft()
             result.appendleft(my_dict[x](first, second))
+    else:
+        result.append(int(x))

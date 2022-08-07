@@ -14,3 +14,4 @@ my_dict = {
 for x in expression:
     if x in "-+*/":
         while len(result) > 1:
+            first = result.popleft()

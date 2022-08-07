@@ -15,3 +15,5 @@ for x in expression:
     if x in "-+*/":
         while len(result) > 1:
             first = result.popleft()
+            second = result.popleft()
+            result.appendleft(my_dict[x](first, second))

@@ -10,3 +10,5 @@ for _ in range(counter):
         current_numbers = set([int(x) for x in command[2:]])
         if command[1] == "First":
             first = first.union(current_numbers)
+        else:
+            second = second.union(current_numbers)

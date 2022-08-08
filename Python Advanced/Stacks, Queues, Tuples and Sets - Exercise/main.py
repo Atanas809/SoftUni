@@ -13,3 +13,4 @@ for _ in range(counter):
         else:
             second = second.union(current_numbers)
     elif command[0] == "Remove":
+        current_numbers = set([int(x) for x in command[2:]])

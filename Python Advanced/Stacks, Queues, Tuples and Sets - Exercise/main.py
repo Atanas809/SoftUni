@@ -17,3 +17,4 @@ for _ in range(counter):
         if command[1] == "First":
             first = first.difference(current_numbers)
         else:
+            second = second.difference(current_numbers)

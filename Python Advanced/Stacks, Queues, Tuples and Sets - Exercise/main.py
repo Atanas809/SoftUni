@@ -18,3 +18,5 @@ for _ in range(counter):
             first = first.difference(current_numbers)
         else:
             second = second.difference(current_numbers)
+    else:
+        print(first.issubset(second) or second.issubset(first))

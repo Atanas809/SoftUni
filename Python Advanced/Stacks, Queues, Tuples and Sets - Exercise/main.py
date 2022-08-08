@@ -16,3 +16,4 @@ for _ in range(counter):
         current_numbers = set([int(x) for x in command[2:]])
         if command[1] == "First":
             first = first.difference(current_numbers)
+        else:

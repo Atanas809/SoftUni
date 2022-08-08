@@ -20,3 +20,6 @@ for _ in range(counter):
             second = second.difference(current_numbers)
     else:
         print(first.issubset(second) or second.issubset(first))
+
+print(*sorted(first), sep=", ")
+print(*sorted(second), sep=", ")

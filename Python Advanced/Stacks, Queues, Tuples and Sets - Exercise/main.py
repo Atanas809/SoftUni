@@ -12,3 +12,4 @@ for _ in range(counter):
             first = first.union(current_numbers)
         else:
             second = second.union(current_numbers)
+    elif command[0] == "Remove":

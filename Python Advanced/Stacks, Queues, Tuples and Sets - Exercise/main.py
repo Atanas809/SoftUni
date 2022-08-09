@@ -9,3 +9,4 @@ honey_made = 0
 expressions = {
     "+": lambda a, b: a + b,
     "-": lambda a, b: a - b,
+    "*": lambda a, b: a * b,

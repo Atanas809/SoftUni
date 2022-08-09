@@ -7,3 +7,4 @@ symbols = deque(input().split())
 honey_made = 0
 
 expressions = {
+    "+": lambda a, b: a + b,

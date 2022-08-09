@@ -15,3 +15,4 @@ expressions = {
 
 while bees and nectar:
     current_bee = bees.popleft()
+    current_nectar = nectar.pop()

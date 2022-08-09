@@ -14,3 +14,4 @@ expressions = {
 }
 
 while bees and nectar:
+    current_bee = bees.popleft()

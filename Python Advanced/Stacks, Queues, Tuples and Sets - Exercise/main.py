@@ -31,3 +31,5 @@ print(f"Total honey made: {honey_made}")
 
 if bees:
     print(f"Bees left: {', '.join([str(x) for x in bees])}")
+
+if nectar:

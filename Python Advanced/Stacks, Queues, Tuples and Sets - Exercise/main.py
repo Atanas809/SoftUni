@@ -12,3 +12,5 @@ expressions = {
     "*": lambda a, b: a * b,
     "/": lambda a, b: a / b
 }
+
+while bees and nectar:

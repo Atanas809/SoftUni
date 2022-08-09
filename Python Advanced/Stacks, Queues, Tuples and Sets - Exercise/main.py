@@ -26,3 +26,5 @@ while bees and nectar:
 
     current_symbol = symbols.popleft()
     honey_made += abs(expressions[current_symbol](current_bee, current_nectar))
+
+print(f"Total honey made: {honey_made}")

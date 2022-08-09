@@ -33,3 +33,4 @@ if bees:
     print(f"Bees left: {', '.join([str(x) for x in bees])}")
 
 if nectar:
+    print(f"Nectar left: {', '.join([str(x) for x in nectar])}")

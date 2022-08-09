@@ -23,3 +23,6 @@ while bees and nectar:
 
     if current_nectar == 0:
         continue
+
+    current_symbol = symbols.popleft()
+    honey_made += abs(expressions[current_symbol](current_bee, current_nectar))

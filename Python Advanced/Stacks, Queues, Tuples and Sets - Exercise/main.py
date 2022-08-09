@@ -20,3 +20,5 @@ while bees and nectar:
     if current_nectar < current_bee:
         bees.appendleft(current_bee)
         continue
+
+    if current_nectar == 0:

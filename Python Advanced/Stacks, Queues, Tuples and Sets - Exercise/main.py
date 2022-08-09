@@ -16,3 +16,7 @@ expressions = {
 while bees and nectar:
     current_bee = bees.popleft()
     current_nectar = nectar.pop()
+
+    if current_nectar < current_bee:
+        bees.appendleft(current_bee)
+        continue

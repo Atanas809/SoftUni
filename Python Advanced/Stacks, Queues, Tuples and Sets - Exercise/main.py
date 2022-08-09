@@ -22,3 +22,4 @@ while bees and nectar:
         continue
 
     if current_nectar == 0:
+        continue

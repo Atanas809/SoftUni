@@ -15,3 +15,7 @@ while chocolates and cups_of_milk and milkshakes < 5:
     if current_chocolate <= 0:
         cups_of_milk.appendleft(current_cup_of_milk)
         continue
+
+    if current_cup_of_milk <= 0:
+        chocolates.append(current_chocolate)
+        continue

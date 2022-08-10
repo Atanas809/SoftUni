@@ -34,3 +34,5 @@ else:
 
 if chocolates:
     print(f"Chocolate: {', '.join([str(x) for x in chocolates])}")
+else:
+    print("Chocolate: empty")

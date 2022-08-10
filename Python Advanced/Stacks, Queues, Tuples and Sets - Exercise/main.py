@@ -22,3 +22,5 @@ while chocolates and cups_of_milk and milkshakes < 5:
 
     if current_chocolate == current_cup_of_milk:
         milkshakes += 1
+    else:
+        current_chocolate -= 5

@@ -36,3 +36,8 @@ if chocolates:
     print(f"Chocolate: {', '.join([str(x) for x in chocolates])}")
 else:
     print("Chocolate: empty")
+
+if cups_of_milk:
+    print(f"Milk: {', '.join([str(x) for x in cups_of_milk])}")
+else:
+    print("Milk: empty")

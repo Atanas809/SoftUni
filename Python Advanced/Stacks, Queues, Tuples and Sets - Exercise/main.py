@@ -24,3 +24,4 @@ while chocolates and cups_of_milk and milkshakes < 5:
         milkshakes += 1
     else:
         current_chocolate -= 5
+        chocolates.append(current_chocolate)

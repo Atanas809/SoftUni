@@ -19,3 +19,5 @@ while chocolates and cups_of_milk and milkshakes < 5:
     if current_cup_of_milk <= 0:
         chocolates.append(current_chocolate)
         continue
+
+    if current_chocolate == current_cup_of_milk:

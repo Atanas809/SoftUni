@@ -7,3 +7,7 @@ milkshakes = 0
 
 while chocolates and cups_of_milk and milkshakes < 5:
     current_chocolate = chocolates.pop()
+    current_cup_of_milk = cups_of_milk.popleft()
+
+    if current_chocolate <= 0 and current_cup_of_milk <= 0:
+        continue

@@ -29,3 +29,5 @@ while chocolates and cups_of_milk and milkshakes < 5:
 
 if milkshakes == 5:
     print("Great! You made all the chocolate milkshakes needed!")
+else:
+    print("Not enough milkshakes.")

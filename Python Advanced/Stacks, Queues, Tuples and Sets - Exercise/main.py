@@ -28,3 +28,6 @@ while len(data) > 1:
 
     first = first[:-1]
     second = second[:-1]
+
+    data.insert(len(data) // 2, first)
+    data.insert(len(data) // 2, second)

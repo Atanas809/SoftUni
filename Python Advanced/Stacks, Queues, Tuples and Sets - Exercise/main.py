@@ -36,3 +36,5 @@ for key, value in secondary_colors.items():
     if key in crafted_colors:
         if value[0] not in crafted_colors or value[1] not in crafted_colors:
             crafted_colors.remove(key)
+
+print(crafted_colors)

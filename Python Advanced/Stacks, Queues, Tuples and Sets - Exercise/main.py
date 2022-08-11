@@ -22,3 +22,6 @@ while len(data) > 1:
     if result in main_colors or result in secondary_colors.keys():
         crafted_colors.append(result)
         continue
+    elif result1 in main_colors or result1 in secondary_colors.keys():
+        crafted_colors.append(result1)
+        continue

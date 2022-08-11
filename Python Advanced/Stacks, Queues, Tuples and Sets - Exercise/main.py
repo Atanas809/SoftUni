@@ -18,3 +18,7 @@ while len(data) > 1:
 
     result = first + second
     result1 = second + first
+
+    if result in main_colors or result in secondary_colors.keys():
+        crafted_colors.append(result)
+        continue

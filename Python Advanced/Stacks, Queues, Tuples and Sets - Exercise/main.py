@@ -11,3 +11,5 @@ secondary_colors = {
 }
 
 crafted_colors = list()
+
+while len(data) > 1:

@@ -25,3 +25,6 @@ while len(data) > 1:
     elif result1 in main_colors or result1 in secondary_colors.keys():
         crafted_colors.append(result1)
         continue
+
+    first = first[:-1]
+    second = second[:-1]

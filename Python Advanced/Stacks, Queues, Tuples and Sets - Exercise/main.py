@@ -9,3 +9,5 @@ secondary_colors = {
     "purple": ["red", "blue"],
     "green": ["yellow", "blue"]
 }
+
+crafted_colors = list()

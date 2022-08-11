@@ -14,3 +14,4 @@ crafted_colors = list()
 
 while len(data) > 1:
     first = data.popleft()
+    second = data.pop()

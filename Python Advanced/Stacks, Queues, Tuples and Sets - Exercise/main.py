@@ -17,3 +17,4 @@ while len(data) > 1:
     second = data.pop()
 
     result = first + second
+    result1 = second + first

@@ -41,3 +41,6 @@ while materials and magic_level:
             crafted_items[presents[result]] += 1
     else:
         materials.append(current_material + 15)
+
+if ("Doll" in crafted_items.keys() and "Wooden train" in crafted_items.keys()) or \
+        ("Teddy bear" in crafted_items.keys() and "Bicycle" in crafted_items.keys()):

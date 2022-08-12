@@ -18,3 +18,7 @@ while materials and magic_level:
 
     if current_material == 0 and current_magic == 0:
         continue
+
+    if current_magic == 0:
+        materials.append(current_material)
+        continue

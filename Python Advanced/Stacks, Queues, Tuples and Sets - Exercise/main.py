@@ -49,3 +49,6 @@ if ("Doll" in crafted_items.keys() and "Wooden train" in crafted_items.keys()) o
 
 else:
     print("No presents this Christmas!")
+
+if materials:
+    print(f"Materials left: {', '.join([str(x) for x in reversed(materials)])}")

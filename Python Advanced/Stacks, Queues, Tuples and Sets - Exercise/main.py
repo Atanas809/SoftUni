@@ -11,3 +11,7 @@ presents = {
 }
 
 crafted_items = dict()
+
+while materials and magic_level:
+    current_material = materials.pop()
+    current_magic = magic_level.popleft()

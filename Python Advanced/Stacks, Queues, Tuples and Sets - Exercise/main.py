@@ -52,3 +52,4 @@ else:
 
 if materials:
     print(f"Materials left: {', '.join([str(x) for x in reversed(materials)])}")
+if magic_level:

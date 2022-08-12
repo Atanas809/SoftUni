@@ -26,3 +26,10 @@ while materials and magic_level:
     if current_material == 0:
         magic_level.appendleft(current_magic)
         continue
+
+    result = current_magic * current_material
+
+    if result < 0:
+        result = current_magic + current_material
+        materials.append(result)
+        continue

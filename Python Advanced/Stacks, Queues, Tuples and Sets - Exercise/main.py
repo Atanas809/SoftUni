@@ -44,3 +44,8 @@ while materials and magic_level:
 
 if ("Doll" in crafted_items.keys() and "Wooden train" in crafted_items.keys()) or \
         ("Teddy bear" in crafted_items.keys() and "Bicycle" in crafted_items.keys()):
+
+    print("The presents are crafted! Merry Christmas!")
+
+else:
+    print("No presents this Christmas!")

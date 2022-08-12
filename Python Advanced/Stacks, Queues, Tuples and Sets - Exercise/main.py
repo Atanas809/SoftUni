@@ -9,3 +9,5 @@ presents = {
     300: "Teddy bear",
     400: "Bicycle"
 }
+
+crafted_items = dict()

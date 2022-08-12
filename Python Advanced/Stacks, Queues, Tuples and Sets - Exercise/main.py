@@ -33,3 +33,7 @@ while materials and magic_level:
         result = current_magic + current_material
         materials.append(result)
         continue
+
+    elif result in presents.keys():
+        if presents[result] not in crafted_items.keys():
+            crafted_items[presents[result]] = 1

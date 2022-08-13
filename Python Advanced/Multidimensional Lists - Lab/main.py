@@ -10,3 +10,4 @@ def matrix():
     even_matrix = []
 
     for n in range(rows):
+        my_list = [int(x) for x in input().split(", ")]

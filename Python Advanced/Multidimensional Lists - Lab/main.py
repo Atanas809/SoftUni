@@ -11,3 +11,4 @@ def matrix():
 
     for n in range(rows):
         my_list = [int(x) for x in input().split(", ")]
+        even_matrix.append(only_even_nums(my_list))

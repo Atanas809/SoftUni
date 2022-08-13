@@ -14,3 +14,6 @@ def matrix():
         even_matrix.append(only_even_nums(my_list))
 
     print(even_matrix)
+
+
+matrix()

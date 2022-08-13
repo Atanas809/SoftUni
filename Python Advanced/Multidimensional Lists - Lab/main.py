@@ -8,3 +8,5 @@ def matrix():
     rows = int(input())
 
     even_matrix = []
+
+    for n in range(rows):

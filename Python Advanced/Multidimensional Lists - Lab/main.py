@@ -20,3 +20,6 @@ def my_matrix():
         matrix.append(my_list)
 
     flattening_matrix(matrix)
+
+
+my_matrix()

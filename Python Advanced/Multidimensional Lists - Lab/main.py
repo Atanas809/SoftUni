@@ -16,3 +16,4 @@ def my_matrix():
     matrix = []
 
     for n in range(rows):
+        my_list = [int(x) for x in input().split(", ")]

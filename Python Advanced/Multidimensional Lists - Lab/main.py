@@ -7,3 +7,4 @@
 
 
 def flattening_matrix(matrix):
+    print([int(x) for row in matrix for x in row])

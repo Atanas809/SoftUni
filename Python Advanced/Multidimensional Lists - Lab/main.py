@@ -11,3 +11,4 @@ def flattening_matrix(matrix):
 
 
 def my_matrix():
+    rows = int(input())

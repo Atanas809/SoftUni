@@ -22,3 +22,5 @@ def my_matrix():
     rows = int(input())
 
     matrix = []
+
+    for n in range(rows):

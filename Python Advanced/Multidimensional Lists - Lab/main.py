@@ -28,3 +28,6 @@ def my_matrix():
         matrix.append(my_list)
 
     primary_diagonal_sum(matrix)
+
+
+my_matrix()

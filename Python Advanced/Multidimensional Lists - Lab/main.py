@@ -18,3 +18,5 @@ def primary_diagonal_sum(matrix):
 
 
 def my_matrix():
+
+    rows = int(input())

@@ -10,3 +10,5 @@
 def primary_diagonal_sum(matrix):
 
     result = 0
+
+    for n in range(len(matrix)):

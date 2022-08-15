@@ -8,3 +8,5 @@
 
 
 def primary_diagonal_sum(matrix):
+
+    result = 0

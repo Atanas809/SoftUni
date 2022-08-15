@@ -1,12 +1,4 @@
 
-    for point in matches:
-        current_points += int(point)
-
-    return current_points
-
-def names(data):
-
-    letters = r"[a-zA-Z]+"
 
     matches = re.findall(letters, data)
 

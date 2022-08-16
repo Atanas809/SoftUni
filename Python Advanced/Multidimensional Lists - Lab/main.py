@@ -16,3 +16,5 @@ def is_biggest(matrix, row, column):
 rows, columns = [int(x) for x in input().split(", ")]
 
 matrix = []
+
+for n in range(rows):

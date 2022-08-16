@@ -9,3 +9,8 @@ def is_biggest(matrix, row, column):
                 result[1] = matrix[n][m + 1]
                 result[2] = matrix[n + 1][m]
                 result[3] = matrix[n + 1][m + 1]
+
+    return result
+
+
+rows, columns = [int(x) for x in input().split(", ")]

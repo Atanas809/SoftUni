@@ -3,3 +3,4 @@ def is_biggest(matrix, row, column):
 
     for n in range(row - 1):
         for m in range(column - 1):
+            current_result = matrix[n][m] + matrix[n][m + 1] + matrix[n + 1][m] + matrix[n + 1][m + 1]

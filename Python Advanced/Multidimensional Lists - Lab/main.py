@@ -21,3 +21,5 @@ for n in range(rows):
     matrix.append([int(x) for x in input().split(", ")])
 
 biggest = is_biggest(matrix, rows, columns)
+
+for value in range(0, len(biggest), 2):

@@ -23,3 +23,6 @@ for n in range(rows):
 biggest = is_biggest(matrix, rows, columns)
 
 for value in range(0, len(biggest), 2):
+    print(f"{biggest[value]} {biggest[value + 1]}")
+
+print(sum(biggest))

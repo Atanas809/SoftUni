@@ -7,3 +7,4 @@ def is_biggest(matrix, row, column):
             if current_result > sum(result):
                 result[0] = matrix[n][m]
                 result[1] = matrix[n][m + 1]
+                result[2] = matrix[n + 1][m]

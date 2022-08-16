@@ -18,3 +18,4 @@ rows, columns = [int(x) for x in input().split(", ")]
 matrix = []
 
 for n in range(rows):
+    matrix.append([int(x) for x in input().split(", ")])

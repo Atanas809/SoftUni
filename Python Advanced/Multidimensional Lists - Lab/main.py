@@ -5,3 +5,6 @@
 1 3 9 8 5 6
 4 6 7 9 1 0
 """
+
+
+def output(columns_sum):

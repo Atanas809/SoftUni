@@ -25,3 +25,6 @@ def my_matrix():
             columns_sum[m] += current_number
 
     output(columns_sum)
+
+
+my_matrix()

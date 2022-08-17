@@ -22,3 +22,4 @@ def my_matrix():
         my_list = [int(x) for x in input().split()]
         for m in range(len(my_list)):
             current_number = my_list[m]
+            columns_sum[m] += current_number

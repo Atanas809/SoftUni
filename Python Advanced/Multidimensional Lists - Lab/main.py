@@ -8,7 +8,6 @@
 
 
 def output(columns_sum):
-
     print(*columns_sum, sep="\n")
 
 

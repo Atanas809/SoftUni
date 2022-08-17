@@ -17,3 +17,5 @@ def my_matrix():
     rows, columns = [int(x) for x in input().split(", ")]
 
     columns_sum = [0] * columns
+
+    for n in range(rows):

@@ -5,3 +5,5 @@
 1, 3, 9, 8, 5, 6
 4, 6, 7, 9, 1, 0
 """
+
+rows, columns = [int(x) for x in input().split(", ")]

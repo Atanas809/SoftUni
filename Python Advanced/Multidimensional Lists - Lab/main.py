@@ -11,3 +11,5 @@ rows, columns = [int(x) for x in input().split(", ")]
 matrix = []
 
 total_sum = 0
+
+for n in range(rows):

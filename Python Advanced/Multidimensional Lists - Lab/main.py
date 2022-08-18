@@ -18,3 +18,4 @@ for n in range(rows):
     total_sum += sum(my_list)
 
 print(total_sum)
+print(matrix)

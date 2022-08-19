@@ -20,3 +20,8 @@ def symbol_in_matrix(matrix, symbol):
 
     if not is_find:
         print(f"{symbol} does not occur in the matrix")
+
+
+def my_matrix():
+
+    rows = int(input())

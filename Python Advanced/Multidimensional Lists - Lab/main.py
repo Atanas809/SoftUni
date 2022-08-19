@@ -27,3 +27,7 @@ def my_matrix():
     rows = int(input())
 
     matrix = []
+
+    for n in range(rows):
+        my_list = [x for x in input()]
+        matrix.append(my_list)

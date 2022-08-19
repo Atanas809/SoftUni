@@ -6,3 +6,6 @@ DEF
 X!@
 !
 """
+
+
+def symbol_in_matrix(matrix, symbol):

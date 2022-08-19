@@ -13,3 +13,7 @@ def symbol_in_matrix(matrix, symbol):
     is_find = False
 
     for row in range(len(matrix)):
+        if symbol in matrix[row]:
+            print(f"({row}, {matrix[row].index(symbol)})")
+            is_find = True
+            break

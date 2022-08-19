@@ -25,3 +25,5 @@ def symbol_in_matrix(matrix, symbol):
 def my_matrix():
 
     rows = int(input())
+
+    matrix = []

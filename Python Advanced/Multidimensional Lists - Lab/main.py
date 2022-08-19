@@ -31,3 +31,7 @@ def my_matrix():
     for n in range(rows):
         my_list = [x for x in input()]
         matrix.append(my_list)
+
+    searched_symbol = input()
+
+    symbol_in_matrix(matrix, searched_symbol)

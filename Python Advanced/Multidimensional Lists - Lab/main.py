@@ -11,3 +11,5 @@ X!@
 def symbol_in_matrix(matrix, symbol):
 
     is_find = False
+
+    for row in range(len(matrix)):

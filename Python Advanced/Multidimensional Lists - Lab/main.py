@@ -35,3 +35,6 @@ def my_matrix():
     searched_symbol = input()
 
     symbol_in_matrix(matrix, searched_symbol)
+
+
+my_matrix()

@@ -17,3 +17,6 @@ def symbol_in_matrix(matrix, symbol):
             print(f"({row}, {matrix[row].index(symbol)})")
             is_find = True
             break
+
+    if not is_find:
+        print(f"{symbol} does not occur in the matrix")

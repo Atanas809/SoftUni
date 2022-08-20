@@ -17,3 +17,4 @@ def square_matrices(matrix, row, column):
     for n in range(row - 1):
         for m in range(column - 1):
             if is_equals(matrix, n, m):
+                counter += 1

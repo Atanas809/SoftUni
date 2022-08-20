@@ -25,3 +25,5 @@ def square_matrices(matrix, row, column):
 rows, columns = [int(x) for x in input().split()]
 
 matrix = []
+
+for _ in range(rows):

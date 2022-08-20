@@ -12,3 +12,4 @@ def is_equals(matrix, n, m):
 
 
 def square_matrices(matrix, row, column):
+    counter = 0

@@ -20,3 +20,6 @@ def square_matrices(matrix, row, column):
                 counter += 1
 
     return counter
+
+
+rows, columns = [int(x) for x in input().split()]

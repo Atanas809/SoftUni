@@ -15,3 +15,4 @@ def square_matrices(matrix, row, column):
     counter = 0
 
     for n in range(row - 1):
+        for m in range(column - 1):

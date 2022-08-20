@@ -28,3 +28,5 @@ matrix = []
 
 for _ in range(rows):
     matrix.append([x for x in input().split()])
+
+result = square_matrices(matrix, rows, columns)

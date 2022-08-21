@@ -23,3 +23,4 @@ for _ in range(rows):
     matrix.append([int(x) for x in input().split()])
 
 primary = sum(primary_diagonal(matrix))
+secondary = sum(secondary_diagonal(matrix))

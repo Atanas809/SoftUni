@@ -24,3 +24,7 @@ for _ in range(rows):
 
 primary = sum(primary_diagonal(matrix))
 secondary = sum(secondary_diagonal(matrix))
+
+result = abs(primary - secondary)
+
+print(result)

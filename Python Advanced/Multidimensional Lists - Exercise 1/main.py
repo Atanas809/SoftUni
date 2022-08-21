@@ -12,3 +12,4 @@ def primary_diagonal(matrix):
 
 
 def secondary_diagonal(matrix):
+    return [matrix[n][len(matrix) - n - 1] for n in range(len(matrix))]

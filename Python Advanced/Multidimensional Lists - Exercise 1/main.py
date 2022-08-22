@@ -16,3 +16,5 @@ def cells(matrix):
 def new_matrix(matrix, close_bombs, power):
     for row, column in close_bombs:
         matrix[row][column] -= power
+
+    return matrix

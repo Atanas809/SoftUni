@@ -60,3 +60,5 @@ for bomb in bombs_indices:
         matrix[row][column] = 0
 
         matrix = new_matrix(matrix, close_bombs, power)
+
+alive_cells = cells(matrix)

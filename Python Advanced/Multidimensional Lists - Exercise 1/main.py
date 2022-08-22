@@ -18,3 +18,9 @@ def new_matrix(matrix, close_bombs, power):
         matrix[row][column] -= power
 
     return matrix
+
+
+def valid_bombs(matrix, row, column, size):
+    possible_bombs = [
+        [row - 1, column - 1],
+        [row - 1, column],

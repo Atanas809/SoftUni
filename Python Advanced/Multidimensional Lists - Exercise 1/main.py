@@ -65,3 +65,6 @@ alive_cells = cells(matrix)
 
 print(f"Alive cells: {len(alive_cells)}")
 print(f"Sum: {sum(alive_cells)}")
+
+for row in matrix:
+    print(*row, sep=" ")

@@ -24,3 +24,6 @@ def valid_bombs(matrix, row, column, size):
     possible_bombs = [
         [row - 1, column - 1],
         [row - 1, column],
+        [row - 1, column + 1],
+        [row, column - 1],
+        [row, column + 1],

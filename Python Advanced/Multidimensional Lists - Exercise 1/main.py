@@ -51,3 +51,6 @@ bombs_indices = input().split()
 
 for bomb in bombs_indices:
     row, column = [int(x) for x in bomb.split(",")]
+
+    if matrix[row][column] > 0:
+        close_bombs = valid_bombs(matrix, row, column, size_matrix)

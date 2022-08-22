@@ -46,3 +46,5 @@ matrix = []
 
 for _ in range(size_matrix):
     matrix.append([int(x) for x in input().split()])
+
+bombs_indices = input().split()

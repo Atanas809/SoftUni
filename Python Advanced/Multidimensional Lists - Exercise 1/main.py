@@ -38,3 +38,11 @@ def valid_bombs(matrix, row, column, size):
         if 0 <= current_row < size and 0 <= current_column < size:
             if matrix[current_row][current_column] > 0:
                 bombs.append([current_row, current_column])
+
+
+size_matrix = int(input())
+
+matrix = []
+
+for _ in range(size_matrix):
+    matrix.append([int(x) for x in input().split()])

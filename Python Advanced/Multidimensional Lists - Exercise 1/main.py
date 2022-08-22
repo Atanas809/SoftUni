@@ -56,3 +56,5 @@ for bomb in bombs_indices:
         close_bombs = valid_bombs(matrix, row, column, size_matrix)
 
         power = matrix[row][column]
+
+        matrix[row][column] = 0

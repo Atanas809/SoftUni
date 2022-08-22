@@ -33,3 +33,8 @@ def valid_bombs(matrix, row, column, size):
     ]
 
     bombs = []
+
+    for current_row, current_column in possible_bombs:
+        if 0 <= current_row < size and 0 <= current_column < size:
+            if matrix[current_row][current_column] > 0:
+                bombs.append([current_row, current_column])

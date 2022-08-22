@@ -11,3 +11,8 @@
 
 def cells(matrix):
     return [x for row in matrix for x in row if x > 0]
+
+
+def new_matrix(matrix, close_bombs, power):
+    for row, column in close_bombs:
+        matrix[row][column] -= power

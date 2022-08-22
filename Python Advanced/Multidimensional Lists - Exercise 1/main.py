@@ -62,3 +62,6 @@ for bomb in bombs_indices:
         matrix = new_matrix(matrix, close_bombs, power)
 
 alive_cells = cells(matrix)
+
+print(f"Alive cells: {len(alive_cells)}")
+print(f"Sum: {sum(alive_cells)}")

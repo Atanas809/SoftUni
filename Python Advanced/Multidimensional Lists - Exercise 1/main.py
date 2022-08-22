@@ -31,3 +31,5 @@ def valid_bombs(matrix, row, column, size):
         [row + 1, column],
         [row + 1, column + 1]
     ]
+
+    bombs = []

@@ -48,3 +48,6 @@ for _ in range(size_matrix):
     matrix.append([int(x) for x in input().split()])
 
 bombs_indices = input().split()
+
+for bomb in bombs_indices:
+    row, column = [int(x) for x in bomb.split(",")]

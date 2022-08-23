@@ -26,3 +26,4 @@ primary = primary_diagonal(matrix)
 secondary = secondary_diagonal(matrix)
 
 print(f"Primary diagonal: {', '.join([str(x) for x in primary])}. Sum: {sum(primary)}")
+print(f"Secondary diagonal: {', '.join([str(x) for x in secondary])}. Sum: {sum(secondary)}")

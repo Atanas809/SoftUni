@@ -8,3 +8,4 @@
 
 
 def primary_diagonal(matrix):
+    return [matrix[n][n] for n in range(len(matrix))]

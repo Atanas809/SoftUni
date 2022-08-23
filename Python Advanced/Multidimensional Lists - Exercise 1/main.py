@@ -18,3 +18,5 @@ def secondary_diagonal(matrix):
 rows = int(input())
 
 matrix = []
+
+for _ in range(rows):

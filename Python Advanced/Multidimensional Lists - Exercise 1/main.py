@@ -23,3 +23,4 @@ for _ in range(rows):
     matrix.append([int(x) for x in input().split(", ")])
 
 primary = primary_diagonal(matrix)
+secondary = secondary_diagonal(matrix)

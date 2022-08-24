@@ -11,3 +11,4 @@ matrix = []
 lowercase = string.ascii_lowercase
 
 for row in range(rows):
+    result = []

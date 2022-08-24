@@ -12,3 +12,4 @@ lowercase = string.ascii_lowercase
 
 for row in range(rows):
     result = []
+    for column in range(row, columns + row):

@@ -14,3 +14,4 @@ for row in range(rows):
     result = []
     for column in range(row, columns + row):
         current_result = lowercase[row] + lowercase[column] + lowercase[row]
+        result.append(current_result)

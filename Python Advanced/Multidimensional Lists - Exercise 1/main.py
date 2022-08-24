@@ -15,3 +15,4 @@ for row in range(rows):
     for column in range(row, columns + row):
         current_result = lowercase[row] + lowercase[column] + lowercase[row]
         result.append(current_result)
+    matrix.append(result)

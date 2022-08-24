@@ -16,3 +16,5 @@ for row in range(rows):
         current_result = lowercase[row] + lowercase[column] + lowercase[row]
         result.append(current_result)
     matrix.append(result)
+
+for n in matrix:

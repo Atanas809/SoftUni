@@ -18,3 +18,4 @@ for row in range(rows):
     matrix.append(result)
 
 for n in matrix:
+    print(*n, sep=" ")

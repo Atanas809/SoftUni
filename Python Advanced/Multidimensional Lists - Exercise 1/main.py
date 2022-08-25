@@ -41,3 +41,5 @@ while True:
         coordinates = commands[1:]
         row1 = int(coordinates[0])
         col1 = int(coordinates[1])
+        row2 = int(coordinates[2])
+        col2 = int(coordinates[3])

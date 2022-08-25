@@ -13,3 +13,5 @@ END
 def is_valid_coordinates(coordinates, current_row, current_column):
 
     for x in range(0, len(coordinates), 2):
+        row = int(coordinates[x])
+        col = int(coordinates[x + 1])

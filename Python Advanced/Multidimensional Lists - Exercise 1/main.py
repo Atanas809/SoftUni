@@ -36,3 +36,5 @@ while True:
 
     if commands[0] == "END":
         break
+
+    if commands[0] == "swap" and len(commands[1:]) == 4 and is_valid_coordinates(commands[1:], rows, columns):

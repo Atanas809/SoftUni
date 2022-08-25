@@ -43,3 +43,5 @@ while True:
         col1 = int(coordinates[1])
         row2 = int(coordinates[2])
         col2 = int(coordinates[3])
+
+        matrix[row1][col1], matrix[row2][col2] = matrix[row2][col2], matrix[row1][col1]

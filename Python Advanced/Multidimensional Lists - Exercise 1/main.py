@@ -39,3 +39,5 @@ while True:
 
     if commands[0] == "swap" and len(commands[1:]) == 4 and is_valid_coordinates(commands[1:], rows, columns):
         coordinates = commands[1:]
+        row1 = int(coordinates[0])
+        col1 = int(coordinates[1])

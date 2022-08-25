@@ -26,3 +26,6 @@ def is_valid_coordinates(coordinates, current_row, current_column):
 rows, columns = [int(x) for x in input().split()]
 
 matrix = []
+
+for _ in range(rows):
+    matrix.append([j for j in input().split()])

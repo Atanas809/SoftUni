@@ -45,3 +45,6 @@ while True:
         col2 = int(coordinates[3])
 
         matrix[row1][col1], matrix[row2][col2] = matrix[row2][col2], matrix[row1][col1]
+
+        for r in matrix:
+            print(*r, sep=" ")

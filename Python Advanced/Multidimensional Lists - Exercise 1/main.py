@@ -48,3 +48,6 @@ while True:
 
         for r in matrix:
             print(*r, sep=" ")
+
+    else:
+        print("Invalid input!")

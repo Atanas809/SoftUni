@@ -29,3 +29,7 @@ matrix = []
 
 for _ in range(rows):
     matrix.append([j for j in input().split()])
+
+while True:
+
+    commands = input().split()

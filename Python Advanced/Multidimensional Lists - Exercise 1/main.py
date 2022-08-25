@@ -17,3 +17,7 @@ def is_valid_coordinates(coordinates, current_row, current_column):
         col = int(coordinates[x + 1])
         if row < 0 or col < 0:
             return False
+        elif row >= current_row and col >= current_column:
+            return False
+
+    return True

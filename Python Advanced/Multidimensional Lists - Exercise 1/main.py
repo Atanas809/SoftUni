@@ -33,3 +33,8 @@ def new_matrix(matrix, row, column):
         [matrix[row + 1][column], matrix[row + 1][column + 1], matrix[row + 1][column + 2]],
         [matrix[row + 2][column], matrix[row + 2][column + 1], matrix[row + 2][column + 2]]
     ]
+
+
+def biggest_sum(matrix, rows, columns):
+    biggest = []
+    sum_values = float("-inf")

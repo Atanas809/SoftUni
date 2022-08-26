@@ -48,3 +48,6 @@ def biggest_sum(matrix, rows, columns):
                 biggest = current_matrix
 
     return biggest
+
+
+rows, columns = [int(x) for x in input().split()]

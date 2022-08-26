@@ -56,3 +56,5 @@ matrix = []
 
 for _ in range(rows):
     matrix.append([int(x) for x in input().split()])
+
+result = biggest_sum(matrix, rows, columns)

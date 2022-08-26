@@ -51,3 +51,5 @@ def biggest_sum(matrix, rows, columns):
 
 
 rows, columns = [int(x) for x in input().split()]
+
+matrix = []

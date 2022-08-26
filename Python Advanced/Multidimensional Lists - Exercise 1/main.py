@@ -43,3 +43,8 @@ def biggest_sum(matrix, rows, columns):
         for column in range(columns - 2):
             current_matrix = new_matrix(matrix, row, column)
             current_sum = is_biggest(current_matrix)
+            if current_sum > sum_values:
+                sum_values = current_sum
+                biggest = current_matrix
+
+    return biggest

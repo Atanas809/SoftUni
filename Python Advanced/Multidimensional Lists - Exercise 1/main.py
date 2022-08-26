@@ -25,3 +25,7 @@ def is_biggest(current_matrix):
         sum_matrix += sum(n)
 
     return sum_matrix
+
+
+def new_matrix(matrix, row, column):
+    return [

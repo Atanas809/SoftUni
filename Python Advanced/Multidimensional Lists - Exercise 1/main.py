@@ -38,3 +38,8 @@ def new_matrix(matrix, row, column):
 def biggest_sum(matrix, rows, columns):
     biggest = []
     sum_values = float("-inf")
+
+    for row in range(rows - 2):
+        for column in range(columns - 2):
+            current_matrix = new_matrix(matrix, row, column)
+            current_sum = is_biggest(current_matrix)

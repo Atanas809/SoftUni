@@ -64,3 +64,4 @@ final_sum = sum_values(result)
 print(f"Sum = {final_sum}")
 
 for row in result:
+    print(*row, sep=" ")

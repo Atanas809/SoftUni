@@ -62,3 +62,5 @@ result = biggest_sum(matrix, rows, columns)
 final_sum = sum_values(result)
 
 print(f"Sum = {final_sum}")
+
+for row in result:

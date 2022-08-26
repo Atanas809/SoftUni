@@ -16,3 +16,12 @@ def sum_values(result):
         total_sum += sum(row)
 
     return total_sum
+
+
+def is_biggest(current_matrix):
+    sum_matrix = 0
+
+    for n in current_matrix:
+        sum_matrix += sum(n)
+
+    return sum_matrix

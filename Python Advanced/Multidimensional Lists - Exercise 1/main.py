@@ -6,3 +6,13 @@
 3 7 11 2 8
 4 8 12 16 4
 """
+
+
+def sum_values(result):
+
+    total_sum = 0
+
+    for row in result:
+        total_sum += sum(row)
+
+    return total_sum

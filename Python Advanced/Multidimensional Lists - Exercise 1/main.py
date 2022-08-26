@@ -29,3 +29,7 @@ def is_biggest(current_matrix):
 
 def new_matrix(matrix, row, column):
     return [
+        [matrix[row][column], matrix[row][column + 1], matrix[row][column + 2]],
+        [matrix[row + 1][column], matrix[row + 1][column + 1], matrix[row + 1][column + 2]],
+        [matrix[row + 2][column], matrix[row + 2][column + 1], matrix[row + 2][column + 2]]
+    ]

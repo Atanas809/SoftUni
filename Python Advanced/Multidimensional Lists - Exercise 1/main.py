@@ -21,3 +21,4 @@ for row in range(rows):
             snake.appendleft(char)
         else:
             snake.append(char)
+        text.append(char)

@@ -20,3 +20,4 @@ for row in range(rows):
         if end == -1:
             snake.appendleft(char)
         else:
+            snake.append(char)

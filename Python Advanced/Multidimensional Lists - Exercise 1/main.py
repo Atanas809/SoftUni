@@ -13,3 +13,4 @@ text = deque(input())
 matrix = []
 
 for row in range(rows):
+    snake = deque([])

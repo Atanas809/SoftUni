@@ -19,3 +19,4 @@ for row in range(rows):
         char = text.popleft()
         if end == -1:
             snake.appendleft(char)
+        else:

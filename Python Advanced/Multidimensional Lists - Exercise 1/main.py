@@ -18,3 +18,4 @@ for row in range(rows):
     for column in range(start, end, step):
         char = text.popleft()
         if end == -1:
+            snake.appendleft(char)

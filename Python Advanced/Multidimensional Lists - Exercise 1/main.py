@@ -22,3 +22,4 @@ for row in range(rows):
         else:
             snake.append(char)
         text.append(char)
+    matrix.append([''.join(snake)])

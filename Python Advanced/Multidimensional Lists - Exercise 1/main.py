@@ -23,3 +23,6 @@ for row in range(rows):
             snake.append(char)
         text.append(char)
     matrix.append([''.join(snake)])
+
+for row in matrix:
+    print(*row, sep="\n")

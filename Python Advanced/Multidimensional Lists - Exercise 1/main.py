@@ -11,3 +11,5 @@ rows, columns = [int(x) for x in input().split()]
 text = deque(input())
 
 matrix = []
+
+for row in range(rows):

@@ -15,3 +15,4 @@ matrix = []
 for row in range(rows):
     snake = deque([])
     start, end, step = [0, columns, 1] if row % 2 == 0 else [columns - 1, -1, -1]
+    for column in range(start, end, step):

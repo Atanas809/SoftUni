@@ -5,3 +5,5 @@ from collections import deque
 5 6
 SoftUni
 """
+
+rows, columns = [int(x) for x in input().split()]

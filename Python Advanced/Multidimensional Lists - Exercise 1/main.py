@@ -23,3 +23,6 @@ def move_is_valid(miner_row, miner_column, size, command):
         "down": [miner_row + 1, miner_column],
         "left": [miner_row, miner_column - 1],
         "right": [miner_row, miner_column + 1]
+    }
+
+    valid_moves = {}

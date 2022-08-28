@@ -4,3 +4,14 @@ from collections import deque
 # •	e - the end of the route
 # •	c - coal
 # •	s - miner
+# Test input:
+
+"""
+5
+up right right up right
+* * * c *
+* * * e *
+* * c * *
+s * * c *
+* * c * *
+"""

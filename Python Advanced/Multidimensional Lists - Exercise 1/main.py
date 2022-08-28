@@ -29,3 +29,4 @@ def move_is_valid(miner_row, miner_column, size, command):
 
     for key, value in possible_moves.items():
         current_row = value[0]
+        current_column = value[1]

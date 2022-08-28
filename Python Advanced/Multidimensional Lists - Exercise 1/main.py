@@ -21,3 +21,4 @@ def move_is_valid(miner_row, miner_column, size, command):
     possible_moves = {
         "up": [miner_row - 1, miner_column],
         "down": [miner_row + 1, miner_column],
+        "left": [miner_row, miner_column - 1],

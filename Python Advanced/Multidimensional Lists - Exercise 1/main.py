@@ -18,3 +18,4 @@ s * * c *
 
 
 def move_is_valid(miner_row, miner_column, size, command):
+    possible_moves = {

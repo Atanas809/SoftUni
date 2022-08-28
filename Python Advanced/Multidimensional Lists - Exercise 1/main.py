@@ -15,3 +15,6 @@ up right right up right
 s * * c *
 * * c * *
 """
+
+
+def move_is_valid(miner_row, miner_column, size, command):

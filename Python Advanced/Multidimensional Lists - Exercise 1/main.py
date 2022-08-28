@@ -1,16 +1,5 @@
 
 
-def points(data):
-
-    digits = r"\d"
-
-    matches = re.findall(digits, data)
-
-    current_points = 0
-
-    for point in matches:
-        current_points += int(point)
-
     return current_points
 
 def names(data):

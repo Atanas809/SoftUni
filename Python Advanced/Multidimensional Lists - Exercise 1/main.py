@@ -36,3 +36,4 @@ def move_is_valid(miner_row, miner_column, size, command):
 
 
 def is_coal(game_map):
+    coal = 0

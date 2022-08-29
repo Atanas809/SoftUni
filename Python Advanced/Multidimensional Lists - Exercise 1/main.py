@@ -85,3 +85,7 @@ while coal_left > 0 and commands:
             elif symbol_at_position == "c":
                 coal_left -= 1
                 game_map[miner_row][miner_column] = "*"
+            else:
+                print(f"Game over! ({miner_row - 1}, {miner_column})")
+                failed = True
+                break

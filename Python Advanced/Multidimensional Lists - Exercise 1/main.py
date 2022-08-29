@@ -47,3 +47,6 @@ def is_coal(game_map):
 
 
 def miner_position(game_map):
+    result = []
+
+    for n in game_map:

@@ -89,3 +89,5 @@ while coal_left > 0 and commands:
                 print(f"Game over! ({miner_row - 1}, {miner_column})")
                 failed = True
                 break
+            game_map[miner_row - 1][miner_column] = "s"
+            miner_row = miner_row - 1

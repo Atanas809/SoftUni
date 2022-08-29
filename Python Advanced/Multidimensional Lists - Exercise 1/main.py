@@ -33,3 +33,6 @@ def move_is_valid(miner_row, miner_column, size, command):
         if 0 <= current_row < size and 0 <= current_column < size and key == command:
             valid_moves[key] = [current_row, current_column]
             return True
+
+
+def is_coal(game_map):

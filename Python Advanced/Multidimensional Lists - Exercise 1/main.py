@@ -65,3 +65,8 @@ game_map = []
 
 for _ in range(size):
     game_map.append([x for x in input().split()])
+
+position = miner_position(game_map)
+
+miner_row = position[0][0]
+miner_column = position[0][1]

@@ -53,3 +53,8 @@ def miner_position(game_map):
         if "s" in n:
             miner_row = game_map.index(n)
             miner_col = n.index("s")
+            result.append([miner_row, miner_col])
+            return result
+
+
+size = int(input())

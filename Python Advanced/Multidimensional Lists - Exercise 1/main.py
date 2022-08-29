@@ -58,3 +58,10 @@ def miner_position(game_map):
 
 
 size = int(input())
+
+commands = deque(input().split())
+
+game_map = []
+
+for _ in range(size):
+    game_map.append([x for x in input().split()])

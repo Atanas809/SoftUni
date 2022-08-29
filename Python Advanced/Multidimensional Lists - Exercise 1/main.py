@@ -42,3 +42,8 @@ def is_coal(game_map):
         if "c" in row:
             counter = [x for x in row if x == "c"]
             coal += len(counter)
+
+    return coal
+
+
+def miner_position(game_map):

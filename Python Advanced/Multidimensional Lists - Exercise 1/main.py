@@ -50,3 +50,6 @@ def miner_position(game_map):
     result = []
 
     for n in game_map:
+        if "s" in n:
+            miner_row = game_map.index(n)
+            miner_col = n.index("s")

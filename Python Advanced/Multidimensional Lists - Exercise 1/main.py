@@ -70,3 +70,6 @@ position = miner_position(game_map)
 
 miner_row = position[0][0]
 miner_column = position[0][1]
+
+coal_left = is_coal(game_map)
+failed = False

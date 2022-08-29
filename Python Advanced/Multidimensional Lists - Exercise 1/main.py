@@ -121,3 +121,12 @@ while coal_left > 0 and commands:
                 break
             game_map[miner_row][miner_column + 1] = "s"
             miner_column = miner_column + 1
+
+    else:
+        if move_is_valid(miner_row, miner_column, size, current_command):
+            symbol_at_position = game_map[miner_row][miner_column - 1]
+            if symbol_at_position == "*":
+                game_map[miner_row][miner_column] = "*"
+            elif symbol_at_position == "c":
+                coal_left -= 1
+                game_map[miner_row][miner_column] = "*"

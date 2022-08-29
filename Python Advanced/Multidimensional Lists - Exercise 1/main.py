@@ -80,3 +80,5 @@ while coal_left > 0 and commands:
     if current_command == "up":
         if move_is_valid(miner_row, miner_column, size, current_command):
             symbol_at_position = game_map[miner_row - 1][miner_column]
+            if symbol_at_position == "*":
+                game_map[miner_row][miner_column] = "*"

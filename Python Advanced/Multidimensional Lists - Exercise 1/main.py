@@ -136,3 +136,8 @@ while coal_left > 0 and commands:
                 break
             game_map[miner_row][miner_column - 1] = "s"
             miner_column = miner_column - 1
+
+if coal_left == 0:
+    print(f"You collected all coal! ({miner_row}, {miner_column})")
+elif not failed:
+    print(f"{coal_left} pieces of coal left. ({miner_row}, {miner_column})")

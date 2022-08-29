@@ -73,3 +73,6 @@ miner_column = position[0][1]
 
 coal_left = is_coal(game_map)
 failed = False
+
+while coal_left > 0 and commands:
+    current_command = commands.popleft()

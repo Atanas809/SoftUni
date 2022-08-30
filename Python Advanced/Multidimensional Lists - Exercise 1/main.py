@@ -21,3 +21,6 @@ LLLLLLLL
 
 
 def is_dead(matrix, next_row, next_col):
+
+    if matrix[next_row][next_col] == "B":
+        return True

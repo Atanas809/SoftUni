@@ -29,3 +29,5 @@ def is_dead(matrix, next_row, next_col):
 def bunny_spreading(matrix, bunnies, dead):
 
     new_bunnies = set()
+
+    for bunny_row, bunny_col in bunnies:

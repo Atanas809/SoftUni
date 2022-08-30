@@ -31,3 +31,5 @@ def bunny_spreading(matrix, bunnies, dead):
     new_bunnies = set()
 
     for bunny_row, bunny_col in bunnies:
+        if 0 <= bunny_row - 1 < len(matrix) and 0 <= bunny_col < len(matrix[0]):
+            if matrix[bunny_row - 1][bunny_col] == "P":

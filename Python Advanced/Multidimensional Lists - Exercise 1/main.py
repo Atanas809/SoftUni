@@ -18,3 +18,6 @@ from collections import deque
 ...P.
 LLLLLLLL
 """
+
+
+def is_dead(matrix, next_row, next_col):

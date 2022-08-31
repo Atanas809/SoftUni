@@ -102,3 +102,7 @@ commands = deque(input())
 dead = False
 
 while True:
+
+    current_direction = commands.popleft()
+
+    next_row, next_col = moves(player_row, player_col, current_direction)

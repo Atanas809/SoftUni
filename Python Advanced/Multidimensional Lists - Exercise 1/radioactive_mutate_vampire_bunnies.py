@@ -69,3 +69,8 @@ def bunny_spreading(matrix, bunnies, dead):
 
 def moves(player_row, player_col, current_direction):
     possible_moves = {
+        "U": lambda a, b: [a - 1, b],
+        "D": lambda a, b: [a + 1, b],
+        "L": lambda a, b: [a, b - 1],
+        "R": lambda a, b: [a, b + 1]
+    }

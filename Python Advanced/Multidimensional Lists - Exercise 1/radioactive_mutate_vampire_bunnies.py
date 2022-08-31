@@ -125,3 +125,7 @@ while True:
                     print(*row, sep="")
                 print(f"dead: {next_row} {next_col}")
                 break
+
+    else:
+        matrix[player_row][player_col] = "."
+        bunnies, dead = bunny_spreading(matrix, bunnies, dead)

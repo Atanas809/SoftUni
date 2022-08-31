@@ -76,3 +76,6 @@ def moves(player_row, player_col, current_direction):
     }
 
     return possible_moves[current_direction](player_row, player_col)
+
+
+rows, columns = [int(x) for x in input().split()]

@@ -111,3 +111,7 @@ while True:
         if is_dead(matrix, next_row, next_col):
             matrix[player_row][player_col] = "."
             bunnies, dead = bunny_spreading(matrix, bunnies, dead)
+            for row in matrix:
+                print(*row, sep="")
+            print(f"dead: {next_row} {next_col}")
+            break

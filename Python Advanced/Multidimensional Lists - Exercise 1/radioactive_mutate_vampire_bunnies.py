@@ -86,3 +86,6 @@ player_col = 0
 matrix = []
 
 bunnies = set()
+
+for row in range(rows):
+    current_column = [x for x in input()]

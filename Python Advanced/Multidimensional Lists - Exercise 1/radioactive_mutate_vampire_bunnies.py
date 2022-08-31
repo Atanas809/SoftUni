@@ -92,3 +92,7 @@ for row in range(rows):
     if "P" in current_column:
         player_row = row
         player_col = current_column.index("P")
+    for bunny in range(len(current_column)):
+        if current_column[bunny] == "B":
+            bunnies.add((row, bunny))
+    matrix.append(current_column)

@@ -79,3 +79,6 @@ def moves(player_row, player_col, current_direction):
 
 
 rows, columns = [int(x) for x in input().split()]
+
+player_row = 0
+player_col = 0

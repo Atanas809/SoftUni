@@ -96,3 +96,9 @@ for row in range(rows):
         if current_column[bunny] == "B":
             bunnies.add((row, bunny))
     matrix.append(current_column)
+
+commands = deque(input())
+
+dead = False
+
+while True:

@@ -89,3 +89,6 @@ bunnies = set()
 
 for row in range(rows):
     current_column = [x for x in input()]
+    if "P" in current_column:
+        player_row = row
+        player_col = current_column.index("P")

@@ -74,3 +74,5 @@ def moves(player_row, player_col, current_direction):
         "L": lambda a, b: [a, b - 1],
         "R": lambda a, b: [a, b + 1]
     }
+
+    return possible_moves[current_direction](player_row, player_col)

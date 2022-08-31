@@ -106,3 +106,8 @@ while True:
     current_direction = commands.popleft()
 
     next_row, next_col = moves(player_row, player_col, current_direction)
+
+    if 0 <= next_row < len(matrix) and 0 <= next_col < len(matrix[0]):
+        if is_dead(matrix, next_row, next_col):
+            matrix[player_row][player_col] = "."
+            bunnies, dead = bunny_spreading(matrix, bunnies, dead)

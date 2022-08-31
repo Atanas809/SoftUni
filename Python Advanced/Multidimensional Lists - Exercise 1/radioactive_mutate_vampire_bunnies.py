@@ -65,3 +65,7 @@ def bunny_spreading(matrix, bunnies, dead):
                 new_bunnies.add((bunny_row, bunny_col + 1))
 
     return (bunnies.union(new_bunnies), dead)
+
+
+def moves(player_row, player_col, current_direction):
+    possible_moves = {

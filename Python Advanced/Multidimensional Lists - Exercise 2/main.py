@@ -13,3 +13,6 @@ down
 up
 left
 """
+
+
+def moves(row, col, direction):

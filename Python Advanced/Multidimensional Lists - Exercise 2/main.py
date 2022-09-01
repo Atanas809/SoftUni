@@ -16,3 +16,6 @@ left
 
 
 def moves(row, col, direction):
+
+    possible_moves = {
+        "up": [row - 1, col],

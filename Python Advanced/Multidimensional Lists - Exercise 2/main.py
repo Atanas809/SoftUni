@@ -26,3 +26,4 @@ def moves(row, col, direction):
 
     for key, value in possible_moves.items():
         if key == direction:
+            return value

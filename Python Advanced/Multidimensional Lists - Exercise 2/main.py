@@ -9,3 +9,7 @@ R . 2 . .
 down
 right
 left
+down
+up
+left
+"""

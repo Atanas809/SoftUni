@@ -23,3 +23,5 @@ def moves(row, col, direction):
         "right": [row, col + 1],
         "left": [row, col - 1],
     }
+
+    for key, value in possible_moves.items():

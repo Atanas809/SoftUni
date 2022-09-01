@@ -30,3 +30,5 @@ def moves(row, col, direction):
 
 
 size = int(input())
+
+matrix = []

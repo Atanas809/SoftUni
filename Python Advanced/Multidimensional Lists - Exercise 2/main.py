@@ -32,5 +32,5 @@ def moves(row, col, direction):
 size = int(input())
 
 matrix = []
-
 alice_row = 0
+alice_col = 0

@@ -19,3 +19,7 @@ def moves(row, col, direction):
 
     possible_moves = {
         "up": [row - 1, col],
+        "down": [row + 1, col],
+        "right": [row, col + 1],
+        "left": [row, col - 1],
+    }

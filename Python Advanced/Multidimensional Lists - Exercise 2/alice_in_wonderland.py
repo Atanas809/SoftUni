@@ -45,3 +45,6 @@ for row in range(size):
 tea_bags = 0
 
 while True:
+    current_dir = input()
+
+    next_row, next_col = moves(alice_row, alice_col, current_dir)

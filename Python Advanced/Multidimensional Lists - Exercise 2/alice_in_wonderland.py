@@ -48,3 +48,6 @@ while True:
     current_dir = input()
 
     next_row, next_col = moves(alice_row, alice_col, current_dir)
+
+    if 0 <= next_row < size and 0 <= next_col < size:
+        if matrix[next_row][next_col] == "R":

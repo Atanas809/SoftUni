@@ -51,3 +51,6 @@ while True:
 
     if 0 <= next_row < size and 0 <= next_col < size:
         if matrix[next_row][next_col] == "R":
+            matrix[alice_row][alice_col] = "*"
+            matrix[next_row][next_col] = "*"
+            print("Alice didn't make it to the tea party.")

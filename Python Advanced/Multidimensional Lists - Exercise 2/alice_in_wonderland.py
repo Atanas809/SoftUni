@@ -67,3 +67,4 @@ while True:
                     print(*row)
                 break
         else:
+            matrix[alice_row][alice_col] = "*"

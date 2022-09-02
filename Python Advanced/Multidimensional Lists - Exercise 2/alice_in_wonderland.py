@@ -73,3 +73,4 @@ while True:
         matrix[alice_row][alice_col] = "*"
         print("Alice didn't make it to the tea party.")
         for row in matrix:
+            print(*row)

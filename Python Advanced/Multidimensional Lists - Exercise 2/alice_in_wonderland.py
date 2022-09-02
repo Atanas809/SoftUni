@@ -43,3 +43,5 @@ for row in range(size):
     matrix.append(current_col)
 
 tea_bags = 0
+
+while True:

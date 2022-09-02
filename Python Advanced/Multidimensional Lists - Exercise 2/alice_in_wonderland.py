@@ -36,3 +36,4 @@ alice_row = 0
 alice_col = 0
 
 for row in range(size):
+    current_col = [x for x in input().split()]

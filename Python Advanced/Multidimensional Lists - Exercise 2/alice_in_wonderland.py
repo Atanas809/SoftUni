@@ -66,3 +66,4 @@ while True:
                 for row in matrix:
                     print(*row)
                 break
+        else:

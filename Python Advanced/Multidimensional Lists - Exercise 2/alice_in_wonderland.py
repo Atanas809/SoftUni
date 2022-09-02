@@ -40,3 +40,4 @@ for row in range(size):
     if "A" in current_col:
         alice_row = row
         alice_col = current_col.index("A")
+    matrix.append(current_col)

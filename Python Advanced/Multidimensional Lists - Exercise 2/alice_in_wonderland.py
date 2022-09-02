@@ -75,3 +75,5 @@ while True:
         for row in matrix:
             print(*row)
         break
+
+    alice_row, alice_col = next_row, next_col

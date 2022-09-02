@@ -68,3 +68,4 @@ while True:
                 break
         else:
             matrix[alice_row][alice_col] = "*"
+            matrix[next_row][next_col] = "*"

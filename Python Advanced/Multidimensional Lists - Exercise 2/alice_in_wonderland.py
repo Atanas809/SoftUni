@@ -34,3 +34,5 @@ size = int(input())
 matrix = []
 alice_row = 0
 alice_col = 0
+
+for row in range(size):

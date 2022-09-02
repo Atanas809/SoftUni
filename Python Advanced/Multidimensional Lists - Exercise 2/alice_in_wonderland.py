@@ -71,3 +71,4 @@ while True:
             matrix[next_row][next_col] = "*"
     else:
         matrix[alice_row][alice_col] = "*"
+        print("Alice didn't make it to the tea party.")

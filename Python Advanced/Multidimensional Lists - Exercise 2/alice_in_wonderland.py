@@ -63,3 +63,6 @@ while True:
             matrix[next_row][next_col] = "*"
             if tea_bags >= 10:
                 print("She did it! She went to the party.")
+                for row in matrix:
+                    print(*row)
+                break

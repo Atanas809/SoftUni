@@ -57,3 +57,7 @@ while True:
             for row in matrix:
                 print(*row)
             break
+        elif matrix[next_row][next_col].isdigit():
+            tea_bags += int(matrix[next_row][next_col])
+            matrix[alice_row][alice_col] = "*"
+            matrix[next_row][next_col] = "*"

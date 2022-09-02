@@ -39,3 +39,4 @@ for row in range(size):
     current_col = [x for x in input().split()]
     if "A" in current_col:
         alice_row = row
+        alice_col = current_col.index("A")

@@ -41,3 +41,5 @@ for row in range(size):
         alice_row = row
         alice_col = current_col.index("A")
     matrix.append(current_col)
+
+tea_bags = 0

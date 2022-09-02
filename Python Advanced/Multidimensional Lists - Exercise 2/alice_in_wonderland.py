@@ -61,3 +61,5 @@ while True:
             tea_bags += int(matrix[next_row][next_col])
             matrix[alice_row][alice_col] = "*"
             matrix[next_row][next_col] = "*"
+            if tea_bags >= 10:
+                print("She did it! She went to the party.")

@@ -19,3 +19,5 @@ def is_valid_coordinates(row, col, matrix):
 rows = int(input())
 
 matrix = []
+
+for _ in range(rows):

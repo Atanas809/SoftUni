@@ -41,3 +41,6 @@ while True:
             matrix[row][col] -= value
     else:
         print("Invalid coordinates")
+
+for column in matrix:
+    print(*column, sep=" ")

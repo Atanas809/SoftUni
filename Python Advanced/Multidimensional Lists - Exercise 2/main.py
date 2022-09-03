@@ -37,3 +37,7 @@ while True:
     if is_valid_coordinates(row, col, matrix):
         if command == "Add":
             matrix[row][col] += value
+        else:
+            matrix[row][col] -= value
+    else:
+        print("Invalid coordinates")

@@ -28,3 +28,5 @@ while True:
 
     if commands[0] == "END":
         break
+
+    command = commands[0]

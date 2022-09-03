@@ -33,3 +33,7 @@ while True:
     row = int(commands[1])
     col = int(commands[2])
     value = int(commands[3])
+
+    if is_valid_coordinates(row, col, matrix):
+        if command == "Add":
+            matrix[row][col] += value

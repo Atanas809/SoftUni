@@ -31,3 +31,5 @@ while True:
 
     command = commands[0]
     row = int(commands[1])
+    col = int(commands[2])
+    value = int(commands[3])

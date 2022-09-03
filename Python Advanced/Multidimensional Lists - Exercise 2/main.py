@@ -8,3 +8,6 @@ Add 0 0 5
 Subtract 1 1 2
 END
 """
+
+
+def is_valid_coordinates(row, col, matrix):

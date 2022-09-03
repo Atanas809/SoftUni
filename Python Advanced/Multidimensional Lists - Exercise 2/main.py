@@ -30,3 +30,4 @@ while True:
         break
 
     command = commands[0]
+    row = int(commands[1])

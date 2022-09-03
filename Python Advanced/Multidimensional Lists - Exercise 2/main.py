@@ -14,3 +14,6 @@ def is_valid_coordinates(row, col, matrix):
 
     if 0 <= row < len(matrix) and 0 <= col < len(matrix[0]):
         return True
+
+
+rows = int(input())

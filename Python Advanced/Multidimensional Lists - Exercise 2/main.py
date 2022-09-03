@@ -25,3 +25,6 @@ for _ in range(rows):
 
 while True:
     commands = input().split()
+
+    if commands[0] == "END":
+        break

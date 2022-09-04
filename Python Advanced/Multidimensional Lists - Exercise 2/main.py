@@ -14,3 +14,5 @@ for x in range(len(data) - 1, -1, -1):
       current_data = data[x].strip()
     current_column = current_data.split()
     matrix.extend(current_column)
+
+print(*matrix, sep=" ")

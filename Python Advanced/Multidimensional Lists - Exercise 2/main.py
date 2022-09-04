@@ -10,3 +10,5 @@ data = input().split("|")
 matrix = []
 
 for x in range(len(data) - 1, -1, -1):
+
+      current_data = data[x].strip()

@@ -6,3 +6,5 @@
 """
 
 data = input().split("|")
+
+matrix = []

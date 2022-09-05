@@ -27,3 +27,5 @@ bunny_col = 0
 for row in range(size):
     current_col = [x for x in input().split()]
     if "B" in current_col:
+        bunny_row = row
+        bunny_col = current_col.index("B")

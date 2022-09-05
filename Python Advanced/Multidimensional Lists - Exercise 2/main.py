@@ -10,3 +10,5 @@ B 1 73 4 9
 
 
 def is_valid(bunny_row, bunny_col, size, matrix):
+
+    if 0 <= bunny_row < size and 0 <= bunny_col < size:

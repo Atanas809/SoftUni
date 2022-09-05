@@ -31,3 +31,5 @@ for row in range(size):
         bunny_col = current_col.index("B")
 
     matrix.append(current_col)
+
+directions = {

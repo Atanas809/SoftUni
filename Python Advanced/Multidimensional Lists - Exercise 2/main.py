@@ -23,3 +23,5 @@ matrix = []
 
 bunny_row = 0
 bunny_col = 0
+
+for row in range(size):

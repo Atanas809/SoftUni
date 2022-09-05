@@ -7,3 +7,6 @@ X 5 4 X 63
 B 1 73 4 9
 9 2 33 2 0
 """
+
+
+def is_valid(bunny_row, bunny_col, size, matrix):

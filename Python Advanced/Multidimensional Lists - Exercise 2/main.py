@@ -18,3 +18,5 @@ def is_valid(bunny_row, bunny_col, size, matrix):
 
 
 size = int(input())
+
+matrix = []

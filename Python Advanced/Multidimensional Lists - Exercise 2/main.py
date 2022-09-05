@@ -33,3 +33,5 @@ for row in range(size):
     matrix.append(current_col)
 
 directions = {
+    "up": lambda a, b: [a - 1, b],
+    "down": lambda a, b: [a + 1, b],

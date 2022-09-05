@@ -15,3 +15,6 @@ def is_valid(bunny_row, bunny_col, size, matrix):
         if matrix[bunny_row][bunny_col] != "X":
             return True
     return False
+
+
+size = int(input())

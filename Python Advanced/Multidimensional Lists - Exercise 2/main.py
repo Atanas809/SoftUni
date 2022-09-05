@@ -29,3 +29,5 @@ for row in range(size):
     if "B" in current_col:
         bunny_row = row
         bunny_col = current_col.index("B")
+
+    matrix.append(current_col)

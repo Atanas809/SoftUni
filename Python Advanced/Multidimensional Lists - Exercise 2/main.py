@@ -35,3 +35,6 @@ for row in range(size):
 directions = {
     "up": lambda a, b: [a - 1, b],
     "down": lambda a, b: [a + 1, b],
+    "left": lambda a, b: [a, b - 1],
+    "right": lambda a, b: [a, b + 1],
+}

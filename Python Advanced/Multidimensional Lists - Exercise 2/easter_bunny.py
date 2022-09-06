@@ -38,3 +38,5 @@ directions = {
     "left": lambda a, b: [a, b - 1],
     "right": lambda a, b: [a, b + 1],
 }
+
+best_path = float("-inf")

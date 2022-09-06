@@ -61,3 +61,4 @@ for current_dir in directions.keys():
 
     if current_path > best_path and indices:
         best_path = current_path
+        best_indices = indices

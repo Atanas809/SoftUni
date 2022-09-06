@@ -46,3 +46,4 @@ best_dir = ""
 for current_dir in directions.keys():
 
     next_row = bunny_row
+    next_col = bunny_col

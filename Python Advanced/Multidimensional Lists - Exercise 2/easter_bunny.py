@@ -54,3 +54,4 @@ for current_dir in directions.keys():
         next_row, next_col = directions[current_dir](next_row, next_col)
 
         if is_valid(next_row, next_col, size, matrix):
+            current_path += int(matrix[next_row][next_col])

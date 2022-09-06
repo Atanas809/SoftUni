@@ -38,3 +38,32 @@ directions = {
     "left": lambda a, b: [a, b - 1],
     "right": lambda a, b: [a, b + 1],
 }
+
+best_path = float("-inf")
+best_indices = []
+best_dir = ""
+
+for current_dir in directions.keys():
+
+    next_row = bunny_row
+    next_col = bunny_col
+    current_path = 0
+    indices = []
+
+    while True:
+        next_row, next_col = directions[current_dir](next_row, next_col)
+
+        if is_valid(next_row, next_col, size, matrix):
+            current_path += int(matrix[next_row][next_col])
+            indices.append([next_row, next_col])
+        else:
+            break
+
+    if current_path > best_path and indices:
+        best_path = current_path
+        best_indices = indices
+        best_dir = current_dir
+
+print(best_dir)
+print(*best_indices, sep="\n")
+print(best_path)

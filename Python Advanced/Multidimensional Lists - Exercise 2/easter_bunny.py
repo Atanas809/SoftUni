@@ -66,3 +66,4 @@ for current_dir in directions.keys():
 
 print(best_dir)
 print(*best_indices, sep="\n")
+print(best_path)

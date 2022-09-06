@@ -42,3 +42,5 @@ directions = {
 best_path = float("-inf")
 best_indices = []
 best_dir = ""
+
+for current_dir in directions.keys():

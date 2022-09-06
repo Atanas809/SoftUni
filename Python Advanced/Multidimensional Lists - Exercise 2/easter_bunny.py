@@ -41,3 +41,4 @@ directions = {
 
 best_path = float("-inf")
 best_indices = []
+best_dir = ""

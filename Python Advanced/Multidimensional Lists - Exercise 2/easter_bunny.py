@@ -58,3 +58,5 @@ for current_dir in directions.keys():
             indices.append([next_row, next_col])
         else:
             break
+
+    if current_path > best_path and indices:

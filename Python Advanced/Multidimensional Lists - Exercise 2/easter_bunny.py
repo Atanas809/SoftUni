@@ -51,3 +51,4 @@ for current_dir in directions.keys():
     indices = []
 
     while True:
+        next_row, next_col = directions[current_dir](next_row, next_col)

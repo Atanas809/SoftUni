@@ -23,3 +23,4 @@ def houses_around(next_row, next_col, matrix, presents_left, kids):
 
 
 def is_valid_position(next_row, next_col, size):
+    return 0 <= next_row < size and 0 <= next_col < size

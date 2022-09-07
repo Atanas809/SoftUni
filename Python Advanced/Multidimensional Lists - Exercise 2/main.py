@@ -9,3 +9,4 @@ def houses_around(next_row, next_col, matrix, presents_left, kids):
 
     for row, col in possible_moves:
         if presents_left and kids:
+            if matrix[row][col] == "V":

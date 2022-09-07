@@ -18,3 +18,5 @@ def houses_around(next_row, next_col, matrix, presents_left, kids):
                 presents_left -= 1
         else:
             return presents_left, kids
+
+    return presents_left, kids

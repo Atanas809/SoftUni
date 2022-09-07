@@ -14,3 +14,5 @@ def houses_around(next_row, next_col, matrix, presents_left, kids):
                 presents_left -= 1
                 matrix[row][col] = "-"
             elif matrix[row][col] == "X":
+                matrix[row][col] = "-"
+                presents_left -= 1

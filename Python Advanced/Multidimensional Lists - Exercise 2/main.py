@@ -6,3 +6,5 @@ def houses_around(next_row, next_col, matrix, presents_left, kids):
         [next_row, next_col - 1],
         [next_row, next_col + 1],
     ]
+
+    for row, col in possible_moves:

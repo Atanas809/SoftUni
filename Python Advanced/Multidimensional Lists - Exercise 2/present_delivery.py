@@ -99,3 +99,5 @@ for row in matrix:
 
 if not happy_kids_left:
     print(f"Good job, Santa! {nice_kids} happy nice kid/s.")
+else:
+    print(f"No presents for {happy_kids_left} nice kid/s.")

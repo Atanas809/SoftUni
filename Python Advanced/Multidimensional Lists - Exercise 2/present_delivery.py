@@ -27,3 +27,5 @@ def is_valid_position(next_row, next_col, size):
 
 
 def moves(row, col, current_dir):
+    if current_dir == "up":
+        return [row - 1, col]

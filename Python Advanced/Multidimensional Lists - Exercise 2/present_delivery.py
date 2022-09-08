@@ -56,3 +56,6 @@ for current_row in range(size):
             santa_col = index
         elif column[index] == "V":
             nice_kids += 1
+    matrix.append(column)
+
+happy_kids_left = nice_kids

@@ -50,3 +50,7 @@ nice_kids = 0
 
 for current_row in range(size):
     column = input().split()
+    for index in range(len(column)):
+        if column[index] == "S":
+            santa_row = current_row
+            santa_col = index

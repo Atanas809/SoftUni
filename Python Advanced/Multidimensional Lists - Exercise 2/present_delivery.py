@@ -62,3 +62,8 @@ happy_kids_left = nice_kids
 
 while present:
     direction = input()
+
+    if direction == "Christmas morning":
+        break
+
+    next_row, next_col = moves(santa_row, santa_col, direction)

@@ -84,3 +84,6 @@ while present:
             if not present or not happy_kids_left:
                 matrix[santa_row][santa_col] = "-"
                 break
+
+        else:
+            matrix[next_row][next_col] = "S"

@@ -31,3 +31,5 @@ def moves(row, col, current_dir):
         return [row - 1, col]
     elif current_dir == "down":
         return [row + 1, col]
+    elif current_dir == "right":
+        return [row, col + 1]

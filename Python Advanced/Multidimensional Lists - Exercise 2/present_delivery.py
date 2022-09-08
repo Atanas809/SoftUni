@@ -90,3 +90,6 @@ while present:
 
         matrix[santa_row][santa_col] = "-"
         santa_row, santa_col = next_row, next_col
+
+if not present and happy_kids_left:
+    print("Santa ran out of presents!")

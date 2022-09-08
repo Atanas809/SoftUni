@@ -80,3 +80,7 @@ while present:
             present, happy_kids_left = houses_around(next_row, next_col, matrix, present, happy_kids_left)
 
             matrix[next_row][next_col] = "S"
+
+            if not present or not happy_kids_left:
+                matrix[santa_row][santa_col] = "-"
+                break

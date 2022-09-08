@@ -70,3 +70,6 @@ while present:
 
     if is_valid_position(next_row, next_col, size):
         if matrix[next_row][next_col] == "V":
+            present -= 1
+            matrix[next_row][next_col] = "S"
+            happy_kids_left -= 1

@@ -42,3 +42,8 @@ present = int(input())
 size = int(input())
 
 matrix = []
+
+santa_row = 0
+santa_col = 0
+
+nice_kids = 0

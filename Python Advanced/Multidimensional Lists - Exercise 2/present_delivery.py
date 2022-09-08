@@ -38,3 +38,7 @@ def moves(row, col, current_dir):
 
 
 present = int(input())
+
+size = int(input())
+
+matrix = []

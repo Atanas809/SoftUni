@@ -67,3 +67,6 @@ while present:
         break
 
     next_row, next_col = moves(santa_row, santa_col, direction)
+
+    if is_valid_position(next_row, next_col, size):
+        if matrix[next_row][next_col] == "V":

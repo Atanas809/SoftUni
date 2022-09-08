@@ -75,3 +75,8 @@ while present:
             happy_kids_left -= 1
         elif matrix[next_row][next_col] == "X":
             matrix[next_row][next_col] = "S"
+        elif matrix[next_row][next_col] == "C":
+
+            present, happy_kids_left = houses_around(next_row, next_col, matrix, present, happy_kids_left)
+
+            matrix[next_row][next_col] = "S"

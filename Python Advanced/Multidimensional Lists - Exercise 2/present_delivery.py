@@ -35,3 +35,6 @@ def moves(row, col, current_dir):
         return [row, col + 1]
     elif current_dir == "left":
         return [row, col - 1]
+
+
+present = int(input())

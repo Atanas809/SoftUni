@@ -47,3 +47,6 @@ santa_row = 0
 santa_col = 0
 
 nice_kids = 0
+
+for current_row in range(size):
+    column = input().split()

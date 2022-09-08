@@ -87,3 +87,6 @@ while present:
 
         else:
             matrix[next_row][next_col] = "S"
+
+        matrix[santa_row][santa_col] = "-"
+        santa_row, santa_col = next_row, next_col

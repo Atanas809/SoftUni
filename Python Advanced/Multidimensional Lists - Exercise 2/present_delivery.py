@@ -54,3 +54,5 @@ for current_row in range(size):
         if column[index] == "S":
             santa_row = current_row
             santa_col = index
+        elif column[index] == "V":
+            nice_kids += 1

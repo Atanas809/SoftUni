@@ -73,3 +73,5 @@ while present:
             present -= 1
             matrix[next_row][next_col] = "S"
             happy_kids_left -= 1
+        elif matrix[next_row][next_col] == "X":
+            matrix[next_row][next_col] = "S"

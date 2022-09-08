@@ -59,3 +59,6 @@ for current_row in range(size):
     matrix.append(column)
 
 happy_kids_left = nice_kids
+
+while present:
+    direction = input()

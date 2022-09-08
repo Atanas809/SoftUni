@@ -93,3 +93,6 @@ while present:
 
 if not present and happy_kids_left:
     print("Santa ran out of presents!")
+
+for row in matrix:
+    print(*row, sep=" ")

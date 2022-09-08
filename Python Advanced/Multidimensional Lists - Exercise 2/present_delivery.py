@@ -96,3 +96,6 @@ if not present and happy_kids_left:
 
 for row in matrix:
     print(*row, sep=" ")
+
+if not happy_kids_left:
+    print(f"Good job, Santa! {nice_kids} happy nice kid/s.")

@@ -25,3 +25,8 @@ def moves(row, col, direction, step):
         return [row, col + step]
     elif direction == "left":
         return [row, col - step]
+
+
+size = 5
+
+matrix = []

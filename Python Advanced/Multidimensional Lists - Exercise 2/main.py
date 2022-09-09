@@ -32,3 +32,4 @@ size = 5
 matrix = []
 
 shooter_row = 0
+shooter_col = 0

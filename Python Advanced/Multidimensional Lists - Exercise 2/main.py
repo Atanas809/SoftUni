@@ -17,3 +17,5 @@ def is_valid(next_row, next_col, size):
 
 
 def moves(row, col, direction, step):
+    if direction == "up":
+        return [row - step, col]

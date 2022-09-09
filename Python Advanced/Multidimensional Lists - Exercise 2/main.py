@@ -21,3 +21,5 @@ def moves(row, col, direction, step):
         return [row - step, col]
     elif direction == "down":
         return [row + step, col]
+    elif direction == "right":
+        return [row, col + step]

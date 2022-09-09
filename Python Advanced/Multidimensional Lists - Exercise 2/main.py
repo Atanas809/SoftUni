@@ -30,3 +30,5 @@ def moves(row, col, direction, step):
 size = 5
 
 matrix = []
+
+shooter_row = 0

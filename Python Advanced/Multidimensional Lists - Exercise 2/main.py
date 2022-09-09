@@ -10,3 +10,6 @@ shoot down
 move right 4
 move left 1
 """
+
+
+def is_valid(next_row, next_col, size):

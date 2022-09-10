@@ -60,3 +60,5 @@ for _ in range(counter):
         steps = int(data[2])
 
         next_row, next_col = moves(shooter_row, shooter_col, direction, steps)
+
+        if is_valid(next_row, next_col, size):

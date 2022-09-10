@@ -58,3 +58,5 @@ for _ in range(counter):
 
     if command == "move":
         steps = int(data[2])
+
+        next_row, next_col = moves(shooter_row, shooter_col, direction, steps)

@@ -45,3 +45,8 @@ for rows in range(size):
         elif current_col[cols] == "x":
             targets += 1
     matrix.append(current_col)
+
+counter = int(input())
+
+left_targets = targets
+no_targets = False

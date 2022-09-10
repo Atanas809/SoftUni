@@ -81,3 +81,4 @@ for _ in range(counter):
             bullet_row, bullet_col = moves(bullet_row, bullet_col, direction, 1)
 
         if not left_targets:
+            break

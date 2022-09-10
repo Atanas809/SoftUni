@@ -82,3 +82,6 @@ for _ in range(counter):
 
         if not left_targets:
             break
+
+if left_targets:
+    print(f"Training not completed! {left_targets} targets left.")

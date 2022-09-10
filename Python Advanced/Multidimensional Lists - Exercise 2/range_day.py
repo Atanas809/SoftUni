@@ -44,3 +44,4 @@ for rows in range(size):
             shooter_col = cols
         elif current_col[cols] == "x":
             targets += 1
+    matrix.append(current_col)

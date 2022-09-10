@@ -63,3 +63,6 @@ for _ in range(counter):
 
         if is_valid(next_row, next_col, size):
             if matrix[next_row][next_col] == ".":
+                matrix[next_row][next_col] = "A"
+                matrix[shooter_row][shooter_col] = "."
+                shooter_row, shooter_col = next_row, next_col

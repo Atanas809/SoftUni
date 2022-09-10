@@ -52,3 +52,6 @@ left_targets = targets
 no_targets = False
 
 for _ in range(counter):
+    data = input().split()
+    command = data[0]
+    direction = data[1]

@@ -70,3 +70,6 @@ for _ in range(counter):
     else:
 
         bullet_row, bullet_col = moves(shooter_row, shooter_col, direction, 1)
+
+        while is_valid(bullet_row, bullet_col, size):
+            if matrix[bullet_row][bullet_col] == "x":

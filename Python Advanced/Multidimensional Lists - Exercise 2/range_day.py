@@ -73,3 +73,6 @@ for _ in range(counter):
 
         while is_valid(bullet_row, bullet_col, size):
             if matrix[bullet_row][bullet_col] == "x":
+                matrix[bullet_row][bullet_col] = "."
+                left_targets -= 1
+                hit_targets.append([bullet_row, bullet_col])

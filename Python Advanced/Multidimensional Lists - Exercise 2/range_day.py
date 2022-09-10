@@ -42,3 +42,5 @@ for rows in range(size):
         if current_col[cols] == "A":
             shooter_row = rows
             shooter_col = cols
+        elif current_col[cols] == "x":
+            targets += 1

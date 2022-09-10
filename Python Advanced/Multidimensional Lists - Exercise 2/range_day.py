@@ -39,3 +39,4 @@ hit_targets = []
 for rows in range(size):
     current_col = [x for x in input().split()]
     for cols in range(len(current_col)):
+        if current_col[cols] == "A":

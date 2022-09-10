@@ -35,3 +35,5 @@ shooter_row = 0
 shooter_col = 0
 targets = 0
 hit_targets = []
+
+for rows in range(size):

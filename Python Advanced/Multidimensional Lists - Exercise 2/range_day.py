@@ -50,3 +50,5 @@ counter = int(input())
 
 left_targets = targets
 no_targets = False
+
+for _ in range(counter):

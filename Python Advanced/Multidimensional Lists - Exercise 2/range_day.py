@@ -55,3 +55,6 @@ for _ in range(counter):
     data = input().split()
     command = data[0]
     direction = data[1]
+
+    if command == "move":
+        steps = int(data[2])

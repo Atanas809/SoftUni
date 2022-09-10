@@ -85,3 +85,5 @@ for _ in range(counter):
 
 if left_targets:
     print(f"Training not completed! {left_targets} targets left.")
+else:
+    print(f"Training completed! All {targets} targets hit.")

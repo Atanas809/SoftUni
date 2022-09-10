@@ -68,3 +68,5 @@ for _ in range(counter):
                 shooter_row, shooter_col = next_row, next_col
 
     else:
+
+        bullet_row, bullet_col = moves(shooter_row, shooter_col, direction, 1)

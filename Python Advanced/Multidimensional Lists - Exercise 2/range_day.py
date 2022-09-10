@@ -76,3 +76,6 @@ for _ in range(counter):
                 matrix[bullet_row][bullet_col] = "."
                 left_targets -= 1
                 hit_targets.append([bullet_row, bullet_col])
+                break
+
+            bullet_row, bullet_col = moves(bullet_row, bullet_col, direction, 1)

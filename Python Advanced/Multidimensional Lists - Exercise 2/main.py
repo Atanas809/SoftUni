@@ -21,3 +21,5 @@ def moves(row, col, size):
         [row + 1, col - 2],
         [row + 1, col + 2]
     ]
+
+    count = 0

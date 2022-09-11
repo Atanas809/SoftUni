@@ -7,3 +7,6 @@ K000K
 K000K
 0K0K0
 """
+
+
+def moves(row, col, size):

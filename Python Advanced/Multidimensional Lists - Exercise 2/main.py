@@ -10,3 +10,5 @@ K000K
 
 
 def moves(row, col, size):
+
+    possible_moves = [

@@ -31,3 +31,7 @@ def moves(row, col, size):
 
 
 size = int(input())
+
+board = []
+
+knights = []

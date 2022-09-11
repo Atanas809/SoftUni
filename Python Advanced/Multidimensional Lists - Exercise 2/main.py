@@ -23,3 +23,5 @@ def moves(row, col, size):
     ]
 
     count = 0
+
+    for knight_row, knight_col in possible_moves:

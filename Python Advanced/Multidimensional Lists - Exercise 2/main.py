@@ -40,3 +40,5 @@ for current_row in range(size):
     current_column = [x for x in input()]
     for knight in range(len(current_column)):
         if current_column[knight] == "K":
+            knights.append((current_row, knight))
+    board.append(current_column)

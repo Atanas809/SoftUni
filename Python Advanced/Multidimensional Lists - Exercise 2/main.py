@@ -25,3 +25,4 @@ def moves(row, col, size):
     count = 0
 
     for knight_row, knight_col in possible_moves:
+        if 0 <= knight_row < size and 0 <= knight_col < size and board[knight_row][knight_col] == "K":

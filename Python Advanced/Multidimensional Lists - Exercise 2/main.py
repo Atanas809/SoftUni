@@ -26,3 +26,5 @@ def moves(row, col, size):
 
     for knight_row, knight_col in possible_moves:
         if 0 <= knight_row < size and 0 <= knight_col < size and board[knight_row][knight_col] == "K":
+            count += 1
+    return count

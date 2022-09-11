@@ -35,3 +35,6 @@ size = int(input())
 board = []
 
 knights = []
+
+for current_row in range(size):
+    current_column = [x for x in input()]

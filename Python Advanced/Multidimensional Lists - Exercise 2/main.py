@@ -28,3 +28,6 @@ def moves(row, col, size):
         if 0 <= knight_row < size and 0 <= knight_col < size and board[knight_row][knight_col] == "K":
             count += 1
     return count
+
+
+size = int(input())

@@ -42,3 +42,5 @@ for current_row in range(size):
         if current_column[knight] == "K":
             knights.append((current_row, knight))
     board.append(current_column)
+
+counter = 0

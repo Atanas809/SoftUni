@@ -57,3 +57,4 @@ while True:
             best_knight_col = col
 
     if best_count == 0:
+        break

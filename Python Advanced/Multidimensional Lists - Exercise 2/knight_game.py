@@ -60,3 +60,4 @@ while True:
         break
 
     board[best_knight_row][best_knight_col] = "0"
+    knights.remove((best_knight_row, best_knight_col))

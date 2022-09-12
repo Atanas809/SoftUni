@@ -8,3 +8,6 @@ def sorting_cheeses(**kwargs):
         result.extend(sorted(value, reverse=True))
 
     return '\n'.join([str(x) for x in result])
+
+
+# Test inputs:

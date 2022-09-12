@@ -53,3 +53,4 @@ while True:
         battles = moves(row, col, size)
         if battles > best_count:
             best_count = battles
+            best_knight_row = row

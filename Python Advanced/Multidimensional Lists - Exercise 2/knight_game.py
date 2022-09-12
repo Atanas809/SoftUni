@@ -54,3 +54,4 @@ while True:
         if battles > best_count:
             best_count = battles
             best_knight_row = row
+            best_knight_col = col

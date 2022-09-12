@@ -46,3 +46,4 @@ counter = 0
 while True:
 
     best_knight_row = 0
+    best_knight_col = 0

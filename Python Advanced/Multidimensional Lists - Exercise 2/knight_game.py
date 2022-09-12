@@ -58,3 +58,5 @@ while True:
 
     if best_count == 0:
         break
+
+    board[best_knight_row][best_knight_col] = "0"

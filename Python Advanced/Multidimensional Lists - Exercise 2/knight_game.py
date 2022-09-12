@@ -62,3 +62,5 @@ while True:
     board[best_knight_row][best_knight_col] = "0"
     knights.remove((best_knight_row, best_knight_col))
     counter += 1
+
+print(counter)

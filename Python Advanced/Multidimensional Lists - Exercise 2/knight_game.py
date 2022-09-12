@@ -42,3 +42,5 @@ for current_row in range(size):
     board.append(current_column)
 
 counter = 0
+
+while True:

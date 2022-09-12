@@ -44,3 +44,5 @@ for current_row in range(size):
 counter = 0
 
 while True:
+
+    best_knight_row = 0

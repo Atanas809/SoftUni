@@ -11,3 +11,5 @@ def sorting_cheeses(**kwargs):
 
 
 # Test inputs:
+print(
+    sorting_cheeses(

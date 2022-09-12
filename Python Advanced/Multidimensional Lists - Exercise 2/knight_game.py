@@ -50,3 +50,4 @@ while True:
     best_count = 0
 
     for row, col in knights:
+        battles = moves(row, col, size)

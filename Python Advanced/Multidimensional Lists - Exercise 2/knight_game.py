@@ -48,3 +48,5 @@ while True:
     best_knight_row = 0
     best_knight_col = 0
     best_count = 0
+
+    for row, col in knights:

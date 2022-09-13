@@ -5,3 +5,6 @@ def multiply(*args):
         result *= num
 
     return result
+
+
+# Test input:

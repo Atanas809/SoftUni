@@ -8,3 +8,4 @@ def multiply(*args):
 
 
 # Test input:
+print(multiply(1, 4, 5))

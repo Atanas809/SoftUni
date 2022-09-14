@@ -11,3 +11,5 @@ def operate(operator, *args):
 
     def multiply():
         result = 1
+        for x in args:
+            result *= x

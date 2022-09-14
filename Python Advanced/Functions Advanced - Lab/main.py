@@ -15,3 +15,8 @@ def operate(operator, *args):
             result *= x
 
         return result
+
+    def divide():
+        result = args[0]
+        for x in args[1:]:
+            result /= x

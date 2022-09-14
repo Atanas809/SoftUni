@@ -8,3 +8,6 @@ def operate(operator, *args):
             result -= x
 
         return result
+
+    def multiply():
+        result = 1

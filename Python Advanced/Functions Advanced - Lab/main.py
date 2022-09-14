@@ -31,3 +31,8 @@ def operate(operator, *args):
         return multiply()
     if operator == "/":
         return divide()
+
+
+# Test inputs:
+print(operate("+", 1, 2, 3))
+print(operate("/", 3, 4, 9, 3))

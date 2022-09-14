@@ -22,3 +22,8 @@ def operate(operator, *args):
             result /= x
 
         return result
+
+    if operator == "+":
+        return add()
+    if operator == "-":
+        return subtract()

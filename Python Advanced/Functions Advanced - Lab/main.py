@@ -27,3 +27,7 @@ def operate(operator, *args):
         return add()
     if operator == "-":
         return subtract()
+    if operator == "*":
+        return multiply()
+    if operator == "/":
+        return divide()

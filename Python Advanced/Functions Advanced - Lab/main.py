@@ -8,3 +8,5 @@ info = {
     "town": "Sofia",
     "age": 20,
 }
+
+print(get_info(**info))

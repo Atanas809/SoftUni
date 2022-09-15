@@ -6,3 +6,5 @@ def get_info(name, age, town):
 info = {
     "name": "George",
     "town": "Sofia",
+    "age": 20,
+}

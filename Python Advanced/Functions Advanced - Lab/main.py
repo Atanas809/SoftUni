@@ -5,3 +5,4 @@ def get_info(name, age, town):
 # Test input:
 info = {
     "name": "George",
+    "town": "Sofia",

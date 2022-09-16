@@ -3,3 +3,4 @@ def rectangle(length, width):
         return length * width
 
     def perimeter():
+        return 2 * (length + width)

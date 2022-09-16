@@ -6,3 +6,4 @@ def rectangle(length, width):
         return 2 * (length + width)
 
     if not isinstance(length, int) or not isinstance(width, int):
+        return 'Enter valid values!'

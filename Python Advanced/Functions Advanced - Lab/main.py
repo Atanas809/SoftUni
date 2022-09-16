@@ -11,3 +11,7 @@ def rectangle(length, width):
     return f"""Rectangle area: {area()}
 Rectangle perimeter: {perimeter()}
 """
+
+
+# Test inputs:
+print(rectangle(2, 10))

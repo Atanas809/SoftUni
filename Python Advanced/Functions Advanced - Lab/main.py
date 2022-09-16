@@ -15,3 +15,4 @@ Rectangle perimeter: {perimeter()}
 
 # Test inputs:
 print(rectangle(2, 10))
+print(rectangle('2', 10))

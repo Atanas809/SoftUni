@@ -1,1 +1,1 @@
-
+def rectangle(length, width):

@@ -4,3 +4,5 @@ def recursive_power(number, power):
         return 1
 
     result = number * recursive_power(number, power - 1)
+
+    return result

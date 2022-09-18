@@ -10,3 +10,4 @@ def age_assignment(*args, **kwargs):
 
 
 # Test inputs:
+print(age_assignment("Peter", "George", G=26, P=19))

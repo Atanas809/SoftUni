@@ -7,3 +7,6 @@ def age_assignment(*args, **kwargs):
         result.append(f"{name} is {age} years old.")
 
     return '\n'.join(sorted(result))
+
+
+# Test inputs:

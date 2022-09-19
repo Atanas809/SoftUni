@@ -8,3 +8,4 @@ def concatenate(*args, **kwargs):
 
 
 # Test inputs:
+print(concatenate("Soft", "UNI", "Is", "Grate", "!", UNI="Uni", Grate="Great"))

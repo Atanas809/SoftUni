@@ -3,3 +3,5 @@ def concatenate(*args, **kwargs):
 
     for key, value in kwargs.items():
         text = text.replace(key, value)
+
+    return text

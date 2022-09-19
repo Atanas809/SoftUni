@@ -5,3 +5,6 @@ def concatenate(*args, **kwargs):
         text = text.replace(key, value)
 
     return text
+
+
+# Test inputs:

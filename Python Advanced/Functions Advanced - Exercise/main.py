@@ -5,3 +5,6 @@ def even_odd(*args):
         return [x for x in args[:-1] if x % 2 == 0]
     else:
         return [x for x in args[:-1] if x % 2 != 0]
+
+
+# Test inputs:

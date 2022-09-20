@@ -3,3 +3,4 @@ def even_odd(*args):
 
     if command == "even":
         return [x for x in args[:-1] if x % 2 == 0]
+    else:

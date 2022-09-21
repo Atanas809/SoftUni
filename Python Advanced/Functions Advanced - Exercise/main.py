@@ -10,3 +10,5 @@ def fill_the_box(height, length, width, *args):
 
     while cubes:
         current_cube = cubes.popleft()
+
+        if current_cube == "Finish":

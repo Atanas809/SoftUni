@@ -9,3 +9,4 @@ def fill_the_box(height, length, width, *args):
     cubes_left = 0
 
     while cubes:
+        current_cube = cubes.popleft()

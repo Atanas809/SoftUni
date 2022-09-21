@@ -7,3 +7,5 @@ def fill_the_box(height, length, width, *args):
     cubes = deque(args)
 
     cubes_left = 0
+
+    while cubes:

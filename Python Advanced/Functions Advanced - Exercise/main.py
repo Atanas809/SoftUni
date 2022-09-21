@@ -1,9 +1,5 @@
 
 
-    current_name = ''.join(matches)
-
-    return current_name
-
 def race():
 
     participants = input().split(",")

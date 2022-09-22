@@ -1,7 +1,4 @@
 
-        current_points += int(point)
-
-    return current_points
 
 def names(data):
 

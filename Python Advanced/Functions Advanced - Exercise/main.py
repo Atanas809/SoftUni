@@ -4,3 +4,5 @@ def grocery_store(**kwargs):
     result = [f"{key}: {value}" for key, value in sorted_dict.items()]
 
     return '\n'.join(result)
+
+# Test input:

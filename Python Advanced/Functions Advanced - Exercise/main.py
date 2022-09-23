@@ -5,5 +5,10 @@ def grocery_store(**kwargs):
 
     return '\n'.join(result)
 
+
 # Test input:
 print(grocery_store(
+    bread=5,
+    pasta=12,
+    eggs=12,
+))

@@ -6,3 +6,4 @@ def grocery_store(**kwargs):
     return '\n'.join(result)
 
 # Test input:
+print(grocery_store(

@@ -1,6 +1,1 @@
-
-
-    output(my_dict)
-
-race()
-
+def grocery_store(**kwargs):

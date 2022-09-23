@@ -1,8 +1,4 @@
-import re
-
-def output(my_dict):
-
-    val_list = list(sorted(my_dict.values(), reverse=True))
+ue))
 
     best_points = val_list[:3]
 

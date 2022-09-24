@@ -1,9 +1,4 @@
 
-""")
-
-def points(data):
-
-    digits = r"\d"
 
     matches = re.findall(digits, data)
 

@@ -4,3 +4,5 @@ def kwargs_length(**kwargs):
 
 # Test input:
 dictionary = {'name': 'Peter', 'age': 25}
+
+print(kwargs_length(**dictionary))

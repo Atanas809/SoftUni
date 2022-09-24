@@ -1,7 +1,5 @@
 
 
-    return current_points
-
 def names(data):
 
     letters = r"[a-zA-Z]+"

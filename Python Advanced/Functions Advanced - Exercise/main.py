@@ -6,3 +6,7 @@ def positives_vs_negatives(*args):
         return f"{negative_sum}\n{positive_sum}\nThe positives are stronger than the negatives"
     else:
         return f"{negative_sum}\n{positive_sum}\nThe negatives are stronger than the positives"
+
+
+# Test input: "1 2 -3 -4 65 -98 12 57 -84"
+numbers = [int(x) for x in input().split()]

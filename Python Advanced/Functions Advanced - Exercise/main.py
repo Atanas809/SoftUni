@@ -1,7 +1,3 @@
-
-        data = input()
-
-    output(my_dict)
-
-race()
-
+def positives_vs_negatives(*args):
+    positive_sum = sum([x for x in args if x > 0])
+    negative_sum = sum(x for x in args if x < 0)

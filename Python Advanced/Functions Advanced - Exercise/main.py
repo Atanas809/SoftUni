@@ -10,3 +10,5 @@ def positives_vs_negatives(*args):
 
 # Test input: "1 2 -3 -4 65 -98 12 57 -84"
 numbers = [int(x) for x in input().split()]
+
+print(positives_vs_negatives(*numbers))

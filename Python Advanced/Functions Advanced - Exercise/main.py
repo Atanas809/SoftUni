@@ -5,3 +5,4 @@ def positives_vs_negatives(*args):
     if positive_sum > abs(negative_sum):
         return f"{negative_sum}\n{positive_sum}\nThe positives are stronger than the negatives"
     else:
+        return f"{negative_sum}\n{positive_sum}\nThe negatives are stronger than the positives"

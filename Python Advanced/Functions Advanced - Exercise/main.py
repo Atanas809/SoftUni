@@ -19,3 +19,6 @@ def math_operations(*args, **kwargs):
         •	The third element should be divisor to the value of the key "d"
         •	The fourth element should be multiplied by the value of the key "m"
         """
+
+        if index == 1:
+            kwargs["a"] += current_value

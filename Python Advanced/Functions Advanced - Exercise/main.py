@@ -12,3 +12,6 @@ def math_operations(*args, **kwargs):
             continue
 
         current_value = values.popleft()
+
+        """
+        •	The first element should be added to the value of the key "a"

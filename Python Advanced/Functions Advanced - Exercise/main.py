@@ -24,3 +24,8 @@ def math_operations(*args, **kwargs):
             kwargs["a"] += current_value
         elif index == 2:
             kwargs["s"] -= current_value
+        elif index == 3:
+            if current_value > 0:
+                kwargs["d"] /= current_value
+        elif index == 4:
+            kwargs["m"] *= current_value

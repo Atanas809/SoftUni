@@ -22,3 +22,5 @@ def math_operations(*args, **kwargs):
 
         if index == 1:
             kwargs["a"] += current_value
+        elif index == 2:
+            kwargs["s"] -= current_value

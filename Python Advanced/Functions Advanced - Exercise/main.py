@@ -10,3 +10,5 @@ def math_operations(*args, **kwargs):
         if index > 4:
             index = 1
             continue
+
+        current_value = values.popleft()

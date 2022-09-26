@@ -15,3 +15,4 @@ def math_operations(*args, **kwargs):
 
         """
         •	The first element should be added to the value of the key "a"
+        •	The second element should be subtracted from the value of the key "s"

@@ -29,3 +29,11 @@ def math_operations(*args, **kwargs):
                 kwargs["d"] /= current_value
         elif index == 4:
             kwargs["m"] *= current_value
+
+        index += 1
+
+    sorted_dict = dict(sorted(kwargs.items(), key=lambda x: (-x[1], x[0])))
+
+    result = [f"{key}: {value:.1f}" for key, value in sorted_dict.items()]
+
+    return '\n'.join(result)

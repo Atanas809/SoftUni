@@ -4,3 +4,5 @@ def even_odd_filter(**kwargs):
     for key, value in kwargs.items():
         if key == "even":
             new_dict[key] = [x for x in value if x % 2 == 0]
+        else:
+            new_dict[key] = [x for x in value if x % 2 != 0]

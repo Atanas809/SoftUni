@@ -6,3 +6,9 @@ def even_odd_filter(**kwargs):
             new_dict[key] = [x for x in value if x % 2 == 0]
         else:
             new_dict[key] = [x for x in value if x % 2 != 0]
+
+    return dict(sorted(new_dict.items(), key=lambda x: -len(x[1])))
+
+
+# Test inputs:
+print(even_odd_filter(

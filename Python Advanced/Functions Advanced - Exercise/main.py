@@ -5,3 +5,6 @@ def palindrome(word, index):
 
     first_letter = word[index]
     last_letter = word[-1 - index]
+
+    if first_letter != last_letter:
+        return f"{word} is not a palindrome"

@@ -10,3 +10,8 @@ def palindrome(word, index):
         return f"{word} is not a palindrome"
 
     return palindrome(word, index + 1)
+
+
+# Test inputs:
+print(palindrome("abcba", 0))
+print(palindrome("peter", 0))

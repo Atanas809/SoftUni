@@ -8,3 +8,5 @@ def palindrome(word, index):
 
     if first_letter != last_letter:
         return f"{word} is not a palindrome"
+
+    return palindrome(word, index + 1)

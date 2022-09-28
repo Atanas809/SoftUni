@@ -1,1 +1,1 @@
-
+def palindrome(word, index):

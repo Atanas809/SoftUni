@@ -6,3 +6,6 @@
 2: Hello
    2
 """
+
+try:
+    text = input()

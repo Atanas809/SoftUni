@@ -10,3 +10,4 @@
 try:
     text = input()
     number = int(input())
+    print(text * number)

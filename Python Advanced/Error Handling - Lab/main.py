@@ -9,3 +9,4 @@
 
 try:
     text = input()
+    number = int(input())

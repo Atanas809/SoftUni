@@ -36,3 +36,4 @@ numbers_list = [int(x) for x in input().split(", ")]
 result = 1
 
 for i in range(len(numbers_list)):
+    number = numbers_list[i]

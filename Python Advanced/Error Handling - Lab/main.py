@@ -25,3 +25,5 @@
 #         result *= number
 #     elif number > 5 and number > 10:
 #         result /= number
+#
+# print(result)

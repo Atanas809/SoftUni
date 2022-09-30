@@ -14,3 +14,6 @@
 2: 10
 3: 1
 """
+
+# Wrong code:
+# numbers_list = input().split(", ")

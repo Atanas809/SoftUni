@@ -17,3 +17,6 @@
 
 # Wrong code:
 # numbers_list = input().split(", ")
+# result = 0
+#
+# for i in range(numbers_list):

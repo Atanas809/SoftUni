@@ -2,6 +2,9 @@
 """
 1: 1, 4, 5
 
+# Correct code:
+numbers_list = [int(x) for x in input().split(", ")]
+result = 1
 2: 4, 5, 6, 1, 3
 
 3: 2, 5, 10
@@ -27,3 +30,7 @@
 #         result /= number
 #
 # print(result)
+
+# Correct code:
+numbers_list = [int(x) for x in input().split(", ")]
+result = 1

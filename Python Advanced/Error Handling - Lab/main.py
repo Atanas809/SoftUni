@@ -41,3 +41,5 @@ for i in range(len(numbers_list)):
         result *= number
     elif number <= 10:
         result /= number
+
+print(f"{result:.0f}")

@@ -22,3 +22,6 @@
 # for i in range(numbers_list):
 #     number = numbers_list[i + 1]
 #     if number < 5:
+#         result *= number
+#     elif number > 5 and number > 10:
+#         result /= number

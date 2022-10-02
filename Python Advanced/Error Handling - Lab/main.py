@@ -10,3 +10,7 @@
 
 class ValueCannotBeNegative(Exception):
     pass
+
+
+while True:
+    number = int(input())

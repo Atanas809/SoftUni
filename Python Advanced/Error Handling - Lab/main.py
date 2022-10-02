@@ -6,3 +6,6 @@
 3
 10
 """
+
+
+class ValueCannotBeNegative(Exception):

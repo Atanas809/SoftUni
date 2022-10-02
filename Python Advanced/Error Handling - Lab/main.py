@@ -14,3 +14,6 @@ class ValueCannotBeNegative(Exception):
 
 while True:
     number = int(input())
+
+    if number < 0:
+        raise ValueCannotBeNegative

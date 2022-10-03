@@ -4,3 +4,7 @@ class NameTooShortError(Exception):
 
 class MustContainAtSymbolError(Exception):
     pass
+
+
+class InvalidDomainError(Exception):
+    pass

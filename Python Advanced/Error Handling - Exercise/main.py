@@ -1,1 +1,2 @@
-
+class NameTooShortError(Exception):
+    pass

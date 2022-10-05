@@ -17,3 +17,14 @@ def contain_symbols(current_mail):
         return True
 
     return False
+
+
+def valid_domain(current_mail, valid_domains):
+    data = current_mail.split("@")[1]
+
+    domain = f'.{data.split(".")[-1]}'
+
+    if domain in valid_domains:
+        return True
+
+    return False

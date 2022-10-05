@@ -28,3 +28,20 @@ def valid_domain(current_mail, valid_domains):
         return True
 
     return False
+
+
+email = input()
+valid_domains = [".com", ".bg", ".org", ".net"]
+
+while email != "End":
+
+    if not is_valid_length(email):
+        raise NameTooShortError("Name must be more than 4 characters")
+    elif not contain_symbols(email):
+        raise MustContainAtSymbolError("Email must contain one '@'.")
+    elif not valid_domain(email, valid_domains):
+        raise InvalidDomainError(f"Domain must be one of the following: {', '.join(valid_domains)}")
+    else:
+        print("Email is valid")
+
+    email = input()

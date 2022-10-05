@@ -8,3 +8,7 @@ def is_valid_length(current_mail):
         return False
 
     return True
+
+
+def contain_symbols(current_mail):
+    count = current_mail.count("@")

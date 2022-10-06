@@ -1,6 +1,4 @@
-from homework.custom_exeptions import NameTooShortError, MustContainAtSymbolError, InvalidDomainError
-
-
+#  You need to import exeptions from 'custom_exeptions' file!!!
 def is_valid_length(current_mail):
     username = current_mail.split("@")[0]
 

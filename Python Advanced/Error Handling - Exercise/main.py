@@ -47,3 +47,8 @@ while line != "Search":
     try:
         number = int(input())
         numbers_dictionary[number_as_string] = number
+    except ValueError:
+        print("The variable number must be an integer")
+    line = input()
+
+line = input()

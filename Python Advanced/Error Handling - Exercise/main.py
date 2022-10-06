@@ -35,3 +35,9 @@ while line != "End":
     del numbers_dictionary[searched]
 
 print(numbers_dictionary)
+
+
+# Correct code:
+numbers_dictionary = {}
+line = input()
+

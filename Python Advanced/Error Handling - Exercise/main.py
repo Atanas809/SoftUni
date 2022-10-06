@@ -27,3 +27,7 @@ line = input()
 while line != "Remove":
     searched = line
     print(numbers_dictionary[searched])
+
+line = input()
+
+while line != "End":

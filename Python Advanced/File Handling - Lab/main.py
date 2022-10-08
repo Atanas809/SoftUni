@@ -1,8 +1,4 @@
 
-
-    current_points = 0
-
-    for point in matches:
         current_points += int(point)
 
     return current_points

@@ -1,7 +1,4 @@
 
-        current_points = points(data)
-
-        for name in participants:
 
             if current_name == name.strip():
                 if current_name not in my_dict.keys():

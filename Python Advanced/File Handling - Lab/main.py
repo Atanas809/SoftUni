@@ -10,3 +10,4 @@ except FileNotFoundError:
 
 
 # Faster operation:
+file = "./my_first_file.txt"

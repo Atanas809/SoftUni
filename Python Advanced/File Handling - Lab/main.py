@@ -6,3 +6,4 @@ try:
     file = "./my_first_file.txt"
     remove(file)
 except FileNotFoundError:
+    print("File already deleted!")

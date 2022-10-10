@@ -7,3 +7,6 @@ try:
     remove(file)
 except FileNotFoundError:
     print("File already deleted!")
+
+
+# Faster operation:

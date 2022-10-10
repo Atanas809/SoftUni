@@ -5,3 +5,4 @@ from os.path import exists
 try:
     file = "./my_first_file.txt"
     remove(file)
+except FileNotFoundError:

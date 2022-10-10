@@ -11,3 +11,6 @@ except FileNotFoundError:
 
 # Faster operation:
 file = "./my_first_file.txt"
+
+if exists(file):
+    remove(file)

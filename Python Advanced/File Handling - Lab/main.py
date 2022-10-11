@@ -31,3 +31,8 @@ print(os.path.abspath("../Error Handling - Lab/repeat_text.py"))
 Windows separator: print(os.sep)
 
 \\ - for escape 
+Windows: D:\\repos\\python-advanced
+
+Unix/Linux: /repos/python-advanced
+
+"""

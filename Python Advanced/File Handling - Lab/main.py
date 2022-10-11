@@ -27,3 +27,7 @@ print(os.path.abspath("../Error Handling - Lab/repeat_text.py"))
 
 # Path separator:
 """
+
+Windows separator: print(os.sep)
+
+\\ - for escape 

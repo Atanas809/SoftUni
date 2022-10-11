@@ -20,3 +20,7 @@ print(file.read())
 
 # Relative path transformed to Absolute path:
 """
+
+print(os.path.abspath("../Error Handling - Lab/repeat_text.py"))
+
+"""

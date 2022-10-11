@@ -15,3 +15,8 @@ print(file.read())
 
 file = open("D:\PyCharm Community Edition 2021.2.2\Advanced Python\Error Handling - Lab/repeat_text.py")
 print(file.read())
+
+"""
+
+# Relative path transformed to Absolute path:
+"""

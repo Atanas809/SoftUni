@@ -24,3 +24,6 @@ print(file.read())
 print(os.path.abspath("../Error Handling - Lab/repeat_text.py"))
 
 """
+
+# Path separator:
+"""

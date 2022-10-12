@@ -15,3 +15,7 @@ with open("./input.txt", "r") as file:
             if word in current_words:
                 counter = current_words.count(word)
                 if word not in occurrences.keys():
+                    occurrences[word] = 0
+                occurrences[word] += counter
+
+with open("./output.txt", "w") as new_file:

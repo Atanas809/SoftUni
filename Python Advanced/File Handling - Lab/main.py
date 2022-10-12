@@ -19,3 +19,6 @@ with open("./input.txt", "r") as file:
                 occurrences[word] += counter
 
 with open("./output.txt", "w") as new_file:
+    result = sorted(occurrences.items(), key=lambda x: -x[1])
+    for key, value in result:
+        new_file.write(f"{key} - {value}\n")

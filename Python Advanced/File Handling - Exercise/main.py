@@ -19,3 +19,5 @@ for _, _, files in os.walk(path):
 result = sorted_result(result)
 
 with open("./report.txt", "w") as new_file:
+    for key, value in result:
+        new_file.write(f".{key}\n")

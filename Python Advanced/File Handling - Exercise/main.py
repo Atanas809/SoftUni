@@ -15,3 +15,7 @@ for _, _, files in os.walk(path):
         if extension not in result.keys():
             result[extension] = []
         result[extension].append(file)
+
+result = sorted_result(result)
+
+with open("./report.txt", "w") as new_file:

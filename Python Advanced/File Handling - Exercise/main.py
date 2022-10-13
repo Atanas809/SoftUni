@@ -10,3 +10,6 @@ path = "./"
 result = dict()
 
 for _, _, files in os.walk(path):
+    for file in files:
+        extension = file.split(".")[-1]
+        if extension not in result.keys():

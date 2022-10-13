@@ -21,3 +21,5 @@ result = sorted_result(result)
 with open("./report.txt", "w") as new_file:
     for key, value in result:
         new_file.write(f".{key}\n")
+        for file in value:
+            new_file.write(f"- - - {file}\n")

@@ -6,3 +6,5 @@ def output(current_line):
             current_line = current_line.replace(symbol, "@")
 
     result = ' '.join(current_line.split()[::-1])
+
+    return result

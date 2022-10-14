@@ -12,3 +12,5 @@ def output(current_line):
 
 with open("./text.txt", "r") as text_file:
     for index, line in enumerate(text_file):
+        if index % 2 == 0:
+            print(output(line))

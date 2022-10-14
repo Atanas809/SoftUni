@@ -8,3 +8,6 @@ def output(current_line):
     result = ' '.join(current_line.split()[::-1])
 
     return result
+
+
+with open("./text.txt", "r") as text_file:

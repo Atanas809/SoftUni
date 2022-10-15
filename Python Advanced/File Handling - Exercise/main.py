@@ -16,3 +16,12 @@ Delete-random.txt
 Delete-file.txt
 End
 """
+
+while True:
+
+    data = input().split("-")
+
+    command = data[0]
+
+    if command == "End":
+        break

@@ -44,3 +44,7 @@ while True:
     elif command == "Replace":
         old_string = data[2]
         new_string = data[3]
+
+        if exists(file_name):
+            with open(f"./{file_name}", "r") as new_file:
+                data = new_file.read()

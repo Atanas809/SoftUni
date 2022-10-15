@@ -53,3 +53,7 @@ while True:
                 new_file.write(data)
         else:
             print("An error occurred")
+
+    else:
+        if exists(file_name):
+            remove(file_name)

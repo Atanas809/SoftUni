@@ -18,7 +18,6 @@ End
 """
 
 while True:
-
     data = input().split("-")
     command = data[0]
 
@@ -29,3 +28,9 @@ while True:
 
     if command == "Create":
         if not exists(file_name):
+            with open(f"./{file_name}", "w") as text_file:
+                pass
+            continue
+        file = open(f"./{file_name}", "r+")
+        file.truncate()
+        file.close()

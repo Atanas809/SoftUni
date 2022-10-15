@@ -57,3 +57,5 @@ while True:
     else:
         if exists(file_name):
             remove(file_name)
+        else:
+            print("An error occurred")

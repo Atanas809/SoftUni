@@ -48,3 +48,8 @@ while True:
         if exists(file_name):
             with open(f"./{file_name}", "r") as new_file:
                 data = new_file.read()
+            with open(f"./{file_name}", "w") as new_file:
+                data = data.replace(old_string, new_string)
+                new_file.write(data)
+        else:
+            print("An error occurred")

@@ -1,7 +1,4 @@
-:
-                    my_dict[current_name] = current_points
-                else:
-                    my_dict[current_name] += current_points
+s
 
         data = input()
 

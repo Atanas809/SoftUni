@@ -20,8 +20,12 @@ End
 while True:
 
     data = input().split("-")
-
     command = data[0]
 
     if command == "End":
         break
+
+    file_name = data[1]
+
+    if command == "Create":
+        if not exists(file_name):

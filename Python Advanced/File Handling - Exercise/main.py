@@ -34,3 +34,6 @@ while True:
         file = open(f"./{file_name}", "r+")
         file.truncate()
         file.close()
+
+    elif command == "Add":
+        content = data[2]

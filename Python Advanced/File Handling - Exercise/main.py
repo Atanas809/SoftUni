@@ -37,3 +37,10 @@ while True:
 
     elif command == "Add":
         content = data[2]
+
+        with open(f"./{file_name}", "a") as file:
+            file.write(f"{content}\n")
+
+    elif command == "Replace":
+        old_string = data[2]
+        new_string = data[3]

@@ -23,3 +23,7 @@ def chars_counter(current_line):
 with open("./text.txt", "r") as text_file:
     for index, line in enumerate(text_file):
         count_chars = chars_counter(line)
+        count_symbols = symbols_counter(line)
+        with open("./output.txt", "a") as new_file:
+            result = f"Line {index + 1}: {line} ({count_chars})({count_symbols})"
+            new_file.write(f"{result}\n")

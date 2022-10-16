@@ -10,3 +10,5 @@ def symbols_counter(current_line):
     for symbol in punctuations:
         if symbol in current_line:
             counter += current_line.count(symbol)
+
+    return counter

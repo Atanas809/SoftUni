@@ -18,3 +18,8 @@ def chars_counter(current_line):
     counter = re.findall(r"\w", current_line)
 
     return len(counter)
+
+
+with open("./text.txt", "r") as text_file:
+    for index, line in enumerate(text_file):
+        count_chars = chars_counter(line)

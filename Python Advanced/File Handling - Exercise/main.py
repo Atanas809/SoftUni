@@ -12,3 +12,9 @@ def symbols_counter(current_line):
             counter += current_line.count(symbol)
 
     return counter
+
+
+def chars_counter(current_line):
+    counter = re.findall(r"\w", current_line)
+
+    return len(counter)

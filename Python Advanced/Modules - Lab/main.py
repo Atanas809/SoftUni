@@ -4,3 +4,5 @@ from pyfiglet import figlet_format
 """
 Hello World!
 """
+
+text = input()

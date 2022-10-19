@@ -9,3 +9,8 @@ Create Sequence 3
 Locate 10
 Stop
 """
+
+
+def fibonacci_sequence():
+
+    result = while_loop("Stop")

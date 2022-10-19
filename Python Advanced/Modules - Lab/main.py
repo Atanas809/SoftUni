@@ -21,3 +21,5 @@ def fibonacci_sequence():
 
         if command == "Create":
             create(value)
+        elif command == "Locate":
+            locate(value)

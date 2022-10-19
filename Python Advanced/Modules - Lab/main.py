@@ -23,3 +23,6 @@ def fibonacci_sequence():
             create(value)
         elif command == "Locate":
             locate(value)
+
+
+fibonacci_sequence()

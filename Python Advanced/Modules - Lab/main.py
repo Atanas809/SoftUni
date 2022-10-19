@@ -18,3 +18,6 @@ def fibonacci_sequence():
     for data in result:
         command = data[0]
         value = int(data[-1])
+
+        if command == "Create":
+            create(value)

@@ -14,3 +14,7 @@ Stop
 def fibonacci_sequence():
 
     result = while_loop("Stop")
+
+    for data in result:
+        command = data[0]
+        value = int(data[-1])

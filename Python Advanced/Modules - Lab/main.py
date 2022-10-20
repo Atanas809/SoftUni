@@ -10,3 +10,5 @@ def operations(num1, sign, num2):
         divide(num1, num2)
     elif sign == "*":
         multiply(num1, num2)
+    elif sign == "^":
+        power(num1, num2)

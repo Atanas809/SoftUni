@@ -12,3 +12,7 @@ def operations(num1, sign, num2):
         multiply(num1, num2)
     elif sign == "^":
         power(num1, num2)
+
+
+first_number, operator, second_number = input().split()
+operations(float(first_number), operator, int(second_number))

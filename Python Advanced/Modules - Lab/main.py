@@ -6,3 +6,5 @@ def operations(num1, sign, num2):
         add(num1, num2)
     elif sign == "-":
         subtract(num1, num2)
+    elif sign == "/":
+        divide(num1, num2)

@@ -8,3 +8,5 @@ def operations(num1, sign, num2):
         subtract(num1, num2)
     elif sign == "/":
         divide(num1, num2)
+    elif sign == "*":
+        multiply(num1, num2)

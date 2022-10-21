@@ -6,3 +6,4 @@ def triangle(n):
         print_triangle(i)
 
     for i in range(n - 2, -1, -1):
+        print_triangle(i)

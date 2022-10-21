@@ -7,3 +7,7 @@ def triangle(n):
 
     for i in range(n - 2, -1, -1):
         print_triangle(i)
+
+
+size = int(input())
+triangle(size)

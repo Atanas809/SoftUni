@@ -19,3 +19,8 @@ def other_operations(material, magic, items, result):
             magic *= 2
             final_result = material + magic
             valid_values(final_result, items)
+    elif result > 499:
+        material //= 2
+        magic //= 2
+        final_result = material + magic
+        valid_values(final_result, items)

@@ -39,3 +39,10 @@ def valid_values(result, items):
 
 materials = [int(x) for x in input().split()]
 magic_level = deque([int(x) for x in input().split()])
+
+items = {
+    "Gemstone": 0,
+    "Porcelain Sculpture": 0,
+    "Gold": 0,
+    "Diamond Jewellery": 0
+}

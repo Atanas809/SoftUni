@@ -64,3 +64,14 @@ if (items["Gemstone"] >= 1 and items["Porcelain Sculpture"] >= 1) or\
     print("The wedding presents are made!")
 else:
     print("Aladdin does not have enough wedding presents.")
+
+if materials:
+    print(f"Materials left: {', '.join([str(x) for x in materials])}")
+if magic_level:
+    print(f"Magic left: {', '.join([str(x) for x in magic_level])}")
+
+sorted_items = sorted(items.items(), key=lambda x: x[0])
+
+for key, value in sorted_items:
+    if value > 0:
+        print(f"{key}: {value}")

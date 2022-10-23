@@ -14,3 +14,8 @@ def other_operations(material, magic, items, result):
             magic *= 3
             final_result = material + magic
             valid_values(final_result, items)
+        else:
+            material *= 2
+            magic *= 2
+            final_result = material + magic
+            valid_values(final_result, items)

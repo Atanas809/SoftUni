@@ -35,3 +35,7 @@ def valid_values(result, items):
         items["Gold"] += 1
     elif 400 <= result <= 499:
         items["Diamond Jewellery"] += 1
+
+
+materials = [int(x) for x in input().split()]
+magic_level = deque([int(x) for x in input().split()])

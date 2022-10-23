@@ -46,3 +46,14 @@ items = {
     "Gold": 0,
     "Diamond Jewellery": 0
 }
+
+while materials and magic_level:
+    current_material = materials.pop()
+    current_magic_level = magic_level.popleft()
+
+    result = current_material + current_magic_level
+
+    if 100 <= result <= 499:
+        valid_values(result, items)
+    else:
+        other_operations(current_material, current_magic_level, items, result)

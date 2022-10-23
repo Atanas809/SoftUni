@@ -57,3 +57,10 @@ while materials and magic_level:
         valid_values(result, items)
     else:
         other_operations(current_material, current_magic_level, items, result)
+
+if (items["Gemstone"] >= 1 and items["Porcelain Sculpture"] >= 1) or\
+    (items["Gold"] >= 1 and items["Diamond Jewellery"] >= 1):
+
+    print("The wedding presents are made!")
+else:
+    print("Aladdin does not have enough wedding presents.")

@@ -24,3 +24,14 @@ def other_operations(material, magic, items, result):
         magic //= 2
         final_result = material + magic
         valid_values(final_result, items)
+
+
+def valid_values(result, items):
+    if 100 <= result <= 199:
+        items["Gemstone"] += 1
+    elif 200 <= result <= 299:
+        items["Porcelain Sculpture"] += 1
+    elif 300 <= result <= 399:
+        items["Gold"] += 1
+    elif 400 <= result <= 499:
+        items["Diamond Jewellery"] += 1

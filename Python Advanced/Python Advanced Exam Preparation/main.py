@@ -73,3 +73,18 @@ throws = [input() for _ in range(3)]
 
 result = 0
 won = False
+
+for throw in throws:
+    throw = throw.replace("(", "")
+    throw = throw.replace(")", "")
+    throw = throw.replace(",", "")
+    throw = throw.split()
+    current_row = int(throw[0])
+    current_column = int(throw[1])
+
+    if is_valid_position(current_row, current_column, size):
+        if board[current_row][current_column] == "B":
+            board[current_row][current_column] = "-"
+            current_points = sum_col_values(current_column, board)
+
+            result += current_points

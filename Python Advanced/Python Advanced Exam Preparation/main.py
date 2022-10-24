@@ -26,3 +26,12 @@ B 30 14 23 20 24
 (2, 3)
 --------------------
 """
+
+
+def prize_won(points):
+    if 100 <= points <= 199:
+        return "Football"
+    elif 200 <= points <= 299:
+        return "Teddy Bear"
+    elif result >= 300:
+        return "Lego Construction Set"

@@ -88,3 +88,12 @@ for throw in throws:
             current_points = sum_col_values(current_column, board)
 
             result += current_points
+
+if result >= 100:
+    won = True
+
+if won:
+    print(f"Good job! You scored {result} points, and you've won {prize_won(result)}.")
+else:
+    needed_points = 100 - result
+    print(f"Sorry! You need {needed_points} points more to win a prize.")

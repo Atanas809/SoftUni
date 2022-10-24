@@ -63,3 +63,13 @@ def is_valid_position(row, column, size):
         return True
 
     return False
+
+
+size = 6
+
+board = [input().split(" ") for _ in range(size)]
+
+throws = [input() for _ in range(3)]
+
+result = 0
+won = False

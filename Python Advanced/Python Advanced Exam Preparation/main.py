@@ -46,3 +46,12 @@ def sum_col_values(col, board):
         board[4][col],
         board[5][col],
     }
+
+    current_result = 0
+
+    for value in moves:
+        if value.isdigit():
+            value = int(value)
+            current_result += value
+
+    return current_result

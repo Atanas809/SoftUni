@@ -35,3 +35,14 @@ def prize_won(points):
         return "Teddy Bear"
     elif result >= 300:
         return "Lego Construction Set"
+
+
+def sum_col_values(col, board):
+    moves = {
+        board[0][col],
+        board[1][col],
+        board[2][col],
+        board[3][col],
+        board[4][col],
+        board[5][col],
+    }

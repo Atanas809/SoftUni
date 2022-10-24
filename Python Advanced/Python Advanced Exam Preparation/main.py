@@ -55,3 +55,11 @@ def sum_col_values(col, board):
             current_result += value
 
     return current_result
+
+
+def is_valid_position(row, column, size):
+
+    if 0 <= row < size and 0 <= column < size:
+        return True
+
+    return False

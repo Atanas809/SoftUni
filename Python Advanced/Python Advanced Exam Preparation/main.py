@@ -64,3 +64,8 @@ if not bomb_effects:
     print("Bomb Effects: empty")
 else:
     print(f"Bomb Effects: {', '.join(str(x) for x in bomb_effects)}")
+
+if not bomb_casings:
+    print("Bomb Casings: empty")
+else:
+    print(f"Bomb Casings: {', '.join(str(x) for x in bomb_casings)}")

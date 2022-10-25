@@ -12,3 +12,10 @@ def possible_bomb_craft(result):
         return True
 
     return False
+
+
+def successfully_filled(bombs):
+    if bombs["Datura Bombs"] >= 3 and bombs["Cherry Bombs"] >= 3 and bombs["Smoke Decoy Bombs"] >= 3:
+        return True
+
+    return False

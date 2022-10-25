@@ -29,3 +29,7 @@ type_bombs = {
     "Cherry Bombs": 0,
     "Smoke Decoy Bombs": 0
 }
+
+while True:
+    if not bomb_effects or not bomb_casings:
+        break

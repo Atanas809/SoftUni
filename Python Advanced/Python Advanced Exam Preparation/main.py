@@ -39,3 +39,11 @@ while True:
 
     current_bomb_effect = bomb_effects.popleft()
     current_bomb_casings = bomb_casings.pop()
+
+    result = current_bomb_effect + current_bomb_casings
+
+    if not possible_bomb_craft(result):
+        current_bomb_casings -= 5
+        bomb_casings.append(current_bomb_casings)
+        bomb_effects.appendleft(current_bomb_effect)
+        continue

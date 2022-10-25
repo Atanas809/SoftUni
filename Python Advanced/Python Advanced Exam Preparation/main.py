@@ -33,3 +33,9 @@ type_bombs = {
 while True:
     if not bomb_effects or not bomb_casings:
         break
+
+    if successfully_filled(type_bombs):
+        break
+
+    current_bomb_effect = bomb_effects.popleft()
+    current_bomb_casings = bomb_casings.pop()

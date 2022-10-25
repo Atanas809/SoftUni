@@ -47,3 +47,10 @@ while True:
         bomb_casings.append(current_bomb_casings)
         bomb_effects.appendleft(current_bomb_effect)
         continue
+
+    if result == 40:
+        type_bombs["Datura Bombs"] += 1
+    elif result == 60:
+        type_bombs["Cherry Bombs"] += 1
+    elif result == 120:
+        type_bombs["Smoke Decoy Bombs"] += 1

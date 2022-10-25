@@ -69,3 +69,7 @@ if not bomb_casings:
     print("Bomb Casings: empty")
 else:
     print(f"Bomb Casings: {', '.join(str(x) for x in bomb_casings)}")
+
+print(f"Cherry Bombs: {type_bombs['Cherry Bombs']}")
+print(f"Datura Bombs: {type_bombs['Datura Bombs']}")
+print(f"Smoke Decoy Bombs: {type_bombs['Smoke Decoy Bombs']}")

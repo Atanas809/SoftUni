@@ -59,3 +59,8 @@ if successfully_filled(type_bombs):
     print("Bene! You have successfully filled the bomb pouch!")
 else:
     print("You don't have enough materials to fill the bomb pouch.")
+
+if not bomb_effects:
+    print("Bomb Effects: empty")
+else:
+    print(f"Bomb Effects: {', '.join(str(x) for x in bomb_effects)}")

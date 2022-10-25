@@ -23,3 +23,9 @@ def successfully_filled(bombs):
 
 bomb_effects = deque([int(x) for x in input().split(", ")])
 bomb_casings = [int(x) for x in input().split(", ")]
+
+type_bombs = {
+    "Datura Bombs": 0,
+    "Cherry Bombs": 0,
+    "Smoke Decoy Bombs": 0
+}

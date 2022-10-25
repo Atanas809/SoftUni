@@ -54,3 +54,8 @@ while True:
         type_bombs["Cherry Bombs"] += 1
     elif result == 120:
         type_bombs["Smoke Decoy Bombs"] += 1
+
+if successfully_filled(type_bombs):
+    print("Bene! You have successfully filled the bomb pouch!")
+else:
+    print("You don't have enough materials to fill the bomb pouch.")

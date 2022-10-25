@@ -19,3 +19,7 @@ def successfully_filled(bombs):
         return True
 
     return False
+
+
+bomb_effects = deque([int(x) for x in input().split(", ")])
+bomb_casings = [int(x) for x in input().split(", ")]

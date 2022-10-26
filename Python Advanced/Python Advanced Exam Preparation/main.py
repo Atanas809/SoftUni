@@ -31,3 +31,8 @@ def get_board_values(valid_moves, board):
 def is_valid_position(value, size):
     row = value[0]
     col = value[1]
+
+    if 0 <= row < size and 0 <= col < size:
+        return True
+
+    return False

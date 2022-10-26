@@ -20,3 +20,9 @@ def get_board_values(valid_moves, board):
             col = move[1]
             if current_count[key] == 0:
                 if board[row][col] == "Q":
+                    result.append(move)
+                    current_count[key] += 1
+            else:
+                break
+
+    return result

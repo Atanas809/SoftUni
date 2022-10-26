@@ -36,3 +36,15 @@ def is_valid_position(value, size):
         return True
 
     return False
+
+def moves(row, col, board, size):
+    possible_moves = {
+        "vertically_down": [
+            [row + 1, col],
+            [row + 2, col],
+            [row + 3, col],
+            [row + 4, col],
+            [row + 5, col],
+            [row + 6, col],
+            [row + 7, col],
+        ],

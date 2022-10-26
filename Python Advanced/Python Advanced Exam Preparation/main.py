@@ -26,3 +26,8 @@ def get_board_values(valid_moves, board):
                 break
 
     return result
+
+
+def is_valid_position(value, size):
+    row = value[0]
+    col = value[1]

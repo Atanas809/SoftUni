@@ -93,3 +93,22 @@ def moves(row, col, board, size):
             [row - 6, col - 6],
             [row - 7, col - 7],
         ],
+        "secondary_diagonal_down": [
+            [row + 1, col - 1],
+            [row + 2, col - 2],
+            [row + 3, col - 3],
+            [row + 4, col - 4],
+            [row + 5, col - 5],
+            [row + 6, col - 6],
+            [row + 7, col - 7],
+        ],
+        "secondary_diagonal_up": [
+            [row - 1, col + 1],
+            [row - 2, col + 2],
+            [row - 3, col + 3],
+            [row - 4, col + 4],
+            [row - 5, col + 5],
+            [row - 6, col + 6],
+            [row - 7, col + 7],
+        ]
+    }

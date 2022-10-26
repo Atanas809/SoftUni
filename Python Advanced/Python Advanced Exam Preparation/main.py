@@ -140,3 +140,10 @@ for row in range(size):
                 knight_col = col
                 break
     board.append(current_row_elements)
+
+possible_capture = moves(knight_row, knight_col, board, size)
+
+if possible_capture:
+    print(*possible_capture, sep="\n")
+else:
+    print("The king is safe!")

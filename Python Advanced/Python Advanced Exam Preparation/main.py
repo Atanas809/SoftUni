@@ -123,3 +123,20 @@ def moves(row, col, board, size):
                 valid_moves[key].append(position)
 
     return get_board_values(valid_moves, board)
+
+
+size = 8
+
+board = []
+
+knight_row, knight_col = None, None
+
+for row in range(size):
+    current_row_elements = [x for x in input().split()]
+    if "K" in current_row_elements:
+        for col in range(size):
+            if current_row_elements[col] == "K":
+                knight_row = row
+                knight_col = col
+                break
+    board.append(current_row_elements)

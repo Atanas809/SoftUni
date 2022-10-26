@@ -48,3 +48,12 @@ def moves(row, col, board, size):
             [row + 6, col],
             [row + 7, col],
         ],
+        "vertically_up": [
+            [row - 1, col],
+            [row - 2, col],
+            [row - 3, col],
+            [row - 4, col],
+            [row - 5, col],
+            [row - 6, col],
+            [row - 7, col],
+        ],

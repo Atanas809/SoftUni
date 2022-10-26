@@ -57,3 +57,12 @@ def moves(row, col, board, size):
             [row - 6, col],
             [row - 7, col],
         ],
+        "horizontally_right": [
+            [row, col + 1],
+            [row, col + 2],
+            [row, col + 3],
+            [row, col + 4],
+            [row, col + 5],
+            [row, col + 6],
+            [row, col + 7],
+        ],

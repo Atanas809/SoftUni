@@ -112,3 +112,14 @@ def moves(row, col, board, size):
             [row - 7, col + 7],
         ]
     }
+
+    valid_moves = dict()
+
+    for key, value in possible_moves.items():
+        for position in value:
+            if is_valid_position(position, size):
+                if key not in valid_moves.keys():
+                    valid_moves[key] = []
+                valid_moves[key].append(position)
+
+    return get_board_values(valid_moves, board)

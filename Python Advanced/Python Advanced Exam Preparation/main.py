@@ -46,3 +46,5 @@ def moves(row, col, direction):
 
     if direction == "up":
         return row - 1, col
+    elif direction == "down":
+        return row + 1, col

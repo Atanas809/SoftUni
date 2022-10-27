@@ -102,3 +102,9 @@ while True:
             if field[next_row][next_col] == "X":
                 hit_a_wall = True
                 break
+            elif field[next_row][next_col].isdigit():
+                number = int(field[next_row][next_col])
+                collected_coins += number
+                field[next_row][next_col] = "0"
+
+        player_row, player_col = next_row, next_col

@@ -26,3 +26,6 @@ def move_to_opposite_side(row, col, size):
     elif row >= size:
         row = 0
         return row, col
+    elif col < 0:
+        col = size - 1
+        return row, col

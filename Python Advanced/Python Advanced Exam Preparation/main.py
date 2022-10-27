@@ -40,3 +40,9 @@ def is_valid_move(next_row, next_col, size):
         return True
 
     return False
+
+
+def moves(row, col, direction):
+
+    if direction == "up":
+        return row - 1, col

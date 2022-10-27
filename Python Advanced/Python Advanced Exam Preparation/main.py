@@ -32,3 +32,11 @@ def move_to_opposite_side(row, col, size):
     elif col >= size:
         col = 0
         return row, col
+
+
+def is_valid_move(next_row, next_col, size):
+
+    if 0 <= next_row < size and 0 <= next_col < size:
+        return True
+
+    return False

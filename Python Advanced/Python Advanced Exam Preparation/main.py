@@ -86,3 +86,9 @@ while True:
 
     if command in valid_commands:
         next_row, next_col = moves(player_row, player_col, command)
+
+        if is_valid_move(next_row, next_col, size):
+            path.append([next_row, next_col])
+            if field[next_row][next_col] == "X":
+                hit_a_wall = True
+                break

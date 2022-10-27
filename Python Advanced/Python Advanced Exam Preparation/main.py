@@ -16,3 +16,10 @@ up
 right
 
 """
+
+
+def move_to_opposite_side(row, col, size):
+
+    if row < 0:
+        row = size - 1
+        return row, col

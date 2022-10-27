@@ -108,3 +108,13 @@ while True:
                 field[next_row][next_col] = "0"
 
         player_row, player_col = next_row, next_col
+
+if hit_a_wall:
+    collected_coins *= 0.5
+    total_coins = floor(collected_coins)
+    print(f"Game over! You've collected {total_coins} coins.")
+else:
+    print(f"You won! You've collected {collected_coins} coins.")
+
+print("Your path:")
+print(*path, sep="\n")

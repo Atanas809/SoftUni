@@ -96,3 +96,9 @@ while True:
                 number = int(field[next_row][next_col])
                 collected_coins += number
                 field[next_row][next_col] = "0"
+        else:
+            next_row, next_col = move_to_opposite_side(next_row, next_col, size)
+            path.append([next_row, next_col])
+            if field[next_row][next_col] == "X":
+                hit_a_wall = True
+                break

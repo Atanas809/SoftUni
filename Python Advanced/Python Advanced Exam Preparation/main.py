@@ -77,3 +77,9 @@ valid_commands = ["up", "down", "left", "right"]
 hit_a_wall = False
 
 field[player_row][player_col] = "-"
+
+while True:
+    if collected_coins >= 100:
+        break
+
+    command = input()

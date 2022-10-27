@@ -66,3 +66,8 @@ for row in range(size):
     if "P" in current_row_data:
         for col in range(size):
             if current_row_data[col] == "P":
+                player_row = row
+                player_col = col
+    field.append(current_row_data)
+
+path = [[player_row, player_col]]

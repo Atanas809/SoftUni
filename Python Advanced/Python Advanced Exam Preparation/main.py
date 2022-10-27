@@ -60,3 +60,6 @@ field = []
 
 player_row = None
 player_col = None
+
+for row in range(size):
+    current_row_data = [x for x in input().split()]

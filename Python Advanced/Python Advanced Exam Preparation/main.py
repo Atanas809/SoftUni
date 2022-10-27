@@ -83,3 +83,6 @@ while True:
         break
 
     command = input()
+
+    if command in valid_commands:
+        next_row, next_col = moves(player_row, player_col, command)

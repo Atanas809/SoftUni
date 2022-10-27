@@ -71,3 +71,9 @@ for row in range(size):
     field.append(current_row_data)
 
 path = [[player_row, player_col]]
+
+collected_coins = 0
+valid_commands = ["up", "down", "left", "right"]
+hit_a_wall = False
+
+field[player_row][player_col] = "-"

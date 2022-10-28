@@ -17,3 +17,6 @@ def stock_availability(*args):
     if len(args) > 2:
         if command == "delivery":
             items_to_be_delivered = args[2:]
+            for item in items_to_be_delivered:
+                products_list.append(item)
+        elif command == "sell":

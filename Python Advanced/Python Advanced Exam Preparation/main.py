@@ -24,3 +24,9 @@ def stock_availability(*args):
             if is_integer(data):
                 for _ in range(data):
                     products_list.popleft()
+            else:
+                data = args[2:]
+                for x in data:
+                    if x in products_list:
+                        while x in products_list:
+                            products_list.remove(x)

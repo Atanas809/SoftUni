@@ -30,3 +30,7 @@ def stock_availability(*args):
                     if x in products_list:
                         while x in products_list:
                             products_list.remove(x)
+    else:
+        products_list.popleft()
+
+    return list(products_list)

@@ -20,3 +20,7 @@ def stock_availability(*args):
             for item in items_to_be_delivered:
                 products_list.append(item)
         elif command == "sell":
+            data = args[2]
+            if is_integer(data):
+                for _ in range(data):
+                    products_list.popleft()

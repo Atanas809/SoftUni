@@ -30,3 +30,7 @@ def firework_made(sum_values, fireworks):
 def is_valid_value(power, effect):
     if power > 0 and effect > 0:
         return True
+
+
+firework_effects = deque([int(x) for x in input().split(", ")])
+explosive_power = [int(x) for x in input().split(", ")]

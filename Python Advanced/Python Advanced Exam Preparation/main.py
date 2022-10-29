@@ -40,3 +40,8 @@ fireworks = {
     "Willow firework": 0,
     "Crossette firework": 0
 }
+
+while True:
+
+    if not firework_effects:
+        break

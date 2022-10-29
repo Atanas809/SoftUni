@@ -17,3 +17,6 @@ def firework_made(sum_values, fireworks):
     if sum_values % 3 == 0 and sum_values % 5 != 0:
         fireworks["Palm firework"] += 1
         return True
+    elif sum_values % 3 != 0 and sum_values % 5 == 0:
+        fireworks["Willow firework"] += 1
+        return True

@@ -34,3 +34,9 @@ def is_valid_value(power, effect):
 
 firework_effects = deque([int(x) for x in input().split(", ")])
 explosive_power = [int(x) for x in input().split(", ")]
+
+fireworks = {
+    "Palm firework": 0,
+    "Willow firework": 0,
+    "Crossette firework": 0
+}

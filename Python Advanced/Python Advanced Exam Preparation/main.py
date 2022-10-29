@@ -49,3 +49,6 @@ while True:
         break
     elif enough_fireworks(fireworks):
         break
+
+    current_effect = firework_effects.popleft()
+    current_power = explosive_power.pop()

@@ -63,3 +63,7 @@ while True:
         if current_power > 0:
             explosive_power.append(current_power)
         elif current_effect > 0:
+            firework_effects.appendleft(current_effect)
+
+if enough_fireworks(fireworks):
+    print("Congrats! You made the perfect firework show!")

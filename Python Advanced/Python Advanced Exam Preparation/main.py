@@ -52,3 +52,8 @@ while True:
 
     current_effect = firework_effects.popleft()
     current_power = explosive_power.pop()
+
+    if is_valid_value(current_power, current_effect):
+        sum_values = current_power + current_effect
+        if not firework_made(sum_values, fireworks):
+            current_effect -= 1

@@ -67,3 +67,8 @@ while True:
 
 if enough_fireworks(fireworks):
     print("Congrats! You made the perfect firework show!")
+else:
+    print("Sorry. You can't make the perfect firework show.")
+
+if firework_effects:
+    print(f"Firework Effects left: {', '.join(str(x) for x in firework_effects)}")

@@ -57,3 +57,5 @@ while True:
         sum_values = current_power + current_effect
         if not firework_made(sum_values, fireworks):
             current_effect -= 1
+            firework_effects.append(current_effect)
+            explosive_power.append(current_power)

@@ -59,3 +59,7 @@ while True:
             current_effect -= 1
             firework_effects.append(current_effect)
             explosive_power.append(current_power)
+    else:
+        if current_power > 0:
+            explosive_power.append(current_power)
+        elif current_effect > 0:

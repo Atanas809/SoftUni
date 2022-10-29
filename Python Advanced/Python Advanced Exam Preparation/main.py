@@ -45,3 +45,7 @@ while True:
 
     if not firework_effects:
         break
+    elif not explosive_power:
+        break
+    elif enough_fireworks(fireworks):
+        break

@@ -1,10 +1,5 @@
 
 
-vowels = deque(input().split())
-consonants = input().split()
-
-word_found = ""
-
 my_dict = {
     0: "rose",
     1: "tulip",

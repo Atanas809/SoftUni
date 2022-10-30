@@ -1,12 +1,5 @@
 
 
-my_dict = {
-    0: "rose",
-    1: "tulip",
-    2: "lotus",
-    3: "daffodil",
-}
-
 searched_words = ["rose", "tulip", "lotus", "daffodil"]
 
 founded = False

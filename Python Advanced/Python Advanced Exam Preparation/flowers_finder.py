@@ -1,11 +1,5 @@
 
 
-2.
-a a a
-x r l t p p
-
-"""
-
 vowels = deque(input().split())
 consonants = input().split()
 

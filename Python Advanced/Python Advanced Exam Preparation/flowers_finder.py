@@ -1,9 +1,4 @@
 
-    current_consonant = consonants.pop()
-
-    for index in range(len(searched_words)):
-        if current_vowel in searched_words[index]:
-            searched_words[index] = searched_words[index].replace(current_vowel, "")
         if current_consonant in searched_words[index]:
             searched_words[index] = searched_words[index].replace(current_consonant, "")
         if searched_words[index] == "":

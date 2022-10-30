@@ -1,10 +1,4 @@
-from collections import deque
 
-# Test inputs:
-"""
-1.
-o e a o e a i
-p r s x r
 
 2.
 a a a

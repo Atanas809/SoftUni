@@ -1,10 +1,4 @@
 
-
-searched_words = ["rose", "tulip", "lotus", "daffodil"]
-
-founded = False
-
-while True:
     if founded:
         break
 

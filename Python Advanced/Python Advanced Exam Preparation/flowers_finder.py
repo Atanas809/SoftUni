@@ -1,11 +1,4 @@
 
-    if founded:
-        break
-
-    if not vowels or not consonants:
-        break
-
-    current_vowel = vowels.popleft()
     current_consonant = consonants.pop()
 
     for index in range(len(searched_words)):

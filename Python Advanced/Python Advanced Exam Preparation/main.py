@@ -14,3 +14,8 @@ def extra_parameters(command, end_or_beginning, numbers, my_list):
     elif command == "remove" and end_or_beginning == "end":
         for _ in range(numbers[0]):
             my_list.pop()
+
+
+def list_manipulator(*args):
+    my_list = deque(args[0])
+    command = args[1]

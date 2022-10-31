@@ -19,3 +19,6 @@ def extra_parameters(command, end_or_beginning, numbers, my_list):
 def list_manipulator(*args):
     my_list = deque(args[0])
     command = args[1]
+    end_or_beginning = args[2]
+    if len(args) > 3:
+        numbers = args[3:]

@@ -30,3 +30,8 @@ def list_manipulator(*args):
             my_list.popleft()
 
     return list(my_list)
+
+
+print(list_manipulator([1, 2, 3], "remove", "end"))
+print(list_manipulator([1, 2, 3], "remove", "beginning"))
+print(list_manipulator([1, 2, 3], "add", "beginning", 20))

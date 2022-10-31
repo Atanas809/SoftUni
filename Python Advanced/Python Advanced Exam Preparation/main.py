@@ -26,3 +26,7 @@ def list_manipulator(*args):
     else:
         if end_or_beginning == "end":
             my_list.pop()
+        elif end_or_beginning == "beginning":
+            my_list.popleft()
+
+    return list(my_list)

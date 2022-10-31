@@ -7,3 +7,6 @@ def extra_parameters(command, end_or_beginning, numbers, my_list):
             my_list.appendleft(num)
     elif command == "add" and end_or_beginning == "end":
         for num in numbers:
+            my_list.append(num)
+    elif command == "remove" and end_or_beginning == "beginning":
+        for _ in range(numbers[0]):

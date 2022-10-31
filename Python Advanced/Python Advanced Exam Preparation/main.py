@@ -22,3 +22,7 @@ def list_manipulator(*args):
     end_or_beginning = args[2]
     if len(args) > 3:
         numbers = args[3:]
+        extra_parameters(command, end_or_beginning, numbers, my_list)
+    else:
+        if end_or_beginning == "end":
+            my_list.pop()

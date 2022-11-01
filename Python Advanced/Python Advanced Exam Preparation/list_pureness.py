@@ -18,3 +18,6 @@ def best_list_pureness(*args):
         numbers.appendleft(numbers.pop())
 
     return f"Best pureness {best_pureness} after {best_index} rotations"
+
+
+test = ([7, 9, 2, 5, 3, 4], 3)

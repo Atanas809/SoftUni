@@ -10,3 +10,7 @@ def best_list_pureness(*args):
         current_pureness = 0
         for index, value in enumerate(numbers):
             current_pureness += index * value
+
+        if current_pureness > best_pureness:
+            best_pureness = current_pureness
+            best_index = x

@@ -21,3 +21,5 @@ def best_list_pureness(*args):
 
 
 test = ([7, 9, 2, 5, 3, 4], 3)
+result = best_list_pureness(*test)
+print(result)

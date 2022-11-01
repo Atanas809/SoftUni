@@ -14,3 +14,7 @@ def best_list_pureness(*args):
         if current_pureness > best_pureness:
             best_pureness = current_pureness
             best_index = x
+
+        numbers.appendleft(numbers.pop())
+
+    return f"Best pureness {best_pureness} after {best_index} rotations"

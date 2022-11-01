@@ -8,3 +8,5 @@ def best_list_pureness(*args):
     best_index = 0
     for x in range(counter):
         current_pureness = 0
+        for index, value in enumerate(numbers):
+            current_pureness += index * value

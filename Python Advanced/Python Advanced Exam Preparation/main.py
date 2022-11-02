@@ -39,7 +39,9 @@ def move(row, col, command):
 
 
 size = 6
-
 rover_row, rover_col = None, None
-
 field = []
+
+for row in range(size):
+    current_row_el = [x for x in input().split(" ")]
+    if "E" in current_row_el:

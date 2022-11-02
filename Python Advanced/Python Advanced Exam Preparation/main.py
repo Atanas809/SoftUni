@@ -62,3 +62,7 @@ deposits = {
 
 for command in commands:
     next_row, next_col = move(rover_row, rover_col, command)
+
+    if is_outside(next_row, next_col, size):
+        next_row, next_col = opposite_side(next_row, next_col, size, field)
+        element = element_on_position(next_row, next_col, field)

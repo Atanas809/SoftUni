@@ -92,3 +92,10 @@ for command in commands:
         elif element == "C":
             deposits[element] += 1
             print(f"Concrete deposit found at {next_row, next_col}")
+
+    rover_row, rover_col = next_row, next_col
+
+if deposits["M"] >= 1 and deposits["W"] >= 1 and deposits["C"] >= 1:
+    print("Area suitable to start the colony.")
+else:
+    print("Area not suitable to start the colony.")

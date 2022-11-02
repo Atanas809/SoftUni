@@ -45,3 +45,6 @@ field = []
 for row in range(size):
     current_row_el = [x for x in input().split(" ")]
     if "E" in current_row_el:
+        rover_row = row
+        rover_col = current_row_el.index("E")
+    field.append(current_row_el)

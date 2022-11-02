@@ -83,3 +83,6 @@ for command in commands:
         if element == "R":
             print(f"Rover got broken at {next_row, next_col}")
             break
+        elif element == "W":
+            deposits[element] += 1
+            print(f"Water deposit found at {next_row, next_col}")

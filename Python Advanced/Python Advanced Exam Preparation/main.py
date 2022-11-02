@@ -86,3 +86,9 @@ for command in commands:
         elif element == "W":
             deposits[element] += 1
             print(f"Water deposit found at {next_row, next_col}")
+        elif element == "M":
+            deposits[element] += 1
+            print(f"Metal deposit found at {next_row, next_col}")
+        elif element == "C":
+            deposits[element] += 1
+            print(f"Concrete deposit found at {next_row, next_col}")

@@ -32,3 +32,7 @@ def move(row, col, command):
         return row - 1, col
     elif command == "down":
         return row + 1, col
+    elif command == "left":
+        return row, col - 1
+    elif command == "right":
+        return row, col + 1

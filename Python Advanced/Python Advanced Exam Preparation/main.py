@@ -66,3 +66,6 @@ for command in commands:
     if is_outside(next_row, next_col, size):
         next_row, next_col = opposite_side(next_row, next_col, size, field)
         element = element_on_position(next_row, next_col, field)
+        if element == "R":
+            print(f"Rover got broken at {next_row, next_col}")
+            break

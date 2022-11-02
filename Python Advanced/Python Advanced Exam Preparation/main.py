@@ -36,3 +36,10 @@ def move(row, col, command):
         return row, col - 1
     elif command == "right":
         return row, col + 1
+
+
+size = 6
+
+rover_row, rover_col = None, None
+
+field = []

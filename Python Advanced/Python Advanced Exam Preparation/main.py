@@ -58,3 +58,7 @@ deposits = {
     "W": 0,
     "C": 0
 }
+
+
+for command in commands:
+    next_row, next_col = move(rover_row, rover_col, command)

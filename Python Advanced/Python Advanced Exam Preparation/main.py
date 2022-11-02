@@ -14,3 +14,7 @@ def opposite_side(next_row, next_col, size, field):
         return size - 1, next_col
     elif next_row == size:
         return 0, next_col
+    elif next_col < 0:
+        return next_row, size - 1
+    elif next_col == size:
+        return next_row, 0

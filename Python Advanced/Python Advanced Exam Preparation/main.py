@@ -18,3 +18,10 @@ def opposite_side(next_row, next_col, size, field):
         return next_row, size - 1
     elif next_col == size:
         return next_row, 0
+
+
+def is_outside(row, col, size):
+    if 0 <= row < size and 0 <= col < size:
+        return False
+
+    return True

@@ -48,3 +48,13 @@ for row in range(size):
         rover_row = row
         rover_col = current_row_el.index("E")
     field.append(current_row_el)
+
+commands = input().split(", ")
+
+field[rover_row][rover_col] = "-"
+
+deposits = {
+    "M": 0,
+    "W": 0,
+    "C": 0
+}

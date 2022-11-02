@@ -78,3 +78,8 @@ for command in commands:
         elif element == "C":
             deposits[element] += 1
             print(f"Concrete deposit found at {next_row, next_col}")
+    else:
+        element = element_on_position(next_row, next_col, field)
+        if element == "R":
+            print(f"Rover got broken at {next_row, next_col}")
+            break

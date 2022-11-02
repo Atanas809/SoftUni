@@ -7,3 +7,10 @@ def element_on_position(next_row, next_col, field):
         return "M"
     elif field[next_row][next_col] == "C":
         return "C"
+
+
+def opposite_side(next_row, next_col, size, field):
+    if next_row < 0:
+        return size - 1, next_col
+    elif next_row == size:
+        return 0, next_col

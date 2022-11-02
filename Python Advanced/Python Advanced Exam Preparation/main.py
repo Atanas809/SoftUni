@@ -25,3 +25,10 @@ def is_outside(row, col, size):
         return False
 
     return True
+
+
+def move(row, col, command):
+    if command == "up":
+        return row - 1, col
+    elif command == "down":
+        return row + 1, col

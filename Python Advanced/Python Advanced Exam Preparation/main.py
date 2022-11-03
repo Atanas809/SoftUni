@@ -87,3 +87,9 @@ if abs(black_pawn_col - white_pawn_col) == 1:
         print(f"Game over! Black win, capture on {board_value(capture_row, capture_col)}.")
 
 else:
+    winning_pawn = who_wins(black_pawn_row, white_pawn_row, size)
+
+    if winning_pawn == "w":
+        winning_row, winning_col = (0, white_pawn_col)
+        print(f"Game over! White pawn is promoted to a queen at {board_value(winning_row, winning_col)}.")
+    elif winning_pawn == "b":

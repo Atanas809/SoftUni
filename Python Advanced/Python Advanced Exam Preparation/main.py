@@ -71,3 +71,6 @@ black_pawn_row, black_pawn_col = None, None
 white_pawn_row, white_pawn_col = None, None
 
 for row in range(size):
+    if "b" or "w" in board[row]:
+        for col in range(size):
+            if board[row][col] == "b":

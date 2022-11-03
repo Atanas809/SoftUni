@@ -35,3 +35,12 @@ def capture(black_row, black_col, white_row, white_col):
                     black_row += 1
                 else:
                     break
+
+            return ("b", white_row, white_col)
+
+        while True:
+            if abs(black_row - white_row) > 1:
+                white_row -= 1
+                black_row += 1
+            else:
+                break

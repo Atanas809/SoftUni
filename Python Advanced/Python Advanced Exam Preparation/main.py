@@ -49,3 +49,7 @@ def capture(black_row, black_col, white_row, white_col):
 
 
 def board_value(row, col):
+    row_values = [str(x) for x in range(8, 0, -1)]
+    col_values = ["a", "b", "c", "d", "e", "f", "g", "h"]
+
+    return f"{col_values[col]}{row_values[row]}"

@@ -53,3 +53,11 @@ def board_value(row, col):
     col_values = ["a", "b", "c", "d", "e", "f", "g", "h"]
 
     return f"{col_values[col]}{row_values[row]}"
+
+
+def who_wins(black_col, white_col, size):
+
+    if size - (size - white_col) <= size - black_col - 1:
+        return "w"
+
+    return "b"

@@ -77,3 +77,8 @@ for row in range(size):
                 black_pawn_row, black_pawn_col = (row, col)
             elif board[row][col] == "w":
                 white_pawn_row, white_pawn_col = (row, col)
+
+if abs(black_pawn_col - white_pawn_col) == 1:
+    pawn, capture_row, capture_col = capture(black_pawn_row, black_pawn_col, white_pawn_row, white_pawn_col)
+
+    if pawn == "w":

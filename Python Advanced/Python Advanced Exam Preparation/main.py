@@ -82,3 +82,8 @@ if abs(black_pawn_col - white_pawn_col) == 1:
     pawn, capture_row, capture_col = capture(black_pawn_row, black_pawn_col, white_pawn_row, white_pawn_col)
 
     if pawn == "w":
+        print(f"Game over! White win, capture on {board_value(capture_row, capture_col)}.")
+    elif pawn == "b":
+        print(f"Game over! Black win, capture on {board_value(capture_row, capture_col)}.")
+
+else:

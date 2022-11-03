@@ -44,3 +44,8 @@ def capture(black_row, black_col, white_row, white_col):
                 black_row += 1
             else:
                 break
+
+        return ("w", black_row, black_col)
+
+
+def board_value(row, col):

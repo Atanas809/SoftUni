@@ -93,3 +93,5 @@ else:
         winning_row, winning_col = (0, white_pawn_col)
         print(f"Game over! White pawn is promoted to a queen at {board_value(winning_row, winning_col)}.")
     elif winning_pawn == "b":
+        winning_row, winning_col = (7, black_pawn_col)
+        print(f"Game over! Black pawn is promoted to a queen at {board_value(winning_row, winning_col)}.")

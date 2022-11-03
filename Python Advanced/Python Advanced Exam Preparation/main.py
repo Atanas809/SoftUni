@@ -61,3 +61,8 @@ def who_wins(black_col, white_col, size):
         return "w"
 
     return "b"
+
+
+size = 8
+
+board = [input().split() for _ in range(size)]

@@ -66,3 +66,8 @@ def who_wins(black_col, white_col, size):
 size = 8
 
 board = [input().split() for _ in range(size)]
+
+black_pawn_row, black_pawn_col = None, None
+white_pawn_row, white_pawn_col = None, None
+
+for row in range(size):

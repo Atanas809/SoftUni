@@ -11,3 +11,5 @@ while bowls_of_ramen and customers:
         current_bowl -= current_customer
         bowls_of_ramen.append(current_bowl)
     elif current_bowl < current_customer:
+        current_customer -= current_bowl
+        customers.appendleft(current_customer)

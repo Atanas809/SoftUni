@@ -13,3 +13,6 @@ while bowls_of_ramen and customers:
     elif current_bowl < current_customer:
         current_customer -= current_bowl
         customers.appendleft(current_customer)
+
+if not customers:
+    print("Great job! You served all the customers.")

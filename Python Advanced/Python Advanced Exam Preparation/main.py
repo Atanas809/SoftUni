@@ -18,3 +18,5 @@ if not customers:
     print("Great job! You served all the customers.")
     if bowls_of_ramen:
         print(f"Bowls of ramen left: {', '.join(str(x) for x in bowls_of_ramen)}")
+else:
+    print("Out of ramen! You didn't manage to serve all customers.")

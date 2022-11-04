@@ -20,3 +20,4 @@ if not customers:
         print(f"Bowls of ramen left: {', '.join(str(x) for x in bowls_of_ramen)}")
 else:
     print("Out of ramen! You didn't manage to serve all customers.")
+    print(f"Customers left: {', '.join(str(x) for x in customers)}")

@@ -16,3 +16,5 @@ while bowls_of_ramen and customers:
 
 if not customers:
     print("Great job! You served all the customers.")
+    if bowls_of_ramen:
+        print(f"Bowls of ramen left: {', '.join(str(x) for x in bowls_of_ramen)}")

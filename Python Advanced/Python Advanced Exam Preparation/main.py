@@ -9,3 +9,4 @@ needed_index = int(input())
 cycles = 0
 
 while True:
+    current_index = jobs.index(min(jobs))

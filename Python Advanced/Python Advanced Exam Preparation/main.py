@@ -17,3 +17,6 @@ while True:
 
     cycles += current_value
     jobs[current_index] += max(jobs) + 1
+
+
+print(cycles)

@@ -12,3 +12,4 @@ while True:
     current_index = jobs.index(min(jobs))
     current_value = jobs[current_index]
     if current_index == needed_index:
+        cycles += current_value

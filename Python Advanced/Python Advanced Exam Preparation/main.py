@@ -10,3 +10,4 @@ cycles = 0
 
 while True:
     current_index = jobs.index(min(jobs))
+    current_value = jobs[current_index]

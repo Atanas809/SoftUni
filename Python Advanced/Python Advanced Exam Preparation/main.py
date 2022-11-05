@@ -16,3 +16,4 @@ while True:
         break
 
     cycles += current_value
+    jobs[current_index] += max(jobs) + 1

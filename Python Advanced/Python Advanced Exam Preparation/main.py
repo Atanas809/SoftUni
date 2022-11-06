@@ -14,3 +14,5 @@ def shopping_list(budget, **kwargs):
         current_price = quantity * price
 
         if budget >= current_price:
+            budget -= current_price
+            shopping_bag.append(f"You bought {product} for {current_price:.2f} leva.")

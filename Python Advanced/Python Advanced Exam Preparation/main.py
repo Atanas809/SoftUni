@@ -21,3 +21,6 @@ def shopping_list(budget, **kwargs):
 
 
 print(shopping_list(104,
+                    cola=(1.20, 2),
+                    candies=(0.25, 15),
+                    bread=(1.80, 1),

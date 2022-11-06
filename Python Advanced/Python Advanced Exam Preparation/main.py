@@ -10,3 +10,7 @@ def shopping_list(budget, **kwargs):
         quantity = value[1]
         if len(shopping_bag) == 5:
             break
+
+        current_price = quantity * price
+
+        if budget >= current_price:

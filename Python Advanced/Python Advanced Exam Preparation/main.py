@@ -18,3 +18,6 @@ def shopping_list(budget, **kwargs):
             shopping_bag.append(f"You bought {product} for {current_price:.2f} leva.")
 
     return '\n'.join(shopping_bag)
+
+
+print(shopping_list(104,

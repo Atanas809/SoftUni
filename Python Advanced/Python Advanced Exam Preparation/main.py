@@ -88,3 +88,9 @@ while True:
 
 if out_of_the_field:
     print("Game over!")
+if food_eaten >= 10:
+    print("You won! You fed the snake.")
+print(f"Food eaten: {food_eaten}")
+
+for row in field:
+    print(''.join(row))

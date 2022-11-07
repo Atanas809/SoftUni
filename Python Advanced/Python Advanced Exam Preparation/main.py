@@ -52,3 +52,7 @@ for row in range(size):
 
 out_of_the_field = False
 food_eaten = 0
+
+while True:
+    if food_eaten >= 10:
+        break

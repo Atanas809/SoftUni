@@ -76,3 +76,10 @@ while True:
                 field[next_row][next_col] = "S"
                 field[snake_row][snake_col] = "."
             else:
+                field[rows][cols] = "."
+    elif field[next_row][next_col] == "-":
+        field[snake_row][snake_col] = "."
+        field[next_row][next_col] = "S"
+    elif field[next_row][next_col] == ".":
+        field[snake_row][snake_col] = "."
+        field[next_row][next_col] = "S"

@@ -56,3 +56,11 @@ food_eaten = 0
 while True:
     if food_eaten >= 10:
         break
+
+    command = input()
+    next_row, next_col = move(snake_row, snake_col, command)
+
+    if not is_valid_position(next_row, next_col, size):
+        field[snake_row][snake_col] = "."
+        out_of_the_field = True
+        break

@@ -27,3 +27,5 @@ def move(row, col, direction):
         return row - 1, col
     elif direction == "down":
         return row + 1, col
+    elif direction == "left":
+        return row, col - 1

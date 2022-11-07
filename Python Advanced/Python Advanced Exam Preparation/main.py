@@ -34,3 +34,7 @@ def move(row, col, direction):
 
 
 size = int(input())
+
+burrows = []
+field = []
+snake_row, snake_col = None, None

@@ -69,3 +69,10 @@ while True:
         field[snake_row][snake_col] = "."
         field[next_row][next_col] = "S"
         food_eaten += 1
+    elif field[next_row][next_col] == "B":
+        for rows, cols in burrows:
+            if rows != next_row or cols != next_col:
+                next_row, next_col = rows, cols
+                field[next_row][next_col] = "S"
+                field[snake_row][snake_col] = "."
+            else:

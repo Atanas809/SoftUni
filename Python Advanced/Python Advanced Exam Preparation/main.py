@@ -20,3 +20,8 @@ def is_valid_position(next_row, next_col, size):
         return True
 
     return False
+
+
+def move(row, col, direction):
+    if direction == "up":
+        return row - 1, col

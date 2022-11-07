@@ -31,3 +31,6 @@ def move(row, col, direction):
         return row, col - 1
     elif direction == "right":
         return row, col + 1
+
+
+size = int(input())

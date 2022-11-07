@@ -49,3 +49,6 @@ for row in range(size):
             elif current_row_el[col] == "B":
                 burrows.append([row, col])
     field.append(current_row_el)
+
+out_of_the_field = False
+food_eaten = 0

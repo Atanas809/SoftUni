@@ -44,3 +44,8 @@ for row in range(size):
     if "S" or "B" in current_row_el:
         for col in range(size):
             if current_row_el[col] == "S":
+                snake_row = row
+                snake_col = col
+            elif current_row_el[col] == "B":
+                burrows.append([row, col])
+    field.append(current_row_el)

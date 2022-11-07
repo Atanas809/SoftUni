@@ -38,3 +38,6 @@ size = int(input())
 burrows = []
 field = []
 snake_row, snake_col = None, None
+
+for row in range(size):
+    current_row_el = [x for x in input()]

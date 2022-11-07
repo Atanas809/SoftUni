@@ -41,3 +41,6 @@ snake_row, snake_col = None, None
 
 for row in range(size):
     current_row_el = [x for x in input()]
+    if "S" or "B" in current_row_el:
+        for col in range(size):
+            if current_row_el[col] == "S":

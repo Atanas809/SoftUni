@@ -64,3 +64,8 @@ while True:
         field[snake_row][snake_col] = "."
         out_of_the_field = True
         break
+
+    if field[next_row][next_col] == "*":
+        field[snake_row][snake_col] = "."
+        field[next_row][next_col] = "S"
+        food_eaten += 1

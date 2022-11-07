@@ -25,3 +25,5 @@ def is_valid_position(next_row, next_col, size):
 def move(row, col, direction):
     if direction == "up":
         return row - 1, col
+    elif direction == "down":
+        return row + 1, col

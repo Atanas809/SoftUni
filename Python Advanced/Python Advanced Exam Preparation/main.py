@@ -83,3 +83,8 @@ while True:
     elif field[next_row][next_col] == ".":
         field[snake_row][snake_col] = "."
         field[next_row][next_col] = "S"
+
+    snake_row, snake_col = next_row, next_col
+
+if out_of_the_field:
+    print("Game over!")

@@ -17,3 +17,5 @@ def start_spring(**kwargs):
     output = []
 
     for x, y in result.items():
+        output.append(f"{x}:")
+        for v in y:

@@ -11,3 +11,5 @@ def start_spring(**kwargs):
     result = dict()
 
     for k, v in sorted_dict.items():
+        v = sorted(v)
+        result[k] = v

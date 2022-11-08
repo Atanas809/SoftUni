@@ -22,3 +22,7 @@ def start_spring(**kwargs):
             output.append(f"-{v}")
 
     return '\n'.join(output)
+
+
+example_objects = {"Water Lilly": "flower",
+                   "Swifts": "bird",

@@ -13,3 +13,7 @@ def start_spring(**kwargs):
     for k, v in sorted_dict.items():
         v = sorted(v)
         result[k] = v
+
+    output = []
+
+    for x, y in result.items():

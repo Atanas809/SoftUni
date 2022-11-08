@@ -26,3 +26,5 @@ def start_spring(**kwargs):
 
 example_objects = {"Water Lilly": "flower",
                    "Swifts": "bird",
+                   "Callery Pear": "tree",
+                   "Swallows": "bird",

@@ -7,3 +7,7 @@ def start_spring(**kwargs):
         my_dict[value].append(key)
 
     sorted_dict = dict(sorted(my_dict.items(), key=lambda x: (-len(x[1]), x[0])))
+
+    result = dict()
+
+    for k, v in sorted_dict.items():

@@ -19,3 +19,6 @@ def start_spring(**kwargs):
     for x, y in result.items():
         output.append(f"{x}:")
         for v in y:
+            output.append(f"-{v}")
+
+    return '\n'.join(output)

@@ -21,3 +21,6 @@ print(
         'charm',
         'mythology'
 ))
+print(
+    words_sorting(
+        'escape',

@@ -13,3 +13,7 @@ def words_sorting(*args):
         sorted_by_values = sorted(my_dict.items(), key=lambda x: -x[1])
         output = [f"{x} - {y}" for x, y in sorted_by_values]
         return '\n'.join(output)
+
+
+print(
+    words_sorting(

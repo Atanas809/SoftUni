@@ -24,3 +24,6 @@ print(
 print(
     words_sorting(
         'escape',
+        'charm',
+        'eye'
+    ))

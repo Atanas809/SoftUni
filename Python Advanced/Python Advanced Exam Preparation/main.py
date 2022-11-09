@@ -7,3 +7,5 @@ def words_sorting(*args):
 
     if result % 2 == 0:
         sorted_by_keys = sorted(my_dict.items(), key=lambda x: x[0])
+        output = [f"{x} - {y}" for x, y in sorted_by_keys]
+        return '\n'.join(output)

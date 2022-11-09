@@ -17,3 +17,7 @@ def words_sorting(*args):
 
 print(
     words_sorting(
+        'escape',
+        'charm',
+        'mythology'
+))

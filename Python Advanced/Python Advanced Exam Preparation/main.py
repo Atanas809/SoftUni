@@ -26,3 +26,5 @@ while egg_size and paper_size:
 
 if boxes_made >= 1:
     print(f"Great! You filled {boxes_made} boxes.")
+else:
+    print("Sorry! You couldn't fill any boxes!")

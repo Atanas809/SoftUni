@@ -23,3 +23,6 @@ while egg_size and paper_size:
 
     if result <= box_size:
         boxes_made += 1
+
+if boxes_made >= 1:
+    print(f"Great! You filled {boxes_made} boxes.")

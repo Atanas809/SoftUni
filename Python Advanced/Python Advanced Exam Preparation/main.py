@@ -16,3 +16,5 @@ while egg_size and paper_size:
 
     elif current_egg == 13:
         paper_size.append(current_paper)
+        paper_size[0], paper_size[-1] = paper_size[-1], paper_size[0]
+        continue

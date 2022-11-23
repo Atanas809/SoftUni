@@ -31,3 +31,5 @@ else:
 
 if egg_size:
     print(f"Eggs left: {', '.join(str(x) for x in egg_size)}")
+if paper_size:
+    print(f"Pieces of paper left: {', '.join(str(x) for x in paper_size)}")

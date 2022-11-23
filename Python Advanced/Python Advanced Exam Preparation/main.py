@@ -18,3 +18,5 @@ while egg_size and paper_size:
         paper_size.append(current_paper)
         paper_size[0], paper_size[-1] = paper_size[-1], paper_size[0]
         continue
+
+    result = current_egg + current_paper

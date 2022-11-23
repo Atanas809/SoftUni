@@ -28,3 +28,6 @@ if boxes_made >= 1:
     print(f"Great! You filled {boxes_made} boxes.")
 else:
     print("Sorry! You couldn't fill any boxes!")
+
+if egg_size:
+    print(f"Eggs left: {', '.join(str(x) for x in egg_size)}")

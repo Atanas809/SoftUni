@@ -20,3 +20,6 @@ while egg_size and paper_size:
         continue
 
     result = current_egg + current_paper
+
+    if result <= box_size:
+        boxes_made += 1

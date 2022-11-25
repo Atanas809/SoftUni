@@ -33,3 +33,6 @@ counter = 0
 while True:
     next_move = move()
     row, col = next_move
+
+    if not two_player_rest:
+        if maze[row][col] == "E":

@@ -59,3 +59,7 @@ while True:
             two_player_rest = False
         else:
             counter += 1
+
+    if player1:
+        current_player = 1
+        continue

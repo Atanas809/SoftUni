@@ -48,3 +48,7 @@ while True:
                 player1 = True
             elif current_player == 1:
                 player2 = True
+
+            if player1 and player2:
+                two_player_rest = True
+                continue

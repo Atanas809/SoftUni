@@ -38,3 +38,7 @@ while True:
         if maze[row][col] == "E":
             print(f"{names[current_player]} found the Exit and wins the game!")
             break
+        elif maze[row][col] == "T":
+            other_player = names[1] if current_player == 0 else names[0]
+            print(f"{names[current_player]} is out of the game! The winner is {other_player}.")
+            break

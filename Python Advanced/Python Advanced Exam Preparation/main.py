@@ -27,3 +27,5 @@ for _ in range(size):
 current_player = 0
 player1 = False
 player2 = False
+two_player_rest = False
+counter = 0

@@ -63,3 +63,6 @@ while True:
     if player1:
         current_player = 1
         continue
+    elif player2:
+        current_player = 0
+        continue

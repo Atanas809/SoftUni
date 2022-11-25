@@ -66,3 +66,5 @@ while True:
     elif player2:
         current_player = 0
         continue
+
+    current_player = next_player(current_player)

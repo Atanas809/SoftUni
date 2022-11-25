@@ -29,3 +29,7 @@ player1 = False
 player2 = False
 two_player_rest = False
 counter = 0
+
+while True:
+    next_move = move()
+    row, col = next_move

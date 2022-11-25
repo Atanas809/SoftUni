@@ -19,3 +19,5 @@ size = 6
 
 maze = []
 names = input().split(", ")
+
+for _ in range(size):

@@ -45,3 +45,6 @@ while True:
         elif maze[row][col] == "W":
             print(f"{names[current_player]} hits a wall and needs to rest.")
             if current_player == 0:
+                player1 = True
+            elif current_player == 1:
+                player2 = True

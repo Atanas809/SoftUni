@@ -56,3 +56,6 @@ while True:
         if counter + 1 == 2:
             player1 = False
             player2 = False
+            two_player_rest = False
+        else:
+            counter += 1

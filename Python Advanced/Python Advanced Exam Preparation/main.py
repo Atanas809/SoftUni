@@ -52,3 +52,7 @@ while True:
             if player1 and player2:
                 two_player_rest = True
                 continue
+    else:
+        if counter + 1 == 2:
+            player1 = False
+            player2 = False

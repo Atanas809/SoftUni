@@ -13,3 +13,6 @@ def move():
     row, col = [int(x) for x in command.split()]
 
     return row, col
+
+
+size = 6

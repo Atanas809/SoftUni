@@ -22,3 +22,4 @@ names = input().split(", ")
 
 for _ in range(size):
     current_row_el = [x for x in input().split(" ")]
+    maze.append(current_row_el)

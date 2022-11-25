@@ -36,3 +36,5 @@ while True:
 
     if not two_player_rest:
         if maze[row][col] == "E":
+            print(f"{names[current_player]} found the Exit and wins the game!")
+            break

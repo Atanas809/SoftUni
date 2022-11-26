@@ -11,3 +11,7 @@ def shopping_cart(*args):
     pizza_limit = 4
     soup_limit = 3
     dessert_limit = 2
+
+    for data in args:
+        if data == "Stop":
+            break

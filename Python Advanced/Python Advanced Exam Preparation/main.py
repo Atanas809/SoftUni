@@ -7,3 +7,5 @@ def is_valid(sorted_meals):
 
 
 def shopping_cart(*args):
+    meals = {"Pizza": [], "Soup": [], "Dessert": []}
+    pizza_limit = 4

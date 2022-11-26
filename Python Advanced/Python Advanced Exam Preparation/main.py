@@ -25,3 +25,6 @@ def shopping_cart(*args):
         elif meal == "Soup":
             if len(meals["Soup"]) < soup_limit and product not in meals["Soup"]:
                 meals["Soup"].append(product)
+        elif meal == "Dessert":
+            if len(meals["Dessert"]) < dessert_limit and product not in meals["Dessert"]:
+                meals["Dessert"].append(product)

@@ -18,3 +18,7 @@ def shopping_cart(*args):
 
         meal = data[0]
         product = data[1]
+
+        if meal == "Pizza":
+            if len(meals["Pizza"]) < pizza_limit and product not in meals["Pizza"]:
+                meals["Pizza"].append(product)

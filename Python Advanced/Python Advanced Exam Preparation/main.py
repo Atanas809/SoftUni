@@ -36,3 +36,5 @@ def shopping_cart(*args):
         result = []
 
         for x, y in sorted_meals.items():
+            sorted_values = sorted(y)
+            result.append(f"{x}:")

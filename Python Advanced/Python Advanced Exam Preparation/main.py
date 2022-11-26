@@ -38,3 +38,7 @@ def shopping_cart(*args):
         for x, y in sorted_meals.items():
             sorted_values = sorted(y)
             result.append(f"{x}:")
+            for j in sorted_values:
+                result.append(f" - {j}")
+
+        return '\n'.join(result)

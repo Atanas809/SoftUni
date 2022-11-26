@@ -32,3 +32,7 @@ def shopping_cart(*args):
     sorted_meals = dict(sorted(meals.items(), key=lambda x: (-len(x[1]), x[0])))
 
     if is_valid(sorted_meals):
+
+        result = []
+
+        for x, y in sorted_meals.items():

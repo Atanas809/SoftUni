@@ -28,3 +28,7 @@ def shopping_cart(*args):
         elif meal == "Dessert":
             if len(meals["Dessert"]) < dessert_limit and product not in meals["Dessert"]:
                 meals["Dessert"].append(product)
+
+    sorted_meals = dict(sorted(meals.items(), key=lambda x: (-len(x[1]), x[0])))
+
+    if is_valid(sorted_meals):

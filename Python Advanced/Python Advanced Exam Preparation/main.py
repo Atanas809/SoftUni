@@ -4,3 +4,6 @@ def is_valid(sorted_meals):
         return False
 
     return True
+
+
+def shopping_cart(*args):

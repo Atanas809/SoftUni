@@ -15,3 +15,6 @@ def shopping_cart(*args):
     for data in args:
         if data == "Stop":
             break
+
+        meal = data[0]
+        product = data[1]

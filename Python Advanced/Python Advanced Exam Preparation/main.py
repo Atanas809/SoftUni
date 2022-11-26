@@ -44,3 +44,28 @@ def shopping_cart(*args):
         return '\n'.join(result)
 
     return "No products in the cart!"
+
+
+# print(shopping_cart(
+#     ('Pizza', 'ham'),
+#     ('Soup', 'carrots'),
+#     ('Pizza', 'cheese'),
+#     ('Pizza', 'flour'),
+#     ('Dessert', 'milk'),
+#     ('Pizza', 'mushrooms'),
+#     ('Pizza', 'tomatoes'),
+#     'Stop',
+# ))
+# print("-" * 20)
+print(shopping_cart(
+    ('Pizza', 'ham'),
+    ('Dessert', 'milk'),
+    ('Pizza', 'ham'),
+    'Stop',
+))
+print("-" * 20)
+print(shopping_cart(
+    'Stop',
+    ('Pizza', 'ham'),
+    ('Pizza', 'mushrooms'),
+))

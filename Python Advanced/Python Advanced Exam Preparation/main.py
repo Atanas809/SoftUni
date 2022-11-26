@@ -9,3 +9,5 @@ def is_valid(sorted_meals):
 def shopping_cart(*args):
     meals = {"Pizza": [], "Soup": [], "Dessert": []}
     pizza_limit = 4
+    soup_limit = 3
+    dessert_limit = 2

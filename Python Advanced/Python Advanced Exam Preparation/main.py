@@ -42,3 +42,5 @@ def shopping_cart(*args):
                 result.append(f" - {j}")
 
         return '\n'.join(result)
+
+    return "No products in the cart!"

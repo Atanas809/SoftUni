@@ -3,3 +3,5 @@ class Car:
         self.name = name
         self.model = model
         self.engine = engine
+
+    def get_info(self):

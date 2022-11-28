@@ -6,3 +6,4 @@ class Book:
 
 
 book = Book("My Book", "Me", 200)
+print(book.name)

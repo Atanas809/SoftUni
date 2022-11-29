@@ -8,3 +8,4 @@ class Music:
         return f'This is "{self.title}" from "{self.artist}"'
 
     def play(self):
+        return self.lyrics

@@ -3,3 +3,5 @@ class Music:
         self.title = title
         self.artist = artist
         self.lyrics = lyrics
+
+    def print_info(self):

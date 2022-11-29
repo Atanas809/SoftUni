@@ -6,3 +6,5 @@ class Music:
 
     def print_info(self):
         return f'This is "{self.title}" from "{self.artist}"'
+
+    def play(self):

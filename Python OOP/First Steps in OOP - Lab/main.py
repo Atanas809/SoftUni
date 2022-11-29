@@ -5,3 +5,4 @@ class Music:
         self.lyrics = lyrics
 
     def print_info(self):
+        return f'This is "{self.title}" from "{self.artist}"'

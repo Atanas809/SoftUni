@@ -16,3 +16,5 @@ def create_rhombus(n, i):
 
 def rhombus(n):
     result = []
+    for i in range(n):
+        result.extend(create_rhombus(n, i))

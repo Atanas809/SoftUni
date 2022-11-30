@@ -18,3 +18,6 @@ def rhombus(n):
     result = []
     for i in range(n):
         result.extend(create_rhombus(n, i))
+
+    for i in range(n - 2, -1, -1):
+        result.extend(create_rhombus(n, i))

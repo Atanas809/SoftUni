@@ -9,3 +9,6 @@ def create_rhombus(n, i):
 
     spaces = " " * (n - i - 1)
     stars = "* " * (i + 1)
+    output.append(spaces + stars)
+
+    return output

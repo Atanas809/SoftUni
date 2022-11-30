@@ -23,3 +23,8 @@ def rhombus(n):
         result.extend(create_rhombus(n, i))
 
     return print_rhombus(result)
+
+
+size = int(input())
+
+print(rhombus(size))

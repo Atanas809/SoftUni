@@ -21,3 +21,5 @@ def rhombus(n):
 
     for i in range(n - 2, -1, -1):
         result.extend(create_rhombus(n, i))
+
+    return print_rhombus(result)

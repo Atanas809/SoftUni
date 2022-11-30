@@ -6,3 +6,6 @@ def print_rhombus(result):
 
 def create_rhombus(n, i):
     output = []
+
+    spaces = " " * (n - i - 1)
+    stars = "* " * (i + 1)

@@ -12,3 +12,7 @@ def create_rhombus(n, i):
     output.append(spaces + stars)
 
     return output
+
+
+def rhombus(n):
+    result = []

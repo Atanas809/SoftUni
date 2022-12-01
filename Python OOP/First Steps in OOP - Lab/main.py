@@ -49,3 +49,5 @@ def outer():
         nonlocal x
         x = "nonlocal"
         print("inner:", x)
+
+    def change_global():

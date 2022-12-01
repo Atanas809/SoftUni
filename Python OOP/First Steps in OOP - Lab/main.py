@@ -29,3 +29,7 @@ def outer():
 print(x)
 outer()
 print(x)
+
+# Expected output:
+"""
+global

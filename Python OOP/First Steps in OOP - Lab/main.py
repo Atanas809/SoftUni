@@ -19,3 +19,6 @@ def outer():
 
     def change_global():
         x = "global: changed!"
+
+    print("outer:", x)
+    inner()

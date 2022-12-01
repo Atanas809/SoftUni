@@ -44,3 +44,8 @@ x = "global"
 
 def outer():
     x = "local"
+
+    def inner():
+        nonlocal x
+        x = "nonlocal"
+        print("inner:", x)

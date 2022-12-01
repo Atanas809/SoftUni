@@ -33,3 +33,8 @@ print(x)
 # Expected output:
 """
 global
+outer: local
+inner: nonlocal
+outer: nonlocal
+global: changed!
+"""

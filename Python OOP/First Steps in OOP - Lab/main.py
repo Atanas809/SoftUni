@@ -58,3 +58,8 @@ def outer():
     inner()
     print("outer:", x)
     change_global()
+
+
+print(x)
+outer()
+print(x)

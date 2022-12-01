@@ -22,3 +22,5 @@ def outer():
 
     print("outer:", x)
     inner()
+    print("outer:", x)
+    change_global()

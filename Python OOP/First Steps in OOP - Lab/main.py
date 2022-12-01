@@ -40,3 +40,7 @@ global: changed!
 """
 
 x = "global"
+
+
+def outer():
+    x = "local"

@@ -38,3 +38,5 @@ inner: nonlocal
 outer: nonlocal
 global: changed!
 """
+
+x = "global"

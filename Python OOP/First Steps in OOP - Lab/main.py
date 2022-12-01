@@ -16,3 +16,6 @@ def outer():
     def inner():
         x = "nonlocal"
         print("inner:", x)
+
+    def change_global():
+        x = "global: changed!"

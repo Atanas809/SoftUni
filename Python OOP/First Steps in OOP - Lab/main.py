@@ -53,3 +53,8 @@ def outer():
     def change_global():
         global x
         x = "global: changed!"
+
+    print("outer:", x)
+    inner()
+    print("outer:", x)
+    change_global()

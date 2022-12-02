@@ -6,3 +6,5 @@ class Cup:
     def fill(self, milliliters):
         if self.status() >= milliliters:
             self.quantity += milliliters
+
+    def status(self):

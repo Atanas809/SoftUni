@@ -8,3 +8,4 @@ class Cup:
             self.quantity += milliliters
 
     def status(self):
+        return self.size - self.quantity

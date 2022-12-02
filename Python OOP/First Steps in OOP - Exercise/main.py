@@ -12,3 +12,4 @@ class Cup:
 
 
 cup = Cup(100, 50)
+print(cup.status())

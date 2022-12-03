@@ -18,3 +18,5 @@ class Employee:
 
 employee = Employee(744423129, "John", "Smith", 1000)
 print(employee.get_full_name())
+print(employee.raise_salary(500))
+print(employee.get_annual_salary())

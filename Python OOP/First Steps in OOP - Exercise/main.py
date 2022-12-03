@@ -7,3 +7,5 @@ class Employee:
 
     def get_full_name(self):
         return f"{self.first_name} {self.last_name}"
+
+    def get_annual_salary(self):

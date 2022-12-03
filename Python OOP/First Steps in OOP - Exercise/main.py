@@ -10,3 +10,6 @@ class Employee:
 
     def get_annual_salary(self):
         return self.salary * 12
+
+    def raise_salary(self, amount):
+        self.salary += amount

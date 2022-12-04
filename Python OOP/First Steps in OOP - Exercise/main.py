@@ -11,3 +11,5 @@ class Flower:
             self.is_happy = True
 
     def status(self):
+        if self.is_happy:
+            return f"{self.name} is happy"

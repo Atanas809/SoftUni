@@ -3,3 +3,5 @@ class Flower:
         self.name = name
         self.water_requirements = water_requirements
         self.is_happy = False
+
+    def water(self, quantity):

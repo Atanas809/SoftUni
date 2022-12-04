@@ -5,3 +5,4 @@ class Flower:
         self.is_happy = False
 
     def water(self, quantity):
+        self.is_happy = False

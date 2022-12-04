@@ -9,3 +9,5 @@ class Flower:
 
         if quantity >= self.water_requirements:
             self.is_happy = True
+
+    def status(self):

@@ -15,3 +15,7 @@ class Flower:
             return f"{self.name} is happy"
 
         return f"{self.name} is not happy"
+
+
+flower = Flower("Lilly", 100)
+flower.water(50)

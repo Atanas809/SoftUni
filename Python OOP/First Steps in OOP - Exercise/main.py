@@ -8,3 +8,4 @@ class Flower:
         self.is_happy = False
 
         if quantity >= self.water_requirements:
+            self.is_happy = True

@@ -10,3 +10,4 @@ class Hero:
             return f"{self.name} was defeated"
 
     def heal(self, amount):
+        self.health += amount

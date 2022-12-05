@@ -4,3 +4,4 @@ class Hero:
         self.health = health
 
     def defend(self, damage):
+        self.health -= damage

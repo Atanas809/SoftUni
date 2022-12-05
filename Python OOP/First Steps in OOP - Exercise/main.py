@@ -8,3 +8,5 @@ class Hero:
         if self.health <= 0:
             self.health = 0
             return f"{self.name} was defeated"
+
+    def heal(self, amount):

@@ -11,3 +11,5 @@ class Programmer:
         return f"{self.name} watched {course_name}"
 
     def change_language(self, new_language, skills_needed):
+        if self.skills >= skills_needed and new_language != self.language:
+            previous_language = self.language

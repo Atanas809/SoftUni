@@ -6,3 +6,6 @@ class Programmer:
 
     def watch_course(self, course_name, language, skills_earned):
         if language != self.language:
+            return f"{self.name} does not know {language}"
+        self.skills += skills_earned
+        return f"{self.name} watched {course_name}"

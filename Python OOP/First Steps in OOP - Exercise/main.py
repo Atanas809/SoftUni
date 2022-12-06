@@ -9,3 +9,5 @@ class Programmer:
             return f"{self.name} does not know {language}"
         self.skills += skills_earned
         return f"{self.name} watched {course_name}"
+
+    def change_language(self, new_language, skills_needed):

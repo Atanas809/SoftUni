@@ -21,3 +21,8 @@ class Programmer:
 
         needed_skills = skills_needed - self.skills
         return f"{self.name} needs {needed_skills} more skills"
+
+
+programmer = Programmer("John", "Java", 50)
+print(programmer.watch_course("Python Masterclass", "Python", 84))
+print(programmer.change_language("Java", 30))

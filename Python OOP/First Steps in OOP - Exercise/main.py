@@ -15,3 +15,6 @@ class Programmer:
             previous_language = self.language
             self.language = new_language
             return f"{self.name} switched from {previous_language} to {new_language}"
+
+        elif self.skills >= skills_needed and new_language == self.language:
+            return f"{self.name} already knows {new_language}"

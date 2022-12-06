@@ -18,3 +18,6 @@ class Programmer:
 
         elif self.skills >= skills_needed and new_language == self.language:
             return f"{self.name} already knows {new_language}"
+
+        needed_skills = skills_needed - self.skills
+        return f"{self.name} needs {needed_skills} more skills"

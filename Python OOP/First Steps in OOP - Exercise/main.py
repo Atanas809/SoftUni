@@ -7,3 +7,6 @@ class SteamUser:
     def play(self, game, hours):
         if game not in self.games:
             return f"{game} is not in library"
+
+        self.played_hours += hours
+        return f"{self.username} is playing {game}"

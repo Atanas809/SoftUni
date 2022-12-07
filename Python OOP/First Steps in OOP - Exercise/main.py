@@ -14,3 +14,5 @@ class SteamUser:
     def buy_game(self, game):
         if game in self.games:
             return f"{game} is already in your library"
+        self.games.append(game)
+        return f"{self.username} bought {game}"

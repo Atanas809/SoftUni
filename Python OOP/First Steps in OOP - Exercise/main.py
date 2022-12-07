@@ -10,3 +10,5 @@ class SteamUser:
 
         self.played_hours += hours
         return f"{self.username} is playing {game}"
+
+    def buy_game(self, game):

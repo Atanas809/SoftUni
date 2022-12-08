@@ -3,3 +3,6 @@ class Circle:
 
     def __init__(self, radius):
         self.radius = radius
+
+    def set_radius(self, new_radius):
+        self.radius = new_radius

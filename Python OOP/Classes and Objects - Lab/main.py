@@ -18,3 +18,6 @@ class Glass:
 
     def info(self):
         return f"{self.space_left()} ml left"
+
+    def space_left(self):
+        return self.capacity - self.content

@@ -8,3 +8,6 @@ class Glass:
     def fill(self, ml):
         if ml > self.space_left():
             return f"Cannot add {ml} ml"
+
+        self.content += ml
+        return f"Glass filled with {ml} ml"

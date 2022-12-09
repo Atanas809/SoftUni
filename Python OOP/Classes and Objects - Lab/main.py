@@ -4,3 +4,7 @@ class Glass:
 
     def __init__(self):
         self.content = self.current_content
+
+    def fill(self, ml):
+        if ml > self.space_left():
+            return f"Cannot add {ml} ml"

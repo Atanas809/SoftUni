@@ -15,3 +15,6 @@ class Glass:
     def empty(self):
         self.content = 0
         return "Glass is now empty"
+
+    def info(self):
+        return f"{self.space_left()} ml left"

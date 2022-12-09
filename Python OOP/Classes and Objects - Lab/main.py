@@ -21,3 +21,11 @@ class Glass:
 
     def space_left(self):
         return self.capacity - self.content
+
+
+glass = Glass()
+print(glass.fill(100))
+print(glass.fill(200))
+print(glass.empty())
+print(glass.fill(200))
+print(glass.info())

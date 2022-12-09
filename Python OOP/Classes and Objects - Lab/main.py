@@ -11,3 +11,5 @@ class Glass:
 
         self.content += ml
         return f"Glass filled with {ml} ml"
+
+    def empty(self):

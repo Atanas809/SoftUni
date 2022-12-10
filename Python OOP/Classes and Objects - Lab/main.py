@@ -12,3 +12,7 @@ class Smartphone:
             return f"Not enough memory to install {app}"
         elif not self.is_on:
             return f"Turn on your phone to install {app}"
+
+        self.memory -= app_memory
+        self.apps.append(app)
+        return f"Installing {app}"

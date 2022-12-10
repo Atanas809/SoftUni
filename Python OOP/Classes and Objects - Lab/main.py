@@ -5,3 +5,4 @@ class Smartphone:
         self.is_on = False
 
     def power(self):
+        self.is_on = True if not self.is_on else False

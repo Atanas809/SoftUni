@@ -3,3 +3,5 @@ class Smartphone:
         self.memory = memory
         self.apps = []
         self.is_on = False
+
+    def power(self):

@@ -14,3 +14,9 @@ class Account:
 
         self.balance -= amount
         return self.balance
+
+    def info(self):
+        return f"User {self.name} with account {self.id} has {self.balance} balance"
+
+
+account = Account(5411256, "Peter")

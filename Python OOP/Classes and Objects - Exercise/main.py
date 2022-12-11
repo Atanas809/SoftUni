@@ -1,18 +1,4 @@
-from library.library import Library
-from library.registration import Registration
-from library.user import User
 
-user = User(12, 'Peter')
-library = Library()
-registration = Registration()
-registration.add_user(user, library)
-print(registration.add_user(user, library))
-registration.remove_user(user, library)
-print(registration.remove_user(user, library))
-registration.add_user(user, library)
-print(registration.change_username(2, 'Igor', library))
-print(registration.change_username(12, 'Peter', library))
-print(registration.change_username(12, 'George', library))
 
 [print(f'{user_record.user_id}, {user_record.username}, {user_record.books}') for user_record in library.user_records]
 

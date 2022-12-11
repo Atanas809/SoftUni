@@ -3,3 +3,7 @@ class Account:
         self.id = id
         self.name = name
         self.balance = balance
+
+    def credit(self, amount):
+        self.balance += amount
+        return self.balance

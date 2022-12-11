@@ -7,3 +7,7 @@ class Account:
     def credit(self, amount):
         self.balance += amount
         return self.balance
+
+    def debit(self, amount):
+        if amount > self.balance:
+            return "Amount exceeded balance"

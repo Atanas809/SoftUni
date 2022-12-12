@@ -31,3 +31,12 @@ class PizzaDelivery:
     def make_order(self):
         if not self.ordered:
             self.ordered = True
+            ingredients = ', '.join([f"{key}: {value}" for key, value in self.ingredients.items()])
+            return f"You've ordered pizza {self.name} prepared with {ingredients} and the price will be {self.price}lv."
+
+        return f"Pizza {self.name} already prepared, and we can't make any changes!"
+
+
+margarita = PizzaDelivery('Margarita', 11, {'cheese': 2, 'tomatoes': 1})
+margarita.add_extra('mozzarella', 1, 0.5)
+margarita.add_extra('cheese', 1, 1)

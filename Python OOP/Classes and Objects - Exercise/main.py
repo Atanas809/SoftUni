@@ -27,3 +27,7 @@ class PizzaDelivery:
 
         self.ingredients[ingredient] -= quantity
         self.price -= quantity * price_per_quantity
+
+    def make_order(self):
+        if not self.ordered:
+            self.ordered = True

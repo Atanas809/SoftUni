@@ -21,3 +21,8 @@ class Time:
         if self.seconds + 1 > self.max_seconds:
             self.seconds = 0
             self.minutes += 1
+            if self.minutes > self.max_minutes:
+                self.minutes = 0
+                self.hours += 1
+                if self.hours > self.max_hours:
+                    self.hours = 0

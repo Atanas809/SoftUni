@@ -9,3 +9,6 @@ class Time:
         self.seconds = seconds
 
     def set_time(self, hours, minutes, seconds):
+        self.hours = hours
+        self.minutes = minutes
+        self.seconds = seconds

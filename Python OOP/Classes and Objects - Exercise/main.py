@@ -31,3 +31,8 @@ class Time:
 
 
 time = Time(23, 59, 59)
+print(time.next_second())
+time = Time(9, 30, 59)
+print(time.next_second())
+time = Time(10, 59, 59)
+print(time.next_second())

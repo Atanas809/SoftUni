@@ -1,8 +1,4 @@
 
-library = Library()
-registration = Registration()
-registration.add_user(user, library)
-print(registration.add_user(user, library))
 registration.remove_user(user, library)
 print(registration.remove_user(user, library))
 registration.add_user(user, library)

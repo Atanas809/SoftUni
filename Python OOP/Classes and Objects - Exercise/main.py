@@ -7,3 +7,5 @@ class Time:
         self.hours = hours
         self.minutes = minutes
         self.seconds = seconds
+
+    def set_time(self, hours, minutes, seconds):

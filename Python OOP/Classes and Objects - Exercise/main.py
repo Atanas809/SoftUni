@@ -1,8 +1,4 @@
-from library.library import Library
-from library.registration import Registration
-from library.user import User
 
-user = User(12, 'Peter')
 library = Library()
 registration = Registration()
 registration.add_user(user, library)

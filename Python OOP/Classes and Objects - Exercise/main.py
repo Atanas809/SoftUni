@@ -9,3 +9,7 @@ class Vet:
     def register_animal(self, animal_name):
         if len(Vet.animals) >= Vet.space:
             return "Not enough space"
+
+        Vet.animals.append(animal_name)
+        self.animals.append(animal_name)
+        return f"{animal_name} registered in the clinic"

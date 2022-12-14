@@ -1,9 +1,4 @@
 
-print(registration.add_user(user, library))
-registration.remove_user(user, library)
-print(registration.remove_user(user, library))
-registration.add_user(user, library)
-print(registration.change_username(2, 'Igor', library))
 print(registration.change_username(12, 'Peter', library))
 print(registration.change_username(12, 'George', library))
 

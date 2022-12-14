@@ -28,3 +28,9 @@ class Vet:
 
 
 peter = Vet("Peter")
+george = Vet("George")
+print(peter.register_animal("Tom"))
+print(george.register_animal("Cory"))
+print(peter.register_animal("Fishy"))
+print(peter.register_animal("Bobby"))
+print(george.register_animal("Kay"))

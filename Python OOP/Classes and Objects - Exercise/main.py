@@ -21,3 +21,10 @@ class Vet:
         Vet.animals.remove(animal_name)
         self.animals.remove(animal_name)
         return f"{animal_name} unregistered successfully"
+
+    def info(self):
+        space_left_in_clinic = Vet.space - len(Vet.animals)
+        return f"{self.name} has {len(self.animals)} animals. {space_left_in_clinic} space left in clinic"
+
+
+peter = Vet("Peter")

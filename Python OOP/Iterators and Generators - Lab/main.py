@@ -11,3 +11,6 @@ class CustomRange:
 
         if value > self.end:
             raise StopIteration
+
+        self.start += 1
+        return value

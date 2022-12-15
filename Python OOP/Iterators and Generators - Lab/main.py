@@ -8,3 +8,6 @@ class CustomRange:
 
     def __next__(self):
         value = self.start
+
+        if value > self.end:
+            raise StopIteration

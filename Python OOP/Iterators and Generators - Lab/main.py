@@ -1,1 +1,1 @@
-
+def genrange(start, end):

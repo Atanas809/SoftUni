@@ -14,3 +14,8 @@ class CustomRange:
 
         self.start += 1
         return value
+
+
+one_to_ten = custom_range(1, 10)
+for num in one_to_ten:
+    print(num)

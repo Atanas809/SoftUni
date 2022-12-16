@@ -5,3 +5,7 @@ class reverse_iter:
 
     def __iter__(self):
         return self
+
+    def __next__(self):
+        if self.index >= len(self.nums):
+            raise StopIteration

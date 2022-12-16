@@ -14,3 +14,6 @@ class reverse_iter:
 
         self.index += 1
         return value
+
+
+reversed_list = reverse_iter([1, 2, 3, 4])

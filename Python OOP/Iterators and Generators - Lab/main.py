@@ -9,3 +9,8 @@ class reverse_iter:
     def __next__(self):
         if self.index >= len(self.nums):
             raise StopIteration
+
+        value = self.nums[self.index]
+
+        self.index += 1
+        return value

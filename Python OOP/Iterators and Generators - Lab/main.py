@@ -3,3 +3,4 @@ def squares(n):
 
     while start <= n:
         yield start ** 2
+        start += 1

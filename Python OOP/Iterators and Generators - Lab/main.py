@@ -14,3 +14,8 @@ class vowels:
             if value.lower() in self.all_vowels:
                 return value
         raise StopIteration
+
+
+my_string = vowels('Abcedifuty0o')
+for char in my_string:
+    print(char)

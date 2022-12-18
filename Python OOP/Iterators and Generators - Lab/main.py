@@ -5,3 +5,6 @@ class vowels:
         self.index = 0
 
     def __iter__(self):
+        return self
+
+    def __next__(self):

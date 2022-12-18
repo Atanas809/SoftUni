@@ -3,3 +3,5 @@ class vowels:
         self.text = text
         self.all_vowels = 'auoyei'
         self.index = 0
+
+    def __iter__(self):

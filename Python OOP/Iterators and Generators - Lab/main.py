@@ -10,3 +10,7 @@ class vowels:
     def __next__(self):
         while self.index < len(self.text):
             value = self.text[self.index]
+            self.index += 1
+            if value.lower() in self.all_vowels:
+                return value
+        raise StopIteration

@@ -8,3 +8,5 @@ class vowels:
         return self
 
     def __next__(self):
+        while self.index < len(self.text):
+            value = self.text[self.index]

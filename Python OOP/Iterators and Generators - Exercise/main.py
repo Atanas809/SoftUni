@@ -10,3 +10,5 @@ class countdown_iterator:
             raise StopIteration
 
         value = self.count
+        self.count -= 1
+        return value

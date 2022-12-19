@@ -12,3 +12,6 @@ class countdown_iterator:
         value = self.count
         self.count -= 1
         return value
+
+
+iterator = countdown_iterator(10)

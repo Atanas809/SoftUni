@@ -6,3 +6,4 @@ class countdown_iterator:
         return self
 
     def __next__(self):
+        if self.count < 0:

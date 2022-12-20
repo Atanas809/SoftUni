@@ -3,3 +3,5 @@ class dictionary_iter:
         self.obj = list(obj.items())
         self.start = 0
         self.stop = len(self.obj)
+
+    def __iter__(self):

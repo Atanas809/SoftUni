@@ -8,3 +8,4 @@ class dictionary_iter:
         return self
 
     def __next__(self):
+        if self.start == self.stop:

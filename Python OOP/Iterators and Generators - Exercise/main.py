@@ -12,3 +12,6 @@ class dictionary_iter:
             raise StopIteration
 
         current_value = self.obj[self.start]
+
+        self.start += 1
+        return current_value

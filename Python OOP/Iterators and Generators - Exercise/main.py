@@ -5,3 +5,4 @@ class dictionary_iter:
         self.stop = len(self.obj)
 
     def __iter__(self):
+        return self

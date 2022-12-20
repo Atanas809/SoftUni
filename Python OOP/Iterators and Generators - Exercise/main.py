@@ -15,3 +15,6 @@ class dictionary_iter:
 
         self.start += 1
         return current_value
+
+
+result = dictionary_iter({1: "1", 2: "2"})

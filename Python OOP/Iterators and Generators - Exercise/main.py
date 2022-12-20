@@ -18,3 +18,5 @@ class dictionary_iter:
 
 
 result = dictionary_iter({1: "1", 2: "2"})
+for x in result:
+    print(x)

@@ -9,3 +9,4 @@ class dictionary_iter:
 
     def __next__(self):
         if self.start == self.stop:
+            raise StopIteration

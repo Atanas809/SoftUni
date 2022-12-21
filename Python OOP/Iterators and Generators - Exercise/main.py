@@ -11,3 +11,5 @@ def fibonacci():
 
 
 generator = fibonacci()
+for i in range(10):
+    print(next(generator))

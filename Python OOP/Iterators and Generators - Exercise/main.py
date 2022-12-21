@@ -8,3 +8,6 @@ def fibonacci():
         result = first_num + second_num
         first_num, second_num = second_num, result
         yield result
+
+
+generator = fibonacci()

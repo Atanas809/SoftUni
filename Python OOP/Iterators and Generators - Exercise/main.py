@@ -3,3 +3,5 @@ def fibonacci():
     second_num = 1
     yield first_num
     yield second_num
+
+    while True:

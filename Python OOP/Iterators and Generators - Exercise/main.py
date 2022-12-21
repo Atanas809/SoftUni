@@ -5,3 +5,4 @@ def fibonacci():
     yield second_num
 
     while True:
+        result = first_num + second_num

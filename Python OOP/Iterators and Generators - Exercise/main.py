@@ -1,1 +1,1 @@
-
+class sequence_repeat:

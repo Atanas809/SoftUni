@@ -19,3 +19,8 @@ class sequence_repeat:
         self.index += 1
         result1 = self.text[self.start]
         return result1
+
+
+result = sequence_repeat('abc', 5)
+for item in result:
+    print(item, end='')

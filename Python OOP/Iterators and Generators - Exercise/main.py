@@ -9,3 +9,5 @@ class sequence_repeat:
         return self
 
     def __next__(self):
+        if self.index == self.number:
+            raise StopIteration

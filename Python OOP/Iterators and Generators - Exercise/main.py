@@ -14,3 +14,6 @@ class sequence_repeat:
 
         if self.start == len(self.text) - 1:
             self.start = -1
+
+        self.start += 1
+        self.index += 1

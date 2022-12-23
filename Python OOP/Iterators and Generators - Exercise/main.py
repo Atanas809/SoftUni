@@ -11,3 +11,6 @@ class sequence_repeat:
     def __next__(self):
         if self.index == self.number:
             raise StopIteration
+
+        if self.start == len(self.text) - 1:
+            self.start = -1

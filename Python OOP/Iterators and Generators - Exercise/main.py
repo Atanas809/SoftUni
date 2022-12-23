@@ -17,3 +17,5 @@ class sequence_repeat:
 
         self.start += 1
         self.index += 1
+        result1 = self.text[self.start]
+        return result1

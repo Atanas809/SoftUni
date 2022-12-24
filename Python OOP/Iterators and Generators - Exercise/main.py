@@ -4,3 +4,7 @@ def solution():
         while True:
             yield number
             number += 1
+
+    def halves():
+        for i in integers():
+            yield i / 2

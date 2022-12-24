@@ -11,3 +11,5 @@ def solution():
 
     def take(n, seq):
         return [next(seq) for _ in range(n)]
+
+    return (take, halves, integers)

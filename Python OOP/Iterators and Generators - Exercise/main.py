@@ -1,1 +1,2 @@
 def solution():
+    def integers():

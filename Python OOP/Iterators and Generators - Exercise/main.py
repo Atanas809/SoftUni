@@ -8,3 +8,6 @@ def solution():
     def halves():
         for i in integers():
             yield i / 2
+
+    def take(n, seq):
+        return [next(seq) for _ in range(n)]

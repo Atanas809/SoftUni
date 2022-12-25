@@ -1,1 +1,1 @@
-
+class take_skip:

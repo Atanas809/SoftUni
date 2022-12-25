@@ -4,3 +4,5 @@ class take_skip:
         self.count = count
         self.index = 0
         self.value = -1
+
+    def __iter__(self):

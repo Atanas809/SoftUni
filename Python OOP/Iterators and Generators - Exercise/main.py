@@ -6,3 +6,6 @@ class take_skip:
         self.value = -1
 
     def __iter__(self):
+        return self
+
+    def __next__(self):

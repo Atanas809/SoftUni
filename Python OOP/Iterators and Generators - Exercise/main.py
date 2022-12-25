@@ -9,3 +9,5 @@ class take_skip:
         return self
 
     def __next__(self):
+        if self.index == self.count:
+            raise StopIteration

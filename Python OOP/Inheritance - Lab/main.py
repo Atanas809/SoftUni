@@ -7,3 +7,5 @@ class Stack:
             raise TypeError("Only string types are allowed!")
 
         self.data.append(element)
+
+    def pop(self):

@@ -18,3 +18,5 @@ class Stack:
         return len(self.data) == 0
 
     def __str__(self):
+        reversed_list = reversed(self.data)
+        return f"[{', '.join(x for x in reversed_list)}]"

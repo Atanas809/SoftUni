@@ -5,3 +5,5 @@ class Stack:
     def push(self, element):
         if not isinstance(element, str):
             raise TypeError("Only string types are allowed!")
+
+        self.data.append(element)

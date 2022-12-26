@@ -12,3 +12,4 @@ class Stack:
         return self.data.pop()
 
     def top(self):
+        return self.data[-1]

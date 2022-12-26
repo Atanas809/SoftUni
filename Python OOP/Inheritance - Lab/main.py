@@ -3,3 +3,5 @@ class Stack:
         self.data = []
 
     def push(self, element):
+        if not isinstance(element, str):
+            raise TypeError("Only string types are allowed!")

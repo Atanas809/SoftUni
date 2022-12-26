@@ -9,3 +9,6 @@ class Stack:
         self.data.append(element)
 
     def pop(self):
+        return self.data.pop()
+
+    def top(self):

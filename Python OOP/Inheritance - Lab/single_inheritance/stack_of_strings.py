@@ -1,14 +1,5 @@
 
 
-    def pop(self):
-        return self.data.pop()
-
-    def top(self):
-        return self.data[-1]
-
-    def is_empty(self):
-        return len(self.data) == 0
-
     def __str__(self):
         reversed_list = reversed(self.data)
         return f"[{', '.join(x for x in reversed_list)}]"

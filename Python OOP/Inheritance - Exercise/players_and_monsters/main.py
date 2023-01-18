@@ -1,8 +1,4 @@
-from players_and_monsters.elf import Elf
-from players_and_monsters.hero import Hero
 
-hero = Hero("H", 4)
-print(hero.username)
 print(hero.level)
 print(str(hero))
 elf = Elf("E", 4)

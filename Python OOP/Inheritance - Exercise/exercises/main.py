@@ -4,3 +4,5 @@ class Product:
         self.quantity = quantity
 
     def decrease(self, quantity):
+        if self.quantity >= quantity:
+            self.quantity -= quantity

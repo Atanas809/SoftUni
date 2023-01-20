@@ -6,3 +6,5 @@ class Product:
     def decrease(self, quantity):
         if self.quantity >= quantity:
             self.quantity -= quantity
+
+    def increase(self, quantity):

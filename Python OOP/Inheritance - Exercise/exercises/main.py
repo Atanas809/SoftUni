@@ -9,3 +9,6 @@ class Product:
 
     def increase(self, quantity):
         self.quantity += quantity
+
+    def __repr__(self):
+        return self.name

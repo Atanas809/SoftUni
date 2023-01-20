@@ -8,3 +8,4 @@ class Product:
             self.quantity -= quantity
 
     def increase(self, quantity):
+        self.quantity += quantity

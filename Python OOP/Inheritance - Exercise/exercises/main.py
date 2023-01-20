@@ -1,8 +1,4 @@
-from drink import Drink
-from food import Food
-from product_repository import ProductRepository
 
-food = Food("apple")
 drink = Drink("water")
 repo = ProductRepository()
 repo.add(food)

@@ -7,3 +7,8 @@ class ProductRepository:
 
     def add(self, product: Product):
         self.products.append(product)
+
+    def find(self, product_name):
+        for product in self.products:
+            if product.name == product_name:
+                return product

@@ -5,3 +5,6 @@ class Account:
         self.__pin = pin
 
     def get_id(self, pin):
+        if pin != self.__pin:
+            return "Wrong pin"
+        return self.__id

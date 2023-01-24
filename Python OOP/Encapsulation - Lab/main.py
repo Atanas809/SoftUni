@@ -9,3 +9,6 @@ class EmailValidator:
 
     def __is_mail_valid(self, mail):
         return mail in self.mails
+
+    def __is_domain_valid(self, domain):
+        return domain in self.domains

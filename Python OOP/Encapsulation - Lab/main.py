@@ -12,3 +12,7 @@ class EmailValidator:
 
     def __is_domain_valid(self, domain):
         return domain in self.domains
+
+    def validate(self, email):
+        name = email.split("@")[0]
+        mail, domain = email.split("@")[1].split(".")

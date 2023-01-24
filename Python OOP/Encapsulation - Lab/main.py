@@ -6,3 +6,6 @@ class EmailValidator:
 
     def __is_name_valid(self, name):
         return len(name) >= self.min_length
+
+    def __is_mail_valid(self, mail):
+        return mail in self.mails

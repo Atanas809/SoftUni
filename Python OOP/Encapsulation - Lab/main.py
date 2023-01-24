@@ -3,3 +3,6 @@ class EmailValidator:
         self.min_length = min_length
         self.mails = mails
         self.domains = domains
+
+    def __is_name_valid(self, name):
+        return len(name) >= self.min_length

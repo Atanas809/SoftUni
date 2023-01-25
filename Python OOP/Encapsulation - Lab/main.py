@@ -8,3 +8,6 @@ class Mammal:
 
     def make_sound(self):
         return f"{self.name} makes {self.sound}"
+
+    def get_kingdom(self):
+        return self.__kingdom

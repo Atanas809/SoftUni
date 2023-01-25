@@ -14,3 +14,7 @@ class Mammal:
 
     def info(self):
         return f"{self.name} is of type {self.type}"
+
+
+mammal = Mammal("Dog", "Domestic", "Bark")
+print(mammal.make_sound())

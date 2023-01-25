@@ -5,3 +5,6 @@ class Mammal:
         self.name = name
         self.type = type
         self.sound = sound
+
+    def make_sound(self):
+        return f"{self.name} makes {self.sound}"

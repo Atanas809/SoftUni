@@ -8,3 +8,6 @@ class Person:
 
     def get_age(self):
         return self.__age
+
+
+person = Person("George", 32)

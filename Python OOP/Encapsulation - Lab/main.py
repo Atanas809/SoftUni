@@ -7,3 +7,7 @@ class Profile:
         if is_valid_length and containing_upper_letter and containing_digit:
             return True
         return False
+
+    @property
+    def username(self):
+        return self.__username

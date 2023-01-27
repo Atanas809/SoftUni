@@ -21,3 +21,9 @@ class Profile:
     @property
     def password(self):
         return self.__password
+
+    @password.setter
+    def password(self, value):
+        is_valid_length = len(value) >= 8
+        containing_upper_letter = [x for x in value if x.isupper()]
+        containing_digit = [x for x in value if x.isdigit()]

@@ -27,3 +27,7 @@ class Profile:
         is_valid_length = len(value) >= 8
         containing_upper_letter = [x for x in value if x.isupper()]
         containing_digit = [x for x in value if x.isdigit()]
+
+        if not self.is_valid(is_valid_length, containing_upper_letter, containing_digit):
+            raise ValueError("The password must be 8 or more characters with at least 1 digit and 1 uppercase letter.")
+        self.__password = value

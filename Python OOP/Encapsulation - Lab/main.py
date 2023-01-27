@@ -11,3 +11,9 @@ class Profile:
     @property
     def username(self):
         return self.__username
+
+    @username.setter
+    def username(self, value):
+        if len(value) < 5 or len(value) > 15:
+            raise ValueError("The username must be between 5 and 15 characters.")
+        self.__username = value

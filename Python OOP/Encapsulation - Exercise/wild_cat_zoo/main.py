@@ -1,10 +1,4 @@
 
-prices = [200, 190, 204, 156, 211, 140]
-
-# Workers creation
-workers = [Keeper("John", 26, 100), Keeper("Adam", 29, 80), Keeper("Anna", 31, 95), Caretaker("Bill", 21, 68), Caretaker("Marie", 32, 105), Caretaker("Stacy", 35, 140), Vet("Peter", 40, 300), Vet("Kasey", 37, 280), Vet("Sam", 29, 220)]
-
-# Adding all animals
 for i in range(len(animals)):
     animal = animals[i]
     price = prices[i]

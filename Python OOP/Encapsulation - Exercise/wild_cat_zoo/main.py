@@ -1,11 +1,4 @@
 
-    animal = animals[i]
-    price = prices[i]
-    print(zoo.add_animal(animal, price))
-
-# Adding all workers
-for worker in workers:
-    print(zoo.hire_worker(worker))
 
 # Tending animals
 print(zoo.tend_animals())

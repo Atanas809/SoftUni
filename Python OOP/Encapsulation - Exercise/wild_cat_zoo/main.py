@@ -35,3 +35,9 @@ class Zoo:
         return f"{worker.name} the {worker.__class__.__name__} hired successfully"
 
     def fire_worker(self, worker_name):
+        for worker in self.workers:
+            if worker.name == worker_name:
+                self.workers.remove(worker)
+                return f"{worker_name} fired successfully"
+
+        return f"There is no {worker_name} in the zoo"

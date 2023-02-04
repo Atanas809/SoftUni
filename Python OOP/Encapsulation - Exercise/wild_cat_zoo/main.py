@@ -62,3 +62,20 @@ class Zoo:
 
     def profit(self, amount):
         self.__budget += amount
+
+    def animals_status(self):
+        result = f'You have {len(self.animals)} animals'
+
+        lions = [repr(x) for x in self.animals if isinstance(x, Lion)]
+        result += f'\n----- {len(lions)} Lions:\n'
+        result += '\n'.join(lions)
+
+        tigers = [repr(x) for x in self.animals if isinstance(x, Tiger)]
+        result += f'\n----- {len(tigers)} Tigers:\n'
+        result += '\n'.join(tigers)
+
+        cheetahs = [repr(x) for x in self.animals if isinstance(x, Cheetah)]
+        result += f'\n----- {len(cheetahs)} Cheetahs:\n'
+        result += '\n'.join(cheetahs)
+
+        return result

@@ -79,3 +79,20 @@ class Zoo:
         result += '\n'.join(cheetahs)
 
         return result
+
+    def workers_status(self):
+        result = f'You have {len(self.workers)} workers'
+
+        keepers = [repr(x) for x in self.workers if isinstance(x, Keeper)]
+        result += f'\n----- {len(keepers)} Keepers:\n'
+        result += '\n'.join(keepers)
+
+        caretakers = [repr(x) for x in self.workers if isinstance(x, Caretaker)]
+        result += f'\n----- {len(caretakers)} Caretakers:\n'
+        result += '\n'.join(caretakers)
+
+        vets = [repr(x) for x in self.workers if isinstance(x, Vet)]
+        result += f'\n----- {len(vets)} Vets:\n'
+        result += '\n'.join(vets)
+
+        return result

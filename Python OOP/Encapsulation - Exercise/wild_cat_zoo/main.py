@@ -16,3 +16,10 @@ class Zoo:
         self.__workers_capacity = workers_capacity
         self.animals = []
         self.workers = []
+
+    def add_animal(self, animal: Animal, price):
+        if price <= self.__budget and len(self.animals) < self.__animal_capacity:
+            self.animals.append(animal)
+            self.__budget -= price
+            return f"{animal.name} the {animal.__class__.__name__} added to the zoo"
+        elif len(self.animals) < self.__animal_capacity:

@@ -23,3 +23,6 @@ class Zoo:
             self.__budget -= price
             return f"{animal.name} the {animal.__class__.__name__} added to the zoo"
         elif len(self.animals) < self.__animal_capacity:
+            return "Not enough budget"
+
+        return "Not enough space for animal"

@@ -6,3 +6,6 @@ from wild_cat_zoo.lion import Lion
 from wild_cat_zoo.tiger import Tiger
 from wild_cat_zoo.vet import Vet
 from wild_cat_zoo.worker import Worker
+
+
+class Zoo:

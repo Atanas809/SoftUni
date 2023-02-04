@@ -26,3 +26,7 @@ class Zoo:
             return "Not enough budget"
 
         return "Not enough space for animal"
+
+    def hire_worker(self, worker: Worker):
+        if len(self.workers) == self.__workers_capacity:
+            return "Not enough space for worker"

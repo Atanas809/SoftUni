@@ -41,3 +41,24 @@ class Zoo:
                 return f"{worker_name} fired successfully"
 
         return f"There is no {worker_name} in the zoo"
+
+    def pay_workers(self):
+        total_workers_salaries = sum([worker.salary for worker in self.workers])
+
+        if total_workers_salaries > self.__budget:
+            return "You have no budget to pay your workers. They are unhappy"
+
+        self.__budget -= total_workers_salaries
+        return f"You payed your workers. They are happy. Budget left: {self.__budget}"
+
+    def tend_animals(self):
+        total_money_for_care = sum([animal.money_for_care for animal in self.animals])
+
+        if total_money_for_care > self.__budget:
+            return "You have no budget to tend the animals. They are unhappy."
+
+        self.__budget -= total_money_for_care
+        return f"You tended all the animals. They are happy. Budget left: {self.__budget}"
+
+    def profit(self, amount):
+        self.__budget += amount

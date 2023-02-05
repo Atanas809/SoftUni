@@ -1,19 +1,4 @@
 
-
-    mushrooms_topping = Topping("Mushroom", 75)
-    print(mushrooms_topping.topping_type)
-    print(mushrooms_topping.weight)
-
-    mozzarella_topping = Topping("Mozzarella", 80)
-    print(mozzarella_topping.topping_type)
-    print(mozzarella_topping.weight)
-
-    cheddar_topping = Topping("Cheddar", 150)
-
-    pepperoni_topping = Topping("Pepperoni", 120)
-
-    white_flour_dough = Dough("White Flour", "Mixing", 200)
-    print(white_flour_dough.flour_type)
     print(white_flour_dough.weight)
     print(white_flour_dough.baking_technique)
 

@@ -13,3 +13,7 @@ class Dough:
         if not value:
             raise ValueError("The flour type cannot be an empty string")
         self.__flour_type = value
+
+    @property
+    def baking_technique(self):
+        return self.__baking_technique

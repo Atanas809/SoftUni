@@ -6,3 +6,6 @@ class Topping:
     @property
     def topping_type(self):
         return self.__topping_type
+
+    @topping_type.setter
+    def topping_type(self, value):

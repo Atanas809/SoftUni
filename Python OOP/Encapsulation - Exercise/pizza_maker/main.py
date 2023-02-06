@@ -12,3 +12,7 @@ class Topping:
         if not value:
             raise ValueError("The topping type cannot be an empty string")
         self.__topping_type = value
+
+    @property
+    def weight(self):
+        return self.__weight

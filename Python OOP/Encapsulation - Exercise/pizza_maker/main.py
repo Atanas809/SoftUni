@@ -21,3 +21,13 @@ class Pizza:
     @property
     def dough(self):
         return self.__dough
+
+    @dough.setter
+    def dough(self, value):
+        if value is None:
+            raise ValueError("You should add dough to the pizza")
+        self.__dough = value
+    
+    @property
+    def toppings_capacity(self):
+        return self.__toppings_capacity

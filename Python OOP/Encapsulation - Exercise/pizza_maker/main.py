@@ -48,3 +48,11 @@ class Pizza:
         if topping_type not in self.toppings.keys():
             self.toppings[topping_type] = 0
         self.toppings[topping_type] += weight
+
+    def calculate_total_weight(self):
+        dough_weight = self.dough.weight
+        toppings_weight = sum([value for key, value in self.toppings.items()])
+
+        total_weight = dough_weight + toppings_weight
+
+        return total_weight

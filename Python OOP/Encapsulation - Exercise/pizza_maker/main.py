@@ -17,3 +17,7 @@ class Pizza:
         if not value:
             raise ValueError("The name cannot be an empty string")
         self.__name = value
+
+    @property
+    def dough(self):
+        return self.__dough

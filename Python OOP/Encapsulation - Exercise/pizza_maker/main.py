@@ -7,3 +7,7 @@ class Pizza:
         self.dough = dough
         self.toppings_capacity = toppings_capacity
         self.toppings = dict()
+
+    @property
+    def name(self):
+        return self.__name

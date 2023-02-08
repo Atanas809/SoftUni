@@ -9,3 +9,6 @@ class Player:
     @property
     def name(self):
         return self.__name
+
+    def __str__(self):
+        result = f'Player: {self.__name}\n'

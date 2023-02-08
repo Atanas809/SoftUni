@@ -16,3 +16,5 @@ class Player:
         result += f'Dribble: {self.__dribble}\n'
         result += f'Passing: {self.__passing}\n'
         result += f'Shooting: {self.__shooting}'
+
+        return result

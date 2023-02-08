@@ -12,3 +12,7 @@ class Player:
 
     def __str__(self):
         result = f'Player: {self.__name}\n'
+        result += f'Sprint: {self.__sprint}\n'
+        result += f'Dribble: {self.__dribble}\n'
+        result += f'Passing: {self.__passing}\n'
+        result += f'Shooting: {self.__shooting}'

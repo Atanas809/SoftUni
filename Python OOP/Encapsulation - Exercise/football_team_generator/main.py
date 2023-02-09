@@ -6,3 +6,5 @@ class Team:
         self.__name = name
         self.__rating = rating
         self.__players = []
+
+    def add_player(self, player: Player):

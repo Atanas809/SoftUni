@@ -15,3 +15,7 @@ class Team:
         return f"Player {player.name} joined team {self.__name}"
 
     def remove_player(self, player_name):
+        for player in self.__players:
+            if player.name == player_name:
+                self.__players.remove(player)
+                return player

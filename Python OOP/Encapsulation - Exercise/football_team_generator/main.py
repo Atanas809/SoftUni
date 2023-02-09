@@ -13,3 +13,5 @@ class Team:
 
         self.__players.append(player)
         return f"Player {player.name} joined team {self.__name}"
+
+    def remove_player(self, player_name):

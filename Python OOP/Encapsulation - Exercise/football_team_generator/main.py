@@ -9,3 +9,6 @@ print("Points sprint:", p._Player__sprint)
 print("Points dribble:", p._Player__dribble)
 print("Points passing:", p._Player__passing)
 print("Points shooting:", p._Player__shooting)
+
+print("\ncalling the __str__ method")
+print(p)

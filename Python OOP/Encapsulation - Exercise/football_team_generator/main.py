@@ -12,3 +12,7 @@ print("Points shooting:", p._Player__shooting)
 
 print("\ncalling the __str__ method")
 print(p)
+
+print("\nAbout the team")
+t = Team("Best", 10)
+print("Team name:", t._Team__name)

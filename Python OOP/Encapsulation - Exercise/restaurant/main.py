@@ -1,12 +1,5 @@
 
 
-# Adding all workers
-for worker in workers:
-    print(zoo.hire_worker(worker))
-
-# Tending animals
-print(zoo.tend_animals())
-
 # Paying keepers
 print(zoo.pay_workers())
 

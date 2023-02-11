@@ -4,3 +4,5 @@ class Product:
         self.__price = price
 
     @property
+    def name(self):
+        return self.__name

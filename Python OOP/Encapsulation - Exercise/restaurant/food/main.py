@@ -1,19 +1,4 @@
-from pizza_maker.dough import Dough
-from pizza_maker.pizza import Pizza
-from pizza_maker.topping import Topping
 
-try:
-    tomato_topping = Topping("Tomato", 60)
-    print(tomato_topping.topping_type)
-    print(tomato_topping.weight)
-
-    mushrooms_topping = Topping("Mushroom", 75)
-    print(mushrooms_topping.topping_type)
-    print(mushrooms_topping.weight)
-
-    mozzarella_topping = Topping("Mozzarella", 80)
-    print(mozzarella_topping.topping_type)
-    print(mozzarella_topping.weight)
 
     cheddar_topping = Topping("Cheddar", 150)
 

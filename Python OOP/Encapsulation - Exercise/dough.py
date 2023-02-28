@@ -1,16 +1,6 @@
 
 
     @property
-    def flour_type(self):
-        return self.__flour_type
-
-    @flour_type.setter
-    def flour_type(self, value):
-        if not value:
-            raise ValueError("The flour type cannot be an empty string")
-        self.__flour_type = value
-
-    @property
     def baking_technique(self):
         return self.__baking_technique
 

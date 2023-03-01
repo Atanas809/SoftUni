@@ -8,3 +8,9 @@ class ImageArea:
 
     def __gt__(self, other):
         return self.get_area() > other.get_area()
+
+    def __ge__(self, other):
+        return self.get_area() >= other.get_area()
+
+    def __eq__(self, other):
+        return self.get_area() == other.get_area()

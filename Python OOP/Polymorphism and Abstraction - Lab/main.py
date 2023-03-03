@@ -6,3 +6,7 @@ class Guitar:
     @staticmethod
     def play():
         return "Playing the guitar"
+
+
+guitar = Guitar()
+print(start_playing(guitar))

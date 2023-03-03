@@ -10,3 +10,9 @@ class Guitar:
 
 guitar = Guitar()
 print(start_playing(guitar))
+
+
+class Children:
+    @staticmethod
+    def play():
+        return "Children are playing"

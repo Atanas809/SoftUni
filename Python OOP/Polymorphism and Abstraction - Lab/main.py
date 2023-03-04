@@ -11,3 +11,9 @@ class MedicalRobot(Robot):
     @staticmethod
     def sensors_amount():
         return 6
+
+
+class ChefRobot(Robot):
+    @staticmethod
+    def sensors_amount():
+        return 4

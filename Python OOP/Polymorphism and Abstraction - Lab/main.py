@@ -23,3 +23,7 @@ class WarRobot(Robot):
     @staticmethod
     def sensors_amount():
         return 12
+
+
+def number_of_robot_sensors(robot):
+    print(robot.sensors_amount())

@@ -5,3 +5,9 @@ class Robot:
     @staticmethod
     def sensors_amount():
         return 1
+
+
+class MedicalRobot(Robot):
+    @staticmethod
+    def sensors_amount():
+        return 6

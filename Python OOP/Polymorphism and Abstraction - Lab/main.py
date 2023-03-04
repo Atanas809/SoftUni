@@ -27,3 +27,9 @@ class WarRobot(Robot):
 
 def number_of_robot_sensors(robot):
     print(robot.sensors_amount())
+
+
+basic_robot = Robot('Robo')
+da_vinci = MedicalRobot('Da Vinci')
+moley = ChefRobot('Moley')
+griffin = WarRobot('Griffin')

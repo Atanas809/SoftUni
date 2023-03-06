@@ -18,3 +18,6 @@ class Circle(Shape):
 
     def calculate_area(self):
         return pi * self.__radius ** 2
+
+    def calculate_perimeter(self):
+        return 2 * pi * self.__radius

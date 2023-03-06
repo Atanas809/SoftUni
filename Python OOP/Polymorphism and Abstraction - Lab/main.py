@@ -10,3 +10,8 @@ class Shape(ABC):
     @abstractmethod
     def calculate_perimeter(self):
         pass
+
+
+class Circle(Shape):
+    def __init__(self, radius):
+        self.__radius = radius

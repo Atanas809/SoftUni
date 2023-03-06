@@ -27,3 +27,9 @@ class Rectangle(Shape):
     def __init__(self, height, width):
         self.__height = height
         self.__width = width
+
+    def calculate_area(self):
+        return self.__width * self.__height
+
+    def calculate_perimeter(self):
+        return 2 * (self.__width + self.__height)

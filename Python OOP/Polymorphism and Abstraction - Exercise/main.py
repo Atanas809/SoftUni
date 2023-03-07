@@ -40,3 +40,18 @@ class Account:
 
     def __ge__(self, other):
         return self.balance >= other.balance
+
+    def __eq__(self, other):
+        return self.balance == other.balance
+
+    def __add__(self, other):
+        name = f"{self.owner}&{other.owner}"
+        amount = self.amount + other.amount
+        all_transactions = self._transactions + other._transactions
+
+        new_account = Account(name, amount)
+
+        for transaction in all_transactions:
+            new_account.add_transaction(transaction)
+
+        return new_account

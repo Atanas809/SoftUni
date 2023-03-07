@@ -55,3 +55,14 @@ class Account:
             new_account.add_transaction(transaction)
 
         return new_account
+
+
+acc = Account('bob', 10)
+acc2 = Account('john')
+print(acc)
+print(repr(acc))
+acc.add_transaction(20)
+acc.add_transaction(-20)
+acc.add_transaction(30)
+print(acc.balance)
+print(len(acc))

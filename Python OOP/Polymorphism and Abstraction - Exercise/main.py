@@ -19,3 +19,12 @@ class Account:
             raise ValueError("sorry cannot go in debt!")
         account._transactions.append(amount_to_add)
         return f"New balance: {account.balance}"
+
+    def __str__(self):
+        return f"Account of {self.owner} with starting amount: {self.amount}"
+
+    def __repr__(self):
+        return f"Account({self.owner}, {self.amount})"
+
+    def __len__(self):
+        return len(self._transactions)

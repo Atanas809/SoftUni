@@ -28,3 +28,9 @@ class Account:
 
     def __len__(self):
         return len(self._transactions)
+
+    def __getitem__(self, index):
+        return self._transactions[index]
+
+    def __reversed__(self):
+        return reversed(self._transactions)

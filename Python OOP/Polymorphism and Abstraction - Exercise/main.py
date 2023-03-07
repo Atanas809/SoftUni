@@ -34,3 +34,9 @@ class Account:
 
     def __reversed__(self):
         return reversed(self._transactions)
+
+    def __gt__(self, other):
+        return self.balance > other.balance
+
+    def __ge__(self, other):
+        return self.balance >= other.balance

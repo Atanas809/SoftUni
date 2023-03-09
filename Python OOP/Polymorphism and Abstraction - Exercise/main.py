@@ -14,3 +14,6 @@ class Group:
     def __init__(self, name, people):
         self.name = name
         self.people = people
+
+    def __len__(self):
+        return len(self.people)

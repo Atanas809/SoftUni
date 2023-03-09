@@ -23,3 +23,10 @@ class Group:
         all_people = self.people + other.people
 
         return Group(name, all_people)
+
+    def __str__(self):
+        members = ', '.join(str(name) for name in self.people)
+        return f"Group {self.name} with members {members}"
+
+    def __getitem__(self, index):
+        return f"Person {index}: {self.people[index]}"

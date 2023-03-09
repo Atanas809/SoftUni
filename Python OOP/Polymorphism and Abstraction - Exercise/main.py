@@ -17,3 +17,9 @@ class Group:
 
     def __len__(self):
         return len(self.people)
+
+    def __add__(self, other):
+        name = f"{self.name} {other.name}"
+        all_people = self.people + other.people
+
+        return Group(name, all_people)

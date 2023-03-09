@@ -8,3 +8,9 @@ class Person:
 
     def __add__(self, other):
         return Person(self.name, other.surname)
+
+
+class Group:
+    def __init__(self, name, people):
+        self.name = name
+        self.people = people

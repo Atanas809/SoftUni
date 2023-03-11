@@ -29,3 +29,10 @@ class Car(Vehicle):
 
 class Truck(Vehicle):
     ADDITIONAL_LITERS = 1.6
+
+    def __init__(self, fuel_quantity, fuel_consumption):
+        super().__init__(fuel_quantity, fuel_consumption)
+
+    def refuel(self, amount):
+        self.fuel_quantity += amount * 0.95
+        return self.fuel_quantity

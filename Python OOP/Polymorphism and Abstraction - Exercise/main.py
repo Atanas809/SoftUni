@@ -8,3 +8,9 @@ class Vehicle(ABC):
     def __init__(self, fuel_quantity, fuel_consumption):
         self.fuel_quantity = fuel_quantity
         self.fuel_consumption = fuel_consumption
+
+    def drive(self, distance):
+        needed_fuel = distance * (self.fuel_consumption + self.ADDITIONAL_LITERS)
+
+        if needed_fuel <= self.fuel_quantity:
+            self.fuel_quantity -= needed_fuel

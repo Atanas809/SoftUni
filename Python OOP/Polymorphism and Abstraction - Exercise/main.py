@@ -18,3 +18,10 @@ class Vehicle(ABC):
     def refuel(self, amount):
         self.fuel_quantity += amount
         return self.fuel_quantity
+
+
+class Car(Vehicle):
+    ADDITIONAL_LITERS = 0.9
+
+    def __init__(self, fuel_quantity, fuel_consumption):
+        super().__init__(fuel_quantity, fuel_consumption)

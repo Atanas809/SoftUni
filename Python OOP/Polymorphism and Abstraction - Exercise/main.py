@@ -14,3 +14,7 @@ class Vehicle(ABC):
 
         if needed_fuel <= self.fuel_quantity:
             self.fuel_quantity -= needed_fuel
+
+    def refuel(self, amount):
+        self.fuel_quantity += amount
+        return self.fuel_quantity

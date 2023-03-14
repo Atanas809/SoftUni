@@ -7,3 +7,6 @@ class Animal(ABC):
         self.name = name
         self.age = age
         self.gender = gender
+
+    def make_sound(self):
+        pass

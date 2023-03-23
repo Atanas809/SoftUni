@@ -32,3 +32,10 @@ class Bird(Animal, ABC):
     def __init__(self, name, weight, wing_size):
         super().__init__(name, weight)
         self.wing_size = wing_size
+
+    def __repr__(self):
+        return f"{self.__class__.__name__} [{self.name}, {self.wing_size}, {self.weight}, {self.food_eaten}]"
+
+
+class Mammal(Animal, ABC):
+    INCREASE_WEIGHT = 0

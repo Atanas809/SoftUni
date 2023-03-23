@@ -8,3 +8,7 @@ class Animal(ABC):
         self.name = name
         self.weight = weight
         self.food_eaten = 0
+
+    @abstractmethod
+    def eats(self):
+        pass

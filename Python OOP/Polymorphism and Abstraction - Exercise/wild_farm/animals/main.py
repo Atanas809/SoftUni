@@ -12,3 +12,7 @@ class Animal(ABC):
     @abstractmethod
     def eats(self):
         pass
+
+    @abstractmethod
+    def make_sound(self):
+        pass

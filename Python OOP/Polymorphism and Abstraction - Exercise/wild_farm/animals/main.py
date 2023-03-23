@@ -24,3 +24,11 @@ class Animal(ABC):
             return f"{self.__class__.__name__} does not eat {food_name}!"
         self.weight += food.quantity * self.INCREASE_WEIGHT
         self.food_eaten += food.quantity
+
+
+class Bird(Animal, ABC):
+    INCREASE_WEIGHT = 0
+
+    def __init__(self, name, weight, wing_size):
+        super().__init__(name, weight)
+        self.wing_size = wing_size

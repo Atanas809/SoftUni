@@ -19,3 +19,9 @@ class Hen(Bird):
 
     def __init__(self, name, weight, wing_size):
         super().__init__(name, weight, wing_size)
+
+    def eats(self):
+        return ["Vegetable", "Fruit", "Meat", "Seed"]
+
+    def make_sound(self):
+        return "Cluck"

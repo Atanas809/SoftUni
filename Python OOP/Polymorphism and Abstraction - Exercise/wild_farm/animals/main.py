@@ -12,3 +12,7 @@ class Owl(Bird):
 
     def make_sound(self):
         return "Hoot Hoot"
+
+
+class Hen(Bird):
+    INCREASE_WEIGHT = 0.35

@@ -16,3 +16,6 @@ class Owl(Bird):
 
 class Hen(Bird):
     INCREASE_WEIGHT = 0.35
+
+    def __init__(self, name, weight, wing_size):
+        super().__init__(name, weight, wing_size)

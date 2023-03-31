@@ -6,3 +6,9 @@ class Mouse(Mammal):
 
     def __init__(self, name, weight, living_region):
         super().__init__(name, weight, living_region)
+
+    def eats(self):
+        return ["Vegetable", "Fruit"]
+
+    def make_sound(self):
+        return "Squeak"

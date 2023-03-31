@@ -38,3 +38,16 @@ class Cat(Mammal):
 
     def make_sound(self):
         return "Meow"
+
+
+class Tiger(Mammal):
+    INCREASE_WEIGHT = 1
+
+    def __init__(self, name, weight, living_region):
+        super().__init__(name, weight, living_region)
+
+    def eats(self):
+        return ["Meat"]
+
+    def make_sound(self):
+        return "ROAR!!!"

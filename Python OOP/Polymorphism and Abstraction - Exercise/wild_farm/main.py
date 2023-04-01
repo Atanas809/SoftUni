@@ -10,3 +10,8 @@ class Food(ABC):
 class Vegetable(Food):
     def __init__(self, quantity):
         super().__init__(quantity)
+
+
+class Fruit(Food):
+    def __init__(self, quantity):
+        super().__init__(quantity)

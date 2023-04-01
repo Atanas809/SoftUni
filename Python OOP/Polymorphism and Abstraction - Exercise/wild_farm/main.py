@@ -15,3 +15,8 @@ class Vegetable(Food):
 class Fruit(Food):
     def __init__(self, quantity):
         super().__init__(quantity)
+
+
+class Meat(Food):
+    def __init__(self, quantity):
+        super().__init__(quantity)

@@ -4,3 +4,8 @@ def even_numbers(function):
         return [x for x in result if x % 2 == 0]
 
     return wrapper
+
+
+@even_numbers
+def get_numbers(numbers):
+    return numbers

@@ -1,13 +1,5 @@
 
 
-def split_string(function):
-    def wrapper():
-        func = function()
-        splitted_string = func.split()
-        return splitted_string
-
-    return wrapper
-
 
 @split_string
 @uppercase_decorator

@@ -5,3 +5,8 @@ def vowel_filter(function):
         return [x for x in result if x in all_vowels]
 
     return wrapper
+
+
+@vowel_filter
+def get_letters():
+    return ["a", "b", "c", "d", "e"]

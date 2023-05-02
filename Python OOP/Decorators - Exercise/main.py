@@ -17,3 +17,10 @@ def make_underline(func):
         return f"<u>{func(*args)}</u>"
 
     return wrapper
+
+
+@make_bold
+@make_italic
+@make_underline
+def greet_all(*args):
+    return f"Hello, {', '.join(args)}"

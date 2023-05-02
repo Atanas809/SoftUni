@@ -10,3 +10,10 @@ def make_italic(func):
         return f"<i>{func(*args)}</i>"
 
     return wrapper
+
+
+def make_underline(func):
+    def wrapper(*args):
+        return f"<u>{func(*args)}</u>"
+
+    return wrapper

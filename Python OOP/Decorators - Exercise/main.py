@@ -24,3 +24,5 @@ def make_underline(func):
 @make_underline
 def greet_all(*args):
     return f"Hello, {', '.join(args)}"
+
+print(greet_all("Peter", "George"))

@@ -10,3 +10,9 @@ def cache(func):
         return my_log[number]
 
     return wrapper
+
+
+@cache
+def fibonacci(n):
+    if n < 2:
+        return n

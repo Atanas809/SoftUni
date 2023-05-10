@@ -17,3 +17,7 @@ def multiply(*nums):
     for num in nums:
         result *= num
     return result
+
+
+print(multiply(2, 4, 6, 8))
+print(multiply(2, 4, 9, 8))

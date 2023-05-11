@@ -14,3 +14,7 @@ def exec_time(func):
 
 @exec_time
 def loop(start, end):
+    total = 0
+    for x in range(start, end):
+        total += x
+    return total

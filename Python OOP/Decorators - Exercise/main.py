@@ -18,3 +18,14 @@ def loop(start, end):
     for x in range(start, end):
         total += x
     return total
+
+
+print(loop(1, 10000000))
+
+
+@exec_time
+def concatenate(strings):
+    result = ""
+    for string in strings:
+        result += string
+    return result

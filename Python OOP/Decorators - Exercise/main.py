@@ -10,3 +10,7 @@ def exec_time(func):
         return execution_time
 
     return wrapper
+
+
+@exec_time
+def loop(start, end):

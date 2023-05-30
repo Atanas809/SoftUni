@@ -5,3 +5,7 @@ def logged(func):
         func_result = func(*args)
         result += f"you called {func.__name__}{args}\n"
         result += f"it returned {func_result}"
+
+        return result
+
+    return wrapper

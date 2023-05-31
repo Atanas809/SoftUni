@@ -9,3 +9,8 @@ def type_check(types):
         return wrapper
 
     return decorator
+
+
+@type_check(int)
+def times2(num):
+    return num * 2

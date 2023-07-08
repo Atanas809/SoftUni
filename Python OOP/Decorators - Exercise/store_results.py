@@ -7,3 +7,7 @@ def store_results(func):
             data = f"Function '{func.__name__}' was called. Result: {result}"
             file.write(data)
             file.write("\n")
+
+        return result
+
+    return wrapper

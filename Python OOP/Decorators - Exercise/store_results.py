@@ -21,3 +21,7 @@ def add(a, b):
 @store_results
 def mult(a, b):
     return a * b
+
+
+print(add(2, 2))
+print(mult(6, 4))

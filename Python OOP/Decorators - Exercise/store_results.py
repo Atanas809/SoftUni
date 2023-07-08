@@ -16,3 +16,8 @@ def store_results(func):
 @store_results
 def add(a, b):
     return a + b
+
+
+@store_results
+def mult(a, b):
+    return a * b

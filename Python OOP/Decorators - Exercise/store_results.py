@@ -11,3 +11,8 @@ def store_results(func):
         return result
 
     return wrapper
+
+
+@store_results
+def add(a, b):
+    return a + b

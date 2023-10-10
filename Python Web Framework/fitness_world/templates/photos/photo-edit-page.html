@@ -1,0 +1,20 @@
+{% extends 'base/base.html' %}
+
+{% block content %}
+
+<main>
+
+    <div class="edit-delete edit-photo">
+        <h2>Edit photo</h2>
+
+        <form method="post" action="{% url 'edit photo' pk=object.pk %}" enctype="multipart/form-data">
+            {{ form.as_p }}
+            {% csrf_token %}
+            <button class="edit-btn" type="submit">Edit Photo</button>
+        </form>
+
+    </div>
+
+</main>
+
+{% endblock content %}

@@ -1,0 +1,25 @@
+{% extends 'base/base.html' %}
+
+{% block content %}
+
+
+<main>
+
+    <div class="edit-delete edit-photo">
+        <h2>Delete Comment</h2>
+
+        <form method="post" action="{% url 'delete comment' pk=comment.pk %}">
+            {{ form.as_p }}
+            {% csrf_token %}
+            <button class="delete-btn" type="submit">Delete</button>
+            <a class="btn btn-primary" href="javascript:history.back()">
+                <button class="edit-btn" type="button">Go back</button>
+            </a>
+        </form>
+
+    </div>
+
+</main>
+
+
+{% endblock content %}

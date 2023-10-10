@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TemplateView</title>
+</head>
+<body>
+<h1>Hello from {{ text }}</h1>
+
+<form action="{% url 'list view' %}" method="get">
+
+    <label>
+        <input name="pattern" placeholder="Enter text...">
+    </label>
+    {% csrf_token %}
+    <button>Search</button>
+
+</form>
+<a href="{% url 'create view' %}">Create student</a>
+<ul>
+    {% for student in students %}
+        <li>
+            <a href="{% url 'details view' pk=student.pk  %}">{{ student.first_name }} {{ student.last_name }}</a>
+        </li>
+    {% endfor %}
+
+</ul>
+</body>
+</html>

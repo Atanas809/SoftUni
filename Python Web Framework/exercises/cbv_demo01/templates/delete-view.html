@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DeleteView</title>
+</head>
+<body>
+<form method="post">
+    {% csrf_token %}
+    <p>Are you sure you want to delete this {{ object }}?</p>
+    <button>Submit</button>
+</form>
+</body>
+</html>

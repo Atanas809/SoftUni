@@ -1,0 +1,9 @@
+<nav>
+    <ul>
+        {% for name in url_names %}
+            <li>
+                <a href="{% url name %}">{{ name|upper }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</nav>

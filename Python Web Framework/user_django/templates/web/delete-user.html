@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete</title>
+</head>
+<body>
+    <h1>Are you sure you want to delete {{ object }}</h1>
+
+    <form method="post" action="{% url 'delete' pk=object.pk %}">
+        {{ form }}
+        {% csrf_token %}
+        <button>Delete</button>
+    </form>
+</body>
+</html>

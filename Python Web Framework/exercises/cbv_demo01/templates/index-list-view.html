@@ -1,0 +1,24 @@
+{% extends 'index.html' %}
+
+
+{% block content %}
+
+    <form action="{% url 'list view' %}" method="get">
+        <label>
+            <input name="pattern" placeholder="Search username...">
+        </label>
+        {% csrf_token %}
+        <button>Search</button>
+    </form>
+
+
+    {% for employee in employees %}
+        <h1>
+            Employee {{ employee.username }} with {{ employee.experience_years }} years of experience
+        </h1>
+        <a href="{% url 'details view' pk=employee.pk %}">Details</a>
+    {% empty %}
+        <h1>No employees yet!</h1>
+    {% endfor %}
+
+{% endblock %}

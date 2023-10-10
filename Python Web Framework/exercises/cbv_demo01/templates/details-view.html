@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h1>Details:</h1>
+    <h2>{{ employee.username }}</h2>
+    <a href="{% url 'edit view' pk=employee.pk %}">Edit</a>
+    <a href="{% url 'delete view' pk=employee.pk %}">Delete</a>
+</body>
+</html>

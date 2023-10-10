@@ -1,0 +1,21 @@
+{% extends 'navigation.html' %}
+
+{% block content %}
+    <strong>Total users: {{ users|length }}</strong>
+    <ol>
+        {% for user in users %}
+            <li>
+            {% if user == request.user %}
+                <strong>{{ user.email }}</strong>
+                <a href="{% url 'delete' pk=user.pk %}">Delete</a>
+            {% else %}
+                {{ user.email }}
+            {% endif %}
+
+
+            </li>
+        {% empty %}
+            <h1>No users registered yet!</h1>
+        {% endfor %}
+    </ol>
+{% endblock content %}

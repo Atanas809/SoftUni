@@ -1,0 +1,11 @@
+{% extends 'navigation.html' %}
+
+{% block content %}
+    <h1>SignIn</h1>
+
+    <form method="post" action="{% url 'sign-in' %}">
+        {{ form.as_p }}
+        <button>Login</button>
+        {% csrf_token %}
+    </form>
+{% endblock content %}

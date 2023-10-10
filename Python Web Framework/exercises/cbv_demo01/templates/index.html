@@ -1,0 +1,18 @@
+{% load tags %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home page</title>
+</head>
+<body>
+    <div>
+        {% app_nav 'index' 'base view' 'template view' 'list view' 'create view' %}
+    </div>
+
+    {% block content %}
+    {% endblock content %}
+
+</body>
+</html>

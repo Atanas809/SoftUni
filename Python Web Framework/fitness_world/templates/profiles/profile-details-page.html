@@ -1,0 +1,104 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block content %}
+    <main>
+
+        <div class="profile">
+
+            <div class="profile-data">
+                <div class="profile_img">
+                    <div class="image">
+                        {% if not object.profile_picture %}
+                            <img src="{% static 'images/person.png' %}" alt="img8">
+                        {% else %}
+                            <img src="{{ object.profile_picture }}" alt="img8">
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="personal">
+                    <div class="edit">
+                        <p>{{ object.username }}</p>
+
+                        {% if is_owner or request.user.is_superuser %}
+                            <a href="{% url 'edit user' pk=object.pk %}">
+                                <img class="edit-img" src="{% static 'images/edit-pen-icon-6.jpg' %}" alt="edit button">
+                            </a>
+
+                            <a href="{% url 'delete user' pk=object.pk %}">
+                                <img class="bin-img" src="{% static 'images/icon-remove-22.jpg' %}" alt="bin button">
+                            </a>
+                        {% endif %}
+
+                    </div>
+                    <div class="data">
+
+                        <span>{{ total_photos_owned.count }}</span>
+                        <p>photos</p>
+
+                        <span>{{ total_workouts_owned }}</span>
+                        <p>workouts</p>
+
+                        <span>{{ total_likes }}</span>
+                        <p>likes</p>
+                    </div>
+
+                    {% if have_full_name %}
+                        <h3 class="names">Full name: {{ object.get_full_name }}</h3>
+                    {% endif %}
+
+                    <p class="email">Email: {{ object.email }}</p>
+
+                    {% if object.weight %}
+                        <p class="weight">Weight: {{ object.weight }} kg</p>
+                    {% endif %}
+
+                    {% if object.gender %}
+                        <p class="gender">Gender: {{ object.gender }}</p>
+                    {% endif %}
+                </div>
+            </div>
+
+            <div class="pets">
+                <div class="statuses">
+
+                    {% for workout in object.workout_set.all %}
+                        <a href="{% url 'details workout' username=object.username slug=workout.slug %}">
+                            <div class="head-pet">
+                                <div class="status">
+                                    <div class="image">
+
+                                        <img src="{{ workout.link_to_image }}"
+                                             alt="image-of-{{ workout.name }}">
+                                    </div>
+                                </div>
+                                <p>{{ workout.name }}</p>
+                            </div>
+                        </a>
+                    {% endfor %}
+
+                </div>
+            </div>
+
+            {% if ordered_photos %}
+                <div class="pet-photos">
+
+                    {% for photo in ordered_photos %}
+                        <a href="{% url 'details photo' pk=photo.pk %}">
+                            <img src="/media/{{ photo.image }}"
+                                 alt="photo-of-{{ photo.user.name }}">
+                        </a>
+                    {% endfor %}
+
+                </div>
+            {% else %}
+                <div>
+                    <img class="no-posts2" src="{% static 'images/no_posts.png' %}" alt="no posts image">
+                </div>
+            {% endif %}
+
+        </div>
+
+    </main>
+
+{% endblock content %}

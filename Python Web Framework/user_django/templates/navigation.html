@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<nav>
+    <ul>
+        {% if not request.user.is_authenticated %}
+            <li>
+                <a href="{% url 'sign-up' %}">SignUp</a>
+            </li>
+
+            <li>
+                <a href="{% url 'sign-in' %}">SignIn</a>
+            </li>
+
+        {% else %}
+            <li>
+                <a href="{% url 'sign-out' %}">SignOut</a>
+            </li>
+            <li>
+                <a href="{% url 'users list' %}">Users List</a>
+            </li>
+        {% endif %}
+    </ul>
+</nav>
+
+{% block content %}
+{% endblock content %}
+
+</body>
+</html>
+

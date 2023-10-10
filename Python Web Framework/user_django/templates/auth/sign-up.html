@@ -1,0 +1,11 @@
+{% extends 'navigation.html' %}
+
+{% block content %}
+    <h1>SignUp</h1>
+
+    <form method="post" action="{% url 'sign-up' %}">
+        {{ form.as_p }}
+        <button>Register</button>
+        {% csrf_token %}
+    </form>
+{% endblock content %}

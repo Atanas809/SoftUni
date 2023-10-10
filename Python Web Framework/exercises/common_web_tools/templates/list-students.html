@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Show Students</title>
+</head>
+<body>
+
+    <ul>
+        {% for student in object_list %}
+            <li>
+                Student {{ student.pk }} ===> {{ student.first_name }} {{ student.last_name }}
+                <a href="{% url 'edit student' pk=student.pk %}">Edit</a>
+            </li>
+        {% empty %}
+            <h1>No registered students yet!</h1>
+        {% endfor %}
+
+    </ul>
+
+</body>
+</html>

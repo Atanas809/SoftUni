@@ -1,0 +1,90 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"
+          href="{% static 'css/styles.css' %}">
+    <link rel="icon" type="image/x-icon" href="{% static 'images/gym-icon3.png' %}">
+    <title>FitnessWorld</title>
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="{% url 'index' %}">
+                    <img width="50px" src="{% static 'images/gym-icon3.png' %}" alt="img1">
+                </a>
+
+                <a class="home" href="{% url 'index' %}">
+                    <i>FitnessWorld</i>
+                </a>
+            </div>
+
+            <div class="nav-links">
+                <ul class="nav-group">
+
+                    {% if request.user.is_authenticated %}
+                        {% if user.is_superuser or user.is_staff %}
+                            <li class="nav-item">
+                                <a href="{% url 'admin:index' %}">
+                                    <i>Administration</i>
+                                </a>
+                            </li>
+                        {% endif %}
+
+                        <li class="nav-item">
+                            <a href="{% url 'create workout' %}">
+                                <i>Add Workout</i>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="{% url 'create photo' %}">
+                                <i>Add Photo</i>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="{% url 'details user' pk=request.user.pk %}">
+                                <i>Profile</i>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="{% url 'sign out' %}">
+                                <i>Log out</i>
+                            </a>
+                        </li>
+
+                    {% else %}
+                        <li class="nav-item">
+                            <a href="{% url 'sign in' %}">
+                                <i>Login</i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{% url 'sign up' %}">
+                                <i>Register</i>
+                            </a>
+                        </li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+{% block content %}
+{% endblock content %}
+
+<br>
+<footer class="footer-align" style="background-color: wheat;">
+        <span class="footer-section">
+                © 2022 PROJECT DEFENCE FOR DJANGO WEB FRAMEWORK MODULE
+        </span>
+</footer>
+
+</body>
+</html>

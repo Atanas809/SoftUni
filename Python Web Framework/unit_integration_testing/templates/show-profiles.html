@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+</head>
+<body>
+<h1>Profiles ({{ profiles_count }})</h1>
+    <hq>{{ query }}</hq>
+    <ul>
+        {% for profile in profile_list %}
+            <li>
+                {{ profile.name }}
+            </li>
+        {% endfor %}
+
+    </ul>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="root">
+
+</div>
+
+<script>
+    const getEmployees = () => fetch('{% url 'api list employees' %}').then(response => response.json());
+
+    const renderEmployeesList = (employees) => {
+        const employeeItems = employees.map(employee => `
+            <li>${employee.name} in ${employee.department.name}</li>
+            `);
+
+        return `<ul>
+            ${employeeItems.join(' ')}
+        </ul>`
+    };
+
+    window.onload = () => {
+        getEmployees().then(employees => {
+            document.querySelector('#root').innerHTML = renderEmployeesList(employees);
+        });
+    };
+
+</script>
+
+</body>
+</html>

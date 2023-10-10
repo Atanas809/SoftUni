@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home page</title>
+</head>
+<body>
+<h1>Hello from HomePage</h1>
+
+
+<nav>
+    <ul>
+        <li>
+            <a href="{% url 'no permissions' %}">No permissions</a>
+        </li>
+
+        <li>
+            <a href="{% url 'with permissions' %}">With permissions</a>
+        </li>
+
+        {% if user %}
+            <li>
+                <a href="{% url 'perms' pk=user.pk %}">Have perms</a>
+            </li>
+        {% endif %}
+    </ul>
+</nav>
+</body>
+</html>

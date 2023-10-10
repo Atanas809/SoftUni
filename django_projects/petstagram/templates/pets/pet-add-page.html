@@ -1,0 +1,29 @@
+{% extends 'base/base.html' %}
+
+{% block content %}
+
+{% block login_navigation %}
+{% endblock login_navigation %}
+
+{% block register_navigation %}
+{% endblock register_navigation %}
+
+<main>
+
+    <!-- Start Add Pet Section-->
+    <div class="edit-delete edit-photo">
+        <h2>Add pet</h2>
+
+        <!-- Start Add Pet Form -->
+        <form method="post" action="{% url 'add pet' %}">
+            {{ form.as_p }}
+            {% csrf_token %}
+            <button class="add-btn" type="submit">Add Pet</button>
+        </form>
+        <!-- End Add Pet Form -->
+
+    </div>
+    <!-- End Add Pet Section -->
+
+</main>
+{% endblock content %}

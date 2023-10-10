@@ -1,0 +1,32 @@
+{% extends 'base/base.html' %}
+
+{% block content %}
+    <!-- details section -->
+    <section id="car-details">
+        <h1>Car Details</h1>
+        <div class="info-section">
+            <div class="car-header">
+
+                <img class="car-img"
+                     src="{{ searched_car.image_url }}"
+                     alt='car-image-of-{{ searched_car.model|lower }}'/>
+
+                <h1>{{ searched_car.car_type }}</h1>
+
+                <p><span class="description">Model: {{ searched_car.model }}</span></p>
+
+                <p><span class="description">Year: {{ searched_car.year }}</span></p>
+
+                <p><span class="description">Price: {{ searched_car.price|floatformat:3 }}</span></p>
+            </div>
+
+
+
+            <div class="buttons">
+                <a href="{% url 'edit car' car_id=searched_car.pk %}" class="edit-button">Edit</a>
+                <a href="{% url 'delete car' car_id=searched_car.pk %}" class="delete-button">Delete</a>
+            </div>
+        </div>
+    </section>
+
+{% endblock content %}

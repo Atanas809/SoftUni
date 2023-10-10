@@ -1,0 +1,30 @@
+{% extends 'base/base.html' %}
+
+{% block content %}
+
+{% block login_navigation %}
+{% endblock login_navigation %}
+
+{% block register_navigation %}
+{% endblock register_navigation %}
+
+<main>
+    <!-- Starts Delete Pet Section -->
+    <div class="edit-delete edit-photo">
+        <h2>Delete pet</h2>
+        <!-- Starts Delete Pet Form -->
+        <form method="post" action="{% url 'delete pet' username=username pet_slug=pet_slug %}">
+            {{ form.as_p }}
+            {% csrf_token %}
+            <!-- Delete Pet Button -->
+            <button class="delete-btn" type="submit">Delete</button>
+            <!-- Go Back Button -->
+            <a class="btn btn-primary" href="javascript:history.back()">
+                <button class="edit-btn" type="button">Go back</button>
+            </a>
+        </form>
+        <!-- End Delete Pet Form -->
+    </div>
+    <!-- End Delete Pet Section -->
+</main>
+{% endblock content %}

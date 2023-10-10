@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Students</title>
+</head>
+<body>
+<div style="display: flex; justify-content: space-between">
+    <div>
+        <h1>This is all students:</h1>
+        <ul>
+            {% for student in all_students %}
+                <li>
+                    <div>Student name: <a href="{{ student.get_absolute_url }}">{{ student.full_name }}</a></div>
+                    <div>Have good grades: {{ student.good_grades }}</div>
+                    <div>Age: {{ student.age }}</div>
+                    <div>School: <a href="{{ student.school.get_absolute_url }}">{{ student.school_name }}</a></div>
+                    <a href="{% url 'delete student' student.pk %}">Delete</a>
+                </li>
+            {% endfor %}
+
+        </ul>
+    </div>
+
+    <div>
+        <h1>This is all students under 19 years:</h1>
+        <ul>
+            {% for student in students_under_19 %}
+                <li>
+                    <div>Student name: <a href="{{ student.get_absolute_url }}">{{ student.full_name }}</a></div>
+                    <div>Have good grades: {{ student.good_grades }}</div>
+                    <div>Age: {{ student.age }}</div>
+                    <div>School: <a href="{{ student.school.get_absolute_url }}">{{ student.school_name }}</a></div>
+                    <a href="{% url 'delete student' student.pk %}">Delete</a>
+                </li>
+            {% endfor %}
+
+        </ul>
+    </div>
+
+    <div>
+        <h1>This is student with id: {{ student_by_id.pk }}</h1>
+        <ul>
+            <li>
+                    <div>Student name: <a href="{{ student_by_id.get_absolute_url }}">{{ student_by_id.full_name }}</a></div>
+                <div>Have good grades: {{ student_by_id.good_grades }}</div>
+                <div>Age: {{ student_by_id.age }}</div>
+                    <div>School: <a href="{{ student_by_id.school.get_absolute_url }}">{{ student_by_id.school_name }}</a></div>
+                <a href="{% url 'delete student' student_by_id.pk %}">Delete</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

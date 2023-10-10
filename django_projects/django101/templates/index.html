@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Testing some features</title>
+</head>
+<body>
+    {% for data in db_data %}
+        <h1>{{ data.title }}</h1>
+        <p>{{ data.text }}</p>
+    {% endfor %}
+
+</body>
+</html>

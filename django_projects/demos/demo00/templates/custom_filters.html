@@ -1,0 +1,16 @@
+{% extends 'base/base.html' %}
+{% load filters %}
+
+{% block app_title %}
+    Custom filters
+{% endblock %}
+
+{% block navigation %}
+    <h1>This is my custom filter 'even'!</h1>
+    <h3>Original numbers list: {{ numbers }}</h3>
+    <h3>Numbers list with 'even' custom filter : {{ numbers|even }}</h3>
+    <h1>This is my custom filter 'even_names'!</h1>
+    <h3>Original names list: {{ names }}</h3>
+    <h3>Names list with 'even_names' custom filter : {{ names|even_names }}</h3>
+    <h3>Plus 'home' list: {{ names|add_home }}</h3>
+{% endblock %}

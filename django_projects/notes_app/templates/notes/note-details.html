@@ -1,0 +1,27 @@
+{% extends 'base/base.html' %}
+
+{% block content %}
+
+        <div class="body">
+            <!--headings-->
+            <h1>Note Details</h1>
+            <!--headings-->
+
+            <!--details note box-->
+            <div class="note-details-container">
+                <h2>{{ note.title }}</h2>
+                <img class="detail-img" src="{{ note.image_url }}" alt="note-image" />
+                <div>
+                    <p>Content</p>
+                </div>
+                <p>
+                    {{ note.content }}
+                </p>
+                <div class="right">
+                    {% include 'partials/edit-delete-note.html' %}
+                </div>
+            </div>
+            <!--end details note box-->
+        </div>
+
+{% endblock content %}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ school_name }}</title>
+</head>
+<body>
+    <h1>This is school {{ school_name }}</h1>
+    <p>It's a great school located in <a href="{{ city.get_absolute_url }}">{{ city.name }}</a></p>
+
+    {% if school_name == 'Jhon Atanasov' %}
+        <h3>You can read more about <a href="https://spge-bg.com/">here</a></h3>
+    {% elif school_name == 'Arlington' %}
+        <h3>You can read more about <a href="https://www.apsva.us/">here</a></h3>
+    {% elif school_name == 'Berkeley' %}
+        <h3>You can read more about <a href="https://www.berkeley.edu/academics/schools-colleges">here</a></h3>
+    {% else %}
+        <h3>You can read more about <a href="https://www.niche.com/places-to-live/search/cities-with-the-best-public-schools/">here</a></h3>
+    {% endif %}
+
+</body>
+</html>

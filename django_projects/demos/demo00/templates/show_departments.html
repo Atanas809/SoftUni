@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Departments</title>
+</head>
+<body>
+    <h1>Departments:</h1>
+    <ul>
+        {% for department in departments %}
+            <li>
+                Department name: {{ department.name }}
+                Last Modified: {{ department.last_modified }}
+                <a href="{{ department.get_absolute_url }}">{{ department.name }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <h1>Employees:</h1>
+    <ul>
+        {% for employee in employees %}
+            <li>
+                Full name: {{ employee.full_name }}
+                Company name: {{ employee.company.name }} with {{ employee.company.employees }} employees
+                <a href="{% url 'delete' employee.pk %}">Delete</a>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <h1>Employee with ID: {{ employee_with_id.pk }}</h1>
+    <h1>With lookup filter:</h1>
+    <ul>
+        {% for employee in with_lookup %}
+            <li>
+                Employee ID: {{ employee.pk }}
+                Employee company: {{ employee.company }}
+                Age: {{ employee.age }}
+                <a href="{% url 'delete' employee.pk %}">Delete</a>
+            </li>
+        {% endfor %}
+
+    </ul>
+</body>
+</html>

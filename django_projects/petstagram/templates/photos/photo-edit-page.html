@@ -1,0 +1,30 @@
+{% extends 'base/base.html' %}
+
+{% block content %}
+
+{% block login_navigation %}
+{% endblock login_navigation %}
+
+{% block register_navigation %}
+{% endblock register_navigation %}
+
+<main>
+
+    <!-- Starts Edit Photo Section -->
+    <div class="edit-delete edit-photo">
+        <h2>Edit photo</h2>
+
+        <!-- Starts Edit Photo Form -->
+        <form method="post" action="{% url 'edit photo' pk=pk %}">
+            {{ form.as_p }}
+            {% csrf_token %}
+            <!-- Edit Photo Button -->
+            <button class="edit-btn" type="submit">Edit Photo</button>
+        </form>
+        <!-- End Edit Photo Form -->
+
+    </div>
+    <!-- End Edit Photo Section -->
+
+</main>
+{% endblock content %}

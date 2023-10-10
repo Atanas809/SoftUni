@@ -1,0 +1,33 @@
+{% extends 'base/base.html' %}
+
+{% block content %}
+
+{% block profile_navigation %}
+{% endblock profile_navigation %}
+
+<main>
+
+    <!-- Start Login Section-->
+    <div class="login-register-div">
+        <div class="login-register-box">
+            <h1>Petstagram</h1>
+
+            <!-- Start Login Form-->
+            <form method="post" action="{% url 'login user' %}">
+                {{ form }}
+                {% csrf_token %}
+                <!-- Login Button-->
+                <button type="submit">Log in</button>
+            </form>
+            <!-- End Login Form -->
+
+        </div>
+        <div class="second-option">
+
+            <!-- Link to Register Page-->
+            <p>Don't have account? <a href="{% url 'register user' %}">Register</a></p>
+        </div>
+    </div>
+    <!-- End Login Section-->
+</main>
+{% endblock content %}

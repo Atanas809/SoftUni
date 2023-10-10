@@ -1,0 +1,22 @@
+{% extends 'base/base.html' %}
+
+{% block content %}
+        <h1>My Notes</h1>
+
+        {% for note in notes %}
+
+            <div class="note-container">
+                <h2>{{ note.title }} <img src="{{ note.image_url }}" alt="image-of-{{ note.title|lower }}" /></h2>
+
+                <div class="right">
+                    <a class="button details" href="{% url 'details note' note_id=note.pk %}">Details</a>
+                    {% include 'partials/edit-delete-note.html' %}
+                </div>
+            </div>
+
+        {% empty %}
+
+            <h2>There are no notes.</h2>
+
+        {% endfor %}
+{% endblock content %}

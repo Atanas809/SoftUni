@@ -1,0 +1,17 @@
+{% extends 'base/base.html' %}
+
+{% block app_title %}
+    DTL Filters
+{% endblock %}
+
+{% block navigation %}
+    <h2>csrf_token: {{ csrf_token }}</h2>
+    <h1>This is some filters</h1>
+    <h2>Truncate filter: {{ email|truncatechars:5 }}</h2>
+    <h2>Join filter: {{ names|join:', ' }}</h2>
+    <h2>Length filter: {{ company|length }}</h2>
+    <h2>Format filter: {{ float_num|floatformat:10 }}</h2>
+    <h2>Add filter: {{ 2|add:3|add:9 }}</h2>
+    <h2>If empty or False sets a default value: {{ empty_list|default:'this is a default value' }}</h2>
+    <h2>“human-readable” file size: {{ value|filesizeformat }}</h2>
+{% endblock %}

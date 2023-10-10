@@ -1,0 +1,13 @@
+<nav>
+    {% if url_names %}
+        <ul>
+            {% for url_name in url_names %}
+                <li>
+                    <a href="{% url url_name %}">{{ url_name|capfirst }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <h5>Please try again later!</h5>
+    {% endif %}
+</nav>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Details</title>
+</head>
+<body>
+
+    <h1>My name is {{ student.full_name }}</h1>
+    <h2>I'm {{ student.age }} years old</h2>
+    <p>Currently studying in {{ student.school_name }} located in <a href="{{ city.get_absolute_url }}">{{ city.name }}</a></p>
+    <h4>More about my school you can learn <a href="{{ student.school.get_absolute_url }}">here</a></h4>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student info</title>
+</head>
+<body>
+    <h1>This is student {{ student.full_name }} with ID: {{ student.pk }}</h1>
+    <p>{{ student.full_name }} is {{ student.age }} years old {{ student.gender }}</p>
+
+    <h2>Currently registered for <a href="{{ student.course.get_absolute_url }}">{{ student.course }}</a> course</h2>
+    <h4>Contacts:</h4>
+    <p>email ---> {{ student.email }}</p>
+    <p>phone number ---> {{ student.phone_number }}</p>
+
+</body>
+</html>

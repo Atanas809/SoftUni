@@ -1,0 +1,13 @@
+{% extends 'base/base.html' %}
+{% load tags %}
+
+{% block app_title %}
+    Custom tags
+{% endblock %}
+
+{% block navigation %}
+    <h1>This is my custom tags:</h1>
+    <h3>This is my custom simple tag: {% get_info person %}</h3>
+    <h3>This is my custom simple tag: {% peter_info person_peter %}</h3>
+    <h3>This is my custom simple tag with multiple attributes: {% multiple_attrs 17 'Doncho' True name='Ivan' %}</h3>
+{% endblock %}

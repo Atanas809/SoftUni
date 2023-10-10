@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Students</title>
+</head>
+<body>
+    <h1>This is all registered students:</h1>
+
+    <ul>
+        {% for student in students %}
+            <li>
+                <div>
+                    Student <a href="{{ student.get_absolute_url }}">{{ student.full_name }}</a>
+                </div>
+
+                <div>
+                    <a href="{% url 'delete student' student.pk %}">Delete</a>
+                </div>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{% load static %}
+{% load tags %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block app_title %}Default page{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+
+    <nav class="home">
+            <a href="{% url 'Home page' %}">Home page</a>
+
+    </nav>
+
+    {% app_nav 'variables' 'some filters' 'custom filter' 'custom tags'%}
+
+{% block navigation %}
+{% endblock %}
+
+{% include 'partials/footer.html' %}
+
+</body>
+</html>

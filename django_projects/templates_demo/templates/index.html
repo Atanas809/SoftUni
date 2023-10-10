@@ -1,0 +1,77 @@
+{% extends 'base/base.html' %}
+{% load filters %}
+{% load tags %}
+
+{% block customization %}
+
+    <div>
+        Original: {{ numbers }}
+    </div>
+
+    <div>
+        Custom odd filter: {{ numbers|odd }}
+    </div>
+
+    <div>
+        Custom incremented filter: {{ numbers|incrementer }}
+    </div>
+
+    <div>
+{#!!!!!!!!!!!!!!!!!!!!! Simple tags always return string  !!!!!!!!!!!!!!!!!!!!!#}
+         Custom simple tag: {% show_info student %}
+    </div>
+
+    <div>
+        Custom simple tag with multiple attributes: {% sample_with_attr 22 True 'Gogo' department='DevOps' %}
+    </div>
+    {{ csrf_token }}
+
+    <h2>Original list: {{ numbers }}</h2>
+
+
+    <h1>Original: {{ title }}: {{ value }}</h1>
+    <h1>Upped: {{ title|upper }}: {{ value }}</h1>
+    <h1>Capped first: {{ title|capfirst }}: {{ value }}</h1>
+    <h1>Lowered then capped first: {{ title|lower|capfirst }}: {{ value }}</h1>
+    <h1>Truncated 10: {{ title|truncatechars:10 }}: {{ value }}</h1>
+    <h1>{{ now }}</h1>
+    <h1>Date with build-in filter: {{ now|date:'Y/m/d' }}</h1>
+    <h1>Date with custom filter: {{ now|app_date }}</h1>
+    {{ 3|add:2|add:4 }}
+    {{ info.address }}
+    {{ student.get_info }}
+    {{ student_info }}
+
+<div>
+    {% if students %}
+        {{ students|join:', ' }}
+    {% else %}
+        No available students!
+    {% endif %}
+</div>
+
+<h3>Pure 'for'</h3>
+<ul>
+    {% for student in students %}
+        <li>
+            {{ student }}
+        </li>
+    {% empty %}
+        <li>No students!</li>
+    {% endfor %}
+
+</ul>
+
+<h3>'for' with 'ifchanged'</h3>
+<ul>
+    {% for student in students %}
+        {% ifchanged %}
+            <li>
+                {{ student }}
+            </li>
+        {% endifchanged %}
+    {% endfor %}
+
+</ul>
+
+{% endblock %}

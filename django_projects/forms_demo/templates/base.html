@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock title %}</title>
+</head>
+<body>
+
+<ul>
+    <li>
+        <a href="{% url 'index_form' %}">Forms</a>
+    </li>
+
+    <li>
+        <a href="{% url 'index_model_form' %}">Model Forms</a>
+    </li>
+</ul>
+
+{% block content %}
+{% endblock content %}
+
+</body>
+</html>

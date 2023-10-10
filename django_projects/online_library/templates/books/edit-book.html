@@ -1,0 +1,16 @@
+{% extends 'base/base.html' %}
+
+{% block context %}
+
+        <!-- Edit Book Page -->
+        <section id="edit-page" class="edit">
+            <form id="edit-form" action="{% url 'edit book' book_id=book_id %}" method="post">
+                <fieldset>
+                    <legend>Edit Book</legend>
+                    {{ form }}
+                    {% csrf_token %}
+                    <input class="button submit" type="submit" value="Edit">
+                </fieldset>
+            </form>
+        </section>
+{% endblock context %}

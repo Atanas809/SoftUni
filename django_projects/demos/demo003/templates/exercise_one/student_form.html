@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student form</title>
+</head>
+<body>
+    {% include 'exercise_one/nav.html' %}
+
+    <h1>
+        {% if name %}
+            Hello, {{ name }}! Welcome, back!
+        {% else %}
+            Please, enter your credentials!
+        {% endif %}
+    </h1>
+
+    <form method="post" action="{% url 'student form' %}">
+        {{ form.as_div }}
+        {% csrf_token %}
+
+        <button>Send</button>
+    </form>
+</body>
+</html>

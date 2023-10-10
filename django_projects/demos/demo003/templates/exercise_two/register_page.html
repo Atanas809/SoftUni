@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+    <h1>
+        {% if username %}
+            Welcome back {{ username }}!
+        {% else %}
+            Please, enter your credentials!
+        {% endif %}
+    </h1>
+
+    <form method="post" action="{% url 'register user' %}">
+        {% csrf_token %}
+        {{ form.as_div }}
+        <button>Send</button>
+    </form>
+
+</body>
+</html>

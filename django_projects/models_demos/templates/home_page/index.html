@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+</head>
+<body>
+
+<div style="display: flex; justify-content: space-between">
+    <div>
+            <h1>In memory</h1>
+        <ul>
+                {% for employee in employees %}
+                    <li>
+                        <div>Full name: {{ employee.full_name }}</div>
+                        <div>Department name: {{ employee.department_id.name }}</div>
+                        <div>Experience: {{ employee.experience_years }} years</div>
+                        <div>Age: {{ employee.age }} years</div>
+                    </li>
+                {% endfor %}
+        </ul>
+    </div>
+
+    <div>
+            <h1>From DB</h1>
+        <ul>
+                {% for employee in employees2 %}
+                    <li>
+                        <div>Full name: {{ employee.full_name }}</div>
+                        <div>Department name: <a href="{{ employee.department_id.get_absolute_url }}">{{ employee.department_id.name }}</a></div>
+                        <div>Experience: {{ employee.experience_years }} years</div>
+                        <div>Age: {{ employee.age }} years</div>
+                        <a href="{% url 'delete data' pk=employee.pk %}">Delete</a>
+                    </li>
+                {% endfor %}
+        </ul>
+    </div>
+
+    <h1>{{ department.name }}</h1>
+</div>
+
+</body>
+</html>

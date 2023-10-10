@@ -1,0 +1,11 @@
+{% if url_names %}
+    <ul>
+        {% for url_name in url_names %}
+            <li>
+                <a href="{% url url_name %}">{{ url_name }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No urls provided!</p>
+{% endif %}

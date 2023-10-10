@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update</title>
+</head>
+<body>
+    <h1>
+        Update page
+    </h1>
+
+    <h3>{{ course.name }} course</h3>
+
+    <form method="post" action="{% url 'update course' slug=course.slug %}">
+        {% csrf_token %}
+        {{ model_form.as_div }}
+        <button>Update</button>
+    </form>
+</body>
+</html>

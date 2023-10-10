@@ -1,0 +1,27 @@
+{% extends 'base/base.html' %}
+
+{% block app_title %}
+    DTL Variables
+{% endblock %}
+
+{% block navigation %}
+    <h1>
+        Hello, from {{ page_name }}
+    </h1>
+
+    <h2>
+        Person info:
+    </h2>
+
+    <p>
+        My name is {{ person.name }} I'm {{ person.age }} years old {{ person.gender }} from {{ person.address }}
+    </p>
+
+    <h1>In this course we will use {{ db }} databases</h1>
+
+<div>
+    {{ person.get_info }}
+    {{ my_dict.items }}
+</div>
+
+{% endblock %}

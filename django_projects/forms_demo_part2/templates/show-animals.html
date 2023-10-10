@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animals</title>
+</head>
+<body>
+    <h1>
+        {% if animals %}
+            All Animals:
+        {% else %}
+            No animals provided!
+        {% endif %}
+    </h1>
+
+    <ul>
+        {% for animal in animals %}
+            <li>
+                {{ animal.name }}
+                <img width="100px" src="/media/{{ animal.image }}" alt="image-of-{{ animal.type.name }}">
+            </li>
+        {% endfor %}
+
+    </ul>
+
+</body>
+</html>

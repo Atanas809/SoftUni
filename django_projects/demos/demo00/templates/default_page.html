@@ -1,0 +1,34 @@
+{% extends 'base/base.html' %}
+{% load tags %}
+
+
+{% block navigation %}
+
+    {% include 'partials/main_page_hello.html' with title='Default page' %}
+
+    <h2>To continue please select any of this links:</h2>
+    <h1>Without inclusion tag:</h1>
+
+    {% if valid_links %}
+
+        <ul>
+            {% for valid_link in valid_links %}
+                <li>
+                    <a href="{% url valid_link %}">{{ valid_link|capfirst }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+
+    {% else %}
+
+        <h5>Please try again later!</h5>
+
+    {% endif %}
+        <h1>With inclusion tag:</h1>
+        {% app_nav 'variables' 'some filters' 'custom filter' 'custom tags'%}
+        <h1>With inclusion tag but without data:</h1>
+        {% app_nav %}
+        <h1>With inclusion tag but with numbers list:</h1>
+        {% gen_nums values %}
+
+{% endblock %}

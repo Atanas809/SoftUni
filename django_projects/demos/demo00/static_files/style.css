@@ -1,0 +1,17 @@
+nav.home {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+nav.home a {
+    background-color: aqua;
+    text-decoration: none;
+    color: black;
+    padding: 4px 45px 4px 45px
+}
+
+nav.home a:hover {
+    background-color: black;
+    color: aqua;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All pages</title>
+</head>
+<body>
+    <h1>All valid pages are:</h1>
+
+    <ol>
+        {% for page in all_pages %}
+            <li>
+                {{ page }}
+            </li>
+        {% endfor %}
+
+    </ol>
+</body>
+</html>

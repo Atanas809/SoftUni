@@ -1,0 +1,11 @@
+<ul>
+    {% if nums %}
+        {% for num in nums %}
+            <li>
+                {{ num }}
+            </li>
+        {% endfor %}
+    {% else %}
+        No numbers provided yet!
+    {% endif %}
+</ul>

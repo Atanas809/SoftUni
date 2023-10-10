@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit</title>
+</head>
+<body>
+    <h1>Edit user: {{ name }}</h1>
+
+    <form method="post" action="{% url 'edit' name=name %}">
+        {{ form.as_div }}
+        {% csrf_token %}
+        <button>Edit</button>
+    </form>
+</body>
+</html>

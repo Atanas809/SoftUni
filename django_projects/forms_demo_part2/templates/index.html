@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AnimalForm</title>
+</head>
+<body>
+    <h1>Enter animal details!</h1>
+
+    <form method="post" action="{% url 'index' %}" enctype="multipart/form-data">
+        {{ form.as_div }}
+        <button>Send</button>
+        {% csrf_token %}
+    </form>
+</body>
+</html>
